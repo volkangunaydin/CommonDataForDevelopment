@@ -1,0 +1,16 @@
+{
+  "name": "common-data-for-development",
+  "description": "Machine-readable index of every dataset in this repository. Paths are relative to the repository root.",
+  "updated": "2026-09-30",
+  "datasets": [
+    {
+      "id": "tr-address-provinces",
+      "title": "Provinces of Türkiye",
+      "scope": "country",
+      "country": "TR",
+      "domain": "address",
+      "path": "data/countries/TR/address/provinces",
+      "version": "0.1.0"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "name": "cc-domain-dataset",
+  "title": "Human-readable title",
+  "description": "One or two sentences: what the rows are and what the dataset is for.",
+  "version": "0.1.0",
+  "created": "YYYY-MM-DD",
+  "keywords": [],
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "title": "Creative Commons Attribution 4.0 International",
+      "path": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Name of the authoritative source",
+      "path": "https://example.org/source"
+    }
+  ],
+  "resources": [
+    {
+      "name": "dataset",
+      "path": "dataset.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "code",
+            "type": "string",
+            "description": "What this code is and who assigns it.",
+            "constraints": { "required": true, "unique": true }
+          },
+          {
+            "name": "name",
+            "type": "string",
+            "description": "Name in the official language.",
+            "constraints": { "required": true }
+          }
+        ],
+        "primaryKey": ["code"]
+      }
+    }
+  ]
+}

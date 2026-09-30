@@ -1,0 +1,53 @@
+{
+  "name": "tr-address-provinces",
+  "title": "Provinces of Türkiye",
+  "description": "The 81 provinces (il) of Türkiye with their two-digit province codes (also used as vehicle plate codes) and ISO 3166-2 codes.",
+  "version": "0.1.0",
+  "created": "2026-09-30",
+  "keywords": ["TR", "address", "provinces", "il", "iso-3166-2"],
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "title": "Creative Commons Attribution 4.0 International",
+      "path": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "sources": [
+    {
+      "title": "ISO 3166-2:TR",
+      "path": "https://www.iso.org/obp/ui/#iso:code:3166:TR"
+    }
+  ],
+  "resources": [
+    {
+      "name": "provinces",
+      "path": "provinces.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "code",
+            "type": "string",
+            "description": "Two-digit province code, zero-padded (01-81). Identical to the vehicle plate code.",
+            "constraints": { "required": true, "unique": true, "pattern": "^[0-9]{2}$" }
+          },
+          {
+            "name": "iso_3166_2",
+            "type": "string",
+            "description": "ISO 3166-2 subdivision code.",
+            "constraints": { "required": true, "unique": true, "pattern": "^TR-[0-9]{2}$" }
+          },
+          {
+            "name": "name",
+            "type": "string",
+            "description": "Official province name in Turkish.",
+            "constraints": { "required": true, "unique": true }
+          }
+        ],
+        "primaryKey": ["code"]
+      }
+    }
+  ]
+}

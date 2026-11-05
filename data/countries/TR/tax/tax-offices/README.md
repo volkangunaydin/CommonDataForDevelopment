@@ -38,6 +38,18 @@ invoicing and ERP software.
 - **Branches have no code** in the source and the source does not say which office
   they belong to, so none is given here.
 - Names are kept as published, including the full title `Vergi Dairesi Müdürlüğü`.
+- **Joining with [tr-address-districts](../../address/districts/).** District
+  names are kept as GİB spells them, so two kinds of row do not match by
+  `province_code` + `district`:
+  - Four districts are spelled differently from the Ministry of the Interior:
+    `Doğubeyazıt` (Doğubayazıt, 04), `Balâ` (Bala, 06), `Göroymak` (Güroymak, 13)
+    and `Kazım Karabekir` (Kazımkarabekir, 70, branches only). The districts
+    dataset lists these spellings in `alternate_names`, so match on `name` or
+    `alternate_names`.
+  - GİB lists the central offices of the 30 metropolitan provinces under
+    `Merkez`, for example in İstanbul and Ankara. The districts dataset has
+    `Merkez` only for the 51 other provinces, because metropolitan provinces
+    have no district of that name.
 - Data is a snapshot of the 2026-06-18 edition. The source has no validity dates, so
   offices closed or opened since then are not reflected. Check for a newer edition
   before relying on it.

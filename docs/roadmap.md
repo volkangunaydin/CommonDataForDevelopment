@@ -33,7 +33,7 @@ Türkiye is the first country being built out and serves as the model for others
 | Status | Domain | Dataset | Candidate source |
 | --- | --- | --- | --- |
 | ✅ | address | [Provinces](../data/countries/TR/address/provinces/) | ISO 3166-2:TR |
-| ✅ | address | [Districts](../data/countries/TR/address/districts/) | Ministry of Interior, GeoNames |
+| ✅ | address | [Districts](../data/countries/TR/address/districts/) | Ministry of Interior, TÜİK, GeoNames |
 | ✅ | address | [Countries with Turkish names](../data/countries/TR/address/country/) | Unicode CLDR, GeoNames, Wikidata |
 | ⬜ | address | Neighbourhoods and postal codes | PTT |
 | ✅ | banking | [Banks](../data/countries/TR/banking/banks/) (name, national bank code; BIC pending) | TCMB, BDDK |

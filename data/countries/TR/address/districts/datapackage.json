@@ -1,10 +1,10 @@
 {
   "name": "tr-address-districts",
   "title": "Districts of Türkiye",
-  "description": "The 973 districts (ilçe) of Türkiye by province: the 922 named districts plus the central district (Merkez) of the 51 provinces that have one. Approximate coordinates are given where an open source has them.",
-  "version": "0.1.0",
+  "description": "The 973 districts (ilçe) of Türkiye by province: the 922 named districts plus the central district (Merkez) of the 51 provinces that have one. Each district carries its TÜİK district code; approximate coordinates are given where an open source has them.",
+  "version": "0.2.0",
   "created": "2026-10-05",
-  "keywords": ["TR", "address", "districts", "ilce", "coordinates"],
+  "keywords": ["TR", "address", "districts", "ilce", "coordinates", "tuik"],
   "licenses": [
     {
       "name": "CC-BY-4.0",
@@ -18,8 +18,16 @@
       "path": "https://www.e-icisleri.gov.tr/Anasayfa/MulkiIdariBolumleri.aspx"
     },
     {
-      "title": "GeoNames, TR.zip, feature code ADM2: latitude and longitude (CC BY 4.0)",
+      "title": "GeoNames, TR.zip, feature code ADM2: latitude and longitude, and names that differ from the Ministry's (CC BY 4.0)",
       "path": "https://download.geonames.org/export/dump/TR.zip"
+    },
+    {
+      "title": "TÜİK Veri Portalı, İl ve İlçelere Göre İl/İlçe Merkezi, Belde/Köy Nüfusu (DF_ADNKS_T22 1.1, ADNKS 2025): district codes from code list CL_IBBS 1.2, retrieved 2026-11-05. Reuse permitted with attribution (TÜİK Yasal Uyarı).",
+      "path": "https://veriportali.tuik.gov.tr/tr/databrowser/tuik/TR,DF_ADNKS_T22,1.1"
+    },
+    {
+      "title": "Defterdarlık ve Vergi Daireleri Listesi (Gelir İdaresi Başkanlığı), dated 2026-06-18, via tr-tax-tax-offices: district spellings that differ from the Ministry's",
+      "path": "https://cdn.gib.gov.tr/api/gibportal-file/file/getFileResources?objectKey=arsiv%2Fyardim-kaynaklar%2Fyararli-bilgiler%2FDefterdarl%C4%B1kveVergiDaireleriListesi.pdf"
     }
   ],
   "resources": [
@@ -52,6 +60,17 @@
             "name": "longitude",
             "type": "number",
             "description": "Approximate longitude in decimal degrees (WGS 84), from GeoNames. Empty when no match was found; always empty for Merkez."
+          },
+          {
+            "name": "tuik_code",
+            "type": "string",
+            "description": "Four-digit district code assigned by TÜİK (code list CL_IBBS 1.2, as used in ADNKS statistics). Not derived from the province code.",
+            "constraints": { "required": true, "unique": true, "pattern": "^[0-9]{4}$" }
+          },
+          {
+            "name": "alternate_names",
+            "type": "string",
+            "description": "Other spellings or names of the district found in the sources of this repository, separated by semicolons: the spelling used in the GİB tax office list (see tr-tax-tax-offices) and the GeoNames name. Empty when every source uses name. Use it to match records from those sources; name remains the official form."
           }
         ],
         "primaryKey": ["province_code", "name"],

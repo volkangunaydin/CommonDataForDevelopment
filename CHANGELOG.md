@@ -11,6 +11,7 @@ version in its `datapackage.json`.
 - Repository structure, data standards, contribution guide and dataset template.
 - `tr-address-provinces` 0.1.0: the 81 provinces of Türkiye.
 - `tr-address-districts` 0.1.0: the 973 districts of Türkiye (İçişleri Bakanlığı names, GeoNames coordinates).
+- `tr-address-districts` 0.2.0: new field `tuik_code`, the four-digit TÜİK district code (CL_IBBS 1.2, ADNKS 2025, retrieved 2026-11-05), for all 973 districts; new field `alternate_names` with the spellings used by GİB and GeoNames (13 districts).
 - `tr-address-country` 0.1.0: 250 countries and territories with Turkish names (CLDR 49), ISO 3166-1 codes, calling codes, continent, currency and domain (GeoNames), and capitals in Turkish (Wikidata) with GeoNames coordinates (retrieved 2026-11-05).
 - `tr-tax-tax-offices` 0.1.0: tax offices of Türkiye (860) and their branches (233), from the GİB list dated 2026-06-18.
 - `tr-banking-banks` 0.1.0: the 70 participants of the TCMB payment systems with their EFT bank codes, BDDK titles and categories, and FAST participation (lists retrieved 2026-10-31).

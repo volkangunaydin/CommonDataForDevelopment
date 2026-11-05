@@ -1,0 +1,144 @@
+{
+  "name": "world-currencies",
+  "title": "Currencies (ISO 4217)",
+  "description": "ISO 4217 currency and fund codes with their numeric code and minor units, the countries and other entities that use each code, and the historic codes and names that have been withdrawn.",
+  "version": "0.1.0",
+  "created": "2026-11-05",
+  "keywords": ["world", "currencies", "currency-codes", "iso-4217", "minor-units"],
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "title": "Creative Commons Attribution 4.0 International",
+      "path": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "sources": [
+    {
+      "title": "ISO 4217 List One: Current currency & funds code list, published 2026-09-17, SIX Financial Information (ISO 4217 Maintenance Agency), retrieved 2026-11-05",
+      "path": "https://www.six-group.com/dam/download/financial-information/data-center/iso-currrency/lists/list-one.xml"
+    },
+    {
+      "title": "ISO 4217 List Three: Historic denominations of currencies & funds, published 2026-01-01, SIX Financial Information (ISO 4217 Maintenance Agency), retrieved 2026-11-05",
+      "path": "https://www.six-group.com/dam/download/financial-information/data-center/iso-currrency/lists/list-three.xml"
+    }
+  ],
+  "resources": [
+    {
+      "name": "currencies",
+      "path": "currencies.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "code",
+            "type": "string",
+            "description": "ISO 4217 alphabetic code.",
+            "constraints": { "required": true, "unique": true, "pattern": "^[A-Z]{3}$" }
+          },
+          {
+            "name": "numeric_code",
+            "type": "string",
+            "description": "ISO 4217 three-digit numeric code, zero-padded. Kept as a string with leading zeros (008, not 8).",
+            "constraints": { "required": true, "unique": true, "pattern": "^[0-9]{3}$" }
+          },
+          {
+            "name": "name",
+            "type": "string",
+            "description": "Currency or fund name as published by the ISO 4217 Maintenance Agency, in English.",
+            "constraints": { "required": true }
+          },
+          {
+            "name": "minor_units",
+            "type": "integer",
+            "description": "Number of digits after the decimal separator (2 for TRY, 0 for JPY, 3 for KWD). Empty where ISO 4217 gives N.A.: precious metals, units of account, the testing code XTS and XXX (no currency).",
+            "constraints": { "minimum": 0 }
+          },
+          {
+            "name": "fund",
+            "type": "boolean",
+            "description": "true when ISO 4217 marks the code as a fund code (IsFund), such as an indexed unit of account (CLF, UYI) rather than a currency.",
+            "constraints": { "required": true }
+          }
+        ],
+        "primaryKey": ["code"]
+      }
+    },
+    {
+      "name": "currency-entities",
+      "path": "currency-entities.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "currency_code",
+            "type": "string",
+            "description": "ISO 4217 alphabetic code. References code in the currencies resource.",
+            "constraints": { "required": true, "pattern": "^[A-Z]{3}$" }
+          },
+          {
+            "name": "entity_name",
+            "type": "string",
+            "description": "Country, territory or other entity that uses the code, as named in ISO 4217 (upper case English short name; ZZ01_ to ZZ11_ prefixes for codes not tied to a country).",
+            "constraints": { "required": true }
+          }
+        ],
+        "primaryKey": ["currency_code", "entity_name"],
+        "foreignKeys": [
+          { "fields": ["currency_code"], "reference": { "resource": "currencies", "fields": ["code"] } }
+        ]
+      }
+    },
+    {
+      "name": "historic-currencies",
+      "path": "historic-currencies.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "code",
+            "type": "string",
+            "description": "ISO 4217 alphabetic code of the withdrawn entry. A code can appear more than once (withdrawn for several entities or at different times) and can still be current under another name (TRY was New Turkish Lira until 2009-01).",
+            "constraints": { "required": true, "pattern": "^[A-Z]{3}$" }
+          },
+          {
+            "name": "numeric_code",
+            "type": "string",
+            "description": "ISO 4217 three-digit numeric code, zero-padded. Empty where ISO 4217 gives none (XFO, XFU, XRE).",
+            "constraints": { "pattern": "^[0-9]{3}$" }
+          },
+          {
+            "name": "name",
+            "type": "string",
+            "description": "Currency or fund name as published, in English.",
+            "constraints": { "required": true }
+          },
+          {
+            "name": "entity_name",
+            "type": "string",
+            "description": "Country, territory or other entity, as named in ISO 4217 at the time of withdrawal.",
+            "constraints": { "required": true }
+          },
+          {
+            "name": "withdrawal_date",
+            "type": "string",
+            "description": "Date of withdrawal as published: usually a year and month (YYYY-MM), in a few old entries a range (1989 to 1990, 1990-07 to 1990-09).",
+            "constraints": { "required": true }
+          },
+          {
+            "name": "fund",
+            "type": "boolean",
+            "description": "true when ISO 4217 marks the entry as a fund code.",
+            "constraints": { "required": true }
+          }
+        ],
+        "primaryKey": ["code", "entity_name", "withdrawal_date"]
+      }
+    }
+  ]
+}

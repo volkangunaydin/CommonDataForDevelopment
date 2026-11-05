@@ -14,7 +14,7 @@ Status: ✅ available · 🔜 next · ⬜ planned
 | Status | Dataset | Candidate source |
 | --- | --- | --- |
 | 🔜 | Countries (alpha-2, alpha-3, numeric, names) | ISO 3166-1 |
-| 🔜 | Currencies (code, numeric, minor units) | ISO 4217 |
+| ✅ | [Currencies](../data/world/currencies/) (code, numeric, minor units, historic) | ISO 4217 |
 | ⬜ | Country subdivisions | ISO 3166-2 |
 | ⬜ | Languages and locales | ISO 639, Unicode CLDR |
 | ⬜ | Time zones | IANA tz database |
@@ -33,12 +33,15 @@ Türkiye is the first country being built out and serves as the model for others
 | Status | Domain | Dataset | Candidate source |
 | --- | --- | --- | --- |
 | ✅ | address | [Provinces](../data/countries/TR/address/provinces/) | ISO 3166-2:TR |
-| 🔜 | address | Districts | Ministry of Interior, TÜİK |
+| ✅ | address | [Districts](../data/countries/TR/address/districts/) | Ministry of Interior, GeoNames |
+| ✅ | address | [Countries with Turkish names](../data/countries/TR/address/country/) | Unicode CLDR, GeoNames, Wikidata |
 | ⬜ | address | Neighbourhoods and postal codes | PTT |
-| 🔜 | banking | Banks (name, national bank code, BIC) | TCMB, BDDK, TBB |
+| ✅ | banking | [Banks](../data/countries/TR/banking/banks/) (name, national bank code; BIC pending) | TCMB, BDDK |
+| ✅ | banking | [Card BIN ranges](../data/countries/TR/banking/card-bins/) | BKM BIN API |
 | ⬜ | banking | Bank branches | TBB |
 | ⬜ | banking | IBAN structure and validation | TCMB |
-| 🔜 | tax | Tax offices | GİB |
+| ✅ | currency | [Currencies with Turkish names](../data/countries/TR/currency/currencies/) | Unicode CLDR, ISO 4217, GİB |
+| ✅ | tax | Tax offices | GİB |
 | ⬜ | tax | VAT rates | GİB |
 | ⬜ | tax | Tax identification number rules (VKN, TCKN) | GİB, NVİ |
 | ⬜ | business | Economic activity codes (NACE) | TÜİK, GİB |
@@ -47,7 +50,7 @@ Türkiye is the first country being built out and serves as the model for others
 
 ### Other countries
 
-The same domains (`address`, `banking`, `tax`, `business`, `calendar`) apply to
+The same domains (`address`, `banking`, `currency`, `tax`, `business`, `calendar`) apply to
 every country. Contributions for any country are welcome; start with its
 administrative divisions and banks, which most applications need first.
 
@@ -64,6 +67,7 @@ administrative divisions and banks, which most applications need first.
 
 | Status | Region | Dataset | Candidate source |
 | --- | --- | --- | --- |
+| ✅ | TR | [UBL-TR currency codes](../data/topics/e-invoicing/TR/currency-codes/) | GİB e-Fatura package (schematron) |
 | 🔜 | TR | UBL-TR code lists (profiles, invoice types, tax codes, withholding and exemption codes) | GİB e-Belge technical guides |
 | ⬜ | TR | Document types overview (e-Fatura, e-Arşiv, e-İrsaliye, …) | GİB |
 | ⬜ | EU | EN 16931 code lists | European Commission |

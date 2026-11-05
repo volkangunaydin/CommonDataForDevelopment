@@ -1,0 +1,114 @@
+{
+  "name": "tr-banking-card-bins",
+  "title": "Card BIN ranges of Türkiye",
+  "description": "Domestic card BIN (bank identification number) ranges published by the Interbank Card Center of Türkiye (BKM) through its BIN API: the issuing bank or payment institution, card scheme, product type, level, brand and card number length for every range.",
+  "version": "0.1.0",
+  "created": "2026-10-31",
+  "keywords": ["TR", "banking", "cards", "bin", "iin", "bkm", "troy", "payment"],
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "title": "Creative Commons Attribution 4.0 International",
+      "path": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "sources": [
+    {
+      "title": "BKM BIN API Servisi, Bankalararası Kart Merkezi A.Ş. (data as served by the API on 2026-10-31)",
+      "path": "https://bkm.com.tr/"
+    },
+    {
+      "title": "BKM BIN API Servisi tanıtım dokümanı (Ocak 2026): access terms, history, technical details",
+      "path": "https://github.com/hazarkarabay/guncel-kart-bin-listesi/blob/master/BKM%20BIN%20API%20Servisi.pdf"
+    },
+    {
+      "title": "Retrieved from: guncel-kart-bin-listesi, daily unmodified export of the BKM BIN API, release 2026-10-31 (binlist.json)",
+      "path": "https://github.com/hazarkarabay/guncel-kart-bin-listesi/releases/tag/2026-10-31"
+    }
+  ],
+  "resources": [
+    {
+      "name": "card-bins",
+      "path": "card-bins.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "bin_range_min",
+            "type": "string",
+            "description": "First BIN of the range, 7 or 8 digits, as a string. To match a card, compare the first N digits of the card number with the range, where N is the number of digits in this field.",
+            "constraints": { "required": true, "pattern": "^[0-9]{7,8}$" }
+          },
+          {
+            "name": "bin_range_max",
+            "type": "string",
+            "description": "Last BIN of the range, same number of digits as bin_range_min. Equal to bin_range_min for a single BIN.",
+            "constraints": { "required": true, "pattern": "^[0-9]{7,8}$" }
+          },
+          {
+            "name": "issuer_code",
+            "type": "string",
+            "description": "Four-digit TCMB participant code (EFT code) of the issuing institution. For banks it references code in tr-banking-banks; payment and electronic money institutions (codes 08xx, 09xx) are not in that dataset.",
+            "constraints": { "required": true, "pattern": "^[0-9]{4}$" }
+          },
+          {
+            "name": "issuer_name",
+            "type": "string",
+            "description": "Name of the issuing institution as given by BKM. BKM abbreviates some names (T.GARANTİ BANKASI A.Ş.); use issuer_code to join with tr-banking-banks for the official title.",
+            "constraints": { "required": true }
+          },
+          {
+            "name": "scheme",
+            "type": "string",
+            "description": "Card scheme, from the first part of the BKM card type: mastercard, visa, troy, amex, unionpay, diners, jcb, or private_label (Özel Logolu).",
+            "constraints": { "required": true, "enum": ["mastercard", "visa", "troy", "amex", "unionpay", "diners", "jcb", "private_label"] }
+          },
+          {
+            "name": "product",
+            "type": "string",
+            "description": "Product type, from the second part of the BKM card type: credit (Kredi Kartı), debit (Banka Kartı) or prepaid (Ön Ödemeli Kart).",
+            "constraints": { "required": true, "enum": ["credit", "debit", "prepaid"] }
+          },
+          {
+            "name": "level",
+            "type": "string",
+            "description": "Card level, from the third part of the BKM card type: classic, gold, business, debit, maestro, electron, platinum or domestic (Yurtiçi).",
+            "constraints": { "required": true, "enum": ["classic", "gold", "business", "debit", "maestro", "electron", "platinum", "domestic"] }
+          },
+          {
+            "name": "card_type_code",
+            "type": "string",
+            "description": "BKM three-letter card type code (cardTypeCode), e.g. BBA for MasterCard credit classic, TAG for TROY debit. The three fields scheme, product and level are derived from the text that accompanies this code.",
+            "constraints": { "required": true, "pattern": "^[A-Z]{3}$" }
+          },
+          {
+            "name": "brand_name",
+            "type": "string",
+            "description": "Card programme brand (Bonus, World, Maximum, Axess, Paraf, Bankkart, ...). Empty when BKM gives Marka Yok (no brand)."
+          },
+          {
+            "name": "brand_code",
+            "type": "string",
+            "description": "BKM three-digit code of the brand. Empty when brand_name is empty.",
+            "constraints": { "pattern": "^[0-9]{3}$" }
+          },
+          {
+            "name": "card_number_length",
+            "type": "integer",
+            "description": "Length of the card number (PAN) for cards in this range: 14 to 19 digits.",
+            "constraints": { "required": true, "minimum": 14, "maximum": 19 }
+          }
+        ],
+        "primaryKey": ["bin_range_min", "bin_range_max"],
+        "foreignKeys": [
+          {
+            "fields": ["issuer_code"],
+            "reference": { "resource": "tr-banking-banks", "fields": ["code"] }
+          }
+        ]
+      }
+    }
+  ]
+}

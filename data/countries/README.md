@@ -11,6 +11,7 @@ Path pattern: `data/countries/<CC>/<domain>/<dataset>/`
 | --- | --- |
 | `address` | Administrative divisions, postal codes, address formats |
 | `banking` | Banks, branches, national bank codes, account number rules |
+| `currency` | Currencies in the local language, local symbols and usage |
 | `tax` | Tax offices, tax types and rates, tax ID rules |
 | `business` | Activity codes, company types, chart of accounts |
 | `calendar` | Public holidays, working-day rules |
@@ -19,7 +20,7 @@ Path pattern: `data/countries/<CC>/<domain>/<dataset>/`
 
 | Code | Country | Datasets |
 | --- | --- | --- |
-| [`TR`](TR/) | Türkiye | 1 |
+| [`TR`](TR/) | Türkiye | 7 |
 
 ## Adding a country
 

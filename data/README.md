@@ -6,7 +6,7 @@ data/
 │   └── <dataset>/
 ├── countries/                    # country-specific datasets
 │   └── <CC>/                     # ISO 3166-1 alpha-2, upper case
-│       └── <domain>/             # address | banking | tax | business | calendar
+│       └── <domain>/             # address | banking | currency | tax | business | calendar
 │           └── <dataset>/
 └── topics/                       # cross-country subjects
     └── <topic>/                  # ubl | e-invoicing

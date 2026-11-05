@@ -1,0 +1,55 @@
+{
+  "name": "e-invoicing-tr-currency-codes",
+  "title": "UBL-TR currency codes (e-Fatura)",
+  "description": "Currency codes accepted by the GİB UBL-TR schematron for Turkish e-documents (e-Fatura, e-Arşiv Fatura and others) in DocumentCurrencyCode, TaxCurrencyCode, PricingCurrencyCode, PaymentCurrencyCode, PaymentAlternativeCurrencyCode and currencyID attributes, with their status in ISO 4217.",
+  "version": "0.1.0",
+  "created": "2026-11-05",
+  "keywords": ["TR", "e-invoicing", "e-fatura", "ubl-tr", "gib", "currency-codes", "iso-4217"],
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "title": "Creative Commons Attribution 4.0 International",
+      "path": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "sources": [
+    {
+      "title": "e-Fatura Paketi, schematron/UBL-TR_Codelist.xml (CurrencyCodeList; package history up to 2026-07-01, file dated 2026-08-21), Gelir İdaresi Başkanlığı, retrieved 2026-11-05",
+      "path": "https://ebelge.gib.gov.tr/dosyalar/kilavuzlar/e-FaturaPaketi%20(29).zip"
+    },
+    {
+      "title": "e-Fatura Mevzuat ve Teknik Kılavuzlar, Gelir İdaresi Başkanlığı",
+      "path": "https://ebelge.gib.gov.tr/efaturamevzuat.html"
+    },
+    {
+      "title": "ISO 4217 List One and List Three, SIX Financial Information, used for iso_4217_status (see world-currencies)",
+      "path": "https://www.six-group.com/en/products-services/financial-information/data-standards.html"
+    }
+  ],
+  "resources": [
+    {
+      "name": "currency-codes",
+      "path": "currency-codes.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "code",
+            "type": "string",
+            "description": "ISO 4217 alphabetic code accepted by the UBL-TR schematron. References code in world-currencies (currencies or historic-currencies).",
+            "constraints": { "required": true, "unique": true, "pattern": "^[A-Z]{3}$" }
+          },
+          {
+            "name": "iso_4217_status",
+            "type": "string",
+            "description": "current when the code is in ISO 4217 List One (published 2026-09-17); withdrawn when it is only in List Three (historic). GİB still accepts these withdrawn codes.",
+            "constraints": { "required": true, "enum": ["current", "withdrawn"] }
+          }
+        ],
+        "primaryKey": ["code"]
+      }
+    }
+  ]
+}

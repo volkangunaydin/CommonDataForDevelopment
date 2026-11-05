@@ -27,4 +27,10 @@ link to the authority's distribution rather than copying it.
 | `TR` | e-Fatura, e-Arşiv Fatura, e-İrsaliye and related e-Belge documents (UBL-TR), published by GİB |
 | `EU` | EN 16931 and Peppol BIS Billing |
 
-No datasets yet. See the [roadmap](../../../docs/roadmap.md#e-invoicing).
+## Available
+
+| Region | Dataset | Contents |
+| --- | --- | --- |
+| `TR` | [`currency-codes`](TR/currency-codes/) | Currency codes accepted by the GİB UBL-TR schematron |
+
+See the [roadmap](../../../docs/roadmap.md#e-invoicing) for what is planned.

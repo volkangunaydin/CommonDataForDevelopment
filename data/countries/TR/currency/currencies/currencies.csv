@@ -1,0 +1,194 @@
+code,numeric_code,name,name_en,symbol,symbol_narrow,minor_units,iso_4217_status,e_invoice_accepted
+AED,784,Birleşik Arap Emirlikleri dirhemi,United Arab Emirates Dirham,,,2,current,true
+AFN,971,Afganistan afganisi,Afghan Afghani,,؋,2,current,true
+ALL,008,Arnavutluk leki,Albanian Lek,,,2,current,true
+AMD,051,Ermenistan dramı,Armenian Dram,,֏,2,current,true
+ANG,532,Hollanda Antilleri guldeni,Netherlands Antillean Guilder,,,,withdrawn,true
+AOA,973,Angola kvanzası,Angolan Kwanza,,Kz,2,current,true
+ARS,032,Arjantin pesosu,Argentine Peso,,$,2,current,true
+AUD,036,Avustralya doları,Australian Dollar,AU$,$,2,current,true
+AWG,533,Aruba florini,Aruban Florin,,,2,current,true
+AZN,944,Azerbaycan manatı,Azerbaijani Manat,,₼,2,current,true
+BAM,977,Konvertibl Bosna Hersek markı,Bosnia-Herzegovina Convertible Mark,,KM,2,current,true
+BBD,052,Barbados doları,Barbadian Dollar,,$,2,current,true
+BDT,050,Bangladeş takası,Bangladeshi Taka,,৳,2,current,true
+BGN,975,Bulgar levası,Bulgarian Lev,,,,withdrawn,true
+BHD,048,Bahreyn dinarı,Bahraini Dinar,,,3,current,true
+BIF,108,Burundi frangı,Burundian Franc,,,0,current,true
+BMD,060,Bermuda doları,Bermudan Dollar,,$,2,current,true
+BND,096,Brunei doları,Brunei Dollar,,$,2,current,true
+BOB,068,Bolivya bolivyanosu,Bolivian Boliviano,,Bs,2,current,true
+BOV,984,Bolivya Mvdolu,Bolivian Mvdol,,,2,current,true
+BRL,986,Brezilya reali,Brazilian Real,R$,R$,2,current,true
+BSD,044,Bahama doları,Bahamian Dollar,,$,2,current,true
+BTN,064,Butan ngultrumu,Bhutanese Ngultrum,,,2,current,true
+BWP,072,Botsvana pulası,Botswanan Pula,,P,2,current,true
+BYN,933,Belarus rublesi,Belarusian Ruble,,р.,2,current,true
+BZD,084,Belize doları,Belize Dollar,,$,2,current,true
+CAD,124,Kanada doları,Canadian Dollar,CA$,$,2,current,true
+CDF,976,Kongo frangı,Congolese Franc,,,2,current,true
+CHE,947,WIR Avrosu,WIR Euro,,,2,current,true
+CHF,756,İsviçre frangı,Swiss Franc,CHF,Fr.,2,current,true
+CHW,948,WIR Frangı,WIR Franc,,,2,current,true
+CLF,990,Şili Unidades de Fomento,Chilean Unit of Account (UF),,,4,current,true
+CLP,152,Şili pesosu,Chilean Peso,,$,0,current,true
+CNY,156,Çin yuanı,Chinese Yuan,CN¥,¥,2,current,true
+COP,170,Kolombiya pesosu,Colombian Peso,,$,2,current,true
+COU,970,Unidad de Valor Real,Colombian Real Value Unit,,,2,current,true
+CRC,188,Kosta Rika kolonu,Costa Rican Colón,,₡,2,current,true
+CUC,931,Konvertibl Küba pesosu,Cuban Convertible Peso,,$,,withdrawn,true
+CUP,192,Küba pesosu,Cuban Peso,,$,2,current,true
+CVE,132,Cape Verde esküdosu,Cape Verdean Escudo,,,2,current,true
+CZK,203,Çek korunası,Czech Koruna,,Kč,2,current,true
+DJF,262,Cibuti frangı,Djiboutian Franc,,,0,current,true
+DKK,208,Danimarka kronu,Danish Krone,,kr,2,current,true
+DOP,214,Dominik pesosu,Dominican Peso,,$,2,current,true
+DZD,012,Cezayir dinarı,Algerian Dinar,,,2,current,true
+EEK,233,Estonya Krunu,Estonian Kroon,,,,withdrawn,true
+EGP,818,Mısır lirası,Egyptian Pound,,E£,2,current,true
+ERN,232,Eritre nakfası,Eritrean Nakfa,,,2,current,true
+ETB,230,Etiyopya birri,Ethiopian Birr,,,2,current,true
+EUR,978,Euro,Euro,€,€,2,current,true
+FJD,242,Fiji doları,Fijian Dollar,,$,2,current,true
+FKP,238,Falkland Adaları lirası,Falkland Islands Pound,,£,2,current,true
+GBP,826,İngiliz sterlini,British Pound,£,£,2,current,true
+GEL,981,Gürcistan larisi,Georgian Lari,,₾,2,current,true
+GHS,936,Gana sedisi,Ghanaian Cedi,,GH₵,2,current,true
+GIP,292,Cebelitarık lirası,Gibraltar Pound,,£,2,current,true
+GMD,270,Gambiya dalasisi,Gambian Dalasi,,,2,current,true
+GNF,324,Gine frangı,Guinean Franc,,FG,0,current,true
+GTQ,320,Guatemala quetzalı,Guatemalan Quetzal,,Q,2,current,true
+GWP,624,Gine-Bissau Pezosu,Guinea-Bissau Peso,,,,withdrawn,true
+GYD,328,Guyana doları,Guyanaese Dollar,,$,2,current,true
+HKD,344,Hong Kong doları,Hong Kong Dollar,HK$,$,2,current,true
+HNL,340,Honduras lempirası,Honduran Lempira,,L,2,current,true
+HRK,191,Hırvatistan kunası,Croatian Kuna,,kn,,withdrawn,true
+HTG,332,Haiti gurdu,Haitian Gourde,,,2,current,true
+HUF,348,Macar forinti,Hungarian Forint,,Ft,2,current,true
+IDR,360,Endonezya rupisi,Indonesian Rupiah,,Rp,2,current,true
+ILS,376,Yeni İsrail şekeli,Israeli New Shekel,₪,₪,2,current,true
+INR,356,Hindistan rupisi,Indian Rupee,₹,₹,2,current,true
+IQD,368,Irak dinarı,Iraqi Dinar,,,3,current,true
+IRR,364,İran riyali,Iranian Rial,,,2,current,true
+ISK,352,İzlanda kronu,Icelandic Króna,,kr,0,current,true
+JMD,388,Jamaika doları,Jamaican Dollar,,$,2,current,true
+JOD,400,Ürdün dinarı,Jordanian Dinar,,,3,current,true
+JPY,392,Japon yeni,Japanese Yen,¥,¥,0,current,true
+KES,404,Kenya şilini,Kenyan Shilling,,,2,current,true
+KGS,417,Kırgızistan somu,Kyrgyz Som,,⃀,2,current,true
+KHR,116,Kamboçya rieli,Cambodian Riel,,៛,2,current,true
+KMF,174,Komorlar frangı,Comorian Franc,,CF,0,current,true
+KPW,408,Kuzey Kore wonu,North Korean Won,,₩,2,current,true
+KRW,410,Güney Kore wonu,South Korean Won,₩,₩,0,current,true
+KWD,414,Kuveyt dinarı,Kuwaiti Dinar,,,3,current,true
+KYD,136,Cayman Adaları doları,Cayman Islands Dollar,,$,2,current,true
+KZT,398,Kazakistan tengesi,Kazakhstani Tenge,,₸,2,current,true
+LAK,418,Laos kipi,Laotian Kip,,₭,2,current,true
+LBP,422,Lübnan lirası,Lebanese Pound,,L£,2,current,true
+LKR,144,Sri Lanka rupisi,Sri Lankan Rupee,,Rs,2,current,true
+LRD,430,Liberya doları,Liberian Dollar,,$,2,current,true
+LSL,426,Lesotho lotisi,Lesotho Loti,,,2,current,true
+LTL,440,Litvanya Litası,Lithuanian Litas,,Lt,,withdrawn,true
+LVL,428,Letonya Latı,Latvian Lats,,Ls,,withdrawn,true
+LYD,434,Libya dinarı,Libyan Dinar,,,3,current,true
+MAD,504,Fas dirhemi,Moroccan Dirham,,,2,current,true
+MDL,498,Moldova leyi,Moldovan Leu,,,2,current,true
+MGA,969,Madagaskar ariarisi,Malagasy Ariary,,Ar,2,current,true
+MKD,807,Makedonya dinarı,Macedonian Denar,,,2,current,true
+MMK,104,Myanmar kyatı,Myanmar Kyat,,K,2,current,true
+MNT,496,Moğolistan tugriki,Mongolian Tugrik,,₮,2,current,true
+MOP,446,Makao patakası,Macanese Pataca,,,2,current,true
+MRU,929,Moritanya ugiyası,Mauritanian Ouguiya,,,2,current,true
+MUR,480,Mauritius rupisi,Mauritian Rupee,,Rs,2,current,true
+MVR,462,Maldiv rufiyaası,Maldivian Rufiyaa,,,2,current,true
+MWK,454,Malavi kvaçası,Malawian Kwacha,,,2,current,true
+MXN,484,Meksika pesosu,Mexican Peso,MX$,$,2,current,true
+MXV,979,Meksika Unidad de Inversion (UDI),Mexican Investment Unit,,,2,current,true
+MYR,458,Malezya ringgiti,Malaysian Ringgit,,RM,2,current,true
+MZN,943,Mozambik metikali,Mozambican Metical,,,2,current,true
+NAD,516,Namibya doları,Namibian Dollar,,$,2,current,true
+NGN,566,Nijerya nairası,Nigerian Naira,,₦,2,current,true
+NIO,558,Nikaragua kordobası,Nicaraguan Córdoba,,C$,2,current,true
+NOK,578,Norveç kronu,Norwegian Krone,,kr,2,current,true
+NPR,524,Nepal rupisi,Nepalese Rupee,,Rs,2,current,true
+NZD,554,Yeni Zelanda doları,New Zealand Dollar,NZ$,$,2,current,true
+OMR,512,Umman riyali,Omani Rial,,,3,current,true
+PAB,590,Panama balboası,Panamanian Balboa,,,2,current,true
+PEN,604,Peru solü,Peruvian Sol,,,2,current,true
+PGK,598,Papua Yeni Gine kinası,Papua New Guinean Kina,,,2,current,true
+PHP,608,Filipinler pesosu,Philippine Peso,PHP,₱,2,current,true
+PKR,586,Pakistan rupisi,Pakistani Rupee,,Rs,2,current,true
+PLN,985,Polonya zlotisi,Polish Zloty,,zł,2,current,true
+PYG,600,Paraguay guaranisi,Paraguayan Guarani,,₲,0,current,true
+QAR,634,Katar riyali,Qatari Riyal,,,2,current,true
+RON,946,Romen leyi,Romanian Leu,,L,2,current,true
+RSD,941,Sırp dinarı,Serbian Dinar,,,2,current,true
+RUB,643,Rus rublesi,Russian Ruble,,₽,2,current,true
+RWF,646,Ruanda frangı,Rwandan Franc,,RF,0,current,true
+SAR,682,Suudi Arabistan riyali,Saudi Riyal,,,2,current,true
+SBD,090,Solomon Adaları doları,Solomon Islands Dollar,,$,2,current,true
+SCR,690,Seyşeller rupisi,Seychellois Rupee,,,2,current,true
+SDG,938,Sudan lirası,Sudanese Pound,,,2,current,true
+SEK,752,İsveç kronu,Swedish Krona,,kr,2,current,true
+SGD,702,Singapur doları,Singapore Dollar,,$,2,current,true
+SHP,654,Saint Helena lirası,St. Helena Pound,,£,2,current,true
+SLE,925,Sierra Leone leonesi,Sierra Leonean Leone,,,2,current,true
+SLL,694,Sierra Leone leonesi (1964–2022),Sierra Leonean Leone (1964—2022),,,,withdrawn,true
+SOS,706,Somali şilini,Somali Shilling,,,2,current,true
+SRD,968,Surinam doları,Surinamese Dollar,,$,2,current,true
+SSP,728,Güney Sudan lirası,South Sudanese Pound,,£,2,current,true
+STD,678,São Tomé ve Príncipe Dobrası (1977–2017),São Tomé & Príncipe Dobra (1977–2017),,,,withdrawn,true
+STN,930,Sao Tome ve Principe dobrası,São Tomé & Príncipe Dobra,,Db,2,current,true
+SVC,222,El Salvador Kolonu,Salvadoran Colón,,,2,current,true
+SYP,760,Suriye lirası,Syrian Pound,,£,2,current,true
+SZL,748,Svaziland lilangenisi,Swazi Lilangeni,,,2,current,true
+THB,764,Tayland bahtı,Thai Baht,฿,฿,2,current,true
+TJS,972,Tacikistan somonisi,Tajikistani Somoni,,,2,current,true
+TMT,934,Türkmenistan manatı,Turkmenistani Manat,,,2,current,true
+TND,788,Tunus dinarı,Tunisian Dinar,,,3,current,true
+TOP,776,Tonga paʻangası,Tongan Paʻanga,,T$,2,current,true
+TRY,949,Türk lirası,Turkish Lira,₺,₺,2,current,true
+TTD,780,Trinidad ve Tobago doları,Trinidad & Tobago Dollar,,$,2,current,true
+TWD,901,Yeni Tayvan doları,New Taiwan Dollar,NT$,NT$,2,current,true
+TZS,834,Tanzanya şilini,Tanzanian Shilling,,,2,current,true
+UAH,980,Ukrayna grivnası,Ukrainian Hryvnia,,₴,2,current,true
+UGX,800,Uganda şilini,Ugandan Shilling,,,0,current,true
+USD,840,ABD doları,US Dollar,$,$,2,current,true
+USN,997,ABD Doları (Ertesi gün),US Dollar (Next day),,,2,current,true
+USS,998,ABD Doları (Aynı gün),US Dollar (Same day),,,,withdrawn,true
+UYI,940,Uruguay Peso en Unidades Indexadas,Uruguayan Peso (Indexed Units),,,0,current,true
+UYU,858,Uruguay pesosu,Uruguayan Peso,,$,2,current,true
+UYW,927,,Uruguayan Nominal Wage Index Unit,,,4,current,true
+UZS,860,Özbekistan somu,Uzbekistani Som,,,2,current,true
+VED,926,,Bolívar Soberano,,,2,current,true
+VEF,937,Venezuela Bolivarı (2008–2018),Venezuelan Bolívar (2008–2018),,Bs,,withdrawn,true
+VES,928,Venezuela bolivarı,Venezuelan Bolívar,,,2,current,true
+VND,704,Vietnam dongu,Vietnamese Dong,₫,₫,0,current,true
+VUV,548,Vanuatu vatusu,Vanuatu Vatu,,,0,current,true
+WST,882,Samoa talası,Samoan Tala,,,2,current,true
+XAD,396,,,,,2,current,true
+XAF,950,Orta Afrika CFA frangı,Central African CFA Franc,FCFA,,0,current,true
+XAG,961,Gümüş,Silver,,,,current,true
+XAU,959,Altın,Gold,,,,current,true
+XBA,955,Birleşik Avrupa Birimi,European Composite Unit,,,,current,true
+XBB,956,Avrupa Para Birimi (EMU),European Monetary Unit,,,,current,true
+XBC,957,Avrupa Hesap Birimi (XBC),European Unit of Account (XBC),,,,current,true
+XBD,958,Avrupa Hesap Birimi (XBD),European Unit of Account (XBD),,,,current,true
+XCD,951,Doğu Karayip doları,East Caribbean Dollar,EC$,$,2,current,true
+XCG,532,Karayip guldeni,Caribbean guilder,Cg.,,2,current,true
+XDR,960,Özel Çekme Hakkı (SDR),Special Drawing Rights,,,,current,true
+XFU,,Fransız UIC-Frangı,French UIC-Franc,,,,withdrawn,true
+XOF,952,Batı Afrika CFA frangı,West African CFA Franc,F CFA,,0,current,true
+XPD,964,Paladyum,Palladium,,,,current,true
+XPF,953,CFP frangı,CFP Franc,CFPF,,0,current,true
+XPT,962,Platin,Platinum,,,,current,true
+XSU,994,Sucre,Sucre,,,,current,true
+XTS,963,Test Para Birimi Kodu,Testing Currency Code,,,,current,true
+XUA,965,ADB Hesap Birimi,ADB Unit of Account,,,,current,true
+XXX,999,Bilinmeyen Para Birimi,Unknown Currency,¤,,,current,true
+YER,886,Yemen riyali,Yemeni Rial,,,2,current,true
+ZAR,710,Güney Afrika randı,South African Rand,,R,2,current,true
+ZMK,894,Zambiya Kvaçası (1968–2012),Zambian Kwacha (1968–2012),,,,withdrawn,true
+ZMW,967,Zambiya kvaçası,Zambian Kwacha,,ZK,2,current,true
+ZWG,924,Zimbabve altını,Zimbabwean Gold,,,2,current,true
+ZWL,932,Zimbabve Doları (2009),Zimbabwean Dollar (2009–2024),,,,withdrawn,true

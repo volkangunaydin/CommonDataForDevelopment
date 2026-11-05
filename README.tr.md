@@ -32,7 +32,7 @@ Bu depo o gerçek veri olmayı hedefler:
 | Alan | Dizin | İçerik |
 | --- | --- | --- |
 | Dünya | [`data/world/`](data/world/) | Tüm ülkeleri kapsayan veri setleri: ülke kodları, para birimleri, diller, saat dilimleri, birimler, IBAN biçimleri |
-| Ülkeler | [`data/countries/<CC>/`](data/countries/) | Alanlara göre gruplanmış ülkeye özel veriler: `address`, `banking`, `tax`, `business`, `calendar` |
+| Ülkeler | [`data/countries/<CC>/`](data/countries/) | Alanlara göre gruplanmış ülkeye özel veriler: `address`, `banking`, `currency`, `tax`, `business`, `calendar` |
 | Konular | [`data/topics/`](data/topics/) | Ülkeler üstü konular: [UBL](data/topics/ubl/), [e-fatura](data/topics/e-invoicing/) (e-Fatura, Peppol, EN 16931, …) |
 
 `<CC>`, büyük harfle ISO 3166-1 alpha-2 ülke kodudur (`TR`, `DE`, `US`).
@@ -41,7 +41,15 @@ Bu depo o gerçek veri olmayı hedefler:
 
 | Veri seti | Dizin | Satır |
 | --- | --- | --- |
+| Para birimleri (ISO 4217) | [`data/world/currencies`](data/world/currencies/) | 178 + 169 tarihsel |
 | Türkiye illeri | [`data/countries/TR/address/provinces`](data/countries/TR/address/provinces/) | 81 |
+| Türkiye ilçeleri | [`data/countries/TR/address/districts`](data/countries/TR/address/districts/) | 973 |
+| Ülkeler (Türkçe adlarla) | [`data/countries/TR/address/country`](data/countries/TR/address/country/) | 250 |
+| Türkiye vergi daireleri | [`data/countries/TR/tax/tax-offices`](data/countries/TR/tax/tax-offices/) | 860 + 233 şube |
+| Türkiye bankaları | [`data/countries/TR/banking/banks`](data/countries/TR/banking/banks/) | 70 |
+| Türkiye kart BIN aralıkları | [`data/countries/TR/banking/card-bins`](data/countries/TR/banking/card-bins/) | 1.540 |
+| Türkçe adlarıyla para birimleri | [`data/countries/TR/currency/currencies`](data/countries/TR/currency/currencies/) | 193 |
+| UBL-TR para birimi kodları (e-Fatura) | [`data/topics/e-invoicing/TR/currency-codes`](data/topics/e-invoicing/TR/currency-codes/) | 193 |
 
 Tam liste her zaman [`catalog.json`](catalog.json) dosyasındadır.
 

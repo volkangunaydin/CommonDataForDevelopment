@@ -1,0 +1,67 @@
+{
+  "name": "tr-address-districts",
+  "title": "Districts of Türkiye",
+  "description": "The 973 districts (ilçe) of Türkiye by province: the 922 named districts plus the central district (Merkez) of the 51 provinces that have one. Approximate coordinates are given where an open source has them.",
+  "version": "0.1.0",
+  "created": "2026-10-05",
+  "keywords": ["TR", "address", "districts", "ilce", "coordinates"],
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "title": "Creative Commons Attribution 4.0 International",
+      "path": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Türkiye Mülki İdare Bölümleri Envanteri (T.C. İçişleri Bakanlığı): district names per province",
+      "path": "https://www.e-icisleri.gov.tr/Anasayfa/MulkiIdariBolumleri.aspx"
+    },
+    {
+      "title": "GeoNames, TR.zip, feature code ADM2: latitude and longitude (CC BY 4.0)",
+      "path": "https://download.geonames.org/export/dump/TR.zip"
+    }
+  ],
+  "resources": [
+    {
+      "name": "districts",
+      "path": "districts.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "province_code",
+            "type": "string",
+            "description": "Two-digit province code. References code in tr-address-provinces.",
+            "constraints": { "required": true, "pattern": "^[0-9]{2}$" }
+          },
+          {
+            "name": "name",
+            "type": "string",
+            "description": "District name in Turkish. Merkez is the central district of a province whose central district has no name of its own.",
+            "constraints": { "required": true }
+          },
+          {
+            "name": "latitude",
+            "type": "number",
+            "description": "Approximate latitude in decimal degrees (WGS 84), from GeoNames. Empty when no match was found; always empty for Merkez."
+          },
+          {
+            "name": "longitude",
+            "type": "number",
+            "description": "Approximate longitude in decimal degrees (WGS 84), from GeoNames. Empty when no match was found; always empty for Merkez."
+          }
+        ],
+        "primaryKey": ["province_code", "name"],
+        "foreignKeys": [
+          {
+            "fields": ["province_code"],
+            "reference": { "resource": "tr-address-provinces", "fields": ["code"] }
+          }
+        ]
+      }
+    }
+  ]
+}

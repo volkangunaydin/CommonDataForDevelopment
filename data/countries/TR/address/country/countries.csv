@@ -1,0 +1,251 @@
+code,alpha_3_code,numeric_code,name,name_en,calling_code,capital,capital_en,capital_latitude,capital_longitude,capital_geonames_id,continent_code,currency_code,tld
+AD,AND,020,Andorra,Andorra,376,Andorra la Vella,Andorra la Vella,42.50779,1.52109,3041563,EU,EUR,.ad
+AE,ARE,784,Birleşik Arap Emirlikleri,United Arab Emirates,971,Abu Dabi,Abu Dhabi,24.45118,54.39696,292968,AS,AED,.ae
+AF,AFG,004,Afganistan,Afghanistan,93,Kâbil,Kabul,34.52813,69.17233,1138958,AS,AFN,.af
+AG,ATG,028,Antigua ve Barbuda,Antigua & Barbuda,1-268,St. John's,St. John's,17.12096,-61.84329,3576022,NA,XCD,.ag
+AI,AIA,660,Anguilla,Anguilla,1-264,The Valley,The Valley,18.21704,-63.05783,3573374,NA,XCD,.ai
+AL,ALB,008,Arnavutluk,Albania,355,Tiran,Tirana,41.32744,19.81866,3183875,EU,ALL,.al
+AM,ARM,051,Ermenistan,Armenia,374,Erivan,Yerevan,40.17765,44.5126,616052,AS,AMD,.am
+AO,AGO,024,Angola,Angola,244,Luanda,Luanda,-8.83682,13.23432,2240449,AF,AOA,.ao
+AQ,ATA,010,Antarktika,Antarctica,,,,,,,AN,,.aq
+AR,ARG,032,Arjantin,Argentina,54,Buenos Aires,Buenos Aires,-34.61315,-58.37723,3435910,SA,ARS,.ar
+AS,ASM,016,Amerikan Samoası,American Samoa,1-684,Pago Pago,Pago Pago,-14.27806,-170.7025,5881576,OC,USD,.as
+AT,AUT,040,Avusturya,Austria,43,Viyana,Vienna,48.20849,16.37208,2761369,EU,EUR,.at
+AU,AUS,036,Avustralya,Australia,61,Canberra,Canberra,-35.28346,149.12807,2172517,OC,AUD,.au
+AW,ABW,533,Aruba,Aruba,297,Oranjestad,Oranjestad,12.52398,-70.02703,3577154,NA,AWG,.aw
+AX,ALA,248,Åland Adaları,Åland Islands,358-18,Mariehamn,Mariehamn,60.09726,19.93481,3041732,EU,EUR,.ax
+AZ,AZE,031,Azerbaycan,Azerbaijan,994,Bakü,Baku,40.37767,49.89201,587084,AS,AZN,.az
+BA,BIH,070,Bosna-Hersek,Bosnia & Herzegovina,387,Saraybosna,Sarajevo,43.84864,18.35644,3191281,EU,BAM,.ba
+BB,BRB,052,Barbados,Barbados,1-246,Bridgetown,Bridgetown,13.10732,-59.62021,3374036,NA,BBD,.bb
+BD,BGD,050,Bangladeş,Bangladesh,880,Dakka,Dhaka,23.7104,90.40744,1185241,AS,BDT,.bd
+BE,BEL,056,Belçika,Belgium,32,Brüksel Şehri,Brussels,50.85045,4.34878,2800866,EU,EUR,.be
+BF,BFA,854,Burkina Faso,Burkina Faso,226,Vagadugu,Ouagadougou,12.36566,-1.53388,2357048,AF,XOF,.bf
+BG,BGR,100,Bulgaristan,Bulgaria,359,Sofya,Sofia,42.69751,23.32415,727011,EU,EUR,.bg
+BH,BHR,048,Bahreyn,Bahrain,973,Manama,Manama,26.22787,50.58565,290340,AS,BHD,.bh
+BI,BDI,108,Burundi,Burundi,257,Gitega,Gitega,-3.42708,29.92463,426272,AF,BIF,.bi
+BJ,BEN,204,Benin,Benin,229,Porto-Novo,Porto-Novo,6.49646,2.60359,2392087,AF,XOF,.bj
+BL,BLM,652,Saint Barthelemy,St. Barthélemy,590,Gustavia,Gustavia,17.89618,-62.84978,3579132,NA,EUR,.gp
+BM,BMU,060,Bermuda,Bermuda,1-441,Hamilton,Hamilton,32.2949,-64.78303,3573197,NA,BMD,.bm
+BN,BRN,096,Brunei,Brunei,673,Bandar Seri Begavan,Bandar Seri Begawan,4.89035,114.94006,1820906,AS,BND,.bn
+BO,BOL,068,Bolivya,Bolivia,591,Sucre,Sucre,-19.03332,-65.26274,3903987,SA,BOB,.bo
+BQ,BES,535,Karayip Hollandası,Caribbean Netherlands,599,,,,,,NA,USD,.bq
+BR,BRA,076,Brezilya,Brazil,55,Brasília,Brasilia,-15.77972,-47.92972,3469058,SA,BRL,.br
+BS,BHS,044,Bahamalar,Bahamas,1-242,Nassau,Nassau,25.05823,-77.34306,3571824,NA,BSD,.bs
+BT,BTN,064,Butan,Bhutan,975,Thimphu,Thimphu,27.46609,89.64191,1252416,AS,BTN,.bt
+BV,BVT,074,Bouvet Adası,Bouvet Island,,,,,,,AN,NOK,.bv
+BW,BWA,072,Botsvana,Botswana,267,Gaborone,Gaborone,-24.65451,25.90859,933773,AF,BWP,.bw
+BY,BLR,112,Belarus,Belarus,375,Minsk,Minsk,53.90019,27.56653,625144,EU,BYN,.by
+BZ,BLZ,084,Belize,Belize,501,Belmopan,Belmopan,17.25376,-88.76401,3582672,NA,BZD,.bz
+CA,CAN,124,Kanada,Canada,1,Ottawa,Ottawa,45.41117,-75.69812,6094817,NA,CAD,.ca
+CC,CCK,166,Cocos (Keeling) Adaları,Cocos (Keeling) Islands,61,Batı Adası,West Island,-12.15681,96.82251,7304591,AS,AUD,.cc
+CD,COD,180,Kongo - Kinşasa,Congo - Kinshasa,243,Kinşasa,Kinshasa,-4.32758,15.31357,2314302,AF,CDF,.cd
+CF,CAF,140,Orta Afrika Cumhuriyeti,Central African Republic,236,Bangui,Bangui,4.36122,18.55496,2389853,AF,XAF,.cf
+CG,COG,178,Kongo - Brazavil,Congo - Brazzaville,242,Brazzaville,Brazzaville,-4.26613,15.28318,2260535,AF,XAF,.cg
+CH,CHE,756,İsviçre,Switzerland,41,Bern,Bern,46.94809,7.44744,2661552,EU,CHF,.ch
+CI,CIV,384,Côte d’Ivoire,Côte d’Ivoire,225,Yamoussoukro,Yamoussoukro,6.82055,-5.27674,2279755,AF,XOF,.ci
+CK,COK,184,Cook Adaları,Cook Islands,682,Avarua,Avarua,-21.2075,-159.77546,4035715,OC,NZD,.ck
+CL,CHL,152,Şili,Chile,56,Santiago,Santiago,-33.45694,-70.64827,3871336,SA,CLP,.cl
+CM,CMR,120,Kamerun,Cameroon,237,Yaoundé,Yaounde,3.86667,11.51667,2220957,AF,XAF,.cm
+CN,CHN,156,Çin,China,86,Pekin,Beijing,39.9075,116.39723,1816670,AS,CNY,.cn
+CO,COL,170,Kolombiya,Colombia,57,Bogotá,Bogota,4.60971,-74.08175,3688689,SA,COP,.co
+CR,CRI,188,Kosta Rika,Costa Rica,506,San José,San Jose,9.93388,-84.08489,3621849,NA,CRC,.cr
+CU,CUB,192,Küba,Cuba,53,Havana,Havana,23.13302,-82.38304,3553478,NA,CUP,.cu
+CV,CPV,132,Cabo Verde,Cape Verde,238,Praia,Praia,14.93152,-23.51254,3374333,AF,CVE,.cv
+CW,CUW,531,Curaçao,Curaçao,599,Willemstad,Willemstad,12.12246,-68.88641,3513090,NA,XCG,.cw
+CX,CXR,162,Christmas Adası,Christmas Island,61,Flying Fish Cove,Flying Fish Cove,-10.42172,105.67912,2078127,OC,AUD,.cx
+CY,CYP,196,Kıbrıs,Cyprus,357,Lefkoşa,Nicosia,35.17284,33.35397,146268,EU,EUR,.cy
+CZ,CZE,203,Çekya,Czechia,420,Prag,Prague,50.08804,14.42076,3067696,EU,CZK,.cz
+DE,DEU,276,Almanya,Germany,49,Berlin,Berlin,52.52437,13.41053,2950159,EU,EUR,.de
+DJ,DJI,262,Cibuti,Djibouti,253,Cibuti,Djibouti,11.58901,43.14503,223817,AF,DJF,.dj
+DK,DNK,208,Danimarka,Denmark,45,Kopenhag,Copenhagen,55.67594,12.56553,2618425,EU,DKK,.dk
+DM,DMA,212,Dominika,Dominica,1-767,Roseau,Roseau,15.30174,-61.38808,3575635,NA,XCD,.dm
+DO,DOM,214,Dominik Cumhuriyeti,Dominican Republic,1-809;1-829,Santo Domingo,Santo Domingo,18.47186,-69.89232,3492908,NA,DOP,.do
+DZ,DZA,012,Cezayir,Algeria,213,Cezayir,Algiers,36.73225,3.08746,2507480,AF,DZD,.dz
+EC,ECU,218,Ekvador,Ecuador,593,Quito,Quito,-0.22985,-78.52495,3652462,SA,USD,.ec
+EE,EST,233,Estonya,Estonia,372,Tallinn,Tallinn,59.43696,24.75353,588409,EU,EUR,.ee
+EG,EGY,818,Mısır,Egypt,20,Kahire,Cairo,30.06263,31.24967,360630,AF,EGP,.eg
+EH,ESH,732,Batı Sahra,Western Sahara,212,Layun,El-Aaiun,27.1418,-13.18797,2462881,AF,MAD,.eh
+ER,ERI,232,Eritre,Eritrea,291,Asmara,Asmara,15.33805,38.93184,343300,AF,ERN,.er
+ES,ESP,724,İspanya,Spain,34,Madrid,Madrid,40.4165,-3.70256,3117735,EU,EUR,.es
+ET,ETH,231,Etiyopya,Ethiopia,251,Addis Ababa,Addis Ababa,9.02497,38.74689,344979,AF,ETB,.et
+FI,FIN,246,Finlandiya,Finland,358,Helsinki,Helsinki,60.16952,24.93545,658225,EU,EUR,.fi
+FJ,FJI,242,Fiji,Fiji,679,Suva,Suva,-18.13683,178.42531,2198148,OC,FJD,.fj
+FK,FLK,238,Falkland Adaları,Falkland Islands,500,Stanley,Stanley,-51.69382,-57.85701,3426691,SA,FKP,.fk
+FM,FSM,583,Mikronezya,Micronesia,691,Palikir,Palikir,6.92477,158.16109,2081986,OC,USD,.fm
+FO,FRO,234,Faroe Adaları,Faroe Islands,298,Tórshavn,Torshavn,62.00973,-6.77164,2611396,EU,DKK,.fo
+FR,FRA,250,Fransa,France,33,Paris,Paris,48.85341,2.3488,2988507,EU,EUR,.fr
+GA,GAB,266,Gabon,Gabon,241,Libreville,Libreville,0.39241,9.45356,2399697,AF,XAF,.ga
+GB,GBR,826,Birleşik Krallık,United Kingdom,44,Londra,London,51.50853,-0.12574,2643743,EU,GBP,.uk
+GD,GRD,308,Grenada,Grenada,1-473,St. George's,St. George's,12.05288,-61.75226,3579925,NA,XCD,.gd
+GE,GEO,268,Gürcistan,Georgia,995,Tiflis,Tbilisi,41.69143,44.83412,611717,AS,GEL,.ge
+GF,GUF,254,Fransız Guyanası,French Guiana,594,Cayenne,Cayenne,4.9381,-52.33455,3382160,SA,EUR,.gf
+GG,GGY,831,Guernsey,Guernsey,44-1481,Saint Peter Port,St Peter Port,49.45981,-2.53527,3042287,EU,GBP,.gg
+GH,GHA,288,Gana,Ghana,233,Akra,Accra,5.55602,-0.1969,2306104,AF,GHS,.gh
+GI,GIB,292,Cebelitarık,Gibraltar,350,Cebelitarık,Gibraltar,36.14474,-5.35257,2411585,EU,GIP,.gi
+GL,GRL,304,Grönland,Greenland,299,Nuuk,Nuuk,64.18347,-51.72157,3421319,NA,DKK,.gl
+GM,GMB,270,Gambiya,Gambia,220,Banjul,Banjul,13.45274,-16.57803,2413876,AF,GMD,.gm
+GN,GIN,324,Gine,Guinea,224,Konakri,Conakry,9.53795,-13.67729,2422465,AF,GNF,.gn
+GP,GLP,312,Guadeloupe,Guadeloupe,590,Basse-Terre,Basse-Terre,15.99714,-61.73214,3579732,NA,EUR,.gp
+GQ,GNQ,226,Ekvator Ginesi,Equatorial Guinea,240,Ciudad de la Paz,Ciudad de la Paz,1.5925,10.82361,12226438,AF,XAF,.gq
+GR,GRC,300,Yunanistan,Greece,30,Atina,Athens,37.98376,23.72784,264371,EU,EUR,.gr
+GS,SGS,239,Güney Georgia ve Güney Sandwich Adaları,South Georgia & South Sandwich Islands,,,Grytviken,-54.28111,-36.5092,3426466,AN,GBP,.gs
+GT,GTM,320,Guatemala,Guatemala,502,Guatemala,Guatemala City,14.64072,-90.51327,3598132,NA,GTQ,.gt
+GU,GUM,316,Guam,Guam,1-671,Hagåtña,Hagatna,13.47567,144.74886,4044012,OC,USD,.gu
+GW,GNB,624,Gine-Bissau,Guinea-Bissau,245,Bissau,Bissau,11.86357,-15.59767,2374775,AF,XOF,.gw
+GY,GUY,328,Guyana,Guyana,592,Georgetown,Georgetown,6.80448,-58.15527,3378644,SA,GYD,.gy
+HK,HKG,344,Çin Hong Kong ÖİB,Hong Kong SAR China,852,,Hong Kong,22.27832,114.17469,1819729,AS,HKD,.hk
+HM,HMD,334,Heard Adası ve McDonald Adaları,Heard Island & McDonald Islands,,,,,,,AN,AUD,.hm
+HN,HND,340,Honduras,Honduras,504,Tegucigalpa,Tegucigalpa,14.0818,-87.20681,3600949,NA,HNL,.hn
+HR,HRV,191,Hırvatistan,Croatia,385,Zagreb,Zagreb,45.81444,15.97798,3186886,EU,EUR,.hr
+HT,HTI,332,Haiti,Haiti,509,Port-au-Prince,Port-au-Prince,18.54349,-72.33881,3718426,NA,HTG,.ht
+HU,HUN,348,Macaristan,Hungary,36,Budapeşte,Budapest,47.49835,19.04045,3054643,EU,HUF,.hu
+ID,IDN,360,Endonezya,Indonesia,62,Cakarta,Jakarta,-6.21462,106.84513,1642911,AS,IDR,.id
+IE,IRL,372,İrlanda,Ireland,353,Dublin,Dublin,53.33306,-6.24889,2964574,EU,EUR,.ie
+IL,ISR,376,İsrail,Israel,972,Kudüs,Jerusalem,31.76904,35.21633,281184,AS,ILS,.il
+IM,IMN,833,Man Adası,Isle of Man,44-1624,Douglas,Douglas,54.15,-4.48333,3042237,EU,GBP,.im
+IN,IND,356,Hindistan,India,91,Yeni Delhi,New Delhi,28.62137,77.2148,1261481,AS,INR,.in
+IO,IOT,086,Britanya Hint Okyanusu Toprakları,British Indian Ocean Territory,246,Diego Garcia,Diego Garcia,-7.31264,72.45161,1282575,AS,USD,.io
+IQ,IRQ,368,Irak,Iraq,964,Bağdat,Baghdad,33.34058,44.40088,98182,AS,IQD,.iq
+IR,IRN,364,İran,Iran,98,Tahran,Tehran,35.69439,51.42151,112931,AS,IRR,.ir
+IS,ISL,352,İzlanda,Iceland,354,Reykjavík,Reykjavik,64.13548,-21.89541,3413829,EU,ISK,.is
+IT,ITA,380,İtalya,Italy,39,Roma,Rome,41.89193,12.51133,3169070,EU,EUR,.it
+JE,JEY,832,Jersey,Jersey,44-1534,Saint Helier,Saint Helier,49.18804,-2.10491,3042091,EU,GBP,.je
+JM,JAM,388,Jamaika,Jamaica,1-876,Kingston,Kingston,17.99702,-76.79358,3489854,NA,JMD,.jm
+JO,JOR,400,Ürdün,Jordan,962,Amman,Amman,31.95522,35.94503,250441,AS,JOD,.jo
+JP,JPN,392,Japonya,Japan,81,Tokyo,Tokyo,35.6895,139.69171,1850147,AS,JPY,.jp
+KE,KEN,404,Kenya,Kenya,254,Nairobi,Nairobi,-1.28333,36.81667,184745,AF,KES,.ke
+KG,KGZ,417,Kırgızistan,Kyrgyzstan,996,Bişkek,Bishkek,42.87,74.59,1528675,AS,KGS,.kg
+KH,KHM,116,Kamboçya,Cambodia,855,Punom Pen,Phnom Penh,11.56245,104.91601,1821306,AS,KHR,.kh
+KI,KIR,296,Kiribati,Kiribati,686,Güney Tarava,Tarawa,1.3278,172.97696,2110257,OC,AUD,.ki
+KM,COM,174,Komorlar,Comoros,269,Moroni,Moroni,-11.70216,43.25506,921772,AF,KMF,.km
+KN,KNA,659,Saint Kitts ve Nevis,St. Kitts & Nevis,1-869,Basseterre,Basseterre,17.2955,-62.72499,3575551,NA,XCD,.kn
+KP,PRK,408,Kuzey Kore,North Korea,850,Pyongyang,Pyongyang,39.03385,125.75432,1871859,AS,KPW,.kp
+KR,KOR,410,Güney Kore,South Korea,82,Seul,Seoul,37.566,126.9784,1835848,AS,KRW,.kr
+KW,KWT,414,Kuveyt,Kuwait,965,Kuveyt,Kuwait City,29.367,47.97429,285787,AS,KWD,.kw
+KY,CYM,136,Cayman Adaları,Cayman Islands,1-345,George Town,George Town,19.2866,-81.37436,3580661,NA,KYD,.ky
+KZ,KAZ,398,Kazakistan,Kazakhstan,7,Astana,Astana,51.1801,71.44598,1526273,AS,KZT,.kz
+LA,LAO,418,Laos,Laos,856,Vientiane,Vientiane,17.96667,102.6,1651944,AS,LAK,.la
+LB,LBN,422,Lübnan,Lebanon,961,Beyrut,Beirut,33.89332,35.50157,276781,AS,LBP,.lb
+LC,LCA,662,Saint Lucia,St. Lucia,1-758,Castries,Castries,13.9957,-61.00614,3576812,NA,XCD,.lc
+LI,LIE,438,Liechtenstein,Liechtenstein,423,Vaduz,Vaduz,47.14151,9.52154,3042030,EU,CHF,.li
+LK,LKA,144,Sri Lanka,Sri Lanka,94,Kolombo,Colombo,6.93548,79.84868,1248991,AS,LKR,.lk
+LR,LBR,430,Liberya,Liberia,231,Monrovia,Monrovia,6.30054,-10.7969,2274895,AF,LRD,.lr
+LS,LSO,426,Lesotho,Lesotho,266,Maseru,Maseru,-29.31667,27.48333,932505,AF,LSL,.ls
+LT,LTU,440,Litvanya,Lithuania,370,Vilnius,Vilnius,54.68916,25.2798,593116,EU,EUR,.lt
+LU,LUX,442,Lüksemburg,Luxembourg,352,Lüksemburg,Luxembourg,49.60982,6.13268,2960316,EU,EUR,.lu
+LV,LVA,428,Letonya,Latvia,371,Riga,Riga,56.946,24.10589,456172,EU,EUR,.lv
+LY,LBY,434,Libya,Libya,218,Trablus,Tripoli,32.88743,13.18733,2210247,AF,LYD,.ly
+MA,MAR,504,Fas,Morocco,212,Rabat,Rabat,34.01325,-6.83255,2538475,AF,MAD,.ma
+MC,MCO,492,Monako,Monaco,377,Monako,Monaco,43.73718,7.42145,2993458,EU,EUR,.mc
+MD,MDA,498,Moldova,Moldova,373,Kişinev,Chisinau,47.00902,28.85938,618426,EU,MDL,.md
+ME,MNE,499,Karadağ,Montenegro,382,Podgorica,Podgorica,42.44124,19.26309,3193044,EU,EUR,.me
+MF,MAF,663,Saint Martin,St. Martin,590,Marigot,Marigot,18.06819,-63.08302,3578851,NA,EUR,.gp
+MG,MDG,450,Madagaskar,Madagascar,261,Antananarivo,Antananarivo,-18.91368,47.53613,1070940,AF,MGA,.mg
+MH,MHL,584,Marshall Adaları,Marshall Islands,692,Majuro,Majuro,7.08971,171.38027,2113779,OC,USD,.mh
+MK,MKD,807,Kuzey Makedonya,North Macedonia,389,Üsküp,Skopje,41.99646,21.43141,785842,EU,MKD,.mk
+ML,MLI,466,Mali,Mali,223,Bamako,Bamako,12.60915,-7.97522,2460596,AF,XOF,.ml
+MM,MMR,104,Myanmar (Burma),Myanmar (Burma),95,Nepido,Nay Pyi Taw,19.745,96.12972,6611854,AS,MMK,.mm
+MN,MNG,496,Moğolistan,Mongolia,976,Ulan Batur,Ulaanbaatar,47.90771,106.88324,2028462,AS,MNT,.mn
+MO,MAC,446,Çin Makao ÖİB,Macao SAR China,853,Makao,Macao,22.20056,113.54611,1821274,AS,MOP,.mo
+MP,MNP,580,Kuzey Mariana Adaları,Northern Mariana Islands,1-670,Saipan,Saipan,15.21233,145.7545,7828758,OC,USD,.mp
+MQ,MTQ,474,Martinik,Martinique,596,Fort-de-France,Fort-de-France,14.60365,-61.07418,3570675,NA,EUR,.mq
+MR,MRT,478,Moritanya,Mauritania,222,Nuakşot,Nouakchott,18.08581,-15.9785,2377450,AF,MRU,.mr
+MS,MSR,500,Montserrat,Montserrat,1-664,Plymouth,Plymouth,16.70555,-62.21292,3578069,NA,XCD,.ms
+MT,MLT,470,Malta,Malta,356,Valletta,Valletta,35.89968,14.5148,2562305,EU,EUR,.mt
+MU,MUS,480,Mauritius,Mauritius,230,Port Louis,Port Louis,-20.16194,57.49889,934154,AF,MUR,.mu
+MV,MDV,462,Maldivler,Maldives,960,Malé,Male,4.17521,73.50916,1282027,AS,MVR,.mv
+MW,MWI,454,Malavi,Malawi,265,Lilongwe,Lilongwe,-13.96692,33.78725,927967,AF,MWK,.mw
+MX,MEX,484,Meksika,Mexico,52,Meksiko,Mexico City,19.42847,-99.12766,3530597,NA,MXN,.mx
+MY,MYS,458,Malezya,Malaysia,60,Kuala Lumpur,Kuala Lumpur,3.1412,101.68653,1735161,AS,MYR,.my
+MZ,MOZ,508,Mozambik,Mozambique,258,Maputo,Maputo,-25.96553,32.58322,1040652,AF,MZN,.mz
+NA,NAM,516,Namibya,Namibia,264,Windhoek,Windhoek,-22.55941,17.08323,3352136,AF,NAD,.na
+NC,NCL,540,Yeni Kaledonya,New Caledonia,687,Nouméa,Noumea,-22.27407,166.44884,2139521,OC,XPF,.nc
+NE,NER,562,Nijer,Niger,227,Niamey,Niamey,13.51366,2.1098,2440485,AF,XOF,.ne
+NF,NFK,574,Norfolk Adası,Norfolk Island,672,Kingston,Kingston,-29.05459,167.96628,2161314,OC,AUD,.nf
+NG,NGA,566,Nijerya,Nigeria,234,Abuja,Abuja,9.05785,7.49508,2352778,AF,NGN,.ng
+NI,NIC,558,Nikaragua,Nicaragua,505,Managua,Managua,12.13282,-86.2504,3617763,NA,NIO,.ni
+NL,NLD,528,Hollanda,Netherlands,31,Amsterdam,Amsterdam,52.37403,4.88969,2759794,EU,EUR,.nl
+NO,NOR,578,Norveç,Norway,47,Oslo,Oslo,59.91273,10.74609,3143244,EU,NOK,.no
+NP,NPL,524,Nepal,Nepal,977,Katmandu,Kathmandu,27.70169,85.3206,1283240,AS,NPR,.np
+NR,NRU,520,Nauru,Nauru,674,Yaren,Yaren,-0.55085,166.9252,7626461,OC,AUD,.nr
+NU,NIU,570,Niue,Niue,683,Alofi,Alofi,-19.05294,-169.91957,4036284,OC,NZD,.nu
+NZ,NZL,554,Yeni Zelanda,New Zealand,64,Wellington,Wellington,-41.28664,174.77557,2179537,OC,NZD,.nz
+OM,OMN,512,Umman,Oman,968,Maskat,Muscat,23.58413,58.40778,287286,AS,OMR,.om
+PA,PAN,591,Panama,Panama,507,Panama,Panama City,8.9936,-79.51973,3703443,NA,PAB,.pa
+PE,PER,604,Peru,Peru,51,Lima,Lima,-12.04318,-77.02824,3936456,SA,PEN,.pe
+PF,PYF,258,Fransız Polinezyası,French Polynesia,689,Papeete,Papeete,-17.5347,-149.56843,4033936,OC,XPF,.pf
+PG,PNG,598,Papua Yeni Gine,Papua New Guinea,675,Port Moresby,Port Moresby,-9.47723,147.15089,2088122,OC,PGK,.pg
+PH,PHL,608,Filipinler,Philippines,63,Manila,Manila,14.6042,120.9822,1701668,AS,PHP,.ph
+PK,PAK,586,Pakistan,Pakistan,92,İslamabad,Islamabad,33.72148,73.04329,1176615,AS,PKR,.pk
+PL,POL,616,Polonya,Poland,48,Varşova,Warsaw,52.22977,21.01178,756135,EU,PLN,.pl
+PM,SPM,666,Saint Pierre ve Miquelon,St. Pierre & Miquelon,508,Saint-Pierre,Saint-Pierre,46.77914,-56.1773,3424934,NA,EUR,.pm
+PN,PCN,612,Pitcairn Adaları,Pitcairn Islands,870,Adamstown,Adamstown,-25.06597,-130.10147,4030723,OC,NZD,.pn
+PR,PRI,630,Porto Riko,Puerto Rico,1-787;1-939,San Juan,San Juan,18.46633,-66.10572,4568127,NA,USD,.pr
+PS,PSE,275,Filistin Bölgeleri,Palestinian Territories,970,Doğu Kudüs,East Jerusalem,31.78336,35.23388,7303419,AS,ILS,.ps
+PT,PRT,620,Portekiz,Portugal,351,Lizbon,Lisbon,38.72509,-9.1498,2267057,EU,EUR,.pt
+PW,PLW,585,Palau,Palau,680,Ngerulmud,Ngerulmud,7.50077,134.6238,8063361,OC,USD,.pw
+PY,PRY,600,Paraguay,Paraguay,595,Asunción,Asuncion,-25.28646,-57.647,3439389,SA,PYG,.py
+QA,QAT,634,Katar,Qatar,974,Doha,Doha,25.28545,51.53096,290030,AS,QAR,.qa
+RE,REU,638,Reunion,Réunion,262,Saint-Denis,Saint-Denis,-20.88231,55.4504,935264,AF,EUR,.re
+RO,ROU,642,Romanya,Romania,40,Bükreş,Bucharest,44.43225,26.10626,683506,EU,RON,.ro
+RS,SRB,688,Sırbistan,Serbia,381,Belgrad,Belgrade,44.80401,20.46513,792680,EU,RSD,.rs
+RU,RUS,643,Rusya,Russia,7,Moskova,Moscow,55.75204,37.61781,524901,EU,RUB,.ru
+RW,RWA,646,Ruanda,Rwanda,250,Kigali,Kigali,-1.94995,30.05885,202061,AF,RWF,.rw
+SA,SAU,682,Suudi Arabistan,Saudi Arabia,966,Riyad,Riyadh,24.68773,46.72185,108410,AS,SAR,.sa
+SB,SLB,090,Solomon Adaları,Solomon Islands,677,Honiara,Honiara,-9.43333,159.95,2108502,OC,SBD,.sb
+SC,SYC,690,Seyşeller,Seychelles,248,Victoria,Victoria,-4.62001,55.45501,241131,AF,SCR,.sc
+SD,SDN,729,Sudan,Sudan,249,Hartum,Khartoum,15.55177,32.53241,379252,AF,SDG,.sd
+SE,SWE,752,İsveç,Sweden,46,Stockholm,Stockholm,59.32938,18.06871,2673730,EU,SEK,.se
+SG,SGP,702,Singapur,Singapore,65,Singapur,Singapore,1.28967,103.85007,1880252,AS,SGD,.sg
+SH,SHN,654,Saint Helena,"St. Helena, Ascension & Tristan da Cunha",290,Jamestown,Jamestown,-15.92488,-5.71816,3370903,AF,SHP,.sh
+SI,SVN,705,Slovenya,Slovenia,386,Ljubljana,Ljubljana,46.05108,14.50513,3196359,EU,EUR,.si
+SJ,SJM,744,Svalbard ve Jan Mayen,Svalbard & Jan Mayen,47,Longyearbyen,Longyearbyen,78.22334,15.64689,2729907,EU,NOK,.sj
+SK,SVK,703,Slovakya,Slovakia,421,Bratislava,Bratislava,48.14816,17.10674,3060972,EU,EUR,.sk
+SL,SLE,694,Sierra Leone,Sierra Leone,232,Freetown,Freetown,8.48714,-13.2356,2409306,AF,SLE,.sl
+SM,SMR,674,San Marino,San Marino,378,San Marino,San Marino,43.93667,12.44639,3168070,EU,EUR,.sm
+SN,SEN,686,Senegal,Senegal,221,Dakar,Dakar,14.6937,-17.44406,2253354,AF,XOF,.sn
+SO,SOM,706,Somali,Somalia,252,Mogadişu,Mogadishu,2.03711,45.34375,53654,AF,SOS,.so
+SR,SUR,740,Surinam,Suriname,597,Paramaribo,Paramaribo,5.86638,-55.16682,3383330,SA,SRD,.sr
+SS,SSD,728,Güney Sudan,South Sudan,211,Cuba,Juba,4.85165,31.58247,373303,AF,SSP,.ss
+ST,STP,678,Sao Tome ve Principe,São Tomé & Príncipe,239,São Tomé,Sao Tome,0.33756,6.7299,2410763,AF,STN,.st
+SV,SLV,222,El Salvador,El Salvador,503,San Salvador,San Salvador,13.68935,-89.18718,3583361,NA,USD,.sv
+SX,SXM,534,Sint Maarten,Sint Maarten,599,Philipsburg,Philipsburg,18.026,-63.04582,3513392,NA,XCG,.sx
+SY,SYR,760,Suriye,Syria,963,Şam,Damascus,33.5102,36.29128,170654,AS,SYP,.sy
+SZ,SWZ,748,Esvatini,Eswatini,268,Mbabane,Mbabane,-26.31667,31.13333,934985,AF,SZL,.sz
+TC,TCA,796,Turks ve Caicos Adaları,Turks & Caicos Islands,1-649,Cockburn Town,Cockburn Town,21.46122,-71.14188,3576994,NA,USD,.tc
+TD,TCD,148,Çad,Chad,235,Encemine,N'Djamena,12.10672,15.0444,2427123,AF,XAF,.td
+TF,ATF,260,Fransız Güney Toprakları,French Southern and Antarctic Lands,,Port-aux-Français,Port-aux-Francais,-49.34916,70.21937,1546102,AN,EUR,.tf
+TG,TGO,768,Togo,Togo,228,Lomé,Lome,6.12874,1.22154,2365267,AF,XOF,.tg
+TH,THA,764,Tayland,Thailand,66,Bangkok,Bangkok,13.75398,100.50144,1609350,AS,THB,.th
+TJ,TJK,762,Tacikistan,Tajikistan,992,Duşanbe,Dushanbe,38.53575,68.77905,1221874,AS,TJS,.tj
+TK,TKL,772,Tokelau,Tokelau,690,,,,,,OC,NZD,.tk
+TL,TLS,626,Timor-Leste,Timor-Leste,670,Dili,Dili,-8.55861,125.57361,1645457,OC,USD,.tl
+TM,TKM,795,Türkmenistan,Turkmenistan,993,Aşkabat,Ashgabat,37.95,58.38333,162183,AS,TMT,.tm
+TN,TUN,788,Tunus,Tunisia,216,Tunus,Tunis,36.81897,10.16579,2464470,AF,TND,.tn
+TO,TON,776,Tonga,Tonga,676,Nuku'alofa,Nuku'alofa,-21.13683,-175.20114,4032402,OC,TOP,.to
+TR,TUR,792,Türkiye,Türkiye,90,Ankara,Ankara,39.91987,32.85427,323786,AS,TRY,.tr
+TT,TTO,780,Trinidad ve Tobago,Trinidad & Tobago,1-868,Port of Spain,Port of Spain,10.66668,-61.51889,3573890,NA,TTD,.tt
+TV,TUV,798,Tuvalu,Tuvalu,688,Funafuti,Funafuti,-8.52425,179.19417,2110394,OC,AUD,.tv
+TW,TWN,158,Tayvan,Taiwan,886,Taipei,Taipei,25.05306,121.52639,1668341,AS,TWD,.tw
+TZ,TZA,834,Tanzanya,Tanzania,255,Dodoma,Dodoma,-6.17221,35.73947,160196,AF,TZS,.tz
+UA,UKR,804,Ukrayna,Ukraine,380,Kiev,Kyiv,50.45466,30.5238,703448,EU,UAH,.ua
+UG,UGA,800,Uganda,Uganda,256,Kampala,Kampala,0.31628,32.58219,232422,AF,UGX,.ug
+UM,UMI,581,ABD Küçük Harici Adaları,U.S. Outlying Islands,1,,,,,,OC,USD,.um
+US,USA,840,Amerika Birleşik Devletleri,United States,1,Washington,Washington,38.89511,-77.03637,4140963,NA,USD,.us
+UY,URY,858,Uruguay,Uruguay,598,Montevideo,Montevideo,-34.90328,-56.18816,3441575,SA,UYU,.uy
+UZ,UZB,860,Özbekistan,Uzbekistan,998,Taşkent,Tashkent,41.26465,69.21627,1512569,AS,UZS,.uz
+VA,VAT,336,Vatikan,Vatican City,379,Vatikan,Vatican City,41.90268,12.45414,6691831,EU,EUR,.va
+VC,VCT,670,Saint Vincent ve Grenadinler,St. Vincent & Grenadines,1-784,Kingstown,Kingstown,13.15527,-61.22742,3577887,NA,XCD,.vc
+VE,VEN,862,Venezuela,Venezuela,58,Caracas,Caracas,10.48801,-66.87919,3646738,SA,VES,.ve
+VG,VGB,092,Britanya Virjin Adaları,British Virgin Islands,1-284,Road Town,Road Town,18.42693,-64.62079,3577430,NA,USD,.vg
+VI,VIR,850,ABD Virjin Adaları,U.S. Virgin Islands,1-340,Charlotte Amalie,Charlotte Amalie,18.3419,-64.9307,4795467,NA,USD,.vi
+VN,VNM,704,Vietnam,Vietnam,84,Hanoi,Hanoi,21.0245,105.84117,1581130,AS,VND,.vn
+VU,VUT,548,Vanuatu,Vanuatu,678,Port Vila,Port Vila,-17.73648,168.31366,2135171,OC,VUV,.vu
+WF,WLF,876,Wallis ve Futuna,Wallis & Futuna,681,Mata-Utu,Mata Utu,-13.28163,-176.17453,4034821,OC,XPF,.wf
+WS,WSM,882,Samoa,Samoa,685,Apia,Apia,-13.83333,-171.76666,4035413,OC,WST,.ws
+XK,XKX,,Kosova,Kosovo,,Priştine,Pristina,42.67272,21.16688,786714,EU,EUR,
+YE,YEM,887,Yemen,Yemen,967,San'a,Sanaa,15.35452,44.20646,71137,AS,YER,.ye
+YT,MYT,175,Mayotte,Mayotte,262,Mamoudzou,Mamoudzou,-12.78234,45.22878,921815,AF,EUR,.yt
+ZA,ZAF,710,Güney Afrika,South Africa,27,Pretoria,Pretoria,-25.74486,28.18783,964137,AF,ZAR,.za
+ZM,ZMB,894,Zambiya,Zambia,260,Lusaka,Lusaka,-15.40669,28.28713,909137,AF,ZMW,.zm
+ZW,ZWE,716,Zimbabve,Zimbabwe,263,Harare,Harare,-17.82772,31.05337,890299,AF,ZWG,.zw

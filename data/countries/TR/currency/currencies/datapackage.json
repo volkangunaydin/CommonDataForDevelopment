@@ -1,0 +1,104 @@
+{
+  "name": "tr-currency-currencies",
+  "title": "Currencies with Turkish names",
+  "description": "ISO 4217 currency codes with Turkish and English names, the symbols used in Turkish, numeric code and minor units, covering every current code and every code accepted in Turkish e-invoices (UBL-TR). Intended for currency pick lists, price formatting and e-invoicing in Turkish-language applications.",
+  "version": "0.1.0",
+  "created": "2026-11-05",
+  "keywords": ["TR", "currency", "currencies", "para-birimleri", "iso-4217", "e-fatura"],
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "title": "Creative Commons Attribution 4.0 International",
+      "path": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    {
+      "name": "Unicode-3.0",
+      "title": "Unicode License v3 (names and symbols from Unicode CLDR)",
+      "path": "https://www.unicode.org/license.txt"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Unicode CLDR 49, cldr-numbers-full, currencies in tr and en: names and symbols (Unicode License v3)",
+      "path": "https://github.com/unicode-org/cldr-json/tree/49.0.0/cldr-json/cldr-numbers-full/main"
+    },
+    {
+      "title": "ISO 4217 List One and List Three (see world-currencies): codes, numeric codes, minor units, status",
+      "path": "https://www.six-group.com/dam/download/financial-information/data-center/iso-currrency/lists/list-one.xml"
+    },
+    {
+      "title": "GİB e-Fatura Paketi, UBL-TR CurrencyCodeList (see e-invoicing-tr-currency-codes): e_invoice_accepted",
+      "path": "https://ebelge.gib.gov.tr/efaturamevzuat.html"
+    }
+  ],
+  "resources": [
+    {
+      "name": "currencies",
+      "path": "currencies.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "code",
+            "type": "string",
+            "description": "ISO 4217 alphabetic code. References code in world-currencies.",
+            "constraints": { "required": true, "unique": true, "pattern": "^[A-Z]{3}$" }
+          },
+          {
+            "name": "numeric_code",
+            "type": "string",
+            "description": "ISO 4217 numeric code, zero-padded. For withdrawn codes taken from the historic list; empty for XFU, which has none.",
+            "constraints": { "pattern": "^[0-9]{3}$" }
+          },
+          {
+            "name": "name",
+            "type": "string",
+            "description": "Currency name in Turkish, the default display name in Unicode CLDR (tr). Empty where CLDR has no Turkish name (UYW, VED, XAD)."
+          },
+          {
+            "name": "name_en",
+            "type": "string",
+            "description": "Currency name in English, the default display name in Unicode CLDR (en). Empty where CLDR has none (XAD); the ISO 4217 name is in world-currencies."
+          },
+          {
+            "name": "symbol",
+            "type": "string",
+            "description": "Symbol used in Turkish text, from CLDR (tr), for example ₺, $, €. Empty where CLDR gives none, in which case the code itself is shown."
+          },
+          {
+            "name": "symbol_narrow",
+            "type": "string",
+            "description": "Narrow symbol from CLDR (tr), used where space is short and the currency is clear from context ($ for USD, AUD and CAD alike). Empty where CLDR gives none."
+          },
+          {
+            "name": "minor_units",
+            "type": "integer",
+            "description": "Number of decimal places from ISO 4217 List One. Empty where ISO 4217 gives N.A. and for withdrawn codes, for which List Three gives none.",
+            "constraints": { "minimum": 0 }
+          },
+          {
+            "name": "iso_4217_status",
+            "type": "string",
+            "description": "current when the code is in ISO 4217 List One; withdrawn when it is only in the historic list.",
+            "constraints": { "required": true, "enum": ["current", "withdrawn"] }
+          },
+          {
+            "name": "e_invoice_accepted",
+            "type": "boolean",
+            "description": "true when the code is in the CurrencyCodeList of the GİB UBL-TR schematron, i.e. accepted in e-Fatura and e-Arşiv Fatura.",
+            "constraints": { "required": true }
+          }
+        ],
+        "primaryKey": ["code"],
+        "foreignKeys": [
+          {
+            "fields": ["code"],
+            "reference": { "resource": "world-currencies", "fields": ["code"] }
+          }
+        ]
+      }
+    }
+  ]
+}

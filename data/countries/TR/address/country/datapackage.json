@@ -1,0 +1,144 @@
+{
+  "name": "tr-address-country",
+  "title": "Countries with Turkish names",
+  "description": "The 250 countries and territories with an ISO 3166-1 code (plus Kosovo, XK), with Turkish and English names, international calling code, capital in Turkish and English with its coordinates, continent, currency and internet domain. Intended for country pick lists and address forms in Turkish-language applications.",
+  "version": "0.1.0",
+  "created": "2026-11-05",
+  "keywords": ["TR", "address", "countries", "ulkeler", "iso-3166-1", "calling-codes", "capitals", "coordinates"],
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "title": "Creative Commons Attribution 4.0 International",
+      "path": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    {
+      "name": "Unicode-3.0",
+      "title": "Unicode License v3 (country names from Unicode CLDR)",
+      "path": "https://www.unicode.org/license.txt"
+    }
+  ],
+  "sources": [
+    {
+      "title": "GeoNames, countryInfo.txt: ISO codes, capital, calling code, continent, currency, top-level domain (CC BY 4.0), retrieved 2026-11-05",
+      "path": "https://download.geonames.org/export/dump/countryInfo.txt"
+    },
+    {
+      "title": "GeoNames, cities500.zip and IO.zip: capital records (PPLC and four listed exceptions) and their coordinates (CC BY 4.0), retrieved 2026-11-05",
+      "path": "https://download.geonames.org/export/dump/"
+    },
+    {
+      "title": "Unicode CLDR 49, cldr-localenames-full, territories in tr and en: country names (Unicode License v3)",
+      "path": "https://github.com/unicode-org/cldr-json/tree/main/cldr-json/cldr-localenames-full/main"
+    },
+    {
+      "title": "Wikidata: Turkish names of capitals, from the Turkish Wikipedia article title or Turkish label of the item matched by GeoNames ID (P1566) or as the country's capital (P36) (CC0), retrieved 2026-11-05",
+      "path": "https://query.wikidata.org/"
+    },
+    {
+      "title": "ISO 4217 List One (see world-currencies): currency of Bulgaria (EUR)",
+      "path": "https://www.six-group.com/dam/download/financial-information/data-center/iso-currrency/lists/list-one.xml"
+    }
+  ],
+  "resources": [
+    {
+      "name": "countries",
+      "path": "countries.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "code",
+            "type": "string",
+            "description": "ISO 3166-1 alpha-2 code. XK (Kosovo) is a user-assigned code, not an official ISO 3166-1 code.",
+            "constraints": { "required": true, "unique": true, "pattern": "^[A-Z]{2}$" }
+          },
+          {
+            "name": "alpha_3_code",
+            "type": "string",
+            "description": "ISO 3166-1 alpha-3 code. XKX for Kosovo is user-assigned.",
+            "constraints": { "required": true, "unique": true, "pattern": "^[A-Z]{3}$" }
+          },
+          {
+            "name": "numeric_code",
+            "type": "string",
+            "description": "ISO 3166-1 numeric code, zero-padded (004, not 4). Empty for Kosovo, which has none.",
+            "constraints": { "unique": true, "pattern": "^[0-9]{3}$" }
+          },
+          {
+            "name": "name",
+            "type": "string",
+            "description": "Country name in Turkish, the default form in Unicode CLDR.",
+            "constraints": { "required": true, "unique": true }
+          },
+          {
+            "name": "name_en",
+            "type": "string",
+            "description": "Country name in English, the default form in Unicode CLDR.",
+            "constraints": { "required": true, "unique": true }
+          },
+          {
+            "name": "calling_code",
+            "type": "string",
+            "description": "International calling code (ITU-T E.164 country code) without + or 00, from GeoNames. For territories sharing a code, the area code follows a hyphen (1-268, 44-1481). Several codes are separated by semicolons (1-809;1-829). Empty where GeoNames has none.",
+            "constraints": { "pattern": "^[0-9]+(-[0-9]+)?(;[0-9]+(-[0-9]+)?)*$" }
+          },
+          {
+            "name": "capital",
+            "type": "string",
+            "description": "Capital in Turkish, from Wikidata. Empty when there is no capital or no Turkish name was found."
+          },
+          {
+            "name": "capital_en",
+            "type": "string",
+            "description": "Capital in English as named by GeoNames. Empty for territories without a capital."
+          },
+          {
+            "name": "capital_latitude",
+            "type": "number",
+            "description": "Latitude of the capital in decimal degrees (WGS 84), from GeoNames.",
+            "constraints": { "minimum": -90, "maximum": 90 }
+          },
+          {
+            "name": "capital_longitude",
+            "type": "number",
+            "description": "Longitude of the capital in decimal degrees (WGS 84), from GeoNames.",
+            "constraints": { "minimum": -180, "maximum": 180 }
+          },
+          {
+            "name": "capital_geonames_id",
+            "type": "string",
+            "description": "GeoNames ID of the capital record the coordinates come from (https://www.geonames.org/<id>).",
+            "constraints": { "pattern": "^[0-9]+$" }
+          },
+          {
+            "name": "continent_code",
+            "type": "string",
+            "description": "Continent as coded by GeoNames: AF Africa, AN Antarctica, AS Asia, EU Europe, NA North America, OC Oceania, SA South America.",
+            "constraints": { "required": true, "enum": ["AF", "AN", "AS", "EU", "NA", "OC", "SA"] }
+          },
+          {
+            "name": "currency_code",
+            "type": "string",
+            "description": "Main currency, ISO 4217 alphabetic code. References code in world-currencies. Empty for Antarctica.",
+            "constraints": { "pattern": "^[A-Z]{3}$" }
+          },
+          {
+            "name": "tld",
+            "type": "string",
+            "description": "Country-code top-level internet domain, with the leading dot. Empty for Kosovo.",
+            "constraints": { "pattern": "^\\.[a-z]{2}$" }
+          }
+        ],
+        "primaryKey": ["code"],
+        "foreignKeys": [
+          {
+            "fields": ["currency_code"],
+            "reference": { "resource": "world-currencies", "fields": ["code"] }
+          }
+        ]
+      }
+    }
+  ]
+}

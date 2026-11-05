@@ -1,0 +1,82 @@
+{
+  "name": "tr-banking-banks",
+  "title": "Banks of Türkiye",
+  "description": "Participants of the TCMB payment systems (EFT) of Türkiye with their four-digit national bank code, the official title and category of the bank as registered by the banking regulator (BDDK), and whether they take part in the FAST instant payment system.",
+  "version": "0.1.0",
+  "created": "2026-10-31",
+  "keywords": ["TR", "banking", "banks", "bank-code", "eft", "fast", "tcmb", "bddk"],
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "title": "Creative Commons Attribution 4.0 International",
+      "path": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "sources": [
+    {
+      "title": "TCMB Ödeme Sistemleri Katılımcıları (2026), Türkiye Cumhuriyet Merkez Bankası, retrieved 2026-10-31",
+      "path": "https://www.tcmb.gov.tr/wps/wcm/connect/9fa62a85-5b6d-46c5-9b01-eb461d43723d/TCMB+%C3%96deme+Sistemleri+Kat%C4%B1l%C4%B1mc%C4%B1lar%C4%B1+(072025).pdf?MOD=AJPERES"
+    },
+    {
+      "title": "FAST Sistemi Katılımcı Listesi (2026), Türkiye Cumhuriyet Merkez Bankası, retrieved 2026-10-31",
+      "path": "https://www.tcmb.gov.tr/wps/wcm/connect/954e041c-582d-4d1a-bd35-ff78e7c277b8/FAST+S%C4%B0STEM%C4%B0+KATILIMCILARI.pdf?MOD=AJPERES"
+    },
+    {
+      "title": "Bankalar – Yetkili Kuruluşlar, Bankacılık Düzenleme ve Denetleme Kurumu (BDDK), retrieved 2026-10-31",
+      "path": "https://www.bddk.org.tr/Kurulus/Liste/77"
+    }
+  ],
+  "resources": [
+    {
+      "name": "banks",
+      "path": "banks.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "code",
+            "type": "string",
+            "description": "Four-digit participant code assigned by TCMB for its payment systems (EFT). Commonly called the bank code or EFT code. It is also the bank identifier in Turkish IBANs, where it appears zero-padded to five digits (0046 -> 00046). Kept as a string with leading zeros.",
+            "constraints": { "required": true, "unique": true, "pattern": "^[0-9]{4}$" }
+          },
+          {
+            "name": "name",
+            "type": "string",
+            "description": "Official title of the institution. For banks it is the title in the BDDK register; for participants that are not banks (TCMB, MKK, PTT) and for İktisat Katılım Bankası it is the title in the TCMB list. Kept in upper case as published.",
+            "constraints": { "required": true }
+          },
+          {
+            "name": "type",
+            "type": "string",
+            "description": "BDDK category of the bank: deposit_bank (Mevduat Bankaları), participation_bank (Katılım Bankaları), development_investment_bank (Kalkınma ve Yatırım Bankaları), tmsf_bank (bank under the Savings Deposit Insurance Fund). central_bank is TCMB itself; other_participant is a payment system participant that is not a bank (MKK, PTT).",
+            "constraints": {
+              "required": true,
+              "enum": ["deposit_bank", "participation_bank", "development_investment_bank", "tmsf_bank", "central_bank", "other_participant"]
+            }
+          },
+          {
+            "name": "digital_bank",
+            "type": "boolean",
+            "description": "true when BDDK marks the bank as a digital bank (Dijital Banka), i.e. one operating without physical branches.",
+            "constraints": { "required": true }
+          },
+          {
+            "name": "fast_participant",
+            "type": "boolean",
+            "description": "true when the code appears in the TCMB FAST (instant payments) participant list.",
+            "constraints": { "required": true }
+          },
+          {
+            "name": "website",
+            "type": "string",
+            "format": "uri",
+            "description": "Web address as given by BDDK. Empty for participants that are not in the BDDK list."
+          }
+        ],
+        "primaryKey": ["code"]
+      }
+    }
+  ]
+}

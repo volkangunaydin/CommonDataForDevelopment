@@ -1,8 +1,15 @@
 {
   "name": "common-data-for-development",
   "description": "Machine-readable index of every dataset in this repository. Paths are relative to the repository root.",
-  "updated": "2026-09-30",
+  "updated": "2026-11-05",
   "datasets": [
+    {
+      "id": "world-currencies",
+      "title": "Currencies (ISO 4217)",
+      "scope": "world",
+      "path": "data/world/currencies",
+      "version": "0.1.0"
+    },
     {
       "id": "tr-address-provinces",
       "title": "Provinces of Türkiye",
@@ -10,6 +17,69 @@
       "country": "TR",
       "domain": "address",
       "path": "data/countries/TR/address/provinces",
+      "version": "0.1.0"
+    },
+    {
+      "id": "tr-address-districts",
+      "title": "Districts of Türkiye",
+      "scope": "country",
+      "country": "TR",
+      "domain": "address",
+      "path": "data/countries/TR/address/districts",
+      "version": "0.1.0"
+    },
+    {
+      "id": "tr-address-country",
+      "title": "Countries with Turkish names",
+      "scope": "country",
+      "country": "TR",
+      "domain": "address",
+      "path": "data/countries/TR/address/country",
+      "version": "0.1.0"
+    },
+    {
+      "id": "tr-tax-tax-offices",
+      "title": "Tax offices of Türkiye",
+      "scope": "country",
+      "country": "TR",
+      "domain": "tax",
+      "path": "data/countries/TR/tax/tax-offices",
+      "version": "0.1.0"
+    },
+    {
+      "id": "tr-banking-banks",
+      "title": "Banks of Türkiye",
+      "scope": "country",
+      "country": "TR",
+      "domain": "banking",
+      "path": "data/countries/TR/banking/banks",
+      "version": "0.1.0"
+    },
+    {
+      "id": "tr-banking-card-bins",
+      "title": "Card BIN ranges of Türkiye",
+      "scope": "country",
+      "country": "TR",
+      "domain": "banking",
+      "path": "data/countries/TR/banking/card-bins",
+      "version": "0.1.0"
+    },
+    {
+      "id": "tr-currency-currencies",
+      "title": "Currencies with Turkish names",
+      "scope": "country",
+      "country": "TR",
+      "domain": "currency",
+      "path": "data/countries/TR/currency/currencies",
+      "version": "0.1.0"
+    },
+    {
+      "id": "e-invoicing-tr-currency-codes",
+      "title": "UBL-TR currency codes (e-Fatura)",
+      "scope": "topic",
+      "topic": "e-invoicing",
+      "country": "TR",
+      "path": "data/topics/e-invoicing/TR/currency-codes",
       "version": "0.1.0"
     }
   ]

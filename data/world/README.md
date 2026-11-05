@@ -6,5 +6,8 @@ ID formats, postal code patterns).
 
 Path pattern: `data/world/<dataset>/`
 
-No datasets yet. See the [roadmap](../../docs/roadmap.md#world) for what is
-planned.
+| Dataset | Contents |
+| --- | --- |
+| [`currencies`](currencies/) | ISO 4217 currency codes, the entities using them, historic codes |
+
+See the [roadmap](../../docs/roadmap.md#world) for what is planned.

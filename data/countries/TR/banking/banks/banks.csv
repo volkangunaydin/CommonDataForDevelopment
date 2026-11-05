@@ -1,0 +1,71 @@
+code,name,type,digital_bank,fast_participant,website
+0001,T.C. MERKEZ BANKASI,central_bank,false,false,
+0004,İLLER BANKASI A.Ş.,development_investment_bank,false,false,http://www.ilbank.gov.tr
+0010,T.C. ZİRAAT BANKASI A.Ş.,deposit_bank,false,true,http://www.ziraat.com.tr/
+0012,TÜRKİYE HALK BANKASI A.Ş.,deposit_bank,false,true,http://www.halkbank.com.tr/
+0014,TÜRKİYE SINAİ KALKINMA BANKASI A.Ş.,development_investment_bank,false,false,http://www.tskb.com.tr
+0015,TÜRKİYE VAKIFLAR BANKASI T.A.O.,deposit_bank,false,true,http://www.vakifbank.com.tr
+0016,TÜRKİYE İHRACAT KREDİ BANKASI A.Ş.,development_investment_bank,false,false,http://www.eximbank.gov.tr
+0017,TÜRKİYE KALKINMA VE YATIRIM BANKASI A.Ş.,development_investment_bank,false,false,http://www.kalkinma.com.tr
+0029,BİRLEŞİK FON BANKASI A.Ş.,tmsf_bank,false,false,http://www.fonbank.com.tr
+0032,TÜRK EKONOMİ BANKASI A.Ş.,deposit_bank,false,true,http://www.teb.com.tr
+0046,AKBANK T.A.Ş.,deposit_bank,false,true,http://www.akbank.com
+0059,ŞEKERBANK T.A.Ş.,deposit_bank,false,true,http://www.sekerbank.com.tr
+0060,TÜRK TİCARET BANKASI A.Ş.,deposit_bank,false,true,https://www.turkticaretbankasi.com.tr/
+0062,TÜRKİYE GARANTİ BANKASI A.Ş.,deposit_bank,false,true,https://www.garantibbva.com.tr
+0064,TÜRKİYE İŞ BANKASI A.Ş.,deposit_bank,false,true,http://www.isbank.com.tr
+0067,YAPI VE KREDİ BANKASI A.Ş.,deposit_bank,false,true,https://www.yapikredi.com.tr
+0091,ARAP TÜRK BANKASI A.Ş.,deposit_bank,false,false,http://www.atbank.com.tr
+0092,CITIBANK A.Ş.,deposit_bank,false,false,http://www.citibank.com.tr
+0096,FREEDOM BANK A.Ş.,deposit_bank,false,false,http://www.freedom-bank.com.tr
+0098,"JP MORGAN CHASE BANK, N.A. MERKEZİ COLUMBUS, OHİO-İSTANBUL TÜRKİYE ŞUBESİ",deposit_bank,false,false,http://www.jpmorganchase.com/pages/jpmorgan/international/turkey
+0099,ING BANK A.Ş.,deposit_bank,false,true,http://www.ingbank.com.tr
+0103,FİBABANKA A.Ş.,deposit_bank,false,true,http://www.fibabanka.com.tr/
+0108,TURKLAND BANK A.Ş.,deposit_bank,false,false,http://www.turklandbank.com
+0109,ICBC TURKEY BANK A.Ş.,deposit_bank,false,true,https://www.icbc.com.tr/tr/
+0111,QNB BANK A.Ş.,deposit_bank,false,true,https://www.qnb.com.tr/
+0115,DEUTSCHE BANK A.Ş.,deposit_bank,false,false,http://www.deutschebank.com.tr
+0116,PASHA YATIRIM BANKASI A.Ş.,development_investment_bank,false,false,https://www.pashabank.com.tr/
+0121,STANDARD CHARTERED YATIRIM BANKASI TÜRK A.Ş.,development_investment_bank,false,false,http://www.standardchartered.com.tr
+0122,SOCIETE GENERALE (S.A.) PARİS MERKEZİ FRANSA İSTANBUL TÜRKİYE MERKEZ ŞUBESİ,deposit_bank,false,false,http://www.societegenerale.com.tr
+0123,HSBC BANK A.Ş.,deposit_bank,false,true,http://www.hsbc.com.tr
+0124,ALTERNATİFBANK A.Ş.,deposit_bank,false,true,https://www.alternatifbank.com.tr/
+0125,BURGAN BANK A.Ş.,deposit_bank,false,true,http://www.burgan.com.tr
+0129,BANK OF AMERICA YATIRIM BANK A.Ş.,development_investment_bank,false,false,http://www.ml.com.tr
+0132,İSTANBUL TAKAS VE SAKLAMA BANKASI A.Ş.,development_investment_bank,false,false,http://www.takasbank.com.tr
+0134,DENİZBANK A.Ş.,deposit_bank,false,true,http://www.denizbank.com
+0135,ANADOLUBANK A.Ş.,deposit_bank,false,true,http://www.anadolubank.com.tr
+0137,HEPSİ BANK A.Ş.,deposit_bank,false,false,https://hepsibank.com.tr/
+0138,DİLER YATIRIM BANKASI A.Ş.,development_investment_bank,false,false,http://www.dilerbank.com.tr/
+0139,GSD YATIRIM BANKASI A.Ş.,development_investment_bank,false,false,http://www.gsdbank.com.tr
+0141,NUROL YATIRIM BANKASI A.Ş.,development_investment_bank,false,false,http://www.nurolbank.com.tr
+0142,BANKPOZİTİF KREDİ VE KALKINMA BANKASI A.Ş.,development_investment_bank,false,false,http://www.bankpozitif.com.tr/
+0143,AKTİF YATIRIM BANKASI A.Ş.,development_investment_bank,false,true,http://www.aktifbank.com.tr/
+0146,ODEA BANK A.Ş.,deposit_bank,false,true,http://www.odeabank.com.tr
+0147,MUFG BANK TURKEY A.Ş.,deposit_bank,false,false,http://www.tu.bk.mufg.jp/index-tr.html
+0148,INTESA SANPAOLO S.P.A. İTALYA İSTANBUL MERKEZ ŞUBESİ,deposit_bank,false,false,http://www.intesasanpaolo.com
+0149,BANK OF CHINA TURKEY A.Ş.,deposit_bank,false,false,http://www.bankofchina.com.tr/
+0151,D YATIRIM BANKASI A.Ş.,development_investment_bank,false,false,https://www.dybank.com.tr
+0152,DESTEK YATIRIM BANKASI A.Ş.,development_investment_bank,false,true,https://www.destekbank.com
+0153,MİSYON YATIRIM BANKASI A.Ş.,development_investment_bank,false,true,https://www.misyon.com/
+0154,TERA YATIRIM BANKASI A.Ş.,development_investment_bank,false,true,https://www.terabank.com.tr
+0155,Q YATIRIM BANKASI A.Ş.,development_investment_bank,false,false,https://www.qyatirimbankasi.com.tr/tr/
+0156,HEDEF YATIRIM BANKASI A.Ş.,development_investment_bank,false,false,https://www.hedefyatirimbankasi.com.tr/
+0157,ENPARA BANK A.Ş.,deposit_bank,false,true,https://www.enpara.com/
+0158,COLENDİ BANK A.Ş.,deposit_bank,true,true,https://www.colendibank.com/
+0159,FUPS BANK A.Ş.,deposit_bank,true,true,http://www.fupsbank.com
+0160,ZİRAAT DİNAMİK BANKA A.Ş.,deposit_bank,true,true,https://www.ziraatdinamik.com.tr
+0161,AYTEMİZ YATIRIM BANKASI A.Ş.,development_investment_bank,false,true,https://www.aytemizbank.com.tr/
+0203,ALBARAKA TÜRK KATILIM BANKASI A.Ş.,participation_bank,false,true,http://www.albarakaturk.com.tr/
+0205,KUVEYT TÜRK KATILIM BANKASI A.Ş.,participation_bank,false,true,http://www.kuveytturk.com.tr
+0206,TÜRKİYE FİNANS KATILIM BANKASI A.Ş.,participation_bank,false,true,http://www.turkiyefinans.com.tr
+0209,ZİRAAT KATILIM BANKASI A.Ş.,participation_bank,false,true,http://www.ziraatkatilim.com.tr/
+0210,VAKIF KATILIM BANKASI A.Ş.,participation_bank,false,true,http://www.vakifkatilim.com.tr/
+0211,TÜRKİYE EMLAK KATILIM BANKASI A.Ş.,participation_bank,false,true,http://www.emlakbank.com.tr/
+0212,HAYAT FİNANS KATILIM BANKASI A.Ş.,participation_bank,true,true,https://www.hayatfinans.com.tr/
+0213,T.O.M. KATILIM BANKASI A.Ş.,participation_bank,true,true,https://www.tombank.com.tr/
+0214,DÜNYA KATILIM BANKASI A.Ş.,participation_bank,false,true,https://www.dunyakatilim.com.tr/
+0215,ADİL KATILIM BANKASI A.Ş.,participation_bank,true,false,https://www.adilkatilim.com.tr/
+0216,İKTİSAT KATILIM BANKASI A.Ş.,participation_bank,false,false,
+0806,MERKEZİ KAYIT KURULUŞU A.Ş.,other_participant,false,false,
+0807,POSTA VE TELGRAF TEŞKİLATI A.Ş.,other_participant,false,true,

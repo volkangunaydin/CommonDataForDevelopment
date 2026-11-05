@@ -1,0 +1,170 @@
+code,numeric_code,name,entity_name,withdrawal_date,fund
+ADP,020,Andorran Peseta,ANDORRA,2003-07,false
+AFA,004,Afghani,AFGHANISTAN,2003-01,false
+ALK,008,Old Lek,ALBANIA,1989-12,false
+ANG,532,Netherlands Antillean Guilder,CURAÇAO,2025-03,false
+ANG,532,Netherlands Antillean Guilder,NETHERLANDS ANTILLES,2010-10,false
+ANG,532,Netherlands Antillean Guilder,SINT MAARTEN (DUTCH PART),2025-03,false
+AOK,024,Kwanza,ANGOLA,1991-03,false
+AON,024,New Kwanza,ANGOLA,2000-02,false
+AOR,982,Kwanza Reajustado,ANGOLA,2000-02,false
+ARA,032,Austral,ARGENTINA,1992-01,false
+ARP,032,Peso Argentino,ARGENTINA,1985-07,false
+ARY,032,Peso,ARGENTINA,1989 to 1990,false
+ATS,040,Schilling,AUSTRIA,2002-03,false
+AYM,945,Azerbaijan Manat,AZERBAIJAN,2005-10,false
+AZM,031,Azerbaijanian Manat,AZERBAIJAN,2005-12,false
+BAD,070,Dinar,BOSNIA AND HERZEGOVINA,1998-07,false
+BEC,993,Convertible Franc,BELGIUM,1990-03,false
+BEF,056,Belgian Franc,BELGIUM,2002-03,false
+BEL,992,Financial Franc,BELGIUM,1990-03,false
+BGJ,100,Lev A/52,BULGARIA,1989 to 1990,false
+BGK,100,Lev A/62,BULGARIA,1989 to 1990,false
+BGL,100,Lev,BULGARIA,2003-11,false
+BGN,975,Bulgarian Lev,BULGARIA,2026-01,false
+BOP,068,Peso boliviano,BOLIVIA,1987-02,false
+BRB,076,Cruzeiro,BRAZIL,1986-03,false
+BRC,076,Cruzado,BRAZIL,1989-02,false
+BRE,076,Cruzeiro,BRAZIL,1993-03,false
+BRN,076,New Cruzado,BRAZIL,1990-03,false
+BRR,987,Cruzeiro Real,BRAZIL,1994-07,false
+BUK,104,Kyat,BURMA,1990-02,false
+BYB,112,Belarusian Ruble,BELARUS,2001-01,false
+BYR,974,Belarusian Ruble,BELARUS,2017-01,false
+CHC,948,WIR Franc (for electronic),SWITZERLAND,2004-11,false
+CSD,891,Serbian Dinar,SERBIA AND MONTENEGRO,2006-10,false
+CSJ,203,Krona A/53,CZECHOSLOVAKIA,1989 to 1990,false
+CSK,200,Koruna,CZECHOSLOVAKIA,1993-03,false
+CUC,931,Peso Convertible,CUBA,2021-06,false
+CYP,196,Cyprus Pound,CYPRUS,2008-01,false
+DDM,278,Mark der DDR,GERMAN DEMOCRATIC REPUBLIC,1990-07 to 1990-09,false
+DEM,276,Deutsche Mark,GERMANY,2002-03,false
+ECS,218,Sucre,ECUADOR,2000-09,false
+ECV,983,Unidad de Valor Constante (UVC),ECUADOR,2000-09,false
+EEK,233,Kroon,ESTONIA,2011-01,false
+ESA,996,Spanish Peseta,SPAIN,1978 to 1981,false
+ESB,995,"""A"" Account (convertible Peseta Account)",SPAIN,1994-12,false
+ESP,724,Spanish Peseta,ANDORRA,2002-03,false
+ESP,724,Spanish Peseta,SPAIN,2002-03,false
+EUR,978,Euro,SERBIA AND MONTENEGRO,2006-10,false
+FIM,246,Markka,FINLAND,2002-03,false
+FIM,246,Markka,ÅLAND ISLANDS,2002-03,false
+FRF,250,French Franc,ANDORRA,2002-03,false
+FRF,250,French Franc,FRANCE,2002-03,false
+FRF,250,French Franc,FRENCH  GUIANA,2002-03,false
+FRF,250,French Franc,FRENCH SOUTHERN TERRITORIES,2002-03,false
+FRF,250,French Franc,GUADELOUPE,2002-03,false
+FRF,250,French Franc,MARTINIQUE,2002-03,false
+FRF,250,French Franc,MAYOTTE,2002-03,false
+FRF,250,French Franc,MONACO,2002-03,false
+FRF,250,French Franc,RÉUNION,2002-03,false
+FRF,250,French Franc,SAINT MARTIN,1999-01,false
+FRF,250,French Franc,SAINT PIERRE AND MIQUELON,2002-03,false
+FRF,250,French Franc,SAINT-BARTHÉLEMY,1999-01,false
+GEK,268,Georgian Coupon,GEORGIA,1995-10,false
+GHC,288,Cedi,GHANA,2008-01,false
+GHP,939,Ghana Cedi,GHANA,2007-06,false
+GNE,324,Syli,GUINEA,1989-12,false
+GNS,324,Syli,GUINEA,1986-02,false
+GQE,226,Ekwele,EQUATORIAL GUINEA,1986-06,false
+GRD,300,Drachma,GREECE,2002-03,false
+GWE,624,Guinea Escudo,GUINEA-BISSAU,1978 to 1981,false
+GWP,624,Guinea-Bissau Peso,GUINEA-BISSAU,1997-05,false
+HRD,191,Croatian Dinar,CROATIA,1995-01,false
+HRK,191,Croatian Kuna,CROATIA,2015-06,false
+HRK,191,Kuna,CROATIA,2023-01,false
+IDR,360,Rupiah,TIMOR-LESTE,2002-07,false
+IEP,372,Irish Pound,IRELAND,2002-03,false
+ILP,376,Pound,ISRAEL,1978 to 1981,false
+ILR,376,Old Shekel,ISRAEL,1989 to 1990,false
+ISJ,352,Old Krona,ICELAND,1989 to 1990,false
+ITL,380,Italian Lira,HOLY SEE (VATICAN CITY STATE),2002-03,false
+ITL,380,Italian Lira,ITALY,2002-03,false
+ITL,380,Italian Lira,SAN MARINO,2002-03,false
+LAJ,418,Pathet Lao Kip,LAO,1979-12,false
+LSM,426,Loti,LESOTHO,1985-05,false
+LTL,440,Lithuanian Litas,LITHUANIA,2014-12,false
+LTT,440,Talonas,LITHUANIA,1993-07,false
+LUC,989,Luxembourg Convertible Franc,LUXEMBOURG,1990-03,false
+LUF,442,Luxembourg Franc,LUXEMBOURG,2002-03,false
+LUL,988,Luxembourg Financial Franc,LUXEMBOURG,1990-03,false
+LVL,428,Latvian Lats,LATVIA,2014-01,false
+LVR,428,Latvian Ruble,LATVIA,1994-12,false
+MGF,450,Malagasy Franc,MADAGASCAR,2004-12,false
+MLF,466,Mali Franc,MALI,1984-11,false
+MRO,478,Ouguiya,MAURITANIA,2017-12,false
+MTL,470,Maltese Lira,MALTA,2008-01,false
+MTP,470,Maltese Pound,MALTA,1983-06,false
+MVQ,462,Maldive Rupee,MALDIVES,1989-12,false
+MWK,454,Kwacha,MALAWI,2016-02,false
+MXP,484,Mexican Peso,MEXICO,1993-01,false
+MZE,508,Mozambique Escudo,MOZAMBIQUE,1978 to 1981,false
+MZM,508,Mozambique Metical,MOZAMBIQUE,2006-06,false
+NIC,558,Cordoba,NICARAGUA,1990-10,false
+NLG,528,Netherlands Guilder,NETHERLANDS,2002-03,false
+PEH,604,Sol,PERU,1989 to 1990,false
+PEI,604,Inti,PERU,1991-07,false
+PEN,604,Nuevo Sol,PERU,2015-12,false
+PES,604,Sol,PERU,1986-02,false
+PLZ,616,Zloty,POLAND,1997-01,false
+PTE,620,Portuguese Escudo,PORTUGAL,2002-03,false
+RHD,716,Rhodesian Dollar,SOUTHERN RHODESIA,1978 to 1981,false
+ROK,642,Leu A/52,ROMANIA,1989 to 1990,false
+ROL,642,Old Leu,ROMANIA,2005-06,false
+RON,946,New Romanian Leu,ROMANIA,2015-06,false
+RUR,810,Russian Ruble,ARMENIA,1994-08,false
+RUR,810,Russian Ruble,AZERBAIJAN,1994-08,false
+RUR,810,Russian Ruble,BELARUS,1994-06,false
+RUR,810,Russian Ruble,GEORGIA,1994-04,false
+RUR,810,Russian Ruble,KAZAKHSTAN,1994-05,false
+RUR,810,Russian Ruble,KYRGYZSTAN,1993-01,false
+RUR,810,Russian Ruble,"MOLDOVA, REPUBLIC OF",1993-12,false
+RUR,810,Russian Ruble,RUSSIAN FEDERATION,2004-01,false
+RUR,810,Russian Ruble,TAJIKISTAN,1995-05,false
+RUR,810,Russian Ruble,TURKMENISTAN,1993-10,false
+RUR,810,Russian Ruble,UZBEKISTAN,1994-07,false
+SDD,736,Sudanese Dinar,SUDAN,2007-07,false
+SDG,938,Sudanese Pound,SOUTH SUDAN,2012-09,false
+SDP,736,Sudanese Pound,SUDAN,1998-06,false
+SIT,705,Tolar,SLOVENIA,2007-01,false
+SKK,703,Slovak Koruna,SLOVAKIA,2009-01,false
+SLL,694,Leone,SIERRA LEONE,2023-12,false
+SRG,740,Surinam Guilder,SURINAME,2003-12,false
+STD,678,Dobra,SAO TOME AND PRINCIPE,2017-12,false
+SUR,810,Rouble,UNION OF SOVIET SOCIALIST REPUBLICS,1990-12,false
+SZL,748,Lilangeni,SWAZILAND,2018-08,false
+TJR,762,Tajik Ruble,TAJIKISTAN,2001-04,false
+TMM,795,Turkmenistan Manat,TURKMENISTAN,2009-01,false
+TPE,626,Timor Escudo,TIMOR-LESTE,2002-11,false
+TRL,792,Old Turkish Lira,TURKEY,2005-12,false
+TRY,949,New Turkish Lira,TURKEY,2009-01,false
+UAK,804,Karbovanet,UKRAINE,1996-09,false
+UGS,800,Uganda Shilling,UGANDA,1987-05,false
+UGW,800,Old Shilling,UGANDA,1989 to 1990,false
+USS,998,US Dollar (Same day),UNITED STATES,2014-03,false
+UYN,858,Old Uruguay Peso,URUGUAY,1989-12,false
+UYP,858,Uruguayan Peso,URUGUAY,1993-03,false
+VEB,862,Bolivar,VENEZUELA,2008-01,false
+VEF,937,Bolivar Fuerte,VENEZUELA,2011-12,false
+VEF,937,Bolivar,VENEZUELA (BOLIVARIAN REPUBLIC OF),2016-02,false
+VEF,937,Bolívar,VENEZUELA (BOLIVARIAN REPUBLIC OF),2018-08,false
+VNC,704,Old Dong,VIETNAM,1989-1990,false
+XEU,954,European Currency Unit (E.C.U),EUROPEAN MONETARY CO-OPERATION FUND (EMCF),1999-01,false
+XFO,,Gold-Franc,ZZ01_Gold-Franc,2006-10,false
+XFU,,UIC-Franc,ZZ05_UIC-Franc,2013-11,true
+XRE,,RINET Funds Code,ZZ02_RINET Funds Code,1999-11,true
+YDD,720,Yemeni Dinar,"YEMEN, DEMOCRATIC",1991-09,false
+YUD,890,New Yugoslavian Dinar,YUGOSLAVIA,1990-01,false
+YUM,891,New Dinar,YUGOSLAVIA,2003-07,false
+YUN,890,Yugoslavian Dinar,YUGOSLAVIA,1995-11,false
+ZAL,991,Financial Rand,LESOTHO,1995-03,false
+ZAL,991,Financial Rand,SOUTH AFRICA,1995-03,false
+ZMK,894,Zambian Kwacha,ZAMBIA,2012-12,false
+ZRN,180,New Zaire,ZAIRE,1999-06,false
+ZRZ,180,Zaire,ZAIRE,1994-02,false
+ZWC,716,Rhodesian Dollar,ZIMBABWE,1989-12,false
+ZWD,716,Zimbabwe Dollar (old),ZIMBABWE,2006-08,false
+ZWD,716,Zimbabwe Dollar,ZIMBABWE,2008-08,false
+ZWL,932,Zimbabwe Dollar,ZIMBABWE,2024-09,false
+ZWN,942,Zimbabwe Dollar (new),ZIMBABWE,2006-09,false
+ZWR,935,Zimbabwe Dollar,ZIMBABWE,2009-06,false

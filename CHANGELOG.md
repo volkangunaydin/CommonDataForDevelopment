@@ -18,4 +18,5 @@ version in its `datapackage.json`.
 - `tr-banking-card-bins` 0.1.0: the 1,540 domestic card BIN ranges served by the BKM BIN API on 2026-10-31, with issuer, scheme, product, level and brand.
 - `world-currencies` 0.1.0: the 178 current ISO 4217 codes with numeric code, minor units and fund flag, the 277 entity assignments and the 169 historic entries (List One published 2026-09-17, List Three 2026-01-01).
 - `tr-currency-currencies` 0.1.0: 193 currency codes (current ISO 4217 plus those accepted in e-invoices) with Turkish and English names and symbols from Unicode CLDR 49. New country domain `currency`.
+- `tr-customs-gtip` 0.1.0: the 2026 GTİP nomenclature from the TÜİK classification server (retrieved 2026-11-09), 32,567 rows from section down to the 15,753 twelve-digit codes, with parent codes and TÜİK descriptions; the 35 statistics-only codes not in the tariff schedule (Karar Sayısı 10781) and their 48 artificial parents are flagged. New country domain `customs`.
 - `e-invoicing-tr-currency-codes` 0.1.0: the 193 currency codes accepted by the GİB UBL-TR schematron (e-Fatura package retrieved 2026-11-05), 15 of them withdrawn from ISO 4217.

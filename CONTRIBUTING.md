@@ -46,7 +46,7 @@ A pull request without sources will not be merged.
    | A cross-country subject (UBL, e-invoicing) | `data/topics/<topic>/<dataset>/` |
 
    `<CC>` is the upper-case ISO 3166-1 alpha-2 code. `<domain>` is one of
-   `address`, `banking`, `currency`, `tax`, `business`, `calendar`. Propose a new domain in
+   `address`, `banking`, `currency`, `customs`, `tax`, `business`, `calendar`. Propose a new domain in
    an issue first if none fits.
 
 2. **Copy the template.** Start from [`templates/dataset/`](templates/dataset/).

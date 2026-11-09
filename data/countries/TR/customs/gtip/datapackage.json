@@ -1,0 +1,79 @@
+{
+  "name": "tr-customs-gtip",
+  "title": "Customs tariff statistical positions of Türkiye (GTİP)",
+  "description": "The 2026 Gümrük Tarife İstatistik Pozisyonu (GTİP) nomenclature of Türkiye with its full hierarchy: sections, chapters, four-digit headings, six-digit HS subheadings, eight-digit CN subheadings and the 15,753 twelve-digit GTİP codes, each with a self-contained Turkish description. Used for product classification in customs declarations, export and import documents, export e-invoices and foreign trade statistics.",
+  "version": "0.1.0",
+  "created": "2026-11-09",
+  "keywords": ["TR", "customs", "gtip", "gumruk-tarife-istatistik-pozisyonu", "tariff", "hs", "cn", "harmonized-system", "tuik"],
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "title": "Creative Commons Attribution 4.0 International",
+      "path": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "sources": [
+    {
+      "title": "TÜİK Sınıflama Sunucusu, Gümrük Tarife İstatistik Pozisyonu (GTİP) 2026, version id 1674: codes, parent codes, levels and descriptions of all 32,567 rows, retrieved 2026-11-09. Reuse permitted with attribution (TÜİK Yasal Uyarı).",
+      "path": "https://siniflama.tuik.gov.tr/Classifications/ClassificationsSatir?surumId=1674"
+    },
+    {
+      "title": "İstatistik Pozisyonlarına Bölünmüş Türk Gümrük Tarife Cetveli (Karar Sayısı: 10781), Resmî Gazete 33123 (1. Mükerrer), 2025-12-30: the legal tariff schedule for 2026, used to determine statistical_only",
+      "path": "https://www.resmigazete.gov.tr/eskiler/2025/12/20251230M1-2.pdf"
+    },
+    {
+      "title": "T.C. Ticaret Bakanlığı, Gümrükler Genel Müdürlüğü: Excel edition of the same schedule (2026 TGTC.zip), retrieved 2026-11-09",
+      "path": "https://ggm.ticaret.gov.tr/duyurular/istatistik-pozisyonlarina-bolunmus-turk-gumruk-tarife-cetveli-karar-sayisi-10781-yayimlanmistir"
+    }
+  ],
+  "resources": [
+    {
+      "name": "gtip",
+      "path": "gtip.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "code",
+            "type": "string",
+            "description": "Code of the row without separators: a Roman numeral for a section, 2 digits for a chapter, 4 for a heading, 6 for an HS subheading, 8 for a CN subheading and 12 for a GTİP code. Keep leading zeros.",
+            "constraints": { "required": true, "unique": true, "pattern": "^([IVX]+|[0-9]{2}|[0-9]{4}|[0-9]{6}|[0-9]{8}|[0-9]{12})$" }
+          },
+          {
+            "name": "parent_code",
+            "type": "string",
+            "description": "Code of the row one level up. References code in this file. Empty for sections. For a chapter it is the Roman numeral of its section; below that it is always a prefix of code.",
+            "constraints": { "pattern": "^([IVX]+|[0-9]{2}|[0-9]{4}|[0-9]{6}|[0-9]{8})$" }
+          },
+          {
+            "name": "level",
+            "type": "string",
+            "description": "Level in the hierarchy: section (Kısım), chapter (Fasıl), heading (Tarife pozisyonu, 4 digits), hs_subheading (Harmonized System, 6 digits), cn_subheading (Combined Nomenclature, 8 digits) or gtip (12 digits, the code used in declarations).",
+            "constraints": { "required": true, "enum": ["section", "chapter", "heading", "hs_subheading", "cn_subheading", "gtip"] }
+          },
+          {
+            "name": "name",
+            "type": "string",
+            "description": "Description in Turkish as published by TÜİK. TÜİK writes each description so that it can be read on its own, so it differs from the indented legal text of the tariff schedule (for example 'Atlar; kesimlik olanlar' instead of '- - - Kesimlik atlar'). TÜİK shortens 124 long descriptions and ends them with a reference such as '(devamı Resmi Gazetede)'; those are kept as published. Runs of whitespace are collapsed to one space; nothing else is changed.",
+            "constraints": { "required": true }
+          },
+          {
+            "name": "statistical_only",
+            "type": "boolean",
+            "description": "true for rows that TÜİK uses only in foreign trade statistics (aggregated or confidential codes such as 279999999999 'Gizli veri') and that do not appear in the legal tariff schedule; such codes must not be used in a customs declaration. A row above the GTİP level is true when none of the GTİP codes below it is in the schedule.",
+            "constraints": { "required": true }
+          }
+        ],
+        "primaryKey": ["code"],
+        "foreignKeys": [
+          {
+            "fields": ["parent_code"],
+            "reference": { "resource": "", "fields": ["code"] }
+          }
+        ]
+      }
+    }
+  ]
+}

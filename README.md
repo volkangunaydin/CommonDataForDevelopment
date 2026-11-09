@@ -31,7 +31,7 @@ This repository aims to be that real data:
 | Area | Path | Contents |
 | --- | --- | --- |
 | World | [`data/world/`](data/world/) | Datasets that cover all countries: country codes, currencies, languages, time zones, units, IBAN formats |
-| Countries | [`data/countries/<CC>/`](data/countries/) | Country-specific data grouped by domain: `address`, `banking`, `currency`, `tax`, `business`, `calendar` |
+| Countries | [`data/countries/<CC>/`](data/countries/) | Country-specific data grouped by domain: `address`, `banking`, `currency`, `customs`, `tax`, `business`, `calendar` |
 | Topics | [`data/topics/`](data/topics/) | Cross-cutting subjects: [UBL](data/topics/ubl/), [e-invoicing](data/topics/e-invoicing/) (e-Fatura, Peppol, EN 16931, …) |
 
 `<CC>` is the ISO 3166-1 alpha-2 country code in upper case (`TR`, `DE`, `US`).
@@ -48,6 +48,7 @@ This repository aims to be that real data:
 | Banks of Türkiye | [`data/countries/TR/banking/banks`](data/countries/TR/banking/banks/) | 70 |
 | Card BIN ranges of Türkiye | [`data/countries/TR/banking/card-bins`](data/countries/TR/banking/card-bins/) | 1,540 |
 | Currencies with Turkish names | [`data/countries/TR/currency/currencies`](data/countries/TR/currency/currencies/) | 193 |
+| Customs tariff codes of Türkiye (GTİP 2026) | [`data/countries/TR/customs/gtip`](data/countries/TR/customs/gtip/) | 15,753 GTİP + 16,814 higher levels |
 | UBL-TR currency codes (e-Fatura) | [`data/topics/e-invoicing/TR/currency-codes`](data/topics/e-invoicing/TR/currency-codes/) | 193 |
 
 The full list is always in [`catalog.json`](catalog.json).

@@ -32,7 +32,7 @@ Bu depo o gerçek veri olmayı hedefler:
 | Alan | Dizin | İçerik |
 | --- | --- | --- |
 | Dünya | [`data/world/`](data/world/) | Tüm ülkeleri kapsayan veri setleri: ülke kodları, para birimleri, diller, saat dilimleri, birimler, IBAN biçimleri |
-| Ülkeler | [`data/countries/<CC>/`](data/countries/) | Alanlara göre gruplanmış ülkeye özel veriler: `address`, `banking`, `currency`, `tax`, `business`, `calendar` |
+| Ülkeler | [`data/countries/<CC>/`](data/countries/) | Alanlara göre gruplanmış ülkeye özel veriler: `address`, `banking`, `currency`, `customs`, `tax`, `business`, `calendar` |
 | Konular | [`data/topics/`](data/topics/) | Ülkeler üstü konular: [UBL](data/topics/ubl/), [e-fatura](data/topics/e-invoicing/) (e-Fatura, Peppol, EN 16931, …) |
 
 `<CC>`, büyük harfle ISO 3166-1 alpha-2 ülke kodudur (`TR`, `DE`, `US`).
@@ -49,6 +49,7 @@ Bu depo o gerçek veri olmayı hedefler:
 | Türkiye bankaları | [`data/countries/TR/banking/banks`](data/countries/TR/banking/banks/) | 70 |
 | Türkiye kart BIN aralıkları | [`data/countries/TR/banking/card-bins`](data/countries/TR/banking/card-bins/) | 1.540 |
 | Türkçe adlarıyla para birimleri | [`data/countries/TR/currency/currencies`](data/countries/TR/currency/currencies/) | 193 |
+| Gümrük tarife istatistik pozisyonları (GTİP 2026) | [`data/countries/TR/customs/gtip`](data/countries/TR/customs/gtip/) | 15.753 GTİP + 16.814 üst düzey |
 | UBL-TR para birimi kodları (e-Fatura) | [`data/topics/e-invoicing/TR/currency-codes`](data/topics/e-invoicing/TR/currency-codes/) | 193 |
 
 Tam liste her zaman [`catalog.json`](catalog.json) dosyasındadır.

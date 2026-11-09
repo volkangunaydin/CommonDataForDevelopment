@@ -41,6 +41,8 @@ Türkiye is the first country being built out and serves as the model for others
 | ⬜ | banking | Bank branches | TBB |
 | ⬜ | banking | IBAN structure and validation | TCMB |
 | ✅ | currency | [Currencies with Turkish names](../data/countries/TR/currency/currencies/) | Unicode CLDR, ISO 4217, GİB |
+| ✅ | customs | [Customs tariff codes (GTİP)](../data/countries/TR/customs/gtip/) | TÜİK, Ministry of Trade |
+| ⬜ | customs | Duty rates and units of measure per GTİP | Ministry of Trade (tariff schedule, İthalat Rejimi Kararı) |
 | ✅ | tax | Tax offices | GİB |
 | ⬜ | tax | VAT rates | GİB |
 | ⬜ | tax | Tax identification number rules (VKN, TCKN) | GİB, NVİ |
@@ -50,7 +52,7 @@ Türkiye is the first country being built out and serves as the model for others
 
 ### Other countries
 
-The same domains (`address`, `banking`, `currency`, `tax`, `business`, `calendar`) apply to
+The same domains (`address`, `banking`, `currency`, `customs`, `tax`, `business`, `calendar`) apply to
 every country. Contributions for any country are welcome; start with its
 administrative divisions and banks, which most applications need first.
 

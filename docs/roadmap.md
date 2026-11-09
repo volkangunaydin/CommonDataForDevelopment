@@ -18,7 +18,7 @@ Status: ✅ available · 🔜 next · ⬜ planned
 | ⬜ | Country subdivisions | ISO 3166-2 |
 | ⬜ | Languages and locales | ISO 639, Unicode CLDR |
 | ⬜ | Time zones | IANA tz database |
-| ⬜ | Units of measure | UN/ECE Recommendation 20 |
+| ✅ | [Units of measure](../data/world/units-of-measure/) with unit sets and conversion factors | UN/ECE Recommendation 20 |
 | ⬜ | International calling codes | ITU-T E.164 |
 | ⬜ | IBAN structure per country | IBAN Registry (ISO 13616) |
 | ⬜ | Tax ID formats and check-digit rules per country | National tax authorities |
@@ -44,7 +44,7 @@ Türkiye is the first country being built out and serves as the model for others
 | ✅ | customs | [Customs tariff codes (GTİP)](../data/countries/TR/customs/gtip/) | TÜİK, Ministry of Trade |
 | ⬜ | customs | Duty rates and units of measure per GTİP | Ministry of Trade (tariff schedule, İthalat Rejimi Kararı) |
 | ✅ | tax | Tax offices | GİB |
-| ⬜ | tax | VAT rates | GİB |
+| ✅ | tax | [VAT rates](../data/countries/TR/tax/vat-rates/) with list I and II items | GİB |
 | ⬜ | tax | Tax identification number rules (VKN, TCKN) | GİB, NVİ |
 | ⬜ | business | Economic activity codes (NACE) | TÜİK, GİB |
 | ⬜ | business | Uniform chart of accounts | Ministry of Treasury and Finance |
@@ -70,7 +70,10 @@ administrative divisions and banks, which most applications need first.
 | Status | Region | Dataset | Candidate source |
 | --- | --- | --- | --- |
 | ✅ | TR | [UBL-TR currency codes](../data/topics/e-invoicing/TR/currency-codes/) | GİB e-Fatura package (schematron) |
-| 🔜 | TR | UBL-TR code lists (profiles, invoice types, tax codes, withholding and exemption codes) | GİB e-Belge technical guides |
+| ✅ | TR | [UBL-TR tax exemption codes](../data/topics/e-invoicing/TR/tax-exemption-codes/) | GİB UBL-TR Kod Listeleri |
+| ✅ | TR | [UBL-TR VAT withholding codes](../data/topics/e-invoicing/TR/withholding-codes/) | GİB UBL-TR Kod Listeleri |
+| ✅ | TR | [UBL-TR unit of measure codes](../data/topics/e-invoicing/TR/unit-codes/) | GİB UBL-TR Kod Listeleri |
+| 🔜 | TR | UBL-TR code lists (profiles, invoice types, tax type codes, packaging codes) | GİB UBL-TR Kod Listeleri |
 | ⬜ | TR | Document types overview (e-Fatura, e-Arşiv, e-İrsaliye, …) | GİB |
 | ⬜ | EU | EN 16931 code lists | European Commission |
 | ⬜ | EU | Peppol BIS Billing code lists and participant identifier schemes | OpenPeppol |

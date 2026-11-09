@@ -1,0 +1,53 @@
+code,name,type,rate,rate_percent,schematron_percents
+601,Yapim İşleri İle Bu İşlerle Birlikte İfa Edilen Mühendislik-Mimarlik Ve Etüt-Proje Hizmetleri,partial,4/10,40,30;40
+602,"Etüt, Plan-Proje, Danişmanlik, Denetim Ve Benzeri Hizmetler",partial,9/10,90,90
+603,"Makine, Teçhizat, Demirbaş Ve Taşitlara Ait Tadil, Bakim Ve Onarim Hizmetleri",partial,7/10,70,50;70
+604,Yemek Servis Hizmeti,partial,5/10,50,50
+605,Organizasyon Hizmeti,partial,5/10,50,50
+606,İşgücü Temin Hizmetleri,partial,9/10,90,90
+607,Özel Güvenlik Hizmeti,partial,9/10,90,90
+608,Yapi Denetim Hizmetleri,partial,9/10,90,90
+609,"Fason Olarak Yaptirilan Tekstil Ve Konfeksiyon İşleri, Çanta Ve Ayakkabi Dikim İşleri Ve Bu İşlere Aracilik Hizmetleri",partial,7/10,70,50;70
+610,Turistik Mağazalara Verilen Müşteri Bulma / Götürme Hizmetleri,partial,9/10,90,90
+611,"Spor Kulüplerinin Yayin, Reklâm Ve İsim Hakki Gelirlerine Konu İşlemleri",partial,9/10,90,90
+612,Temizlik Hizmeti,partial,9/10,90,70;90
+613,Çevre Ve Bahçe Bakim Hizmetleri,partial,9/10,90,70;90
+614,Servis Taşimaciliği Hizmeti,partial,5/10,50,50
+615,Her Türlü Baski Ve Basim Hizmetleri,partial,7/10,70,50;70
+616,Diğer Hizmetler [Kdvgut-(I/C-2.1.3.2.13)],partial,5/10,50,50
+617,Hurda Metalden Elde Edilen Külçe Teslimleri,partial,7/10,70,70
+618,"Hurda Metalden Elde Edilenler Dişindaki Bakir, Çinko Demir; Çelik Alüminyum Ve Kurşun Külçe Teslimleri [Kdvgut-(I/C-2.1.3.3.1)]",partial,7/10,70,70
+619,"Bakir, Çinko Ve Alüminyum Ürünlerinin Teslimi",partial,7/10,70,70
+620,İstisnadan Vazgeçenlerin Hurda Ve Atik Teslimi,partial,7/10,70,70
+621,"Metal, Plastik, Lastik, Kauçuk, Kâğit Ve Cam Hurda Ve Atiklardan Elde Edilen Hammadde Teslimi",partial,9/10,90,90
+622,"Pamuk, Tiftik, Yün Ve Yapaği İle Ham Post Ve Deri Teslimleri",partial,9/10,90,90
+623,Ağaç Ve Orman Ürünleri Teslimi,partial,5/10,50,50
+624,Yük Taşimaciliği Hizmeti [Kdvgut-(I/C-2.1.3.2.11)],partial,2/10,20,20
+625,Ticari Reklam Hizmetleri [Kdvgut-(I/C-2.1.3.2.15)],partial,3/10,30,30
+626,Diğer Teslimler [Kdvgut-(I/C-2.1.3.3.7.)],partial,2/10,20,20
+627,Demir-Çelik Ürünlerinin Teslimi [Kdvgut-(I/C-2.1.3.3.8)],partial,5/10,50,40;50
+801,Yapım İşleri ile Bu İşlerle Birlikte İfa Edilen Mühendislik-Mimarlık ve Etüt-Proje Hizmetleri[KDVGUT-(I/C-2.1.3.2.1)],full,10/10,100,100
+802,"Etüt, Plan-Proje, Danışmanlık, Denetim ve Benzeri Hizmetler[KDVGUT-(I/C-2.1.3.2.2)]",full,10/10,100,100
+803,"Makine, Teçhizat, Demirbaş ve Taşıtlara Ait Tadil, Bakım ve Onarım Hizmetleri[KDVGUT- (I/C-2.1.3.2.3)]",full,10/10,100,100
+804,Yemek Servis Hizmeti[KDVGUT-(I/C-2.1.3.2.4)],full,10/10,100,100
+805,Organizasyon Hizmeti[KDVGUT-(I/C-2.1.3.2.4)],full,10/10,100,100
+806,İşgücü Temin Hizmetleri[KDVGUT-(I/C-2.1.3.2.5)],full,10/10,100,100
+807,Özel Güvenlik Hizmeti[KDVGUT-(I/C-2.1.3.2.5)],full,10/10,100,100
+808,Yapı Denetim Hizmetleri[KDVGUT-(I/C-2.1.3.2.6)],full,10/10,100,100
+809,"Fason Olarak Yaptırılan Tekstil ve Konfeksiyon İşleri, Çanta ve Ayakkabı Dikim İşleri ve Bu İşlere Aracılık Hizmetleri[KDVGUT-(I/C-2.1.3.2.7)]",full,10/10,100,100
+810,Turistik Mağazalara Verilen Müşteri Bulma/ Götürme Hizmetleri[KDVGUT-(I/C-2.1.3.2.8)],full,10/10,100,100
+811,"Spor Kulüplerinin Yayın, Reklâm ve İsim Hakkı Gelirlerine Konu İşlemleri[KDVGUT-(I/C-2.1.3.2.9)]",full,10/10,100,100
+812,Temizlik Hizmeti[KDVGUT-(I/C-2.1.3.2.10)],full,10/10,100,100
+813,Çevre ve Bahçe Bakım Hizmetleri[KDVGUT-(I/C-2.1.3.2.10)],full,10/10,100,100
+814,Servis Taşımacılığı Hizmeti[KDVGUT-(I/C-2.1.3.2.11)],full,10/10,100,100
+815,Her Türlü Baskı ve Basım Hizmetleri[KDVGUT-(I/C-2.1.3.2.12)],full,10/10,100,100
+816,Hurda Metalden Elde Edilen Külçe Teslimleri[KDVGUT-(I/C-2.1.3.3.1)],full,10/10,100,100
+817,"Hurda Metalden Elde Edilenler Dışındaki Bakır, Çinko, Demir Çelik, Alüminyum ve Kurşun Külçe Teslimi [KDVGUT-(I/C-2.1.3.3.1)]",full,10/10,100,100
+818,"Bakır, Çinko, Alüminyum ve Kurşun Ürünlerinin Teslimi[KDVGUT-(I/C-2.1.3.3.2)]",full,10/10,100,100
+819,İstisnadan Vazgeçenlerin Hurda ve Atık Teslimi[KDVGUT-(I/C-2.1.3.3.3)],full,10/10,100,100
+820,"Metal, Plastik, Lastik, Kauçuk, Kâğıt ve Cam Hurda ve Atıklardan Elde Edilen Hammadde Teslimi[KDVGUT-(I/C-2.1.3.3.4)]",full,10/10,100,100
+821,"Pamuk, Tiftik, Yün ve Yapağı İle Ham Post ve Deri Teslimleri[KDVGUT-(I/C-2.1.3.3.5)]",full,10/10,100,100
+822,Ağaç ve Orman Ürünleri Teslimi[KDVGUT-(I/C-2.1.3.3.6)],full,10/10,100,100
+823,Yük Taşımacılığı Hizmeti [KDVGUT-(I/C-2.1.3.2.11)],full,10/10,100,100
+824,Ticari Reklam Hizmetleri [KDVGUT-(I/C-2.1.3.2.15)],full,10/10,100,100
+825,Demir-Çelik Ürünlerinin Teslimi [KDVGUT-(I/C-2.1.3.3.8)],full,10/10,100,100

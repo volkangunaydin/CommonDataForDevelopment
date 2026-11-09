@@ -11,6 +11,13 @@
       "version": "0.1.0"
     },
     {
+      "id": "world-units-of-measure",
+      "title": "Units of measure (UN/ECE Recommendation 20)",
+      "scope": "world",
+      "path": "data/world/units-of-measure",
+      "version": "0.1.0"
+    },
+    {
       "id": "tr-address-provinces",
       "title": "Provinces of Türkiye",
       "scope": "country",
@@ -44,6 +51,15 @@
       "country": "TR",
       "domain": "tax",
       "path": "data/countries/TR/tax/tax-offices",
+      "version": "0.1.0"
+    },
+    {
+      "id": "tr-tax-vat-rates",
+      "title": "VAT rates of Türkiye",
+      "scope": "country",
+      "country": "TR",
+      "domain": "tax",
+      "path": "data/countries/TR/tax/vat-rates",
       "version": "0.1.0"
     },
     {
@@ -89,6 +105,33 @@
       "topic": "e-invoicing",
       "country": "TR",
       "path": "data/topics/e-invoicing/TR/currency-codes",
+      "version": "0.1.0"
+    },
+    {
+      "id": "e-invoicing-tr-tax-exemption-codes",
+      "title": "UBL-TR tax exemption reason codes (e-Fatura)",
+      "scope": "topic",
+      "topic": "e-invoicing",
+      "country": "TR",
+      "path": "data/topics/e-invoicing/TR/tax-exemption-codes",
+      "version": "0.1.0"
+    },
+    {
+      "id": "e-invoicing-tr-withholding-codes",
+      "title": "UBL-TR VAT withholding codes (e-Fatura)",
+      "scope": "topic",
+      "topic": "e-invoicing",
+      "country": "TR",
+      "path": "data/topics/e-invoicing/TR/withholding-codes",
+      "version": "0.1.0"
+    },
+    {
+      "id": "e-invoicing-tr-unit-codes",
+      "title": "UBL-TR unit of measure codes (e-Fatura)",
+      "scope": "topic",
+      "topic": "e-invoicing",
+      "country": "TR",
+      "path": "data/topics/e-invoicing/TR/unit-codes",
       "version": "0.1.0"
     }
   ]

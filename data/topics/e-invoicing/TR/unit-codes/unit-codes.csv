@@ -1,0 +1,40 @@
+code,name,rec20_name,rec20_status,unit_set,factor_to_base,in_schematron
+3I,KİLOGRAM-ADET,kilogram per piece of product,deleted,,,true
+B32,KG-METRE KARE,kilogram metre squared,active,,,true
+C62,ADET(UNIT),one,active,count,1,true
+CCT,TON BAŞINA TAŞIMA KAPASİTESİ,carrying capacity in metric ton,active,,,true
+CEN,YÜZ ADET,hundred,active,count,100,true
+CTM,KARAT,metric carat,active,,,true
+D30,BRÜT KALORİ DEĞERİ,terajoule,active,energy,1000000000000,true
+D32,TERAWATT SAAT,terawatt hour,active,energy,3600000000000000,true
+D40,BİN LİTRE,thousand litre,deleted,,,true
+DMK,DESİMETRE KARE,square decimetre,active,area,0.01,true
+GFI,FISSILE İZOTOP GRAMI,gram of fissile isotope,active,,,true
+GRM,GRAM,gram,active,mass,0.001,true
+GT,GROSS TON,gross ton,deprecated,,,true
+GWH,GİGAWATT SAAT,gigawatt hour,active,energy,3600000000000,true
+KFO,DİFOSFOR PENTAOKSİT KİLOGRAMI,,,,,true
+KGM,KİLOGRAM,kilogram,active,mass,1,true
+KHY,HİDROJEN PEROKSİT KİLOGRAMI,kilogram of hydrogen peroxide,active,,,true
+KMA,METİL AMİNLERİN KİLOGRAMI,kilogram of methylamine,active,,,true
+KNI,AZOTUN KİLOGRAMI,kilogram of nitrogen,active,,,true
+KPH,KİLOGRAM POTASYUM HİDROKSİT,kilogram of potassium hydroxide (caustic potash),active,,,true
+KPO,KİLOGRAM POTASYUM OKSİT,kilogram of potassium oxide,active,,,true
+KSD,%90 KURU ÜRÜN KİLOGRAMI,kilogram of substance 90 % dry,active,,,true
+KSH,SODYUM HİDROKSİT KİLOGRAMI,kilogram of sodium hydroxide (caustic soda),active,,,true
+KUR,URANYUM KİLOGRAMI,kilogram of uranium,active,,,true
+KWH,KİLOWATT SAAT,kilowatt hour,active,energy,3600000,true
+KWT,KİLOWATT,kilowatt,active,,,true
+LPA,SAF ALKOL LİTRESİ,litre of pure alcohol,active,,,true
+LTR,LİTRE,litre,active,volume,0.001,true
+MND,KURUTULMUŞ NET AĞIRLIKLI KİLOGRAMI,"kilogram, dry weight",active,,,true
+MTK,METRE KARE,square metre,active,area,1,true
+MTQ,METRE KÜP,cubic metre,active,volume,1,true
+MTR,METRE,metre,active,length,1,true
+MWH,MEGAWATT SAAT (1000 kW.h),megawatt hour (1000 kW.h),active,energy,3600000000,true
+NCL,HÜCRE ADEDİ,number of cells,active,,,true
+PR,ÇİFT,pair,active,count,2,true
+R9,BİN METRE KÜP,thousand cubic metre,active,,,true
+SET,SET,set,active,,,true
+SM3,STANDART METREKÜP,Standard cubic metre,active,volume,1,true
+T3,BİN ADET,thousand piece,active,,,true

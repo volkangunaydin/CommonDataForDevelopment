@@ -42,15 +42,20 @@ Bu depo o gerçek veri olmayı hedefler:
 | Veri seti | Dizin | Satır |
 | --- | --- | --- |
 | Para birimleri (ISO 4217) | [`data/world/currencies`](data/world/currencies/) | 178 + 169 tarihsel |
+| Ölçü birimleri (UN/ECE Rec 20), birim setleri ve katsayıları | [`data/world/units-of-measure`](data/world/units-of-measure/) | 2.136 + setlerde 153 |
 | Türkiye illeri | [`data/countries/TR/address/provinces`](data/countries/TR/address/provinces/) | 81 |
 | Türkiye ilçeleri | [`data/countries/TR/address/districts`](data/countries/TR/address/districts/) | 973 |
 | Ülkeler (Türkçe adlarla) | [`data/countries/TR/address/country`](data/countries/TR/address/country/) | 250 |
 | Türkiye vergi daireleri | [`data/countries/TR/tax/tax-offices`](data/countries/TR/tax/tax-offices/) | 860 + 233 şube |
+| KDV oranları, (I) ve (II) sayılı liste sıraları | [`data/countries/TR/tax/vat-rates`](data/countries/TR/tax/vat-rates/) | 5 oran + 79 liste sırası |
 | Türkiye bankaları | [`data/countries/TR/banking/banks`](data/countries/TR/banking/banks/) | 70 |
 | Türkiye kart BIN aralıkları | [`data/countries/TR/banking/card-bins`](data/countries/TR/banking/card-bins/) | 1.540 |
 | Türkçe adlarıyla para birimleri | [`data/countries/TR/currency/currencies`](data/countries/TR/currency/currencies/) | 193 |
 | Gümrük tarife istatistik pozisyonları (GTİP 2026) | [`data/countries/TR/customs/gtip`](data/countries/TR/customs/gtip/) | 15.753 GTİP + 16.814 üst düzey |
 | UBL-TR para birimi kodları (e-Fatura) | [`data/topics/e-invoicing/TR/currency-codes`](data/topics/e-invoicing/TR/currency-codes/) | 193 |
+| UBL-TR vergi istisna kodları (e-Fatura) | [`data/topics/e-invoicing/TR/tax-exemption-codes`](data/topics/e-invoicing/TR/tax-exemption-codes/) | 112 |
+| UBL-TR KDV tevkifat kodları (e-Fatura) | [`data/topics/e-invoicing/TR/withholding-codes`](data/topics/e-invoicing/TR/withholding-codes/) | 52 |
+| UBL-TR ölçü birimi kodları (e-Fatura) | [`data/topics/e-invoicing/TR/unit-codes`](data/topics/e-invoicing/TR/unit-codes/) | 39 |
 
 Tam liste her zaman [`catalog.json`](catalog.json) dosyasındadır.
 

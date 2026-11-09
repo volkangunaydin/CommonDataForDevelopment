@@ -1,0 +1,68 @@
+{
+  "name": "e-invoicing-tr-tax-exemption-codes",
+  "title": "UBL-TR tax exemption reason codes (e-Fatura)",
+  "description": "The codes written to TaxExemptionReasonCode in Turkish e-documents (e-Fatura, e-Arşiv Fatura): VAT partial and full exemptions, the code for sales outside the VAT rate check, special consumption tax (ÖTV) and accommodation tax exemptions, special tax base (özel matrah) codes and export-registered sale codes, with their official Turkish descriptions.",
+  "version": "0.1.0",
+  "created": "2026-11-09",
+  "keywords": ["TR", "e-invoicing", "e-fatura", "ubl-tr", "gib", "vat", "kdv", "istisna", "tax-exemption", "ozel-matrah", "ihrac-kayitli", "otv"],
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "title": "Creative Commons Attribution 4.0 International",
+      "path": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "sources": [
+    {
+      "title": "UBL-TR Kod Listeleri, Versiyon 1.43, Temmuz 2026 (section 1.8 TaxExemptionReasonCode), in UBLTR_1.2.1_Kilavuzlar.zip, Gelir İdaresi Başkanlığı, retrieved 2026-11-09",
+      "path": "https://ebelge.gib.gov.tr/dosyalar/kilavuzlar/UBLTR_1.2.1_Kilavuzlar.zip"
+    },
+    {
+      "title": "e-Fatura Paketi, schematron/UBL-TR_Codelist.xml (TaxExemptionReasonCodeType, YatirimTesvikTaxExemptionReasonCodeType; package history up to 2026-07-01), Gelir İdaresi Başkanlığı, retrieved 2026-11-05: used for schematron_status",
+      "path": "https://ebelge.gib.gov.tr/dosyalar/kilavuzlar/e-FaturaPaketi%20(29).zip"
+    }
+  ],
+  "resources": [
+    {
+      "name": "tax-exemption-codes",
+      "path": "tax-exemption-codes.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "code",
+            "type": "string",
+            "description": "Three-digit code written to cbc:TaxExemptionReasonCode. Keep leading zeros (001).",
+            "constraints": { "required": true, "unique": true, "pattern": "^[0-9]{3}$" }
+          },
+          {
+            "name": "name",
+            "type": "string",
+            "description": "Description in Turkish as printed in the code list, usually starting with the article of the law (17/1 = KDV Kanunu article 17 paragraph 1). Line breaks of the PDF are joined; spelling is unchanged.",
+            "constraints": { "required": true }
+          },
+          {
+            "name": "list",
+            "type": "string",
+            "description": "Code list in the guide: kdv_partial (Kısmi İstisna), kdv_full (Tam İstisna), other (Diğer İşlem Türü), otv (ÖTV İstisna), accommodation_tax (Konaklama Vergisi İstisna), special_base (Özel Matrah) or export_registered (İhraç Kayıtlı Satışlar ile DİİB ve Geçici Kabul Rejimi Kapsamındaki Satış).",
+            "constraints": { "required": true, "enum": ["kdv_partial", "kdv_full", "other", "otv", "accommodation_tax", "special_base", "export_registered"] }
+          },
+          {
+            "name": "usage_note",
+            "type": "string",
+            "description": "Usage note printed under the code in the guide (codes 151, 351 and 555). Empty for the others."
+          },
+          {
+            "name": "schematron_status",
+            "type": "string",
+            "description": "accepted when the code is in TaxExemptionReasonCodeType of the UBL-TR schematron; investment_incentive_only when the schematron accepts it only in investment incentive invoices (YatirimTesvikTaxExemptionReasonCodeType).",
+            "constraints": { "required": true, "enum": ["accepted", "investment_incentive_only"] }
+          }
+        ],
+        "primaryKey": ["code"]
+      }
+    }
+  ]
+}

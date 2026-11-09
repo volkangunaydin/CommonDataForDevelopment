@@ -1,0 +1,180 @@
+{
+  "name": "world-units-of-measure",
+  "title": "Units of measure (UN/ECE Recommendation 20)",
+  "description": "The UN/CEFACT Recommendation 20 codes for units of measure used in international trade (Revision 17), with names, symbols, conversion factors to SI units as published and as numbers, the physical quantities each unit is listed under, and unit sets (count, mass, volume, length, area, energy) with the factor of each unit to the set's base unit.",
+  "version": "0.1.0",
+  "created": "2026-11-09",
+  "keywords": ["world", "units-of-measure", "uom", "unece", "rec20", "uncefact", "conversion-factor", "unit-sets"],
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "title": "Creative Commons Attribution 4.0 International",
+      "path": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "sources": [
+    {
+      "title": "UN/CEFACT Recommendation No. 20, Codes for Units of Measure Used in International Trade, Revision 17 (2021), rec20_Rev17e-2021.xlsx, UNECE",
+      "path": "https://unece.org/trade/documents/revision-17-annexes-i-iii"
+    },
+    {
+      "title": "Copy of the same file (sources/rec20-rev17.xlsx, 305,526 bytes) in the mskvarc/cefact-units repository, used for retrieval on 2026-11-09 because unece.org blocks scripted downloads",
+      "path": "https://github.com/mskvarc/cefact-units/blob/HEAD/sources/rec20-rev17.xlsx"
+    }
+  ],
+  "resources": [
+    {
+      "name": "units",
+      "path": "units.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "code",
+            "type": "string",
+            "description": "Rec 20 common code, two or three characters (KGM, C62, 2U).",
+            "constraints": { "required": true, "unique": true, "pattern": "^[0-9A-Z]{2,3}$" }
+          },
+          {
+            "name": "name",
+            "type": "string",
+            "description": "Name of the unit in English as published.",
+            "constraints": { "required": true }
+          },
+          {
+            "name": "description",
+            "type": "string",
+            "description": "Description as published; empty when Rec 20 gives none."
+          },
+          {
+            "name": "level_category",
+            "type": "string",
+            "description": "Rec 20 level/category: level 1 (1, 1S, 1M) SI normative units and commonly used multiples; level 2 (2, 2S) normative equivalents such as UK and US units; level 3 (3, 3.1 to 3.9) informative units found only in Annexes II and III. Several categories are separated by semicolons."
+          },
+          {
+            "name": "symbol",
+            "type": "string",
+            "description": "Symbol as published; empty when Rec 20 gives none."
+          },
+          {
+            "name": "conversion_factor",
+            "type": "string",
+            "description": "Conversion factor to SI units exactly as published, for example '10⁻³ kg' or '0,453 592 37 kg'. Empty when Rec 20 gives none."
+          },
+          {
+            "name": "factor",
+            "type": "number",
+            "description": "conversion_factor as a number when it is a plain multiple of one unit (mantissa, power of ten, unit): 10⁻³ kg gives 0.001. Empty when the factor is an expression (products, offsets such as degrees Celsius) or absent."
+          },
+          {
+            "name": "factor_unit",
+            "type": "string",
+            "description": "The SI unit factor refers to (kg, m³, m, J, kg/m³). Empty for pure numbers such as dozen (12) and when factor is empty."
+          },
+          {
+            "name": "status",
+            "type": "string",
+            "description": "Rec 20 status: empty for an active code, X for a code marked for deletion, D for a deprecated code.",
+            "constraints": { "enum": ["", "X", "D"] }
+          }
+        ],
+        "primaryKey": ["code"]
+      }
+    },
+    {
+      "name": "unit-quantities",
+      "path": "unit-quantities.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "sector_number",
+            "type": "string",
+            "description": "Annex I sector number, two digits (01 Space and Time, 03 Mechanics).",
+            "constraints": { "required": true, "pattern": "^[0-9]{2}$" }
+          },
+          {
+            "name": "sector",
+            "type": "string",
+            "description": "Annex I sector name.",
+            "constraints": { "required": true }
+          },
+          {
+            "name": "quantity",
+            "type": "string",
+            "description": "Physical quantity the unit is listed under in Annex I, as published (mass, volume, area). Empty for five energy-per-volume units (KWN, KWS, MNJ, Q41, Q42) that Annex I lists without a quantity."
+          },
+          {
+            "name": "code",
+            "type": "string",
+            "description": "Unit code. References code in units.",
+            "constraints": { "required": true }
+          }
+        ],
+        "primaryKey": ["sector_number", "quantity", "code"],
+        "foreignKeys": [
+          { "fields": ["code"], "reference": { "resource": "units", "fields": ["code"] } }
+        ]
+      }
+    },
+    {
+      "name": "unit-sets",
+      "path": "unit-sets.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "set",
+            "type": "string",
+            "description": "Unit set: count (base C62 one), mass (base KGM kilogram), volume (base MTQ cubic metre), length (base MTR metre), area (base MTK square metre) or energy (base JOU joule).",
+            "constraints": { "required": true, "enum": ["count", "mass", "volume", "length", "area", "energy"] }
+          },
+          {
+            "name": "code",
+            "type": "string",
+            "description": "Unit code. References code in units.",
+            "constraints": { "required": true }
+          },
+          {
+            "name": "name",
+            "type": "string",
+            "description": "Name of the unit, copied from units.",
+            "constraints": { "required": true }
+          },
+          {
+            "name": "symbol",
+            "type": "string",
+            "description": "Symbol of the unit, copied from units."
+          },
+          {
+            "name": "level_category",
+            "type": "string",
+            "description": "Level/category, copied from units: use 1, 1S and 1M for metric units and 2 for UK and US units."
+          },
+          {
+            "name": "factor_to_base",
+            "type": "number",
+            "description": "How many base units one of this unit is: gram 0.001 (kg), tonne 1000 (kg), litre 0.001 (m³), dozen 12. Quantity in base unit = quantity × factor_to_base.",
+            "constraints": { "required": true }
+          },
+          {
+            "name": "is_base",
+            "type": "boolean",
+            "description": "true for the base unit of the set (factor 1).",
+            "constraints": { "required": true }
+          }
+        ],
+        "primaryKey": ["set", "code"],
+        "foreignKeys": [
+          { "fields": ["code"], "reference": { "resource": "units", "fields": ["code"] } }
+        ]
+      }
+    }
+  ]
+}

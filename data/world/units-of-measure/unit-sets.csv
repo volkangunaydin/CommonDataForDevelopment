@@ -1,0 +1,154 @@
+set,code,name,symbol,level_category,factor_to_base,is_base
+count,BIL,billion (EUR),,3.7,1000000000000,false
+count,C62,one,1,1,1,true
+count,CEN,hundred,,3.7,100,false
+count,DZN,dozen,DOZ,3.7,12,false
+count,GGR,great gross,,3.7,1728,false
+count,GRO,gross,gr,3.7,144,false
+count,MIL,thousand,,3.7,1000,false
+count,MIO,million,,3.7,1000000,false
+count,MLD,milliard,,3.7,1000000000,false
+count,PR,pair,,3.7,2,false
+count,SCO,score,,3.7,20,false
+count,TRL,trillion (EUR),,3.7,1000000000000000000,false
+mass,2U,megagram,Mg,1S,1000,false
+mass,APZ,troy ounce or apothecary ounce,tr oz,2,0.003110348,false
+mass,CGM,centigram,cg,1M,0.00001,false
+mass,CWA,hundred pound (cwt) / hundred weight (US),cwt (US),2,45.3592,false
+mass,CWI,hundred weight (UK),cwt (UK),2,50.80235,false
+mass,DG,decigram,dg,1M,0.0001,false
+mass,DJ,decagram,dag,1M,0.01,false
+mass,DTN,decitonne,dt or dtn,1M;3.5,100,false
+mass,F13,slug,slug,2,14.5939,false
+mass,GRM,gram,g,1S,0.001,false
+mass,GRN,grain,gr,2,0.00006479891,false
+mass,HGM,hectogram,hg,1M,0.1,false
+mass,KGM,kilogram,kg,1,1,true
+mass,KTN,kilotonne,kt,1M,1000000,false
+mass,LBR,pound,lb,2,0.45359237,false
+mass,LTN,ton (UK) or long ton (US),ton (UK),2,1016.047,false
+mass,M85,"ton, assay",,2,0.02916667,false
+mass,M86,pfund,pfd,2,0.5,false
+mass,MC,microgram,µg,1S,0.000000001,false
+mass,MGM,milligram,mg,1S,0.000001,false
+mass,ONZ,ounce (avoirdupois),oz,2,0.02834952,false
+mass,STI,stone (UK),st,2,6.350293,false
+mass,STN,ton (US) or short ton (UK/US),ton (US),2,907.1847,false
+mass,TNE,tonne (metric ton),t,1S,1000,false
+volume,4G,microlitre,µl,1M,0.000000001,false
+volume,A44,decalitre,dal,1M,0.01,false
+volume,BLD,dry barrel (US),bbl (US),2,0.115627,false
+volume,BLL,barrel (US),barrel (US),2,0.1589873,false
+volume,BUA,bushel (US),bu (US),2,0.03523907,false
+volume,BUI,bushel (UK),bushel (UK),2,0.03636872,false
+volume,CLT,centilitre,cl,1S,0.00001,false
+volume,CMQ,cubic centimetre,cm³,1S,0.000001,false
+volume,DLT,decilitre,dl,1M,0.0001,false
+volume,DMA,cubic decametre,dam³,1S,1000,false
+volume,DMQ,cubic decimetre,dm³,1S,0.001,false
+volume,FTQ,cubic foot,ft³,2,0.02831685,false
+volume,G21,cup [unit of volume],cup (US),2,0.0002365882,false
+volume,G23,peck,pk (US),2,0.008809768,false
+volume,G24,tablespoon (US),tablespoon (US),2,0.00001478676,false
+volume,G25,teaspoon (US),teaspoon (US),2,0.000004928922,false
+volume,G26,stere,st,1M,1,false
+volume,GLD,dry gallon (US),dry gal (US),2,0.004404884,false
+volume,GLI,gallon (UK),gal (UK),2,0.004546092,false
+volume,GLL,gallon (US),gal (US),2,0.003785412,false
+volume,H19,cubic hectometre,hm³,1S,1000000,false
+volume,H20,cubic kilometre,km³,1S,1000000000,false
+volume,HLT,hectolitre,hl,1S,0.1,false
+volume,INQ,cubic inch,in³,2,0.000016387064,false
+volume,J57,barrel (UK petroleum),bbl (UK liq.),2,0.15911315,false
+volume,K6,kilolitre,kl,1M,1,false
+volume,L43,peck (UK),pk (UK),2,0.009092181,false
+volume,L84,ton (UK shipping),British shipping ton,2,1.1893,false
+volume,L86,ton (US shipping),(US) shipping ton,2,1.1326,false
+volume,LTR,litre,l,1,0.001,false
+volume,M67,acre-foot (based on U.S. survey foot),acre-ft (US survey),2,1233.489,false
+volume,M68,cord (128 ft3),cord,2,3.624556,false
+volume,M69,cubic mile (UK statute),mi³,2,4168182000,false
+volume,M70,"ton, register",RT,2,2.831685,false
+volume,MAL,megalitre,Ml,1M,1000,false
+volume,MLT,millilitre,ml,1S,0.000001,false
+volume,MMQ,cubic millimetre,mm³,1S,0.000000001,false
+volume,MTQ,cubic metre,m³,1,1,true
+volume,NM3,Normalised cubic metre,,2,1,false
+volume,OZA,fluid ounce (US),fl oz (US),2,0.00002957353,false
+volume,OZI,fluid ounce (UK),fl oz (UK),2,0.00002841306,false
+volume,PTD,dry pint (US),dry pt (US),2,0.0005506105,false
+volume,PTI,pint (UK),pt (UK),2,0.000568261,false
+volume,PTL,liquid pint (US),liq pt (US),2,0.0004731765,false
+volume,Q32,femtolitre,fl,1S,1e-18,false
+volume,Q33,picolitre,pl,1S,1e-15,false
+volume,Q34,nanolitre,nl,1S,1e-12,false
+volume,QTD,dry quart (US),dry qt (US),2,0.001101221,false
+volume,QTI,quart (UK),qt (UK),2,0.0011365225,false
+volume,QTL,liquid quart (US),liq qt (US),2,0.0009463529,false
+volume,SM3,Standard cubic metre,,2,1,false
+volume,YDQ,cubic yard,yd³,2,0.764555,false
+length,4H,micrometre (micron),µm,1S,0.000001,false
+length,77,milli-inch,mil,2,0.0000254,false
+length,A11,angstrom,Å,1,1e-10,false
+length,A12,astronomical unit,ua,1,149597870000,false
+length,A45,decametre,dam,1M,10,false
+length,A71,femtometre,fm,1S,1e-15,false
+length,AK,fathom,fth,2,1.8288,false
+length,B57,light year,ly,2,9460730000000000,false
+length,C45,nanometre,nm,1S,0.000000001,false
+length,C52,picometre,pm,1S,1e-12,false
+length,C63,parsec,pc,1,30856780000000000,false
+length,CMT,centimetre,cm,1S;3.5,0.01,false
+length,DMT,decimetre,dm,1M,0.1,false
+length,F49,rod [unit of distance],rd (US),2,5.02921,false
+length,FOT,foot,ft,2,0.3048,false
+length,H79,French gauge,Fg,2,0.000333333333,false
+length,HMT,hectometre,hm,1M,100,false
+length,INH,inch,in,2,0.0254,false
+length,KMT,kilometre,km,1S,1000,false
+length,M49,chain (based on U.S. survey foot),ch (US survey),2,20.11684,false
+length,M50,furlong,fur,2,201.168,false
+length,M51,foot (U.S. survey),ft (US survey),2,0.3048006,false
+length,M52,mile (based on U.S. survey foot),mi (US survey),2,1609.347,false
+length,M7,micro-inch,µin,2,0.0000000254,false
+length,MAM,megametre,Mm,2,1000000,false
+length,MMT,millimetre,mm,1S,0.001,false
+length,MTR,metre,m,1,1,true
+length,NMI,nautical mile,n mile,1,1852,false
+length,SMI,mile (statute mile),mile,2,1609.344,false
+length,X1,Gunter's chain,ch (UK),2,20.1168,false
+length,YRD,yard,yd,2,0.9144,false
+area,ACR,acre,acre,2,4046.873,false
+area,CMK,square centimetre,cm²,1S,0.0001,false
+area,DAA,decare,daa,1M,1000,false
+area,DMK,square decimetre,dm²,1S,0.01,false
+area,FTK,square foot,ft²,2,0.09290304,false
+area,H16,square decametre,dam²,1S,100,false
+area,H18,square hectometre,hm²,1S,10000,false
+area,H30,square micrometre (square micron),µm²,1S,1e-12,false
+area,INK,square inch,in²,2,0.00064516,false
+area,KMK,square kilometre,km²,1S,1000000,false
+area,M47,circular mil,cmil,2,5.067075e-10,false
+area,M48,square mile (based on U.S. survey foot),mi² (US survey),2,2589998,false
+area,MMK,square millimetre,mm²,1S,0.000001,false
+area,MTK,square metre,m²,1,1,true
+area,YDK,square yard,yd²,2,0.8361274,false
+energy,3B,megajoule,MJ,1S,1000000,false
+energy,85,foot pound-force,ft·lbf,2,1.355818,false
+energy,A13,attojoule,aJ,1S,1e-18,false
+energy,A53,electronvolt,eV,1,1.602176487e-19,false
+energy,A68,exajoule,EJ,1S,1000000000000000000,false
+energy,A70,femtojoule,fJ,1S,1e-15,false
+energy,C15,millijoule,mJ,1S,0.001,false
+energy,C68,petajoule,PJ,1S,1000000000000000,false
+energy,D30,terajoule,TJ,1S,1000000000000,false
+energy,D32,terawatt hour,TW·h,1S,3600000000000000,false
+energy,GV,gigajoule,GJ,1S,1000000000,false
+energy,GWH,gigawatt hour,GW·h,1S,3600000000000,false
+energy,JOU,joule,J,1,1,true
+energy,KJO,kilojoule,kJ,1S,1000,false
+energy,KWH,kilowatt hour,kW·h,1S,3600000,false
+energy,MWH,megawatt hour (1000 kW.h),MW·h,1S,3600000000,false
+energy,N46,foot poundal,ft·pdl,2,0.04214011,false
+energy,N47,inch poundal,in·pdl,2,0.003511677,false
+energy,WHR,watt hour,W·h,1,3600,false

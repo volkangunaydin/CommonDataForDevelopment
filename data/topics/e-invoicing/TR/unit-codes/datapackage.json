@@ -1,0 +1,83 @@
+{
+  "name": "e-invoicing-tr-unit-codes",
+  "title": "UBL-TR unit of measure codes (e-Fatura)",
+  "description": "The units of measure that the GİB UBL-TR code list names for unitCode attributes in Turkish e-documents (e-Fatura, e-Arşiv Fatura, e-İrsaliye), with their official Turkish names, the matching UN/ECE Recommendation 20 unit, and the unit set and conversion factor from world-units-of-measure.",
+  "version": "0.1.0",
+  "created": "2026-11-09",
+  "keywords": ["TR", "e-invoicing", "e-fatura", "ubl-tr", "gib", "units-of-measure", "olcu-birimi", "unit-code", "rec20"],
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "title": "Creative Commons Attribution 4.0 International",
+      "path": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "sources": [
+    {
+      "title": "UBL-TR Kod Listeleri, Versiyon 1.43, Temmuz 2026 (section 1.5 InvoicedQuantity, Ölçü Birim Kodları Listesi), in UBLTR_1.2.1_Kilavuzlar.zip, Gelir İdaresi Başkanlığı, retrieved 2026-11-09",
+      "path": "https://ebelge.gib.gov.tr/dosyalar/kilavuzlar/UBLTR_1.2.1_Kilavuzlar.zip"
+    },
+    {
+      "title": "e-Fatura Paketi, schematron/UBL-TR_Codelist.xml (UnitCodeList; package history up to 2026-07-01), Gelir İdaresi Başkanlığı, retrieved 2026-11-05: used for in_schematron",
+      "path": "https://ebelge.gib.gov.tr/dosyalar/kilavuzlar/e-FaturaPaketi%20(29).zip"
+    },
+    {
+      "title": "world-units-of-measure (UN/CEFACT Recommendation 20, Revision 17), this repository: used for rec20_name, rec20_status, unit_set and factor_to_base",
+      "path": "https://github.com/volkangunaydin/CommonDataForDevelopment/tree/main/data/world/units-of-measure"
+    }
+  ],
+  "resources": [
+    {
+      "name": "unit-codes",
+      "path": "unit-codes.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "code",
+            "type": "string",
+            "description": "Unit code written to the unitCode attribute (InvoicedQuantity, DeliveredQuantity and others). References code in world-units-of-measure (units), except KFO.",
+            "constraints": { "required": true, "unique": true, "pattern": "^[0-9A-Z]{2,3}$" }
+          },
+          {
+            "name": "name",
+            "type": "string",
+            "description": "Turkish name as printed in the GİB code list (upper case in the source).",
+            "constraints": { "required": true }
+          },
+          {
+            "name": "rec20_name",
+            "type": "string",
+            "description": "English name of the code in Recommendation 20, Revision 17. Empty for KFO, which is not in Rec 20."
+          },
+          {
+            "name": "rec20_status",
+            "type": "string",
+            "description": "Status of the code in Rec 20: active, deleted (marked X) or deprecated (marked D). Empty when the code is not in Rec 20. GİB accepts all of them.",
+            "constraints": { "enum": ["active", "deleted", "deprecated", ""] }
+          },
+          {
+            "name": "unit_set",
+            "type": "string",
+            "description": "Unit set the code belongs to in world-units-of-measure (count, mass, volume, length, area, energy); empty when it is in none.",
+            "constraints": { "enum": ["count", "mass", "volume", "length", "area", "energy", ""] }
+          },
+          {
+            "name": "factor_to_base",
+            "type": "number",
+            "description": "Factor to the base unit of unit_set (KİLOGRAM for mass, METRE KÜP for volume, ADET for count): GRAM 0.001, LİTRE 0.001. Empty when unit_set is empty."
+          },
+          {
+            "name": "in_schematron",
+            "type": "boolean",
+            "description": "true when the UBL-TR schematron accepts the code (UnitCodeList).",
+            "constraints": { "required": true }
+          }
+        ],
+        "primaryKey": ["code"]
+      }
+    }
+  ]
+}

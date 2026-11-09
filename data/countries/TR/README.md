@@ -10,6 +10,7 @@
 | currency | [Currencies with Turkish names](currency/currencies/) | 193 | 0.1.0 |
 | customs | [Customs tariff codes (GTİP)](customs/gtip/) | 15,753 GTİP + 16,814 higher levels | 0.1.0 |
 | tax | [Tax offices](tax/tax-offices/) | 860 + 233 branches | 0.1.0 |
+| tax | [VAT rates](tax/vat-rates/) | 5 rates + 79 list items | 0.1.0 |
 
 Planned datasets are listed in the [roadmap](../../../docs/roadmap.md#tr--türkiye).
 

@@ -1,0 +1,156 @@
+list,section,item,gtip_printed,gtip,description,in_gtip_2026
+I,B,17,84.02,8402,Buhar kazanları (aynı zamanda alçak basınçlı su buharı da üretebilen merkezi ısıtma için sıcak su kazanları hariç); kızgın su kazanları:,true
+I,B,17,84.03,8403,Merkezi ısıtma kazanları (84.02 pozisyonundakiler hariç):,true
+I,B,17,84.04,8404,"84.02 veya 84.03 Pozisyonlarındaki kazanlarla birlikte kullanılmaya mahsus yardımcı cihazlar (ekonomizörler, kızgın su hasıl eden, kurum temizleme ve gaz tasarruf cihazları gibi); su buharı veya diğer buhar güç üniteleri için kondansörler: (50)",true
+I,B,17,84.17,8417,Sanayi veya laboratuvarlara mahsus elektrikli olmayan fırınlar ve ocaklar (çöp yakma fırınları dahil):,true
+I,B,17,8418.61.00.00.00,841861000000,Isı pompaları ( 84.15 pozisyonunda yer alan klima cihazları hariç),true
+I,B,17,8418.69,841869,Diğerleri (Diğer soğutucu veya dondurucu cihazlar),true
+I,B,17,84.19,8419,"Isı değişikliği yoluyla (özellikle ısıtma, pişirme, kavurma, damıtma, rektifiye etme, steril hale koyma, pastörize etme, etüvleme, kurutma, buharlaştırma, kondanse etme veya soğutma gibi) maddelerin işlenmesi için makinalar ve tesis veya laboratuvar cihazları (ısıtması elektrikle olsun olmasın) (85.14 pozisyonundaki ocaklar, fırınlar ve diğer cihazlar hariç) (ev işlerinde kullanılmaya mahsus makina ve cihazlar hariç) elektrikli olmayan şofbenler ve diğer su ısıtıcıları:",true
+I,B,17,84.20,8420,Kalenderler ve diğer hadde makinaları (metal veya cam hadde makinaları hariç) ve bu makinaların silindirleri:,true
+I,B,17,84.21,8421,Santrifüjler (santrifüj kurutma makinaları dahil); sıvıların veya gazların filtre edilmesine veya arıtılmasına mahsus makina ve cihazlar:,true
+I,B,17,84.24,8424,"Sıvı veya toz halindeki maddeleri püskürtmeye, dağıtmaya veya pülverize etmeye mahsus mekanik cihazlar (el ile kullanılan türde olsun olmasın); yangın söndürme cihazları (doldurulmuş olsun olmasın); püskürtme tabancaları ve benzeri cihazlar; buhar veya kum püskürtme makinaları ve benzeri püskürtme makinaları:",true
+I,B,17,84.26,8426,"Gemi vinçleri (""derricks""); vinçler (""cranes"") (taşıyıcı halatlı vinçler dahil); hareketli kaldırma çerçeveleri, şasisi ""straddle"" tipi olan ayak mesafeleri ayarlanabilen lastik tekerlekli taşıyıcılar ve vinçli yük arabaları:",true
+I,B,17,84.28,8428,"Kaldırma, elleçleme, yükleme veya boşaltma işlerine mahsus diğer makina ve cihazlar (asansörler, yürüyen merdivenler, konveyörler, teleferikler gibi):",true
+I,B,17,84.29,8429,"Kendinden hareketli buldozerler, angledozerler, greyderler, toprak tesviyesine mahsus makinalar, skreyperler, mekanik küreyiciler, ekskavatörler, küreyici yükleyiciler, sıkıştırma işini tokmaklamak suretiyle yapan makinalar ve yol silindirleri:",true
+I,B,17,84.30,8430,"Toprağın, minerallerin veya cevherlerin taşınması, yayılması, tesviyesi, sıyrılması, kazılması, sıkıştırılması, bastırılıp sıkıştırılması, çıkarılması veya delinmesine mahsus diğer makina ve cihazlar; kazık varyosları ve kazık sökme makinaları; kar küreyicileri ve püskürtücüleri:",true
+I,B,17,84.32,8432,"Toprağı hazırlamaya, işlemeye ve ekmeye mahsus tarla ve bahçe tarımında veya ormancılıkta kullanılan makina ve cihazlar; çimenlikler ve spor sahaları için silindirler:",true
+I,B,17,84.33,8433,"Tarım ürünlerinin hasat ve harman edilmesine mahsus makina ve cihazlar (ot ve saman balyalamaya mahsus olanlar dahil); çim ve çayır biçme makina ve cihazları; yumurtaları, meyvaları ve diğer tarım ürünlerini ağırlık ve büyüklüklerine göre ayıran ve temizleyen makina ve cihazlar (84.37 pozisyonundaki makina ve cihazlar hariç): - Çim biçme makina ve cihazları (50)",true
+I,B,17,84.34,8434,Süt sağma makinaları ve sütçülükte kullanılan makina ve cihazlar:,true
+I,B,17,84.35,8435,"Şarap, elma şarabı, meyva suları veya benzeri içeceklerin imaline mahsus presler, fulvarlar ve benzeri makina ve cihazlar:",true
+I,B,17,84.36,8436,"Tarla ve bahçe tarımına, ormancılığa, kümes hayvancılığına veya arıcılığa mahsus diğer makina ve cihazlar (mekanik veya termik tertibatlı çimlendirmeye mahsus olanlar dahil); kümes hayvancılığına mahsus civciv çıkartma ve büyütme makina ve cihazları:",true
+I,B,17,84.37,8437,"Tohumların, hububatın, kuru baklagillerin temizlenmesine, tasnif edilmesine veya ayıklanmasına mahsus makina ve cihazlar; kuru baklagillerin veya hububatın öğütülmesine veya işlenmesine mahsus makina ve cihazlar (çiftlik tipi makina ve cihazlar hariç):",true
+I,B,17,84.38,8438,"Bu fasılın diğer pozisyonlarında yer almayan veya belirtilmeyen yiyecek ve içeceklerin sınai amaçlarla hazırlanması veya imaline mahsus makina ve cihazlar (hayvansal, bitkisel sabit katı veya sıvı yağların çıkarılmasına veya hazırlanmasına mahsus olanlar hariç):",true
+I,B,17,84.51,8451,"Dokumaya elverişli ipliklerin, mensucatın veya dokumaya elverişli madde mamullerinin yıkanması, temizlenmesi, sıkılması, kurutulması, ütülenmesi, preslenmesi suretiyle ütülenmesi (ısı ile yapıştıran presler dahil), ağartılması, boyanması, aprelenmesi, finisajı, emdirilmesine mahsus makina ve cihazlar (84.50 pozisyonundakiler hariç) ve zemin kaplamalarının imalatında kullanılan (linoleum gibi) mensucat veya diğer mesnetlere pasta kaplama makinaları; mensucatı top halinde sarmaya, açmaya, katlamaya, kesmeye veya şekilli kesmeye mahsus makinalar:",true
+I,B,17,84.55,8455,Metalleri haddeleme makinaları ve bunların silindirleri:,true
+I,B,17,84.68,8468,Lehim ve kaynak yapmaya mahsus makina ve cihazlar (kesmeye elverişli olsun olmasın) (85.15 pozisyonundakiler hariç); gazla çalışan satıh tavlamaya mahsus makina ve cihazlar:,true
+I,B,17,84.74,8474,"Toprak, taş, cevher veya katı haldeki diğer mineral maddeleri (toz ve hamur halinde olanlar dahil) tasnif etmeye, elemeye, ayırmaya, yıkamaya, kırmaya, öğütmeye, karıştırmaya veya yoğurmaya mahsus makina ve cihazlar; mineral katı yakıtları, seramik hamurlarını, sertleşmemiş çimentoyu, alçıyı ve toz veya hamur halindeki diğer mineral maddeleri aglomere etmeye, kalıba dökmeye veya bunlara şekil vermeye mahsus makina ve cihazlar; kumdan dökümhane kalıpları yapmaya mahsus makinalar:",true
+I,B,17,85.01,8501,Elektrik motorları ve jeneratörler [elektrik enerjisi üretim (elektrojen) grupları hariç] :,true
+I,B,17,8502.11,850211,"Çıkış gücü 75 kVA.yı geçmeyenler (Sıkıştırma ateşlemeli, içten yanmalı, pistonlu motorlu (dizel veya yarı dizel) elektrik enerjisi üretim (elektrojen) grupları (33)",true
+I,B,17,8502.12,850212,"Çıkış gücü 75 kVA.yı geçen fakat 375 kVA.yı geçmeyenler (Sıkıştırma ateşlemeli, içten yanmalı, pistonlu motorlu (dizel veya yarı dizel) elektrik enerjisi üretim (elektrojen) grupları (33)",true
+I,B,17,8502.13,850213,"Çıkış gücü 375 kVA.yı geçenler (Sıkıştırma ateşlemeli, içten yanmalı, pistonlu motorlu (dizel veya yarı dizel) elektrik enerjisi üretim (elektrojen) grupları (33)",true
+I,B,17,8502.20,850220,"Kıvılcım ateşlemeli, içten yanmalı, pistonlu motorlu elektrik enerjisi üretim (elektrojen) grupları (33)",true
+I,B,17,8502.31,850231,Rüzgar çıkış gücü ile çalışanlar (Çıkış gücü 50 kVA ve bunun üzerinde olan fakat 500 kVA.yı geçmeyenler) (2015/7205 sayılı BKK ile değiştirilen satır. Yürürlük : 31/01/2015) (33) (38),true
+I,B,17,85.04,8504,"Elektrik transformatörleri, statik konvertörler (örneğin; redresörler) ve endüktörler:",true
+I,B,17,85.14,8514,Sanayi veya laboratuvarlarda kullanılan elektrik ocak ve fırınları (endüksiyon veya dielektrik kaybı yoluyla çalışanlar dahil); endüksiyon veya dielektrik kaybı yoluyla termik işlemlerde kullanılmaya mahsus diğer sanayi veya laboratuvar cihazları:,true
+I,B,17,84.06,8406,Buhar türbinleri (34),true
+I,B,17,84.10,8410,"Su türbinleri, su çarkları ve bunlar için regülatörler (34)",true
+I,B,17,84.11,8411,"Turbojetler, turbopropellerler ve diğer gaz türbinleri (34)",true
+I,B,17,8413.19.00.20.00,841319002000,Fiyat ve miktar gösteren tertibatı olan dağıtım pompaları (34),true
+I,B,17,8413.19.00.90.11,841319009011,Gıda maddeleri için miktar gösteren dağıtım pompaları (34),true
+I,B,17,8413.19.00.90.12,841319009012,Miktar gösteren tertibatı olan diğer dağıtım pompaları (34),true
+I,B,17,8413.40.00.00.00,841340000000,Beton pompaları (34),true
+I,B,17,8413.60,841360,Diğer döner deplasmanlı (pozitif hareketli) pompalar (34),true
+I,B,17,8422.30.00.00.00,842230000000,"Şişeleri, kutuları, çuvalları veya diğer kapları doldurmaya, kapamaya, mühürlemeye veya etiketlemeye mahsus makinalar; şişeleri, kavanozları, tüpleri ve benzeri kapları kapsüllemeye mahsus makinalar; içecekleri gazlandırmaya mahsus makinalar (34)",true
+I,B,17,8422.40.00.00.00,842240000000,Diğer paketleme veya ambalajlama makinaları (ısı ile büzerek ambalajlamaya mahsus makinalar dahil) (34),false
+I,B,17,8423.30,842330,Sabit ağırlıkları tartan basküller ve maddeyi belirli bir ağırlığa göre tartarak çuval ve diğer kaplara doldurmaya mahsus baskül ve teraziler (34) (50),true
+I,B,17,84.27,8427,Forkliftler; kaldırma ve elleçleme tertibatı olan diğer yük arabaları (34),true
+I,B,17,84.39,8439,Lifli selülozik maddelerden kağıt hamuru imaline veya kağıt veya karton imaline veya finisajına mahsus makina ve cihazlar (34),true
+I,B,17,84.40,8440,Cilt makinaları ve kitap formalarını dikmeye mahsus makinalar (münferit yaprakları dikmeye mahsus makinalar dahil) (34),true
+I,B,17,84.41,8441,"Kağıt hamuru, kağıt veya kartonun işlenmesine mahsus diğer makina ve cihazlar (her cins kesme makina ve cihazları dahil) (34)",true
+I,B,17,84.42,8442,"Levhaları, silindirleri ve diğer tabedici unsurları hazırlamaya ve yapmaya mahsus makinalar, cihazlar ve teçhizat (84.56 ila 84.65 pozisyonlarında yer alan takım tezgahları hariç); levhalar, silindirler ve diğer tabedici unsurlar; matbaacılıkta kullanılmak üzere hazırlanmış levhalar, silindirler ve litoğrafya taşları (örneğin; düz, pütürlü veya cilalı) (34) (50)",true
+I,B,17,8443.16.00.00.00,844316000000,Fleksografik baskı yapan makinalar (34),true
+I,B,17,8444.00,844400,"Dokumaya elverişli sentetik veya suni maddelerin ekstrüzyonu (basınçlı fışkırtma usulüyle lif imali), çekilmesi, tekstüre edilmesi veya kesilmesine mahsus makina ve cihazlar (34)",true
+I,B,17,84.45,8445,"Dokumaya elverişli elyafın hazırlanmasına mahsus makinalar; eğirme, katlama veya bükme makinaları veya dokumaya elverişli ipliklerin üretimine mahsus diğer makina ve cihazlar; dokumaya elverişli iplikleri bobinleme veya çilelemeye mahsus (masura sarıcılar dahil) ve 84.46 veya 84.47 pozisyonlarındaki makinalarda kullanılan dokumaya elverişli ipliklerin hazırlanmasına mahsus makinalar (34)",true
+I,B,17,84.46,8446,Dokuma makinaları (tezgâhlar) (34),true
+I,B,17,84.47,8447,"Örgü makinaları, dikiş -trikotaj makinaları ve gipe edilmiş iplik, tül, dantela, işleme, şeritci ve kaytancı eşyası veya file imaline mahsus makina ve cihazlar ve püskül, ponpon makina ve cihazları (34)",true
+I,B,17,8448.11.00.00.00,844811000000,"Ratiyerler ve jakardlar; jakard kardlarını azaltıcı, kopya edici, delici veya birleştirici makinalar (34)",true
+I,B,17,8448.19,844819,"Diğerleri (84.44,84.45, 84.46 veya 84.47 Pozisyonlarındaki makinalar için yardımcı makina ve cihazlar) (34)",true
+I,B,17,8449.00,844900,Şekilli veya parça halinde keçe veya dokunmamış mensucat imalatına veya finisajına mahsus makina ve cihazlar (keçeden şapka imaline mahsus makina ve cihazlar dahil); şapka kalıpları (34),true
+I,B,17,8452.21.00.00.00,845221000000,Otomatik üniteler (Ev tipi olmayan diğer dikiş makinaları) (34),true
+I,B,17,8452.29.00.00.00,845229000000,Diğerleri (Ev tipi ve otomatik üniteli olmayan diğer dikiş makinaları) (34),false
+I,B,17,84.53,8453,"Post, deri ve köselelerin hazırlanması, dabaklanması veya işlenmesi, deri veya köseleden yapılan ayakkabı veya diğer eşyanın imaline veya tamirine mahsus makina ve cihazlar (dikiş makinaları hariç) (34)",true
+I,B,17,84.54,8454,"Metalürjide veya metal dökümhanelerinde kullanılan tav ocakları, döküm potaları, külçe kalıpları ve döküm makinaları (34)",true
+I,B,17,84.56,8456,"Herhangi bir maddenin aşındırılarak, lazerle, diğer ışın veya foton ışınıyla, ultrasonik, elektro-erozyon, elektro-kimyasal, elektron ışını, ionik ışın veya plazma arkı yöntemleri ile işlenmesine mahsus makina ve aletler, su püskürtmeli kesme makinaları (34)",true
+I,B,17,84.57,8457,"Metal işlemeye mahsus işleme merkezleri, tek istasyonlu tezgâhlar ve çok istasyonlu transfer tezgâhları (34)",true
+I,B,17,84.58,8458,Metal işlemeye mahsus torna tezgahları ( tornalama merkezleri dahil) (34),true
+I,B,17,84.59,8459,"Metalleri talaş kaldırmak suretiyle delmeye, raybalamaya, frezelemeye, diş açmaya veya vida yuvası açmaya mahsus takım tezgahları (kızaklı işlem üniteleri dahil) [84.58 pozisyonundaki torna tezgahları (tornalama merkezleri dahil) hariç] (34)",true
+I,B,17,84.60,8460,"Metalleri veya sermetleri taşlama taşları, aşındırıcılar veya parlatma ürünleri vasıtasıyla işleyen çapak alma, bileme, taşlama, honlama, lepleme, parlatma veya başka şekilde tamamlama işlemlerine mahsus tezgâhlar (84.61 pozisyonundaki dişli açma, dişli taşlama veya dişli tamamlama tezgâhları hariç) (34)",true
+I,B,17,84.61,8461,"Metalleri veya sermetleri talaş kaldırarak işleyen, tarifenin başka bir yerinde belirtilmeyen veya yer almayan planya, vargel, yiv açma, broş, dişli açma, dişli taşlama veya dişli tamamlama tezgâhları, testere, dilme tezgâhları ve diğer takım tezgâhları (34)",true
+I,B,17,84.62,8462,"Metalleri dövme, çekiçleme veya kalıpta dövme suretiyle işlemeye mahsus takım tezgahları (presler dahil); metalleri kavislendirmeye, katlamaya, düzeltmeye, makasla kesmeye, zımbalı kesmeye, taslak çıkartmaya veya şataflamaya mahsus takım tezgahları (presler dahil); metalleri veya metal karbürleri işlemeye mahsus yukarıda sayılmayan presler (34)",true
+I,B,17,84.63,8463,Metalleri veya sermetleri talaş kaldırmadan işlemeye mahsus diğer takım tezgâhları (34),true
+I,B,17,84.64,8464,"Taş, seramik, beton, asbestli çimento veya benzeri mineral maddeleri işlemeye veya camı soğuk olarak işlemeye mahsus makinalar (34)",true
+I,B,17,84.65,8465,"Ağaç, mantar, kemik, sert kauçuk, sert plastik maddeler veya benzeri sert maddeleri işlemeye mahsus makinalar (çivi çakma, zımbalama, yapıştırma veya başka şekilde birleştirmeye mahsus makinalar dahil) (34)",true
+I,B,17,84.77,8477,Bu fasılın başka pozisyonlarında belirtilmeyen veya yer almayan kauçuk veya plastiğin işlenmesine veya kauçuk veya plastikten eşyanın imaline mahsus makina ve cihazlar (34),true
+I,B,17,8479.10.00.00.19,847910000019,"Diğerleri (Yol çizme makinaları ile beton serme ve dökme makinaları dışındaki bayındırlık, inşaat ve benzeri işlerde kullanılmaya mahsus makina ve cihazlar) (34)",true
+I,B,17,8479.50.00.00.00,847950000000,Sınai robotlar (tarifenin başka yerinde belirtilmeyen veya yer almayan) (34),true
+I,B,17,8479.89,847989,Diğerleri (Kendine özgü bir fonksiyonu olan diğer makine ve cihazlar) (34),true
+I,B,17,8480.71.00.00.00,848071000000,Enjeksiyon veya basınçlı döküm için olanlar (Kauçuk veya plastik maddeler için kalıplar) (34),true
+I,B,17,8480.79.00.00.00,848079000000,Diğerleri (Enjeksiyon veya basınçlı döküm için olmayan kauçuk veya plastik maddeler için kalıplar) (34),true
+I,B,17,8515.80.10.10.00,851580101000,Ultrasonik kaynak makinaları (Metalleri işlemek için olanlar) (34),true
+I,B,17,8515.80.90.10.00,851580901000,Ultrasonik kaynak makinaları (Metal dışındaki maddeleri işlemek için olanlar) (34),true
+I,B,17,8515.80.90.90.00,851580909000,Diğerleri (Metal dışındaki maddeleri işlemeye mahsus ultrasonik olmayan kaynak makinaları) (34),true
+II,,28,8424.81,842481,"Tarıma ve bahçeciliğe ait olanlar (sıvı veya toz halindeki maddeleri püskürtmeye, dağıtmaya veya pülverize etmeye mahsus mekanik cihazlar)",false
+II,,28,8428.20.30.90.00,842820309000,Diğerleri (Tarımda kullanılmak üzere özel olarak imal edilmiş pnömatik elevatörler ve konveyörler),false
+II,,28,8428 90.71 00 00,842890710000,Zirai traktörlere takılmak üzere imal edilenler (Tarımda kullanılmak üzere özel olarak imal edilmiş yükleyiciler),true
+II,,28,8428.90.95.90.11,842890959011,Zirai traktörler için hidrolik kaldırıcılar (52),false
+II,,28,8432.10,843210,Pulluklar,true
+II,,28,8432.21.00.00.00,843221000000,Diskli tırmıklar (diskorolar),true
+II,,28,8432 29,843229,"Diğerleri: (Tırmıklar, skaritikatörler, kültivatörler, zararlı otları ayıklayan makinalar, çapa makinaları)",true
+II,,28,8432.30,843230,Ekim ve dikim makinaları,false
+II,,28,8432.40,843240,Gübreleme makina ve cihazları,false
+II,,28,8433.20,843320,Çayır (52) biçme makinaları (traktörlere monte edilen parmaklı biçme makinaları dahil),true
+II,,28,8433.30,843330,Ot hazırlama makina ve cihazları,true
+II,,28,8433.40,843340,Ot ve saman balyalama makina ve cihazları (ot ve samanları toplayıp demet veya balya yapmaya mahsus olanlar dahil),true
+II,,28,8433.51.00.00.00,843351000000,Biçer döverler,false
+II,,28,8433.52,843352,Diğer harman makina ve cihazları,true
+II,,28,8433.53,843353,Kök ve yumru sökme (52) makinaları,true
+II,,28,8433.59.11.00.00,843359110000,Kendinden hareketli olanlar (silaj makinası),true
+II,,28,8433.59.19.00.00,843359190000,Diğerleri (silaj makinası),true
+II,,28,8433.59.30.00.11,843359300011,Orak makinaları (biçerler) (52),false
+II,,28,8433.59.30.00.12,843359300012,Biçer toplarlar (52),false
+II,,28,8433.59.30.00.13,843359300013,Biçer bağlarlar (52),false
+II,,28,8433.59.80.00.11,843359800011,Pamuk hasat makinası (52),false
+II,,28,8433.59.80.00.12,843359800012,Mısır hasat makinası (52),false
+II,,28,8433.59.80.00.13,843359800013,Mısır toplama ve daneleme makinaları (52),false
+II,,28,8433.59.80.00.19,843359800019,Diğerleri (diğer hasat ve harman makina ve cihazları) (52),false
+II,,28,8433.90,843390,Aksam ve parçalar (84.33 pozisyonundaki makina ve cihazlara ait olanlar) (11),true
+II,,28,84.34,8434,Süt sağma makinaları ve sütçülükte kullanılan makina ve cihazlar (99),true
+II,,28,8436.10.00.00.00,843610000000,Hayvan yemlerini hazırlamaya mahsus makina ve cihazlar,true
+II,,28,8436.80.91.00.00,843680910000,Otomatik yalaklar (52),false
+II,,28,8436.80.99.00.11,843680990011,Arıcılığa mahsus bal mumunu petek yapan makina ve cihazlar (52),false
+II,,28,8436.80.99.00.12,843680990012,Arıcılığa mahsus diğer makina ve cihazlar (52),false
+II,,28,8436.80.99.00.13,843680990013,Mekanik hayvan kırkma makinaları (elle çalışanlar hariç) (52),false
+II,,28,8510.20.00.00.12,851020000012,Hayvan kırkma makinaları,true
+II,,28,8701.10.00.00.00,870110000000,Motokültörler (52),true
+II,,28,8701.90.11.00.00,870190110000,Motor gücü 18 kW.ı geçmeyenler (traktörler) (52),false
+II,,28,8701.90.20.00.00,870190200000,Motor gücü 18 kW.ı geçen fakat 37 kW.ı geçmeyenler (traktörler) (52),false
+II,,28,8701.90.25.00.00,870190250000,Motor gücü 37 kW.ı geçen fakat 59 kW.ı geçmeyenler (traktörler) (52),false
+II,,28,8701.90.31.00.00,870190310000,Motor gücü 59 kW.ı geçen fakat 75 kW.ı geçmeyenler (traktörler) (52),false
+II,,28,8701.90.35.00.00,870190350000,Motor gücü 75 kW.ı geçen fakat 90 kW.ı geçmeyenler (traktörler) (52),false
+II,,28,8701.90.39.00.00,870190390000,Motor gücü 90 kW.ı geçenler (traktörler) (52),false
+II,,28,8716.20.00.00.00,871620000000,Tarımda kullanılmaya mahsus kendinden yüklemeli veya boşaltmalı römork ve yarı römorklar,true
+II,,28,8418.69.00.99.19,841869009919,Diğerleri (Yalnız süt soğutma tankları),true
+II,,28,8433.60.00.00.00,843360000000,"Yumurtaları, meyvaları veya diğer tarım ürünlerini ağırlık veya büyüklüklerine göre ayırmaya veya temizlemeye mahsus makina ve cihazlar",true
+II,,29,84.29.52.10.00.00,842952100000,Paletli ekskavatörler (kulesi 360 derece dönebilen),true
+II,,29,84.29.52.90.00.11,842952900011,Lastik tekerlekli olanlar (kulesi 360 derece dönebilen makina ve cihazlar),true
+II,,29,84.29.59.00.10.11,842959001011,Beko loder,true
+II,,29,84.47,8447,"Örgü makinaları, dikiş-trikotaj makinaları ve gipe edilmiş iplik, tül, dantela, işleme, şeritçi ve kaytancı eşyası veya file imaline mahsus makina ve cihazlar ve püskül, ponpon makina ve cihazları",true
+II,,29,84.52.10,845210,Ev tipi dikiş makinaları,true
+II,,29,84.52.21.00.00.00,845221000000,Otomatik üniteler (diğer dikiş makinaları),true
+II,,29,84.52.29.00.00.00,845229000000,Diğerleri (diğer dikiş makinaları),false
+II,,29,84.58,8458,Metal işlemeye mahsus torna tezgahları (tornalama merkezleri dahil),true
+II,,29,84.59,8459,"Metalleri talaş kaldırmak suretiyle delmeye, raybalamaya, frezelemeye, diş açmaya veya vida yuvası açmaya mahsus takım tezgahları (kızaklı işlem üniteleri dahil) [84.58 pozisyonundaki torna tezgahları (tornalama merkezleri dahil) hariç]",true
+II,,33,9401.30,940130,Yüksekliği ayarlanabilen oturmaya mahsus döner koltuk ve sandalyeler,false
+II,,33,9401.40.00.00.00,940140000000,Yatak haline getirilebilen oturmaya mahsus mobilyalar (kamp veya bahçede kullanılanlar hariç),false
+II,,33,9401.52.00.00.00,940152000000,Bambudan,true
+II,,33,9401.53.00.00.00,940153000000,Hintkamışından,true
+II,,33,9401.59.00.00.00,940159000000,"Diğerleri (Kamış, sepetçi söğüdü, bambu veya benzeri maddelerden oturmaya mahsus mobilyalar)",true
+II,,33,9401.61,940161,"İçleri doldurulmuş, kaplanmış olanlar",true
+II,,33,9401.69,940169,Diğerleri (Ahşap iskeletli oturmaya mahsus diğer mobilyalar),true
+II,,33,9401.71,940171,"İçleri doldurulmuş, kaplanmış olanlar (Metal iskeletli oturmaya mahsus diğer mobilyalar)",true
+II,,33,9401.79,940179,Diğerleri (Metal iskeletli oturmaya mahsus diğer mobilyalar),true
+II,,33,9401.80,940180,Oturmaya mahsus diğer mobilyalar,true
+II,,33,9402.10.00.00.19,940210000019,Diğerleri (Berber koltukları veya benzeri koltuklar),true
+II,,33,9403.10,940310,Bürolarda kullanılan türden metal mobilyalar,true
+II,,33,9403.20,940320,Metalden diğer mobilyalar,true
+II,,33,9403.30,940330,Bürolarda kullanılan türden ahşap mobilyalar,true
+II,,33,9403.40,940340,Mutfaklarda kullanılan türden ahşap mobilyalar,true
+II,,33,9403.50,940350,Yatak odalarında kullanılan türden ahşap mobilyalar,true
+II,,33,9403.60,940360,Diğer ahşap mobilyalar,true
+II,,33,9403.70,940370,Plastik maddelerden mobilyalar,true
+II,,33,9403.82.00.00.00,940382000000,Bambudan olanlar,true
+II,,33,9403.83.00.00.00,940383000000,Hintkamışından,true
+II,,33,9403.89.00.00.00,940389000000,Diğerleri (Diğer maddelerden mobilyalar),true
+II,,33,9404.10.00.00.00,940410000000,Şilte mesnetleri,true
+II,,33,9404.21,940421,Gözenekli kauçuktan veya plastik maddelerden olanlar (kaplanmış olsun olmasın) (Şilteler),true
+II,,33,9404.29,940429,Diğer maddelerden olanlar (Şilteler),true

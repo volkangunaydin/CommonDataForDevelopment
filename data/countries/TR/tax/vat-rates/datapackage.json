@@ -1,0 +1,182 @@
+{
+  "name": "tr-tax-vat-rates",
+  "title": "VAT rates of Türkiye",
+  "description": "The value added tax (KDV) rates of Türkiye set by Decree 2007/13033 (general rate, list I and list II rates, with the rates before 2023-07-10), and the items of list I (1%) and list II (10%) in the consolidated text published by GİB, including the customs tariff lines named in four of the items.",
+  "version": "0.1.0",
+  "created": "2026-11-09",
+  "keywords": ["TR", "tax", "vat", "kdv", "kdv-oranlari", "vat-rates", "gib", "2007/13033"],
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "title": "Creative Commons Attribution 4.0 International",
+      "path": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Güncel KDV Oranları: Mal ve Hizmetlere Uygulanacak Katma Değer Vergisi Oranlarının Tespitine İlişkin Karar (2007/13033), consolidated text with amendments up to Presidential Decree 9126 (in force 2024-11-15), Gelir İdaresi Başkanlığı, retrieved 2026-11-09",
+      "path": "https://cdn.gib.gov.tr/api/gibportal-file/file/getFileResources?objectKey=arsiv%2Fyardim-kaynaklar%2Fyararli-bilgiler%2Fkdv-oranlari.pdf"
+    },
+    {
+      "title": "tr-customs-gtip (TÜİK GTİP 2026), this repository: used for in_gtip_2026",
+      "path": "https://github.com/volkangunaydin/CommonDataForDevelopment/tree/main/data/countries/TR/customs/gtip"
+    }
+  ],
+  "resources": [
+    {
+      "name": "vat-rates",
+      "path": "vat-rates.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "rate_type",
+            "type": "string",
+            "description": "general for taxable supplies not in either list (Decree art. 1(1)(a)); list_i for supplies in list I (art. 1(1)(b)); list_ii for supplies in list II (art. 1(1)(c)).",
+            "constraints": { "required": true, "enum": ["general", "list_i", "list_ii"] }
+          },
+          {
+            "name": "rate_percent",
+            "type": "integer",
+            "description": "VAT rate in percent.",
+            "constraints": { "required": true }
+          },
+          {
+            "name": "valid_from",
+            "type": "date",
+            "description": "First day the rate applies under Decree 2007/13033. 2007-12-31 is the day after the Decree was published; rates in force before the Decree are not covered.",
+            "constraints": { "required": true }
+          },
+          {
+            "name": "valid_to",
+            "type": "date",
+            "description": "Last day the rate applied. Empty for the rates in force."
+          },
+          {
+            "name": "applies_to",
+            "type": "string",
+            "description": "What the rate applies to, in English.",
+            "constraints": { "required": true }
+          },
+          {
+            "name": "legal_basis",
+            "type": "string",
+            "description": "Provision and amending decree, as given in the consolidated text.",
+            "constraints": { "required": true }
+          }
+        ],
+        "primaryKey": ["rate_type", "valid_from"]
+      }
+    },
+    {
+      "name": "vat-rate-list-items",
+      "path": "vat-rate-list-items.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "list",
+            "type": "string",
+            "description": "I for list (I), taxed at 1%; II for list (II), taxed at 10%.",
+            "constraints": { "required": true, "enum": ["I", "II"] }
+          },
+          {
+            "name": "section",
+            "type": "string",
+            "description": "Section of list I: A (Gıda maddeleri, food) or B (Diğer mal ve hizmetler, other goods and services). Empty for list II, which has no sections.",
+            "constraints": { "enum": ["A", "B", ""] }
+          },
+          {
+            "name": "item",
+            "type": "string",
+            "description": "Item number (sıra) within the list or section, as printed.",
+            "constraints": { "required": true, "pattern": "^[0-9]{1,2}$" }
+          },
+          {
+            "name": "rate_percent",
+            "type": "integer",
+            "description": "The rate of the list today: 1 for list I, 10 for list II. The item text can carry exceptions that move some supplies to another rate.",
+            "constraints": { "required": true, "enum": [1, 10] }
+          },
+          {
+            "name": "status",
+            "type": "string",
+            "description": "repealed when the item was removed and only the repeal note remains in the text; in_force otherwise.",
+            "constraints": { "required": true, "enum": ["in_force", "repealed"] }
+          },
+          {
+            "name": "text",
+            "type": "string",
+            "description": "Full text of the item in Turkish as in GİB's consolidated text, including sub-items, amendment notes such as '(2016/9542 sayılı Kararname ile değiştirilen sıra. Yürürlük: 25/11/2016)' and GİB's footnote numbers in parentheses. Line breaks are joined with a space. For items with a tariff table the table is part of the text; see vat-rate-list-tariff-lines for the lines.",
+            "constraints": { "required": true }
+          }
+        ],
+        "primaryKey": ["list", "section", "item"]
+      }
+    },
+    {
+      "name": "vat-rate-list-tariff-lines",
+      "path": "vat-rate-list-tariff-lines.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "list",
+            "type": "string",
+            "description": "List of the item the line belongs to. References vat-rate-list-items.",
+            "constraints": { "required": true, "enum": ["I", "II"] }
+          },
+          {
+            "name": "section",
+            "type": "string",
+            "description": "Section of the item, as in vat-rate-list-items.",
+            "constraints": { "enum": ["A", "B", ""] }
+          },
+          {
+            "name": "item",
+            "type": "string",
+            "description": "Item number. The tables are in list I section B item 17 (machinery for financial leasing) and list II items 28 and 29 (agricultural and other machinery) and 33 (furniture).",
+            "constraints": { "required": true }
+          },
+          {
+            "name": "gtip_printed",
+            "type": "string",
+            "description": "Customs tariff position exactly as printed, for example 84.02, 8418.69 or 8428 90.71 00 00. Positions refer to the tariff edition named in the item, not to the current one.",
+            "constraints": { "required": true }
+          },
+          {
+            "name": "gtip",
+            "type": "string",
+            "description": "The same position as digits only (4, 6 or 12 digits), comparable with code in tr-customs-gtip.",
+            "constraints": { "required": true, "pattern": "^([0-9]{4}|[0-9]{6}|[0-9]{8}|[0-9]{12})$" }
+          },
+          {
+            "name": "description",
+            "type": "string",
+            "description": "Description of the position as printed in the table, with GİB's footnote numbers.",
+            "constraints": { "required": true }
+          },
+          {
+            "name": "in_gtip_2026",
+            "type": "boolean",
+            "description": "true when gtip exists as a code in the 2026 GTİP nomenclature (tr-customs-gtip); false when the position has since been renumbered or split.",
+            "constraints": { "required": true }
+          }
+        ],
+        "primaryKey": ["list", "section", "item", "gtip_printed"],
+        "foreignKeys": [
+          {
+            "fields": ["list", "section", "item"],
+            "reference": { "resource": "vat-rate-list-items", "fields": ["list", "section", "item"] }
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,1636 @@
+sector_number,sector,quantity,code
+01,Space and Time,"acceleration, acceleration of free fall, acceleration due to gravity",A73
+01,Space and Time,"acceleration, acceleration of free fall, acceleration due to gravity",A76
+01,Space and Time,"acceleration, acceleration of free fall, acceleration due to gravity",C11
+01,Space and Time,"acceleration, acceleration of free fall, acceleration due to gravity",IV
+01,Space and Time,"acceleration, acceleration of free fall, acceleration due to gravity",K40
+01,Space and Time,"acceleration, acceleration of free fall, acceleration due to gravity",M38
+01,Space and Time,"acceleration, acceleration of free fall, acceleration due to gravity",M39
+01,Space and Time,"acceleration, acceleration of free fall, acceleration due to gravity",M40
+01,Space and Time,"acceleration, acceleration of free fall, acceleration due to gravity",M41
+01,Space and Time,"acceleration, acceleration of free fall, acceleration due to gravity",M42
+01,Space and Time,"acceleration, acceleration of free fall, acceleration due to gravity",MSK
+01,Space and Time,angle (plane),A91
+01,Space and Time,angle (plane),B97
+01,Space and Time,angle (plane),C25
+01,Space and Time,angle (plane),C81
+01,Space and Time,angle (plane),D61
+01,Space and Time,angle (plane),D62
+01,Space and Time,angle (plane),DD
+01,Space and Time,angle (plane),M43
+01,Space and Time,angle (plane),M44
+01,Space and Time,angular acceleration,2B
+01,Space and Time,angular acceleration,M45
+01,Space and Time,angular velocity,2A
+01,Space and Time,angular velocity,M46
+01,Space and Time,area,ACR
+01,Space and Time,area,ARE
+01,Space and Time,area,CMK
+01,Space and Time,area,DAA
+01,Space and Time,area,DMK
+01,Space and Time,area,FTK
+01,Space and Time,area,H16
+01,Space and Time,area,H18
+01,Space and Time,area,H30
+01,Space and Time,area,H59
+01,Space and Time,area,HAR
+01,Space and Time,area,INK
+01,Space and Time,area,KMK
+01,Space and Time,area,M47
+01,Space and Time,area,M48
+01,Space and Time,area,MIK
+01,Space and Time,area,MMK
+01,Space and Time,area,MTK
+01,Space and Time,area,YDK
+01,Space and Time,curvature,C92
+01,Space and Time,"length, breadth, height, thickness, radius, radius of curvature, cartesian coordinates, diameter, length of path, distance",4H
+01,Space and Time,"length, breadth, height, thickness, radius, radius of curvature, cartesian coordinates, diameter, length of path, distance",77
+01,Space and Time,"length, breadth, height, thickness, radius, radius of curvature, cartesian coordinates, diameter, length of path, distance",A11
+01,Space and Time,"length, breadth, height, thickness, radius, radius of curvature, cartesian coordinates, diameter, length of path, distance",A12
+01,Space and Time,"length, breadth, height, thickness, radius, radius of curvature, cartesian coordinates, diameter, length of path, distance",A45
+01,Space and Time,"length, breadth, height, thickness, radius, radius of curvature, cartesian coordinates, diameter, length of path, distance",A71
+01,Space and Time,"length, breadth, height, thickness, radius, radius of curvature, cartesian coordinates, diameter, length of path, distance",AK
+01,Space and Time,"length, breadth, height, thickness, radius, radius of curvature, cartesian coordinates, diameter, length of path, distance",AWG
+01,Space and Time,"length, breadth, height, thickness, radius, radius of curvature, cartesian coordinates, diameter, length of path, distance",B57
+01,Space and Time,"length, breadth, height, thickness, radius, radius of curvature, cartesian coordinates, diameter, length of path, distance",C45
+01,Space and Time,"length, breadth, height, thickness, radius, radius of curvature, cartesian coordinates, diameter, length of path, distance",C52
+01,Space and Time,"length, breadth, height, thickness, radius, radius of curvature, cartesian coordinates, diameter, length of path, distance",C63
+01,Space and Time,"length, breadth, height, thickness, radius, radius of curvature, cartesian coordinates, diameter, length of path, distance",CMT
+01,Space and Time,"length, breadth, height, thickness, radius, radius of curvature, cartesian coordinates, diameter, length of path, distance",DMT
+01,Space and Time,"length, breadth, height, thickness, radius, radius of curvature, cartesian coordinates, diameter, length of path, distance",F49
+01,Space and Time,"length, breadth, height, thickness, radius, radius of curvature, cartesian coordinates, diameter, length of path, distance",F50
+01,Space and Time,"length, breadth, height, thickness, radius, radius of curvature, cartesian coordinates, diameter, length of path, distance",F51
+01,Space and Time,"length, breadth, height, thickness, radius, radius of curvature, cartesian coordinates, diameter, length of path, distance",F52
+01,Space and Time,"length, breadth, height, thickness, radius, radius of curvature, cartesian coordinates, diameter, length of path, distance",FOT
+01,Space and Time,"length, breadth, height, thickness, radius, radius of curvature, cartesian coordinates, diameter, length of path, distance",G04
+01,Space and Time,"length, breadth, height, thickness, radius, radius of curvature, cartesian coordinates, diameter, length of path, distance",G05
+01,Space and Time,"length, breadth, height, thickness, radius, radius of curvature, cartesian coordinates, diameter, length of path, distance",G06
+01,Space and Time,"length, breadth, height, thickness, radius, radius of curvature, cartesian coordinates, diameter, length of path, distance",H79
+01,Space and Time,"length, breadth, height, thickness, radius, radius of curvature, cartesian coordinates, diameter, length of path, distance",H84
+01,Space and Time,"length, breadth, height, thickness, radius, radius of curvature, cartesian coordinates, diameter, length of path, distance",HMT
+01,Space and Time,"length, breadth, height, thickness, radius, radius of curvature, cartesian coordinates, diameter, length of path, distance",INH
+01,Space and Time,"length, breadth, height, thickness, radius, radius of curvature, cartesian coordinates, diameter, length of path, distance",K13
+01,Space and Time,"length, breadth, height, thickness, radius, radius of curvature, cartesian coordinates, diameter, length of path, distance",K17
+01,Space and Time,"length, breadth, height, thickness, radius, radius of curvature, cartesian coordinates, diameter, length of path, distance",K45
+01,Space and Time,"length, breadth, height, thickness, radius, radius of curvature, cartesian coordinates, diameter, length of path, distance",K46
+01,Space and Time,"length, breadth, height, thickness, radius, radius of curvature, cartesian coordinates, diameter, length of path, distance",KMT
+01,Space and Time,"length, breadth, height, thickness, radius, radius of curvature, cartesian coordinates, diameter, length of path, distance",KTM
+01,Space and Time,"length, breadth, height, thickness, radius, radius of curvature, cartesian coordinates, diameter, length of path, distance",L98
+01,Space and Time,"length, breadth, height, thickness, radius, radius of curvature, cartesian coordinates, diameter, length of path, distance",L99
+01,Space and Time,"length, breadth, height, thickness, radius, radius of curvature, cartesian coordinates, diameter, length of path, distance",M49
+01,Space and Time,"length, breadth, height, thickness, radius, radius of curvature, cartesian coordinates, diameter, length of path, distance",M50
+01,Space and Time,"length, breadth, height, thickness, radius, radius of curvature, cartesian coordinates, diameter, length of path, distance",M51
+01,Space and Time,"length, breadth, height, thickness, radius, radius of curvature, cartesian coordinates, diameter, length of path, distance",M52
+01,Space and Time,"length, breadth, height, thickness, radius, radius of curvature, cartesian coordinates, diameter, length of path, distance",M53
+01,Space and Time,"length, breadth, height, thickness, radius, radius of curvature, cartesian coordinates, diameter, length of path, distance",M7
+01,Space and Time,"length, breadth, height, thickness, radius, radius of curvature, cartesian coordinates, diameter, length of path, distance",MAM
+01,Space and Time,"length, breadth, height, thickness, radius, radius of curvature, cartesian coordinates, diameter, length of path, distance",MMT
+01,Space and Time,"length, breadth, height, thickness, radius, radius of curvature, cartesian coordinates, diameter, length of path, distance",MTR
+01,Space and Time,"length, breadth, height, thickness, radius, radius of curvature, cartesian coordinates, diameter, length of path, distance",NMI
+01,Space and Time,"length, breadth, height, thickness, radius, radius of curvature, cartesian coordinates, diameter, length of path, distance",SMI
+01,Space and Time,"length, breadth, height, thickness, radius, radius of curvature, cartesian coordinates, diameter, length of path, distance",X1
+01,Space and Time,"length, breadth, height, thickness, radius, radius of curvature, cartesian coordinates, diameter, length of path, distance",YRD
+01,Space and Time,solid angle,D27
+01,Space and Time,solid angle,E96
+01,Space and Time,solid angle,H27
+01,Space and Time,solid angle,H57
+01,Space and Time,solid angle,M55
+01,Space and Time,time,ANN
+01,Space and Time,time,B52
+01,Space and Time,time,B98
+01,Space and Time,time,C26
+01,Space and Time,time,C47
+01,Space and Time,time,D42
+01,Space and Time,time,DAY
+01,Space and Time,time,H70
+01,Space and Time,time,HUR
+01,Space and Time,time,L95
+01,Space and Time,time,L96
+01,Space and Time,time,M56
+01,Space and Time,time,MIN
+01,Space and Time,time,MON
+01,Space and Time,time,SEC
+01,Space and Time,time,WEE
+01,Space and Time,"velocity, phase velocity, group velocity",2M
+01,Space and Time,"velocity, phase velocity, group velocity",2X
+01,Space and Time,"velocity, phase velocity, group velocity",C16
+01,Space and Time,"velocity, phase velocity, group velocity",FR
+01,Space and Time,"velocity, phase velocity, group velocity",FS
+01,Space and Time,"velocity, phase velocity, group velocity",H49
+01,Space and Time,"velocity, phase velocity, group velocity",H66
+01,Space and Time,"velocity, phase velocity, group velocity",H67
+01,Space and Time,"velocity, phase velocity, group velocity",H81
+01,Space and Time,"velocity, phase velocity, group velocity",HM
+01,Space and Time,"velocity, phase velocity, group velocity",IU
+01,Space and Time,"velocity, phase velocity, group velocity",J84
+01,Space and Time,"velocity, phase velocity, group velocity",J85
+01,Space and Time,"velocity, phase velocity, group velocity",K14
+01,Space and Time,"velocity, phase velocity, group velocity",K18
+01,Space and Time,"velocity, phase velocity, group velocity",K19
+01,Space and Time,"velocity, phase velocity, group velocity",K47
+01,Space and Time,"velocity, phase velocity, group velocity",K48
+01,Space and Time,"velocity, phase velocity, group velocity",KMH
+01,Space and Time,"velocity, phase velocity, group velocity",KNT
+01,Space and Time,"velocity, phase velocity, group velocity",L12
+01,Space and Time,"velocity, phase velocity, group velocity",L13
+01,Space and Time,"velocity, phase velocity, group velocity",M22
+01,Space and Time,"velocity, phase velocity, group velocity",M57
+01,Space and Time,"velocity, phase velocity, group velocity",M58
+01,Space and Time,"velocity, phase velocity, group velocity",M59
+01,Space and Time,"velocity, phase velocity, group velocity",M60
+01,Space and Time,"velocity, phase velocity, group velocity",M61
+01,Space and Time,"velocity, phase velocity, group velocity",M62
+01,Space and Time,"velocity, phase velocity, group velocity",M63
+01,Space and Time,"velocity, phase velocity, group velocity",M64
+01,Space and Time,"velocity, phase velocity, group velocity",M65
+01,Space and Time,"velocity, phase velocity, group velocity",M66
+01,Space and Time,"velocity, phase velocity, group velocity",MTS
+01,Space and Time,volume,4G
+01,Space and Time,volume,5I
+01,Space and Time,volume,A44
+01,Space and Time,volume,BLD
+01,Space and Time,volume,BLL
+01,Space and Time,volume,BUA
+01,Space and Time,volume,BUI
+01,Space and Time,volume,CLT
+01,Space and Time,volume,CMQ
+01,Space and Time,volume,DLT
+01,Space and Time,volume,DMA
+01,Space and Time,volume,DMQ
+01,Space and Time,volume,FTQ
+01,Space and Time,volume,G21
+01,Space and Time,volume,G23
+01,Space and Time,volume,G24
+01,Space and Time,volume,G25
+01,Space and Time,volume,G26
+01,Space and Time,volume,G94
+01,Space and Time,volume,G95
+01,Space and Time,volume,G96
+01,Space and Time,volume,G97
+01,Space and Time,volume,GLD
+01,Space and Time,volume,GLI
+01,Space and Time,volume,GLL
+01,Space and Time,volume,H19
+01,Space and Time,volume,H20
+01,Space and Time,volume,HLT
+01,Space and Time,volume,INQ
+01,Space and Time,volume,J57
+01,Space and Time,volume,K21
+01,Space and Time,volume,K23
+01,Space and Time,volume,K6
+01,Space and Time,volume,L43
+01,Space and Time,volume,L61
+01,Space and Time,volume,L62
+01,Space and Time,volume,L84
+01,Space and Time,volume,L86
+01,Space and Time,volume,LTR
+01,Space and Time,volume,M11
+01,Space and Time,volume,M14
+01,Space and Time,volume,M67
+01,Space and Time,volume,M68
+01,Space and Time,volume,M69
+01,Space and Time,volume,M70
+01,Space and Time,volume,M71
+01,Space and Time,volume,MAL
+01,Space and Time,volume,MLT
+01,Space and Time,volume,MMQ
+01,Space and Time,volume,MTQ
+01,Space and Time,volume,NM3
+01,Space and Time,volume,OZA
+01,Space and Time,volume,OZI
+01,Space and Time,volume,PT
+01,Space and Time,volume,PTD
+01,Space and Time,volume,PTI
+01,Space and Time,volume,PTL
+01,Space and Time,volume,Q32
+01,Space and Time,volume,Q33
+01,Space and Time,volume,Q34
+01,Space and Time,volume,QT
+01,Space and Time,volume,QTD
+01,Space and Time,volume,QTI
+01,Space and Time,volume,QTL
+01,Space and Time,volume,SM3
+01,Space and Time,volume,YDQ
+01,Space and Time,volume per temperature,G27
+01,Space and Time,volume per temperature,G28
+01,Space and Time,volume per temperature,G29
+01,Space and Time,volume per temperature,G30
+01,Space and Time,volume ratio,J36
+01,Space and Time,volume ratio,J87
+01,Space and Time,volume ratio,J91
+01,Space and Time,volume ratio,K62
+01,Space and Time,volume ratio,L19
+01,Space and Time,volume ratio,L21
+02,Periodic and related phenomena,"angular frequency, pulsatance",2A
+02,Periodic and related phenomena,"angular frequency, pulsatance",C97
+02,Periodic and related phenomena,damping coefficient,C51
+02,Periodic and related phenomena,damping coefficient,C97
+02,Periodic and related phenomena,frequency,A86
+02,Periodic and related phenomena,frequency,D29
+02,Periodic and related phenomena,frequency,H09
+02,Periodic and related phenomena,frequency,H10
+02,Periodic and related phenomena,frequency,H11
+02,Periodic and related phenomena,frequency,H85
+02,Periodic and related phenomena,frequency,HTZ
+02,Periodic and related phenomena,frequency,KHZ
+02,Periodic and related phenomena,frequency,MHZ
+02,Periodic and related phenomena,frequency,MTZ
+02,Periodic and related phenomena,frequency,OPM
+02,Periodic and related phenomena,"level of a field quantity, level of a power quantity",2N
+02,Periodic and related phenomena,"level of a field quantity, level of a power quantity",C50
+02,Periodic and related phenomena,"level of a field quantity, level of a power quantity",M72
+02,Periodic and related phenomena,logarithmic decrement,C50
+02,Periodic and related phenomena,rotational frequency,C94
+02,Periodic and related phenomena,rotational frequency,C97
+02,Periodic and related phenomena,rotational frequency,RPM
+02,Periodic and related phenomena,rotational frequency,RPS
+02,Periodic and related phenomena,"wave number, attenuation coefficient, phase coefficient, propagation coefficient, repetency",C92
+02,Periodic and related phenomena,wavelength,A11
+02,Periodic and related phenomena,wavelength,MTR
+03,Mechanics,,KWN
+03,Mechanics,,KWS
+03,Mechanics,,MNJ
+03,Mechanics,,Q41
+03,Mechanics,,Q42
+03,Mechanics,Power flow rate,Q35
+03,Mechanics,angular impulse,C53
+03,Mechanics,"compressibility, bulk compressibility",C96
+03,Mechanics,"compressibility, bulk compressibility",F58
+03,Mechanics,"density, mass density, volumic mass",23
+03,Mechanics,"density, mass density, volumic mass",87
+03,Mechanics,"density, mass density, volumic mass",A93
+03,Mechanics,"density, mass density, volumic mass",B34
+03,Mechanics,"density, mass density, volumic mass",B35
+03,Mechanics,"density, mass density, volumic mass",B72
+03,Mechanics,"density, mass density, volumic mass",D41
+03,Mechanics,"density, mass density, volumic mass",F14
+03,Mechanics,"density, mass density, volumic mass",F15
+03,Mechanics,"density, mass density, volumic mass",F16
+03,Mechanics,"density, mass density, volumic mass",F18
+03,Mechanics,"density, mass density, volumic mass",F19
+03,Mechanics,"density, mass density, volumic mass",F23
+03,Mechanics,"density, mass density, volumic mass",F24
+03,Mechanics,"density, mass density, volumic mass",F74
+03,Mechanics,"density, mass density, volumic mass",F75
+03,Mechanics,"density, mass density, volumic mass",G11
+03,Mechanics,"density, mass density, volumic mass",G12
+03,Mechanics,"density, mass density, volumic mass",G13
+03,Mechanics,"density, mass density, volumic mass",G14
+03,Mechanics,"density, mass density, volumic mass",G15
+03,Mechanics,"density, mass density, volumic mass",G16
+03,Mechanics,"density, mass density, volumic mass",G17
+03,Mechanics,"density, mass density, volumic mass",G18
+03,Mechanics,"density, mass density, volumic mass",G31
+03,Mechanics,"density, mass density, volumic mass",G32
+03,Mechanics,"density, mass density, volumic mass",G33
+03,Mechanics,"density, mass density, volumic mass",G34
+03,Mechanics,"density, mass density, volumic mass",G35
+03,Mechanics,"density, mass density, volumic mass",G36
+03,Mechanics,"density, mass density, volumic mass",G37
+03,Mechanics,"density, mass density, volumic mass",G38
+03,Mechanics,"density, mass density, volumic mass",G39
+03,Mechanics,"density, mass density, volumic mass",G40
+03,Mechanics,"density, mass density, volumic mass",GE
+03,Mechanics,"density, mass density, volumic mass",GJ
+03,Mechanics,"density, mass density, volumic mass",GL
+03,Mechanics,"density, mass density, volumic mass",GP
+03,Mechanics,"density, mass density, volumic mass",GQ
+03,Mechanics,"density, mass density, volumic mass",H29
+03,Mechanics,"density, mass density, volumic mass",H53
+03,Mechanics,"density, mass density, volumic mass",H54
+03,Mechanics,"density, mass density, volumic mass",H55
+03,Mechanics,"density, mass density, volumic mass",H64
+03,Mechanics,"density, mass density, volumic mass",J34
+03,Mechanics,"density, mass density, volumic mass",J35
+03,Mechanics,"density, mass density, volumic mass",K41
+03,Mechanics,"density, mass density, volumic mass",K69
+03,Mechanics,"density, mass density, volumic mass",K70
+03,Mechanics,"density, mass density, volumic mass",K71
+03,Mechanics,"density, mass density, volumic mass",K75
+03,Mechanics,"density, mass density, volumic mass",K76
+03,Mechanics,"density, mass density, volumic mass",K77
+03,Mechanics,"density, mass density, volumic mass",K84
+03,Mechanics,"density, mass density, volumic mass",KMQ
+03,Mechanics,"density, mass density, volumic mass",L17
+03,Mechanics,"density, mass density, volumic mass",L18
+03,Mechanics,"density, mass density, volumic mass",L37
+03,Mechanics,"density, mass density, volumic mass",L38
+03,Mechanics,"density, mass density, volumic mass",L39
+03,Mechanics,"density, mass density, volumic mass",L65
+03,Mechanics,"density, mass density, volumic mass",L70
+03,Mechanics,"density, mass density, volumic mass",L76
+03,Mechanics,"density, mass density, volumic mass",L77
+03,Mechanics,"density, mass density, volumic mass",L91
+03,Mechanics,"density, mass density, volumic mass",L92
+03,Mechanics,"density, mass density, volumic mass",L93
+03,Mechanics,"density, mass density, volumic mass",LA
+03,Mechanics,"density, mass density, volumic mass",M1
+03,Mechanics,"density, mass density, volumic mass",M73
+03,Mechanics,"density, mass density, volumic mass",M74
+03,Mechanics,force divided by length,F17
+03,Mechanics,force divided by length,F48
+03,Mechanics,"force, weight",B37
+03,Mechanics,"force, weight",B47
+03,Mechanics,"force, weight",B51
+03,Mechanics,"force, weight",B73
+03,Mechanics,"force, weight",B92
+03,Mechanics,"force, weight",C20
+03,Mechanics,"force, weight",C78
+03,Mechanics,"force, weight",DU
+03,Mechanics,"force, weight",L40
+03,Mechanics,"force, weight",L94
+03,Mechanics,"force, weight",M75
+03,Mechanics,"force, weight",M76
+03,Mechanics,"force, weight",M77
+03,Mechanics,"force, weight",M78
+03,Mechanics,"force, weight",NEW
+03,Mechanics,"friction factor, coefficient of friction",C62
+03,Mechanics,gravitational constant,C54
+03,Mechanics,impulse,C57
+03,Mechanics,kinematic viscosity,4C
+03,Mechanics,kinematic viscosity,91
+03,Mechanics,kinematic viscosity,C17
+03,Mechanics,kinematic viscosity,G08
+03,Mechanics,kinematic viscosity,G09
+03,Mechanics,kinematic viscosity,G10
+03,Mechanics,kinematic viscosity,G41
+03,Mechanics,kinematic viscosity,G46
+03,Mechanics,kinematic viscosity,M79
+03,Mechanics,kinematic viscosity,M80
+03,Mechanics,kinematic viscosity,M81
+03,Mechanics,kinematic viscosity,M82
+03,Mechanics,kinematic viscosity,S3
+03,Mechanics,kinematic viscosity,S4
+03,Mechanics,leakage rate of gas,F91
+03,Mechanics,leakage rate of gas,F92
+03,Mechanics,leakage rate of gas,K87
+03,Mechanics,leakage rate of gas,K88
+03,Mechanics,leakage rate of gas,K89
+03,Mechanics,leakage rate of gas,K90
+03,Mechanics,"linear density, linear mass",C12
+03,Mechanics,"linear density, linear mass",GF
+03,Mechanics,"linear density, linear mass",H76
+03,Mechanics,"linear density, linear mass",KL
+03,Mechanics,"linear density, linear mass",KW
+03,Mechanics,"linear density, linear mass",M31
+03,Mechanics,"linear density, linear mass",M83
+03,Mechanics,"linear density, linear mass",M84
+03,Mechanics,"linear density, linear mass",P2
+03,Mechanics,"linear density, linear mass",PO
+03,Mechanics,"linear strain, relative elongation, shear strain, volume or bulk strain",C62
+03,Mechanics,mass,2U
+03,Mechanics,mass,APZ
+03,Mechanics,mass,CGM
+03,Mechanics,mass,CWA
+03,Mechanics,mass,CWI
+03,Mechanics,mass,DG
+03,Mechanics,mass,DJ
+03,Mechanics,mass,DTN
+03,Mechanics,mass,F13
+03,Mechanics,mass,GRM
+03,Mechanics,mass,GRN
+03,Mechanics,mass,HGM
+03,Mechanics,mass,K64
+03,Mechanics,mass,KGM
+03,Mechanics,mass,KTN
+03,Mechanics,mass,L69
+03,Mechanics,mass,L87
+03,Mechanics,mass,LBR
+03,Mechanics,mass,LTN
+03,Mechanics,mass,M85
+03,Mechanics,mass,M86
+03,Mechanics,mass,MC
+03,Mechanics,mass,MGM
+03,Mechanics,mass,ONZ
+03,Mechanics,mass,STI
+03,Mechanics,mass,STN
+03,Mechanics,mass,TNE
+03,Mechanics,mass flow rate,4M
+03,Mechanics,mass flow rate,4U
+03,Mechanics,mass flow rate,4W
+03,Mechanics,mass flow rate,E18
+03,Mechanics,mass flow rate,E93
+03,Mechanics,mass flow rate,F25
+03,Mechanics,mass flow rate,F26
+03,Mechanics,mass flow rate,F27
+03,Mechanics,mass flow rate,F28
+03,Mechanics,mass flow rate,F29
+03,Mechanics,mass flow rate,F30
+03,Mechanics,mass flow rate,F31
+03,Mechanics,mass flow rate,F32
+03,Mechanics,mass flow rate,F33
+03,Mechanics,mass flow rate,F34
+03,Mechanics,mass flow rate,F35
+03,Mechanics,mass flow rate,F36
+03,Mechanics,mass flow rate,F37
+03,Mechanics,mass flow rate,F38
+03,Mechanics,mass flow rate,F39
+03,Mechanics,mass flow rate,F40
+03,Mechanics,mass flow rate,F41
+03,Mechanics,mass flow rate,F42
+03,Mechanics,mass flow rate,F43
+03,Mechanics,mass flow rate,F44
+03,Mechanics,mass flow rate,F45
+03,Mechanics,mass flow rate,F46
+03,Mechanics,mass flow rate,F62
+03,Mechanics,mass flow rate,F63
+03,Mechanics,mass flow rate,F64
+03,Mechanics,mass flow rate,F65
+03,Mechanics,mass flow rate,F66
+03,Mechanics,mass flow rate,F67
+03,Mechanics,mass flow rate,F68
+03,Mechanics,mass flow rate,F69
+03,Mechanics,mass flow rate,F70
+03,Mechanics,mass flow rate,F71
+03,Mechanics,mass flow rate,F72
+03,Mechanics,mass flow rate,F73
+03,Mechanics,mass flow rate,H56
+03,Mechanics,mass flow rate,K66
+03,Mechanics,mass flow rate,K73
+03,Mechanics,mass flow rate,K74
+03,Mechanics,mass flow rate,K78
+03,Mechanics,mass flow rate,K79
+03,Mechanics,mass flow rate,K80
+03,Mechanics,mass flow rate,K81
+03,Mechanics,mass flow rate,K82
+03,Mechanics,mass flow rate,K83
+03,Mechanics,mass flow rate,KGS
+03,Mechanics,mass flow rate,L33
+03,Mechanics,mass flow rate,L34
+03,Mechanics,mass flow rate,L35
+03,Mechanics,mass flow rate,L36
+03,Mechanics,mass flow rate,L63
+03,Mechanics,mass flow rate,L66
+03,Mechanics,mass flow rate,L67
+03,Mechanics,mass flow rate,L68
+03,Mechanics,mass flow rate,L71
+03,Mechanics,mass flow rate,L72
+03,Mechanics,mass flow rate,L73
+03,Mechanics,mass flow rate,L74
+03,Mechanics,mass flow rate,L75
+03,Mechanics,mass flow rate,L78
+03,Mechanics,mass flow rate,L79
+03,Mechanics,mass flow rate,L80
+03,Mechanics,mass flow rate,L81
+03,Mechanics,mass flow rate,L82
+03,Mechanics,mass flow rate,L83
+03,Mechanics,mass flow rate,L85
+03,Mechanics,mass flow rate,L88
+03,Mechanics,mass flow rate,L89
+03,Mechanics,mass flow rate,L90
+03,Mechanics,mass flow rate,M87
+03,Mechanics,mass flow rate,M88
+03,Mechanics,mass flow rate,M89
+03,Mechanics,mass flow rate,M90
+03,Mechanics,mass ratio,J33
+03,Mechanics,mass ratio,L32
+03,Mechanics,mass ratio,M29
+03,Mechanics,mass ratio,M91
+03,Mechanics,mass ratio,NA
+03,Mechanics,mass ratio,Q29
+03,Mechanics,"moment of force, moment of a couple, torque",4Q
+03,Mechanics,"moment of force, moment of a couple, torque",4R
+03,Mechanics,"moment of force, moment of a couple, torque",B38
+03,Mechanics,"moment of force, moment of a couple, torque",B48
+03,Mechanics,"moment of force, moment of a couple, torque",B74
+03,Mechanics,"moment of force, moment of a couple, torque",B93
+03,Mechanics,"moment of force, moment of a couple, torque",D83
+03,Mechanics,"moment of force, moment of a couple, torque",DN
+03,Mechanics,"moment of force, moment of a couple, torque",F21
+03,Mechanics,"moment of force, moment of a couple, torque",F22
+03,Mechanics,"moment of force, moment of a couple, torque",F47
+03,Mechanics,"moment of force, moment of a couple, torque",F88
+03,Mechanics,"moment of force, moment of a couple, torque",F89
+03,Mechanics,"moment of force, moment of a couple, torque",F90
+03,Mechanics,"moment of force, moment of a couple, torque",G19
+03,Mechanics,"moment of force, moment of a couple, torque",G20
+03,Mechanics,"moment of force, moment of a couple, torque",H40
+03,Mechanics,"moment of force, moment of a couple, torque",H41
+03,Mechanics,"moment of force, moment of a couple, torque",IA
+03,Mechanics,"moment of force, moment of a couple, torque",J72
+03,Mechanics,"moment of force, moment of a couple, torque",J94
+03,Mechanics,"moment of force, moment of a couple, torque",L41
+03,Mechanics,"moment of force, moment of a couple, torque",M92
+03,Mechanics,"moment of force, moment of a couple, torque",M93
+03,Mechanics,"moment of force, moment of a couple, torque",M94
+03,Mechanics,"moment of force, moment of a couple, torque",M95
+03,Mechanics,"moment of force, moment of a couple, torque",M96
+03,Mechanics,"moment of force, moment of a couple, torque",M97
+03,Mechanics,"moment of force, moment of a couple, torque",NU
+03,Mechanics,moment of inertia (dynamic moment of inertia),B32
+03,Mechanics,moment of inertia (dynamic moment of inertia),F20
+03,Mechanics,moment of inertia (dynamic moment of inertia),K65
+03,Mechanics,"moment of momentum, angular momentum",B33
+03,Mechanics,momentum,B31
+03,Mechanics,momentum,M98
+03,Mechanics,momentum,M99
+03,Mechanics,momentum,N10
+03,Mechanics,momentum,N11
+03,Mechanics,"poisson ratio, poisson number",C62
+03,Mechanics,power,A25
+03,Mechanics,power,A63
+03,Mechanics,power,A74
+03,Mechanics,power,A90
+03,Mechanics,power,B39
+03,Mechanics,power,BHP
+03,Mechanics,power,C31
+03,Mechanics,power,D80
+03,Mechanics,power,F80
+03,Mechanics,power,HJ
+03,Mechanics,power,K15
+03,Mechanics,power,K16
+03,Mechanics,power,K42
+03,Mechanics,power,KWT
+03,Mechanics,power,MAW
+03,Mechanics,power,N12
+03,Mechanics,power,WTT
+03,Mechanics,pressure ratio,E99
+03,Mechanics,pressure ratio,F03
+03,Mechanics,pressure ratio,F04
+03,Mechanics,pressure ratio,F05
+03,Mechanics,pressure ratio,F07
+03,Mechanics,pressure ratio,J56
+03,Mechanics,pressure ratio,L52
+03,Mechanics,"pressure, normal stress, shear stress, modulus of elasticity,shear modulus, modulus of rigidity, bulk modulus, modulus of compression",74
+03,Mechanics,"pressure, normal stress, shear stress, modulus of elasticity,shear modulus, modulus of rigidity, bulk modulus, modulus of compression",80
+03,Mechanics,"pressure, normal stress, shear stress, modulus of elasticity,shear modulus, modulus of rigidity, bulk modulus, modulus of compression",84
+03,Mechanics,"pressure, normal stress, shear stress, modulus of elasticity,shear modulus, modulus of rigidity, bulk modulus, modulus of compression",A89
+03,Mechanics,"pressure, normal stress, shear stress, modulus of elasticity,shear modulus, modulus of rigidity, bulk modulus, modulus of compression",A97
+03,Mechanics,"pressure, normal stress, shear stress, modulus of elasticity,shear modulus, modulus of rigidity, bulk modulus, modulus of compression",ATM
+03,Mechanics,"pressure, normal stress, shear stress, modulus of elasticity,shear modulus, modulus of rigidity, bulk modulus, modulus of compression",ATT
+03,Mechanics,"pressure, normal stress, shear stress, modulus of elasticity,shear modulus, modulus of rigidity, bulk modulus, modulus of compression",B40
+03,Mechanics,"pressure, normal stress, shear stress, modulus of elasticity,shear modulus, modulus of rigidity, bulk modulus, modulus of compression",B85
+03,Mechanics,"pressure, normal stress, shear stress, modulus of elasticity,shear modulus, modulus of rigidity, bulk modulus, modulus of compression",B96
+03,Mechanics,"pressure, normal stress, shear stress, modulus of elasticity,shear modulus, modulus of rigidity, bulk modulus, modulus of compression",BAR
+03,Mechanics,"pressure, normal stress, shear stress, modulus of elasticity,shear modulus, modulus of rigidity, bulk modulus, modulus of compression",C55
+03,Mechanics,"pressure, normal stress, shear stress, modulus of elasticity,shear modulus, modulus of rigidity, bulk modulus, modulus of compression",C56
+03,Mechanics,"pressure, normal stress, shear stress, modulus of elasticity,shear modulus, modulus of rigidity, bulk modulus, modulus of compression",E01
+03,Mechanics,"pressure, normal stress, shear stress, modulus of elasticity,shear modulus, modulus of rigidity, bulk modulus, modulus of compression",E41
+03,Mechanics,"pressure, normal stress, shear stress, modulus of elasticity,shear modulus, modulus of rigidity, bulk modulus, modulus of compression",E42
+03,Mechanics,"pressure, normal stress, shear stress, modulus of elasticity,shear modulus, modulus of rigidity, bulk modulus, modulus of compression",F77
+03,Mechanics,"pressure, normal stress, shear stress, modulus of elasticity,shear modulus, modulus of rigidity, bulk modulus, modulus of compression",F78
+03,Mechanics,"pressure, normal stress, shear stress, modulus of elasticity,shear modulus, modulus of rigidity, bulk modulus, modulus of compression",F79
+03,Mechanics,"pressure, normal stress, shear stress, modulus of elasticity,shear modulus, modulus of rigidity, bulk modulus, modulus of compression",F82
+03,Mechanics,"pressure, normal stress, shear stress, modulus of elasticity,shear modulus, modulus of rigidity, bulk modulus, modulus of compression",F83
+03,Mechanics,"pressure, normal stress, shear stress, modulus of elasticity,shear modulus, modulus of rigidity, bulk modulus, modulus of compression",F84
+03,Mechanics,"pressure, normal stress, shear stress, modulus of elasticity,shear modulus, modulus of rigidity, bulk modulus, modulus of compression",F85
+03,Mechanics,"pressure, normal stress, shear stress, modulus of elasticity,shear modulus, modulus of rigidity, bulk modulus, modulus of compression",F93
+03,Mechanics,"pressure, normal stress, shear stress, modulus of elasticity,shear modulus, modulus of rigidity, bulk modulus, modulus of compression",F94
+03,Mechanics,"pressure, normal stress, shear stress, modulus of elasticity,shear modulus, modulus of rigidity, bulk modulus, modulus of compression",F95
+03,Mechanics,"pressure, normal stress, shear stress, modulus of elasticity,shear modulus, modulus of rigidity, bulk modulus, modulus of compression",F96
+03,Mechanics,"pressure, normal stress, shear stress, modulus of elasticity,shear modulus, modulus of rigidity, bulk modulus, modulus of compression",F97
+03,Mechanics,"pressure, normal stress, shear stress, modulus of elasticity,shear modulus, modulus of rigidity, bulk modulus, modulus of compression",F98
+03,Mechanics,"pressure, normal stress, shear stress, modulus of elasticity,shear modulus, modulus of rigidity, bulk modulus, modulus of compression",F99
+03,Mechanics,"pressure, normal stress, shear stress, modulus of elasticity,shear modulus, modulus of rigidity, bulk modulus, modulus of compression",FP
+03,Mechanics,"pressure, normal stress, shear stress, modulus of elasticity,shear modulus, modulus of rigidity, bulk modulus, modulus of compression",G01
+03,Mechanics,"pressure, normal stress, shear stress, modulus of elasticity,shear modulus, modulus of rigidity, bulk modulus, modulus of compression",H07
+03,Mechanics,"pressure, normal stress, shear stress, modulus of elasticity,shear modulus, modulus of rigidity, bulk modulus, modulus of compression",H75
+03,Mechanics,"pressure, normal stress, shear stress, modulus of elasticity,shear modulus, modulus of rigidity, bulk modulus, modulus of compression",H78
+03,Mechanics,"pressure, normal stress, shear stress, modulus of elasticity,shear modulus, modulus of rigidity, bulk modulus, modulus of compression",HBA
+03,Mechanics,"pressure, normal stress, shear stress, modulus of elasticity,shear modulus, modulus of rigidity, bulk modulus, modulus of compression",HN
+03,Mechanics,"pressure, normal stress, shear stress, modulus of elasticity,shear modulus, modulus of rigidity, bulk modulus, modulus of compression",HP
+03,Mechanics,"pressure, normal stress, shear stress, modulus of elasticity,shear modulus, modulus of rigidity, bulk modulus, modulus of compression",J89
+03,Mechanics,"pressure, normal stress, shear stress, modulus of elasticity,shear modulus, modulus of rigidity, bulk modulus, modulus of compression",K24
+03,Mechanics,"pressure, normal stress, shear stress, modulus of elasticity,shear modulus, modulus of rigidity, bulk modulus, modulus of compression",K25
+03,Mechanics,"pressure, normal stress, shear stress, modulus of elasticity,shear modulus, modulus of rigidity, bulk modulus, modulus of compression",K31
+03,Mechanics,"pressure, normal stress, shear stress, modulus of elasticity,shear modulus, modulus of rigidity, bulk modulus, modulus of compression",K85
+03,Mechanics,"pressure, normal stress, shear stress, modulus of elasticity,shear modulus, modulus of rigidity, bulk modulus, modulus of compression",K86
+03,Mechanics,"pressure, normal stress, shear stress, modulus of elasticity,shear modulus, modulus of rigidity, bulk modulus, modulus of compression",KBA
+03,Mechanics,"pressure, normal stress, shear stress, modulus of elasticity,shear modulus, modulus of rigidity, bulk modulus, modulus of compression",KNM
+03,Mechanics,"pressure, normal stress, shear stress, modulus of elasticity,shear modulus, modulus of rigidity, bulk modulus, modulus of compression",KPA
+03,Mechanics,"pressure, normal stress, shear stress, modulus of elasticity,shear modulus, modulus of rigidity, bulk modulus, modulus of compression",MBR
+03,Mechanics,"pressure, normal stress, shear stress, modulus of elasticity,shear modulus, modulus of rigidity, bulk modulus, modulus of compression",MPA
+03,Mechanics,"pressure, normal stress, shear stress, modulus of elasticity,shear modulus, modulus of rigidity, bulk modulus, modulus of compression",N13
+03,Mechanics,"pressure, normal stress, shear stress, modulus of elasticity,shear modulus, modulus of rigidity, bulk modulus, modulus of compression",N14
+03,Mechanics,"pressure, normal stress, shear stress, modulus of elasticity,shear modulus, modulus of rigidity, bulk modulus, modulus of compression",N15
+03,Mechanics,"pressure, normal stress, shear stress, modulus of elasticity,shear modulus, modulus of rigidity, bulk modulus, modulus of compression",N16
+03,Mechanics,"pressure, normal stress, shear stress, modulus of elasticity,shear modulus, modulus of rigidity, bulk modulus, modulus of compression",N17
+03,Mechanics,"pressure, normal stress, shear stress, modulus of elasticity,shear modulus, modulus of rigidity, bulk modulus, modulus of compression",N18
+03,Mechanics,"pressure, normal stress, shear stress, modulus of elasticity,shear modulus, modulus of rigidity, bulk modulus, modulus of compression",N19
+03,Mechanics,"pressure, normal stress, shear stress, modulus of elasticity,shear modulus, modulus of rigidity, bulk modulus, modulus of compression",N20
+03,Mechanics,"pressure, normal stress, shear stress, modulus of elasticity,shear modulus, modulus of rigidity, bulk modulus, modulus of compression",N21
+03,Mechanics,"pressure, normal stress, shear stress, modulus of elasticity,shear modulus, modulus of rigidity, bulk modulus, modulus of compression",N22
+03,Mechanics,"pressure, normal stress, shear stress, modulus of elasticity,shear modulus, modulus of rigidity, bulk modulus, modulus of compression",N23
+03,Mechanics,"pressure, normal stress, shear stress, modulus of elasticity,shear modulus, modulus of rigidity, bulk modulus, modulus of compression",N24
+03,Mechanics,"pressure, normal stress, shear stress, modulus of elasticity,shear modulus, modulus of rigidity, bulk modulus, modulus of compression",N25
+03,Mechanics,"pressure, normal stress, shear stress, modulus of elasticity,shear modulus, modulus of rigidity, bulk modulus, modulus of compression",N26
+03,Mechanics,"pressure, normal stress, shear stress, modulus of elasticity,shear modulus, modulus of rigidity, bulk modulus, modulus of compression",PAL
+03,Mechanics,"pressure, normal stress, shear stress, modulus of elasticity,shear modulus, modulus of rigidity, bulk modulus, modulus of compression",PS
+03,Mechanics,"pressure, normal stress, shear stress, modulus of elasticity,shear modulus, modulus of rigidity, bulk modulus, modulus of compression",UA
+03,Mechanics,"relative density, relative mass density",C62
+03,Mechanics,"second moment of area, second axial moment of area",B83
+03,Mechanics,"second moment of area, second axial moment of area",G77
+03,Mechanics,second polar moment of area,D69
+03,Mechanics,second polar moment of area,N27
+03,Mechanics,section modulus,INQ
+03,Mechanics,section modulus,MTQ
+03,Mechanics,"specific volume, massic volume",22
+03,Mechanics,"specific volume, massic volume",A39
+03,Mechanics,"specific volume, massic volume",H15
+03,Mechanics,"specific volume, massic volume",H65
+03,Mechanics,"specific volume, massic volume",H83
+03,Mechanics,"specific volume, massic volume",KX
+03,Mechanics,"specific volume, massic volume",N28
+03,Mechanics,"specific volume, massic volume",N29
+03,Mechanics,"specific volume, massic volume",N30
+03,Mechanics,"surface density, areic mass",25
+03,Mechanics,"surface density, areic mass",28
+03,Mechanics,"surface density, areic mass",37
+03,Mechanics,"surface density, areic mass",D5
+03,Mechanics,"surface density, areic mass",GM
+03,Mechanics,"surface density, areic mass",GO
+03,Mechanics,"surface density, areic mass",H63
+03,Mechanics,"surface density, areic mass",ON
+03,Mechanics,surface tension,4P
+03,Mechanics,surface tension,C22
+03,Mechanics,surface tension,DX
+03,Mechanics,surface tension,M23
+03,Mechanics,surface tension,N31
+03,Mechanics,surface tension,N32
+03,Mechanics,surface tension,N33
+03,Mechanics,"torsional stiffness, area-related torsional moment",M34
+03,Mechanics,viscosity (dynamic viscosity),89
+03,Mechanics,viscosity (dynamic viscosity),C24
+03,Mechanics,viscosity (dynamic viscosity),C65
+03,Mechanics,viscosity (dynamic viscosity),C7
+03,Mechanics,viscosity (dynamic viscosity),F06
+03,Mechanics,viscosity (dynamic viscosity),F86
+03,Mechanics,viscosity (dynamic viscosity),J32
+03,Mechanics,viscosity (dynamic viscosity),J73
+03,Mechanics,viscosity (dynamic viscosity),J74
+03,Mechanics,viscosity (dynamic viscosity),K67
+03,Mechanics,viscosity (dynamic viscosity),K68
+03,Mechanics,viscosity (dynamic viscosity),K91
+03,Mechanics,viscosity (dynamic viscosity),K92
+03,Mechanics,viscosity (dynamic viscosity),L15
+03,Mechanics,viscosity (dynamic viscosity),L16
+03,Mechanics,viscosity (dynamic viscosity),L64
+03,Mechanics,viscosity (dynamic viscosity),N34
+03,Mechanics,viscosity (dynamic viscosity),N35
+03,Mechanics,viscosity (dynamic viscosity),N36
+03,Mechanics,viscosity (dynamic viscosity),N37
+03,Mechanics,viscosity (dynamic viscosity),N38
+03,Mechanics,viscosity (dynamic viscosity),N39
+03,Mechanics,viscosity (dynamic viscosity),N40
+03,Mechanics,viscosity (dynamic viscosity),N41
+03,Mechanics,viscosity (dynamic viscosity),N42
+03,Mechanics,viscosity (dynamic viscosity),N43
+03,Mechanics,viscosity (dynamic viscosity),N44
+03,Mechanics,volume flow rate,2J
+03,Mechanics,volume flow rate,2K
+03,Mechanics,volume flow rate,2L
+03,Mechanics,volume flow rate,40
+03,Mechanics,volume flow rate,41
+03,Mechanics,volume flow rate,4X
+03,Mechanics,volume flow rate,5A
+03,Mechanics,volume flow rate,E92
+03,Mechanics,volume flow rate,G2
+03,Mechanics,volume flow rate,G3
+03,Mechanics,volume flow rate,G47
+03,Mechanics,volume flow rate,G48
+03,Mechanics,volume flow rate,G49
+03,Mechanics,volume flow rate,G50
+03,Mechanics,volume flow rate,G51
+03,Mechanics,volume flow rate,G52
+03,Mechanics,volume flow rate,G53
+03,Mechanics,volume flow rate,G54
+03,Mechanics,volume flow rate,G55
+03,Mechanics,volume flow rate,G56
+03,Mechanics,volume flow rate,G57
+03,Mechanics,volume flow rate,G58
+03,Mechanics,volume flow rate,G61
+03,Mechanics,volume flow rate,G62
+03,Mechanics,volume flow rate,G63
+03,Mechanics,volume flow rate,G64
+03,Mechanics,volume flow rate,G65
+03,Mechanics,volume flow rate,G66
+03,Mechanics,volume flow rate,G67
+03,Mechanics,volume flow rate,G68
+03,Mechanics,volume flow rate,G69
+03,Mechanics,volume flow rate,G70
+03,Mechanics,volume flow rate,G71
+03,Mechanics,volume flow rate,G72
+03,Mechanics,volume flow rate,G73
+03,Mechanics,volume flow rate,G74
+03,Mechanics,volume flow rate,G75
+03,Mechanics,volume flow rate,G76
+03,Mechanics,volume flow rate,G78
+03,Mechanics,volume flow rate,G79
+03,Mechanics,volume flow rate,G80
+03,Mechanics,volume flow rate,G81
+03,Mechanics,volume flow rate,G82
+03,Mechanics,volume flow rate,G83
+03,Mechanics,volume flow rate,G84
+03,Mechanics,volume flow rate,G85
+03,Mechanics,volume flow rate,G86
+03,Mechanics,volume flow rate,G87
+03,Mechanics,volume flow rate,G88
+03,Mechanics,volume flow rate,G89
+03,Mechanics,volume flow rate,G90
+03,Mechanics,volume flow rate,G91
+03,Mechanics,volume flow rate,G92
+03,Mechanics,volume flow rate,G93
+03,Mechanics,volume flow rate,J58
+03,Mechanics,volume flow rate,J59
+03,Mechanics,volume flow rate,J60
+03,Mechanics,volume flow rate,J61
+03,Mechanics,volume flow rate,J62
+03,Mechanics,volume flow rate,J63
+03,Mechanics,volume flow rate,J64
+03,Mechanics,volume flow rate,J65
+03,Mechanics,volume flow rate,J66
+03,Mechanics,volume flow rate,J67
+03,Mechanics,volume flow rate,J68
+03,Mechanics,volume flow rate,J69
+03,Mechanics,volume flow rate,J70
+03,Mechanics,volume flow rate,J71
+03,Mechanics,volume flow rate,J90
+03,Mechanics,volume flow rate,J92
+03,Mechanics,volume flow rate,J93
+03,Mechanics,volume flow rate,J95
+03,Mechanics,volume flow rate,J96
+03,Mechanics,volume flow rate,J97
+03,Mechanics,volume flow rate,J98
+03,Mechanics,volume flow rate,J99
+03,Mechanics,volume flow rate,K10
+03,Mechanics,volume flow rate,K11
+03,Mechanics,volume flow rate,K12
+03,Mechanics,volume flow rate,K22
+03,Mechanics,volume flow rate,K26
+03,Mechanics,volume flow rate,K27
+03,Mechanics,volume flow rate,K28
+03,Mechanics,volume flow rate,K30
+03,Mechanics,volume flow rate,K32
+03,Mechanics,volume flow rate,K33
+03,Mechanics,volume flow rate,K34
+03,Mechanics,volume flow rate,K35
+03,Mechanics,volume flow rate,K36
+03,Mechanics,volume flow rate,K37
+03,Mechanics,volume flow rate,K38
+03,Mechanics,volume flow rate,K39
+03,Mechanics,volume flow rate,K94
+03,Mechanics,volume flow rate,K95
+03,Mechanics,volume flow rate,K96
+03,Mechanics,volume flow rate,K97
+03,Mechanics,volume flow rate,K98
+03,Mechanics,volume flow rate,K99
+03,Mechanics,volume flow rate,L10
+03,Mechanics,volume flow rate,L11
+03,Mechanics,volume flow rate,L2
+03,Mechanics,volume flow rate,L44
+03,Mechanics,volume flow rate,L45
+03,Mechanics,volume flow rate,L46
+03,Mechanics,volume flow rate,L47
+03,Mechanics,volume flow rate,L48
+03,Mechanics,volume flow rate,L49
+03,Mechanics,volume flow rate,L50
+03,Mechanics,volume flow rate,L51
+03,Mechanics,volume flow rate,L53
+03,Mechanics,volume flow rate,L54
+03,Mechanics,volume flow rate,L55
+03,Mechanics,volume flow rate,L56
+03,Mechanics,volume flow rate,L57
+03,Mechanics,volume flow rate,L58
+03,Mechanics,volume flow rate,L59
+03,Mechanics,volume flow rate,L60
+03,Mechanics,volume flow rate,LD
+03,Mechanics,volume flow rate,M12
+03,Mechanics,volume flow rate,M13
+03,Mechanics,volume flow rate,M15
+03,Mechanics,volume flow rate,M16
+03,Mechanics,volume flow rate,MQH
+03,Mechanics,volume flow rate,MQS
+03,Mechanics,volume flow rate,N45
+03,Mechanics,volume flow rate,Q37
+03,Mechanics,volume flow rate,Q38
+03,Mechanics,volume flow rate,Q39
+03,Mechanics,volume flow rate,Q40
+03,Mechanics,volume ratio,H60
+03,Mechanics,work per unit weight,G20
+03,Mechanics,"work, energy, potential energy, kinetic energy",3B
+03,Mechanics,"work, energy, potential energy, kinetic energy",85
+03,Mechanics,"work, energy, potential energy, kinetic energy",A13
+03,Mechanics,"work, energy, potential energy, kinetic energy",A53
+03,Mechanics,"work, energy, potential energy, kinetic energy",A57
+03,Mechanics,"work, energy, potential energy, kinetic energy",A68
+03,Mechanics,"work, energy, potential energy, kinetic energy",A70
+03,Mechanics,"work, energy, potential energy, kinetic energy",A85
+03,Mechanics,"work, energy, potential energy, kinetic energy",B29
+03,Mechanics,"work, energy, potential energy, kinetic energy",B38
+03,Mechanics,"work, energy, potential energy, kinetic energy",B71
+03,Mechanics,"work, energy, potential energy, kinetic energy",C15
+03,Mechanics,"work, energy, potential energy, kinetic energy",C68
+03,Mechanics,"work, energy, potential energy, kinetic energy",D30
+03,Mechanics,"work, energy, potential energy, kinetic energy",D32
+03,Mechanics,"work, energy, potential energy, kinetic energy",GV
+03,Mechanics,"work, energy, potential energy, kinetic energy",GWH
+03,Mechanics,"work, energy, potential energy, kinetic energy",JOU
+03,Mechanics,"work, energy, potential energy, kinetic energy",KJO
+03,Mechanics,"work, energy, potential energy, kinetic energy",KWH
+03,Mechanics,"work, energy, potential energy, kinetic energy",MWH
+03,Mechanics,"work, energy, potential energy, kinetic energy",N46
+03,Mechanics,"work, energy, potential energy, kinetic energy",N47
+03,Mechanics,"work, energy, potential energy, kinetic energy",WHR
+04,Heat,"Gibbs function, Gibbs free energy",D35
+04,Heat,coefficient of heat transfer,D55
+04,Heat,density of heat flow rate,D54
+04,Heat,density of heat flow rate,N48
+04,Heat,density of heat flow rate,N49
+04,Heat,density of heat flow rate,N50
+04,Heat,density of heat flow rate,N51
+04,Heat,density of heat flow rate,N52
+04,Heat,density of heat flow rate,N53
+04,Heat,density of heat flow rate,N54
+04,Heat,density of heat flow rate,N55
+04,Heat,density of heat flow rate,N56
+04,Heat,density of heat flow rate,N57
+04,Heat,energy density,N58
+04,Heat,energy density,N59
+04,Heat,fahrenheit temperature,FAH
+04,Heat,"heat capacity, entropy",B41
+04,Heat,"heat capacity, entropy",J43
+04,Heat,"heat capacity, entropy",J50
+04,Heat,"heat capacity, entropy",J76
+04,Heat,"heat capacity, entropy",J79
+04,Heat,"heat capacity, entropy",JE
+04,Heat,"heat capacity, entropy",N60
+04,Heat,"heat capacity, entropy",N61
+04,Heat,"heat capacity, entropy",N62
+04,Heat,"heat capacity, entropy",N63
+04,Heat,"heat capacity, entropy",N64
+04,Heat,"heat capacity, entropy",N65
+04,Heat,heat flow rate,2I
+04,Heat,heat flow rate,E15
+04,Heat,heat flow rate,J44
+04,Heat,heat flow rate,J45
+04,Heat,heat flow rate,J47
+04,Heat,heat flow rate,J51
+04,Heat,heat flow rate,J52
+04,Heat,heat flow rate,J81
+04,Heat,heat flow rate,J82
+04,Heat,heat flow rate,K54
+04,Heat,heat flow rate,K55
+04,Heat,heat flow rate,KWT
+04,Heat,heat flow rate,WTT
+04,Heat,"heat, quantity of heat, energy, thermodynamic energy, enthalpy, Helmholtz function, Helmholtz free energy",A1
+04,Heat,"heat, quantity of heat, energy, thermodynamic energy, enthalpy, Helmholtz function, Helmholtz free energy",BTU
+04,Heat,"heat, quantity of heat, energy, thermodynamic energy, enthalpy, Helmholtz function, Helmholtz free energy",D70
+04,Heat,"heat, quantity of heat, energy, thermodynamic energy, enthalpy, Helmholtz function, Helmholtz free energy",E14
+04,Heat,"heat, quantity of heat, energy, thermodynamic energy, enthalpy, Helmholtz function, Helmholtz free energy",J39
+04,Heat,"heat, quantity of heat, energy, thermodynamic energy, enthalpy, Helmholtz function, Helmholtz free energy",J55
+04,Heat,"heat, quantity of heat, energy, thermodynamic energy, enthalpy, Helmholtz function, Helmholtz free energy",J75
+04,Heat,"heat, quantity of heat, energy, thermodynamic energy, enthalpy, Helmholtz function, Helmholtz free energy",JOU
+04,Heat,"heat, quantity of heat, energy, thermodynamic energy, enthalpy, Helmholtz function, Helmholtz free energy",K51
+04,Heat,"heat, quantity of heat, energy, thermodynamic energy, enthalpy, Helmholtz function, Helmholtz free energy",K53
+04,Heat,"heat, quantity of heat, energy, thermodynamic energy, enthalpy, Helmholtz function, Helmholtz free energy",N66
+04,Heat,"heat, quantity of heat, energy, thermodynamic energy, enthalpy, Helmholtz function, Helmholtz free energy",N67
+04,Heat,"heat, quantity of heat, energy, thermodynamic energy, enthalpy, Helmholtz function, Helmholtz free energy",N68
+04,Heat,"heat, quantity of heat, energy, thermodynamic energy, enthalpy, Helmholtz function, Helmholtz free energy",N69
+04,Heat,"heat, quantity of heat, energy, thermodynamic energy, enthalpy, Helmholtz function, Helmholtz free energy",N70
+04,Heat,"heat, quantity of heat, energy, thermodynamic energy, enthalpy, Helmholtz function, Helmholtz free energy",N71
+04,Heat,"heat, quantity of heat, energy, thermodynamic energy, enthalpy, Helmholtz function, Helmholtz free energy",N72
+04,Heat,"isothermal compressibility, isentropic compressibility",C96
+04,Heat,"linear expansion coefficient, cubic expansion coefficient, relative pressure coefficient",C91
+04,Heat,"linear expansion coefficient, cubic expansion coefficient, relative pressure coefficient",M20
+04,Heat,massic Helmholtz free energy,AZ
+04,Heat,"massic Helmholtz free energy,",N73
+04,Heat,"massic energy, specific energy",J2
+04,Heat,"massic enthalpy, specific enthalpy",B42
+04,Heat,massic thermodynamic energy,D95
+04,Heat,massic thermodynamic energy,Q31
+04,Heat,"massieu function, planck function",JE
+04,Heat,pressure coefficient,C64
+04,Heat,pressure coefficient,F81
+04,Heat,"ratio of the specific heat capacities, ratio of the massic heat capacity, isentropic exponent",C62
+04,Heat,specific Helmholtz free energy,D75
+04,Heat,"specific Helmholtz function, massic Gibbs free energy, specific Gibbs free energy",B36
+04,Heat,"specific heat capacity at: - constant pressure, -constant volume,- saturation",A21
+04,Heat,"specific heat capacity at: - constant pressure, -constant volume,- saturation",B11
+04,Heat,"specific heat capacity at: - constant pressure, -constant volume,- saturation",B43
+04,Heat,"specific heat capacity at: - constant pressure, -constant volume,- saturation",D37
+04,Heat,"specific heat capacity at: - constant pressure, -constant volume,- saturation",D76
+04,Heat,specific thermodynamic energy,JK
+04,Heat,surface coefficient of heat transfer,A20
+04,Heat,surface coefficient of heat transfer,A23
+04,Heat,surface coefficient of heat transfer,D39
+04,Heat,surface coefficient of heat transfer,D72
+04,Heat,surface coefficient of heat transfer,N74
+04,Heat,surface coefficient of heat transfer,N75
+04,Heat,surface coefficient of heat transfer,N76
+04,Heat,surface coefficient of heat transfer,N77
+04,Heat,surface coefficient of heat transfer,N78
+04,Heat,temperature,A48
+04,Heat,temperature,CEL
+04,Heat,temperature,E98
+04,Heat,temperature,F02
+04,Heat,temperature,F10
+04,Heat,temperature,F11
+04,Heat,temperature,F12
+04,Heat,temperature,F60
+04,Heat,temperature,F61
+04,Heat,temperature,H12
+04,Heat,temperature,H13
+04,Heat,temperature,H14
+04,Heat,temperature,J20
+04,Heat,temperature,J21
+04,Heat,temperature,J26
+04,Heat,temperature,N79
+04,Heat,temperature variation over time,J23
+04,Heat,temperature variation over time,J24
+04,Heat,temperature variation over time,J25
+04,Heat,temperature variation over time,J28
+04,Heat,temperature variation over time,J29
+04,Heat,temperature variation over time,J30
+04,Heat,thermal conductance,D52
+04,Heat,thermal conductivity,A22
+04,Heat,thermal conductivity,D38
+04,Heat,thermal conductivity,D53
+04,Heat,thermal conductivity,D71
+04,Heat,thermal conductivity,J40
+04,Heat,thermal conductivity,J41
+04,Heat,thermal conductivity,J42
+04,Heat,thermal conductivity,J46
+04,Heat,thermal conductivity,J48
+04,Heat,thermal conductivity,J49
+04,Heat,thermal conductivity,J78
+04,Heat,thermal conductivity,K52
+04,Heat,thermal conductivity,N80
+04,Heat,thermal conductivity,N81
+04,Heat,thermal conductivity,N82
+04,Heat,thermal diffusivity,E97
+04,Heat,thermal diffusivity,F53
+04,Heat,thermal diffusivity,N83
+04,Heat,thermal diffusivity,S3
+04,Heat,thermal diffusivity,S4
+04,Heat,"thermal insulance, coefficient of thermal insulation",D19
+04,Heat,"thermal insulance, coefficient of thermal insulation",J19
+04,Heat,"thermal insulance, coefficient of thermal insulation",J22
+04,Heat,"thermal insulance, coefficient of thermal insulation",J83
+04,Heat,"thermal insulance, coefficient of thermal insulation",L14
+04,Heat,thermal resistance,B21
+04,Heat,thermal resistance,H35
+04,Heat,thermal resistance,N84
+04,Heat,thermal resistance,N85
+04,Heat,thermal resistance,N86
+04,Heat,thermal resistance,N87
+04,Heat,thermal resistance,N88
+04,Heat,thermal resistance,N89
+04,Heat,thermodynamic,KEL
+05,Electricity and Magnetism,Poynting vector,D54
+05,Electricity and Magnetism,active energy,JOU
+05,Electricity and Magnetism,active energy,WHR
+05,Electricity and Magnetism,apparent power,D46
+05,Electricity and Magnetism,apparent power,KVA
+05,Electricity and Magnetism,apparent power,M35
+05,Electricity and Magnetism,apparent power,MVA
+05,Electricity and Magnetism,capacitance,4O
+05,Electricity and Magnetism,capacitance,4T
+05,Electricity and Magnetism,capacitance,C10
+05,Electricity and Magnetism,capacitance,C41
+05,Electricity and Magnetism,capacitance,FAR
+05,Electricity and Magnetism,capacitance,H48
+05,Electricity and Magnetism,capacitance,N90
+05,Electricity and Magnetism,"coefficient, performance characteristic",H34
+05,Electricity and Magnetism,"coefficient, performance characteristic",H39
+05,Electricity and Magnetism,"coefficient, performance characteristic",M17
+05,Electricity and Magnetism,"coefficient, performance characteristic",M18
+05,Electricity and Magnetism,"coefficient, performance characteristic",M21
+05,Electricity and Magnetism,"coefficient, performance characteristic",M27
+05,Electricity and Magnetism,"coefficient, performance characteristic",M30
+05,Electricity and Magnetism,"coefficient, performance characteristic",N91
+05,Electricity and Magnetism,"conductance (for direct current), admittance, (complex admittance), modulus of admittance,(admittance), conductance (for alternating current)",B53
+05,Electricity and Magnetism,"conductance (for direct current), admittance, (complex admittance), modulus of admittance,(admittance), conductance (for alternating current)",B99
+05,Electricity and Magnetism,"conductance (for direct current), admittance, (complex admittance), modulus of admittance,(admittance), conductance (for alternating current)",C27
+05,Electricity and Magnetism,"conductance (for direct current), admittance, (complex admittance), modulus of admittance,(admittance), conductance (for alternating current)",G42
+05,Electricity and Magnetism,"conductance (for direct current), admittance, (complex admittance), modulus of admittance,(admittance), conductance (for alternating current)",G43
+05,Electricity and Magnetism,"conductance (for direct current), admittance, (complex admittance), modulus of admittance,(admittance), conductance (for alternating current)",N92
+05,Electricity and Magnetism,"conductance (for direct current), admittance, (complex admittance), modulus of admittance,(admittance), conductance (for alternating current)",SIE
+05,Electricity and Magnetism,conductivity,B54
+05,Electricity and Magnetism,conductivity,B77
+05,Electricity and Magnetism,conductivity,D10
+05,Electricity and Magnetism,conductivity,G44
+05,Electricity and Magnetism,conductivity,G45
+05,Electricity and Magnetism,conductivity,H43
+05,Electricity and Magnetism,conductivity,H61
+05,Electricity and Magnetism,conductivity,L42
+05,Electricity and Magnetism,"coupling coefficient, leakage coefficient",C62
+05,Electricity and Magnetism,current density,A4
+05,Electricity and Magnetism,current density,A41
+05,Electricity and Magnetism,current density,A7
+05,Electricity and Magnetism,current density,B23
+05,Electricity and Magnetism,current density,B66
+05,Electricity and Magnetism,current density,F57
+05,Electricity and Magnetism,current density,G59
+05,Electricity and Magnetism,current density,H31
+05,Electricity and Magnetism,current density,N93
+05,Electricity and Magnetism,"electric charge, quantity of electricity, electric flux (flux of displacement)",A8
+05,Electricity and Magnetism,"electric charge, quantity of electricity, electric flux (flux of displacement)",AMH
+05,Electricity and Magnetism,"electric charge, quantity of electricity, electric flux (flux of displacement)",B26
+05,Electricity and Magnetism,"electric charge, quantity of electricity, electric flux (flux of displacement)",B86
+05,Electricity and Magnetism,"electric charge, quantity of electricity, electric flux (flux of displacement)",C40
+05,Electricity and Magnetism,"electric charge, quantity of electricity, electric flux (flux of displacement)",C71
+05,Electricity and Magnetism,"electric charge, quantity of electricity, electric flux (flux of displacement)",COU
+05,Electricity and Magnetism,"electric charge, quantity of electricity, electric flux (flux of displacement)",D77
+05,Electricity and Magnetism,"electric charge, quantity of electricity, electric flux (flux of displacement)",D86
+05,Electricity and Magnetism,"electric charge, quantity of electricity, electric flux (flux of displacement)",E09
+05,Electricity and Magnetism,"electric charge, quantity of electricity, electric flux (flux of displacement)",H32
+05,Electricity and Magnetism,"electric charge, quantity of electricity, electric flux (flux of displacement)",N94
+05,Electricity and Magnetism,"electric charge, quantity of electricity, electric flux (flux of displacement)",N95
+05,Electricity and Magnetism,"electric charge, quantity of electricity, electric flux (flux of displacement)",TAH
+05,Electricity and Magnetism,"electric current, magnetic potential difference, magnetomotive force,current linkage",4K
+05,Electricity and Magnetism,"electric current, magnetic potential difference, magnetomotive force,current linkage",AMP
+05,Electricity and Magnetism,"electric current, magnetic potential difference, magnetomotive force,current linkage",B22
+05,Electricity and Magnetism,"electric current, magnetic potential difference, magnetomotive force,current linkage",B84
+05,Electricity and Magnetism,"electric current, magnetic potential difference, magnetomotive force,current linkage",C39
+05,Electricity and Magnetism,"electric current, magnetic potential difference, magnetomotive force,current linkage",C70
+05,Electricity and Magnetism,"electric current, magnetic potential difference, magnetomotive force,current linkage",H38
+05,Electricity and Magnetism,"electric current, magnetic potential difference, magnetomotive force,current linkage",N96
+05,Electricity and Magnetism,"electric current, magnetic potential difference, magnetomotive force,current linkage",N97
+05,Electricity and Magnetism,electric dipole moment,A26
+05,Electricity and Magnetism,electric field strength,B55
+05,Electricity and Magnetism,electric field strength,B79
+05,Electricity and Magnetism,electric field strength,C3
+05,Electricity and Magnetism,electric field strength,C30
+05,Electricity and Magnetism,electric field strength,D45
+05,Electricity and Magnetism,electric field strength,D47
+05,Electricity and Magnetism,electric field strength,D50
+05,Electricity and Magnetism,electric field strength,D51
+05,Electricity and Magnetism,electric field strength,F87
+05,Electricity and Magnetism,electric field strength,G60
+05,Electricity and Magnetism,electric field strength,H22
+05,Electricity and Magnetism,electric field strength,H23
+05,Electricity and Magnetism,electric field strength,H24
+05,Electricity and Magnetism,electric field strength,H45
+05,Electricity and Magnetism,electric field strength,H46
+05,Electricity and Magnetism,electric field strength,H62
+05,Electricity and Magnetism,electric field strength,N98
+05,Electricity and Magnetism,"electric potential, potential difference, tension, voltage, electromotive force",2Z
+05,Electricity and Magnetism,"electric potential, potential difference, tension, voltage, electromotive force",B78
+05,Electricity and Magnetism,"electric potential, potential difference, tension, voltage, electromotive force",D82
+05,Electricity and Magnetism,"electric potential, potential difference, tension, voltage, electromotive force",KVT
+05,Electricity and Magnetism,"electric potential, potential difference, tension, voltage, electromotive force",N99
+05,Electricity and Magnetism,"electric potential, potential difference, tension, voltage, electromotive force",VLT
+05,Electricity and Magnetism,electric susceptibility,C62
+05,Electricity and Magnetism,"electromagnetic energy density, volumic electromagnetic energy",B8
+05,Electricity and Magnetism,"electromagnetic moment, magnetic moment, (magnetic area moment)",A5
+05,Electricity and Magnetism,"linear electric current density, lineic electric current, magnetic field strength",A2
+05,Electricity and Magnetism,"linear electric current density, lineic electric current, magnetic field strength",A3
+05,Electricity and Magnetism,"linear electric current density, lineic electric current, magnetic field strength",AE
+05,Electricity and Magnetism,"linear electric current density, lineic electric current, magnetic field strength",B24
+05,Electricity and Magnetism,"linear electric current density, lineic electric current, magnetic field strength",F08
+05,Electricity and Magnetism,"linear electric current density, lineic electric current, magnetic field strength",F59
+05,Electricity and Magnetism,"linear electric current density, lineic electric current, magnetic field strength",F76
+05,Electricity and Magnetism,lineic charge,P10
+05,Electricity and Magnetism,lineic resistance,F54
+05,Electricity and Magnetism,lineic resistance,F55
+05,Electricity and Magnetism,lineic resistance,F56
+05,Electricity and Magnetism,lineic resistance,H26
+05,Electricity and Magnetism,lineic resistance,H36
+05,Electricity and Magnetism,lineic resistance,H37
+05,Electricity and Magnetism,magnetic flux,C33
+05,Electricity and Magnetism,magnetic flux,P11
+05,Electricity and Magnetism,magnetic flux,WEB
+05,Electricity and Magnetism,"magnetic flux density, magnetic induction, magnetic polarization",C29
+05,Electricity and Magnetism,"magnetic flux density, magnetic induction, magnetic polarization",C48
+05,Electricity and Magnetism,"magnetic flux density, magnetic induction, magnetic polarization",D33
+05,Electricity and Magnetism,"magnetic flux density, magnetic induction, magnetic polarization",D81
+05,Electricity and Magnetism,"magnetic flux density, magnetic induction, magnetic polarization",P12
+05,Electricity and Magnetism,"magnetic flux density, magnetic induction, magnetic polarization",P13
+05,Electricity and Magnetism,magnetic susceptibility,C62
+05,Electricity and Magnetism,magnetic vector potential,B56
+05,Electricity and Magnetism,magnetic vector potential,D59
+05,Electricity and Magnetism,magnetic vector potential,D60
+05,Electricity and Magnetism,magnetization,AE
+05,Electricity and Magnetism,"number of turns in a winding, number of phases, number of pairs of poles",C62
+05,Electricity and Magnetism,"permeability, permeability of vacuum, magnetic constant",A98
+05,Electricity and Magnetism,"permeability, permeability of vacuum, magnetic constant",B91
+05,Electricity and Magnetism,"permeability, permeability of vacuum, magnetic constant",C44
+05,Electricity and Magnetism,"permittivity, permittivity of vacuum, (electric constant)",A69
+05,Electricity and Magnetism,"permittivity, permittivity of vacuum, (electric constant)",B89
+05,Electricity and Magnetism,"permittivity, permittivity of vacuum, (electric constant)",C42
+05,Electricity and Magnetism,"permittivity, permittivity of vacuum, (electric constant)",C72
+05,Electricity and Magnetism,"permittivity, permittivity of vacuum, (electric constant)",H28
+05,Electricity and Magnetism,"permittivity, permittivity of vacuum, (electric constant)",H33
+05,Electricity and Magnetism,"phase difference, phase displacement, loss angle",C81
+05,Electricity and Magnetism,"phase velocity of electromagnetic waves, phase speed of electromagnetic waves",MTS
+05,Electricity and Magnetism,"power (for direct current), active power",A90
+05,Electricity and Magnetism,"power (for direct current), active power",C31
+05,Electricity and Magnetism,"power (for direct current), active power",C49
+05,Electricity and Magnetism,"power (for direct current), active power",C75
+05,Electricity and Magnetism,"power (for direct current), active power",D31
+05,Electricity and Magnetism,"power (for direct current), active power",D80
+05,Electricity and Magnetism,"power (for direct current), active power",K43
+05,Electricity and Magnetism,"power (for direct current), active power",KWT
+05,Electricity and Magnetism,"power (for direct current), active power",MAW
+05,Electricity and Magnetism,"power (for direct current), active power",P14
+05,Electricity and Magnetism,"power (for direct current), active power",P15
+05,Electricity and Magnetism,"power (for direct current), active power",P16
+05,Electricity and Magnetism,"power (for direct current), active power",P17
+05,Electricity and Magnetism,"power (for direct current), active power",P18
+05,Electricity and Magnetism,"power (for direct current), active power",P19
+05,Electricity and Magnetism,"power (for direct current), active power",P20
+05,Electricity and Magnetism,"power (for direct current), active power",P21
+05,Electricity and Magnetism,"power (for direct current), active power",WTT
+05,Electricity and Magnetism,reactive power,D44
+05,Electricity and Magnetism,reactive power,K5
+05,Electricity and Magnetism,reactive power,KVR
+05,Electricity and Magnetism,reactive power,MAR
+05,Electricity and Magnetism,relative permeability,C62
+05,Electricity and Magnetism,relative permittivity,C62
+05,Electricity and Magnetism,reluctance,C89
+05,Electricity and Magnetism,"resistance (to direct current), impedance, (complex impedances), modulus of impedance, resistance (to alternating current), reactance",A87
+05,Electricity and Magnetism,"resistance (to direct current), impedance, (complex impedances), modulus of impedance, resistance (to alternating current), reactance",B49
+05,Electricity and Magnetism,"resistance (to direct current), impedance, (complex impedances), modulus of impedance, resistance (to alternating current), reactance",B75
+05,Electricity and Magnetism,"resistance (to direct current), impedance, (complex impedances), modulus of impedance, resistance (to alternating current), reactance",B94
+05,Electricity and Magnetism,"resistance (to direct current), impedance, (complex impedances), modulus of impedance, resistance (to alternating current), reactance",E45
+05,Electricity and Magnetism,"resistance (to direct current), impedance, (complex impedances), modulus of impedance, resistance (to alternating current), reactance",H44
+05,Electricity and Magnetism,"resistance (to direct current), impedance, (complex impedances), modulus of impedance, resistance (to alternating current), reactance",OHM
+05,Electricity and Magnetism,"resistance (to direct current), impedance, (complex impedances), modulus of impedance, resistance (to alternating current), reactance",P22
+05,Electricity and Magnetism,resistance load per unit length,M26
+05,Electricity and Magnetism,resistivity,A88
+05,Electricity and Magnetism,resistivity,B50
+05,Electricity and Magnetism,resistivity,B76
+05,Electricity and Magnetism,resistivity,B95
+05,Electricity and Magnetism,resistivity,C23
+05,Electricity and Magnetism,resistivity,C46
+05,Electricity and Magnetism,resistivity,C60
+05,Electricity and Magnetism,resistivity,C61
+05,Electricity and Magnetism,resistivity,H88
+05,Electricity and Magnetism,resistivity,M24
+05,Electricity and Magnetism,resistivity,P23
+05,Electricity and Magnetism,"self inductance, mutual inductance, permeance",81
+05,Electricity and Magnetism,"self inductance, mutual inductance, permeance",B90
+05,Electricity and Magnetism,"self inductance, mutual inductance, permeance",C14
+05,Electricity and Magnetism,"self inductance, mutual inductance, permeance",C43
+05,Electricity and Magnetism,"self inductance, mutual inductance, permeance",C73
+05,Electricity and Magnetism,"self inductance, mutual inductance, permeance",G98
+05,Electricity and Magnetism,"self inductance, mutual inductance, permeance",G99
+05,Electricity and Magnetism,"self inductance, mutual inductance, permeance",H03
+05,Electricity and Magnetism,"self inductance, mutual inductance, permeance",H04
+05,Electricity and Magnetism,"self inductance, mutual inductance, permeance",H05
+05,Electricity and Magnetism,"self inductance, mutual inductance, permeance",H06
+05,Electricity and Magnetism,"self inductance, mutual inductance, permeance",P24
+05,Electricity and Magnetism,"surface density of charge, electric flux density, displacement electric polarization",A33
+05,Electricity and Magnetism,"surface density of charge, electric flux density, displacement electric polarization",A34
+05,Electricity and Magnetism,"surface density of charge, electric flux density, displacement electric polarization",A35
+05,Electricity and Magnetism,"surface density of charge, electric flux density, displacement electric polarization",B28
+05,Electricity and Magnetism,"surface density of charge, electric flux density, displacement electric polarization",B70
+05,Electricity and Magnetism,"surface density of charge, electric flux density, displacement electric polarization",B88
+05,Electricity and Magnetism,"surface density of charge, electric flux density, displacement electric polarization",D89
+05,Electricity and Magnetism,susceptance,NQ
+05,Electricity and Magnetism,susceptance,NR
+05,Electricity and Magnetism,"volume density of charge, charge density, volumic charge",A28
+05,Electricity and Magnetism,"volume density of charge, charge density, volumic charge",A29
+05,Electricity and Magnetism,"volume density of charge, charge density, volumic charge",A30
+05,Electricity and Magnetism,"volume density of charge, charge density, volumic charge",A84
+05,Electricity and Magnetism,"volume density of charge, charge density, volumic charge",B27
+05,Electricity and Magnetism,"volume density of charge, charge density, volumic charge",B69
+05,Electricity and Magnetism,"volume density of charge, charge density, volumic charge",B87
+05,Electricity and Magnetism,"volume density of charge, charge density, volumic charge",D88
+06,Light and Related Electromagnetic Radiations,CIE colorimetric functions,C62
+06,Light and Related Electromagnetic Radiations,Stefan-Boltzmann constant,D56
+06,Light and Related Electromagnetic Radiations,"angular wave number, angular repetency",C84
+06,Light and Related Electromagnetic Radiations,circular frequency,2A
+06,Light and Related Electromagnetic Radiations,circular frequency,C97
+06,Light and Related Electromagnetic Radiations,coordinates trichromatic,C62
+06,Light and Related Electromagnetic Radiations,"emissivity, spectral emissivity, emissivity at a specified wavelength, directional spectral emissivity",C62
+06,Light and Related Electromagnetic Radiations,frequency,HTZ
+06,Light and Related Electromagnetic Radiations,illuminance,KLX
+06,Light and Related Electromagnetic Radiations,illuminance,LUX
+06,Light and Related Electromagnetic Radiations,illuminance,P25
+06,Light and Related Electromagnetic Radiations,illuminance,P26
+06,Light and Related Electromagnetic Radiations,illuminance,P27
+06,Light and Related Electromagnetic Radiations,light exposure,B63
+06,Light and Related Electromagnetic Radiations,light exposure,B64
+06,Light and Related Electromagnetic Radiations,"linear attenuation coefficient, linear extinction coefficient,linear absorption coefficient",C92
+06,Light and Related Electromagnetic Radiations,luminance,A24
+06,Light and Related Electromagnetic Radiations,luminance,P28
+06,Light and Related Electromagnetic Radiations,luminance,P29
+06,Light and Related Electromagnetic Radiations,luminance,P30
+06,Light and Related Electromagnetic Radiations,luminance,P31
+06,Light and Related Electromagnetic Radiations,luminance,P32
+06,Light and Related Electromagnetic Radiations,"luminious efficacy, spectral luminous efficacy, luminous efficacy at a specified wavelength, maximum spectral luminous efficacy",B61
+06,Light and Related Electromagnetic Radiations,"luminous efficiency, spectral luminous efficiency,luminous efficiency at a specified wavelength",C62
+06,Light and Related Electromagnetic Radiations,luminous exitance,B60
+06,Light and Related Electromagnetic Radiations,luminous flux,LUM
+06,Light and Related Electromagnetic Radiations,luminous intensity,CDL
+06,Light and Related Electromagnetic Radiations,luminous intensity,P33
+06,Light and Related Electromagnetic Radiations,luminous intensity,P34
+06,Light and Related Electromagnetic Radiations,luminous intensity,P35
+06,Light and Related Electromagnetic Radiations,luminous intensity,P36
+06,Light and Related Electromagnetic Radiations,molar absorption coefficient,D22
+06,Light and Related Electromagnetic Radiations,"object distance, image distance, focal distance",MTR
+06,Light and Related Electromagnetic Radiations,optical density,C62
+06,Light and Related Electromagnetic Radiations,"photon exitance, irradiance",C99
+06,Light and Related Electromagnetic Radiations,photon exposure,C93
+06,Light and Related Electromagnetic Radiations,photon flux,C97
+06,Light and Related Electromagnetic Radiations,photon intensity,D1
+06,Light and Related Electromagnetic Radiations,"photon luminance, photon radiance",D2
+06,Light and Related Electromagnetic Radiations,quantity of light,B59
+06,Light and Related Electromagnetic Radiations,quantity of light,B62
+06,Light and Related Electromagnetic Radiations,radiance,D58
+06,Light and Related Electromagnetic Radiations,radiant energy,JOU
+06,Light and Related Electromagnetic Radiations,radiant energy density,B8
+06,Light and Related Electromagnetic Radiations,radiant energy density,JM
+06,Light and Related Electromagnetic Radiations,"radiant energy fluence, radiance exposure",B13
+06,Light and Related Electromagnetic Radiations,"radiant energy fluence, radiance exposure",E43
+06,Light and Related Electromagnetic Radiations,"radiant energy fluence, radiance exposure",P37
+06,Light and Related Electromagnetic Radiations,"radiant energy fluence, radiance exposure",P38
+06,Light and Related Electromagnetic Radiations,"radiant energy fluence, radiance exposure",P39
+06,Light and Related Electromagnetic Radiations,"radiant energy fluence, radiance exposure",P40
+06,Light and Related Electromagnetic Radiations,"radiant energy, fluence rate, radiant exitance, irradiance, first radiation constant",D54
+06,Light and Related Electromagnetic Radiations,"radiant energy, fluence rate, radiant exitance, irradiance, first radiation constant",H47
+06,Light and Related Electromagnetic Radiations,"radiant energy, fluence rate, radiant exitance, irradiance, first radiation constant",H74
+06,Light and Related Electromagnetic Radiations,radiant intensity,D57
+06,Light and Related Electromagnetic Radiations,"radiant power, (radiant energyflux)",WTT
+06,Light and Related Electromagnetic Radiations,refractive index,C62
+06,Light and Related Electromagnetic Radiations,second radiation constant,D18
+06,Light and Related Electromagnetic Radiations,"spectral absorption factor, spectral absorptance, spectral reflectionfactor,spectral reflectance, spectral transmission factor, spectral transmittance, spectral radiance factor",C62
+06,Light and Related Electromagnetic Radiations,"spectral concentration of radiant energy density (in terms of wavelength),spectral radiant energy density (in terms of wave length)",B14
+06,Light and Related Electromagnetic Radiations,velocity (speed) on propagation of electromagnetic waves in vacuo,MTS
+06,Light and Related Electromagnetic Radiations,"vergence, lens power",C92
+06,Light and Related Electromagnetic Radiations,wavelength,A11
+06,Light and Related Electromagnetic Radiations,wavelength,MTR
+06,Light and Related Electromagnetic Radiations,"wavenumber, repetency",C92
+07,Acoustics,(instantaneous) sound particle acceleration,MSK
+07,Acoustics,(instantaneous) sound particle displacement,MTR
+07,Acoustics,(instantaneous) sound particle velocity,MTS
+07,Acoustics,(instantaneous) volume flow rate,MQS
+07,Acoustics,acoustic impedance,A52
+07,Acoustics,acoustic impedance,C66
+07,Acoustics,acoustic impedance,M32
+07,Acoustics,"angular frequency, pulsatance",2A
+07,Acoustics,"angular frequency, pulsatance",C97
+07,Acoustics,"angular repetency, angular wavenumber",C84
+07,Acoustics,"attenuation coefficient, phase coefficient, propagation coefficient",C92
+07,Acoustics,characteristic impedance of a medium,C67
+07,Acoustics,damping coefficient,C51
+07,Acoustics,damping coefficient,C97
+07,Acoustics,"dissipation factor, dissipance, reflection factor, reflectance, transmission factor, transmittance, absorption factor, absorbance",C62
+07,Acoustics,equivalent absorption area of a surface or object,MTK
+07,Acoustics,frequency,HTZ
+07,Acoustics,frequency interval,C59
+07,Acoustics,logarithmic decrement,C50
+07,Acoustics,logarithmic decrement,P41
+07,Acoustics,loudness,D15
+07,Acoustics,loudness level,C69
+07,Acoustics,mechanical impedance,A51
+07,Acoustics,mechanical impedance,C58
+07,Acoustics,"period, periodic time",SEC
+07,Acoustics,"repetency, wavenumber",C92
+07,Acoustics,reverberation time,SEC
+07,Acoustics,"sound energy density, volumic, sound energy",A60
+07,Acoustics,"sound energy density, volumic, sound energy",B8
+07,Acoustics,sound exposure,P42
+07,Acoustics,sound intensity,A64
+07,Acoustics,sound intensity,C32
+07,Acoustics,sound intensity,C76
+07,Acoustics,sound intensity,D54
+07,Acoustics,sound intensity,D85
+07,Acoustics,sound power,A63
+07,Acoustics,sound power,WTT
+07,Acoustics,"sound pressure level, sound power level",2N
+07,Acoustics,"sound pressure level, sound power level",H51
+07,Acoustics,"sound pressure level, sound power level",H52
+07,Acoustics,"sound pressure level, sound power level",P43
+07,Acoustics,sound reduction index,2N
+07,Acoustics,"static pressure, (instantaneous) sound pressure",BAR
+07,Acoustics,"static pressure, (instantaneous) sound pressure",D9
+07,Acoustics,"static pressure, (instantaneous) sound pressure",PAL
+07,Acoustics,surface density of mechanical impedance,A50
+07,Acoustics,"time constant, relaxation time",SEC
+07,Acoustics,"velocity of sound (phase velocity), group velocity",MTS
+07,Acoustics,"volumic mass, density, mass density",KMQ
+07,Acoustics,wavelength,MTR
+08,Physical Chemistry and Molecular Physics,Avogadro constant,C95
+08,Physical Chemistry and Molecular Physics,Boltzmann constant,JE
+08,Physical Chemistry and Molecular Physics,Faraday constant,A32
+08,Physical Chemistry and Molecular Physics,absolute activity,C62
+08,Physical Chemistry and Molecular Physics,acidity and alkalinity,Q30
+08,Physical Chemistry and Molecular Physics,activity coefficient of B (in a liquid as a solid mixture),C62
+08,Physical Chemistry and Molecular Physics,"activity coefficient of solute B (especially in a dilute solution),standard absolute activity of solute B (especially in a dilute solution)",C62
+08,Physical Chemistry and Molecular Physics,"activity of solvent A, relative activity of solvent A (especially in a dilute solution), osmotic coefficient of the solvent A (especially in a dilute solution), standard absolute activity of solvent A (especially in a dilute solution)",C62
+08,Physical Chemistry and Molecular Physics,affinity (of a chemical reaction),B15
+08,Physical Chemistry and Molecular Physics,amount of substance,B45
+08,Physical Chemistry and Molecular Physics,amount of substance,C18
+08,Physical Chemistry and Molecular Physics,amount of substance,C34
+08,Physical Chemistry and Molecular Physics,amount of substance,FH
+08,Physical Chemistry and Molecular Physics,amount of substance,P44
+08,Physical Chemistry and Molecular Physics,amount of substance,Z9
+08,Physical Chemistry and Molecular Physics,angle of optical rotation,C81
+08,Physical Chemistry and Molecular Physics,catalytic activity,E94
+08,Physical Chemistry and Molecular Physics,catalytic activity,KAT
+08,Physical Chemistry and Molecular Physics,catalytic activity,P45
+08,Physical Chemistry and Molecular Physics,catalytic activity,P46
+08,Physical Chemistry and Molecular Physics,charge number of ion,C62
+08,Physical Chemistry and Molecular Physics,chemical potential,B15
+08,Physical Chemistry and Molecular Physics,degree of dissociation,C62
+08,Physical Chemistry and Molecular Physics,diffusion coefficient,S4
+08,Physical Chemistry and Molecular Physics,electric dipole moment of molecule,A26
+08,Physical Chemistry and Molecular Physics,electric polarizability of a molecule,A27
+08,Physical Chemistry and Molecular Physics,electrolytic conductivity,D10
+08,Physical Chemistry and Molecular Physics,elementary charge,COU
+08,Physical Chemistry and Molecular Physics,ionic strength,D87
+08,Physical Chemistry and Molecular Physics,ionic strength,H68
+08,Physical Chemistry and Molecular Physics,ionic strength,P47
+08,Physical Chemistry and Molecular Physics,ionic strength,P48
+08,Physical Chemistry and Molecular Physics,magnetic dipole moment,P49
+08,Physical Chemistry and Molecular Physics,magnetic dipole moment,P50
+08,Physical Chemistry and Molecular Physics,mass of molecule,D43
+08,Physical Chemistry and Molecular Physics,mass of molecule,KGM
+08,Physical Chemistry and Molecular Physics,"massic optical, rotatory power, specific optical rotatory power",C83
+08,Physical Chemistry and Molecular Physics,mean free path,MTR
+08,Physical Chemistry and Molecular Physics,"microcanonical partition function, canonical partition function, grand-canonical partition function, grand partition function, molecular partition function, partition function of a molecule",C62
+08,Physical Chemistry and Molecular Physics,molality of solute B,C19
+08,Physical Chemistry and Molecular Physics,molar conductivity,D12
+08,Physical Chemistry and Molecular Physics,molar flux,K58
+08,Physical Chemistry and Molecular Physics,molar flux,K61
+08,Physical Chemistry and Molecular Physics,molar flux,L23
+08,Physical Chemistry and Molecular Physics,molar flux,L30
+08,Physical Chemistry and Molecular Physics,"molar heat capacity, molar entropy, molar gas constant",B16
+08,Physical Chemistry and Molecular Physics,molar mass,A94
+08,Physical Chemistry and Molecular Physics,molar mass,D74
+08,Physical Chemistry and Molecular Physics,molar optical rotatory power,C82
+08,Physical Chemistry and Molecular Physics,molar thermodynamic energy,B15
+08,Physical Chemistry and Molecular Physics,molar thermodynamic energy,B44
+08,Physical Chemistry and Molecular Physics,molar volume,A36
+08,Physical Chemistry and Molecular Physics,molar volume,A37
+08,Physical Chemistry and Molecular Physics,molar volume,A40
+08,Physical Chemistry and Molecular Physics,molar volume,B58
+08,Physical Chemistry and Molecular Physics,"mole fraction of B, mole ratio of solute B",C62
+08,Physical Chemistry and Molecular Physics,number of molecules or other elementary entities,C62
+08,Physical Chemistry and Molecular Physics,"partial pressure of B (in a gaseous mixture), fugacity of B (in a gaseous mixture), osmotic pressure",PAL
+08,Physical Chemistry and Molecular Physics,proton number,C62
+08,Physical Chemistry and Molecular Physics,relative atomic mass,C62
+08,Physical Chemistry and Molecular Physics,relative molecular mass,C62
+08,Physical Chemistry and Molecular Physics,standard absolute activity of B (in a gaseous mixture),C62
+08,Physical Chemistry and Molecular Physics,standard absolute activity of B (in a liquid or a solid mixture),C62
+08,Physical Chemistry and Molecular Physics,standard equilibrium constant,C62
+08,Physical Chemistry and Molecular Physics,statistical weight,C62
+08,Physical Chemistry and Molecular Physics,stoichiometric number of B,C62
+08,Physical Chemistry and Molecular Physics,thermal diffusion coefficient,S4
+08,Physical Chemistry and Molecular Physics,"thermal diffusion ratio, thermal diffusion factor",C62
+08,Physical Chemistry and Molecular Physics,"transport number of ion B, current fraction of ion B",C62
+08,Physical Chemistry and Molecular Physics,volumic dose,D93
+08,Physical Chemistry and Molecular Physics,"volumic mass, mass density, density, mass concentration of B, amount of substance, concentration of B",B35
+08,Physical Chemistry and Molecular Physics,"volumic mass, mass density, density, mass concentration of B, amount of substance, concentration of B",B46
+08,Physical Chemistry and Molecular Physics,"volumic mass, mass density, density, mass concentration of B, amount of substance, concentration of B",C35
+08,Physical Chemistry and Molecular Physics,"volumic mass, mass density, density, mass concentration of B, amount of substance, concentration of B",C36
+08,Physical Chemistry and Molecular Physics,"volumic mass, mass density, density, mass concentration of B, amount of substance, concentration of B",C38
+08,Physical Chemistry and Molecular Physics,"volumic mass, mass density, density, mass concentration of B, amount of substance, concentration of B",E95
+08,Physical Chemistry and Molecular Physics,"volumic mass, mass density, density, mass concentration of B, amount of substance, concentration of B",K59
+08,Physical Chemistry and Molecular Physics,"volumic mass, mass density, density, mass concentration of B, amount of substance, concentration of B",K60
+08,Physical Chemistry and Molecular Physics,"volumic mass, mass density, density, mass concentration of B, amount of substance, concentration of B",K93
+08,Physical Chemistry and Molecular Physics,"volumic mass, mass density, density, mass concentration of B, amount of substance, concentration of B",KMQ
+08,Physical Chemistry and Molecular Physics,"volumic mass, mass density, density, mass concentration of B, amount of substance, concentration of B",L24
+08,Physical Chemistry and Molecular Physics,"volumic mass, mass density, density, mass concentration of B, amount of substance, concentration of B",L25
+08,Physical Chemistry and Molecular Physics,"volumic mass, mass density, density, mass concentration of B, amount of substance, concentration of B",L26
+08,Physical Chemistry and Molecular Physics,"volumic mass, mass density, density, mass concentration of B, amount of substance, concentration of B",L27
+08,Physical Chemistry and Molecular Physics,"volumic mass, mass density, density, mass concentration of B, amount of substance, concentration of B",L28
+08,Physical Chemistry and Molecular Physics,"volumic mass, mass density, density, mass concentration of B, amount of substance, concentration of B",L29
+08,Physical Chemistry and Molecular Physics,"volumic mass, mass density, density, mass concentration of B, amount of substance, concentration of B",M33
+08,Physical Chemistry and Molecular Physics,"volumic mass, mass density, density, mass concentration of B, amount of substance, concentration of B",P51
+08,Physical Chemistry and Molecular Physics,"volumic mass, mass density, density, mass concentration of B, amount of substance, concentration of B",P52
+08,Physical Chemistry and Molecular Physics,"volumic number of molecules (or particles), number density of molecules (or particles), molecular concentration of B",C86
+08,Physical Chemistry and Molecular Physics,"volumic number of molecules (or particles), number density of molecules (or particles), molecular concentration of B",H50
+08,Physical Chemistry and Molecular Physics,"volumic number of molecules (or particles), number density of molecules (or particles), molecular concentration of B",K20
+08,Physical Chemistry and Molecular Physics,"volumic number of molecules (or particles), number density of molecules (or particles), molecular concentration of B",K49
+08,Physical Chemistry and Molecular Physics,"volumic number of molecules (or particles), number density of molecules (or particles), molecular concentration of B",K63
+08,Physical Chemistry and Molecular Physics,"volumic number of molecules (or particles), number density of molecules (or particles), molecular concentration of B",L20
+08,Physical Chemistry and Molecular Physics,"volumic number of molecules (or particles), number density of molecules (or particles), molecular concentration of B",M10
+09,Atomic and Nuclear Physics,"(rest) mass of electron, (rest) mass of proton, (rest) mass of neutron",C62
+09,Atomic and Nuclear Physics,Bohr radius,A11
+09,Atomic and Nuclear Physics,Bohr radius,MTR
+09,Atomic and Nuclear Physics,Hartree energy,JOU
+09,Atomic and Nuclear Physics,Larmor angular frequency,C97
+09,Atomic and Nuclear Physics,Planck constant,B18
+09,Atomic and Nuclear Physics,Rydberg constant,C92
+09,Atomic and Nuclear Physics,activity,2Q
+09,Atomic and Nuclear Physics,activity,2R
+09,Atomic and Nuclear Physics,activity,4N
+09,Atomic and Nuclear Physics,activity,BQL
+09,Atomic and Nuclear Physics,activity,CUR
+09,Atomic and Nuclear Physics,activity,GBQ
+09,Atomic and Nuclear Physics,activity,H08
+09,Atomic and Nuclear Physics,activity,M5
+09,Atomic and Nuclear Physics,activity,MCU
+09,Atomic and Nuclear Physics,"decay constant, disintegration constant",C97
+09,Atomic and Nuclear Physics,elementary charge,COU
+09,Atomic and Nuclear Physics,fine structure constant,C62
+09,Atomic and Nuclear Physics,"g-factor of atom or electron, g-factor of nucleus",C62
+09,Atomic and Nuclear Physics,"gyromagnetic coefficient, (gyromagnetic ratio)",A10
+09,Atomic and Nuclear Physics,hyperfine structure quantum number,C62
+09,Atomic and Nuclear Physics,internal conversion factor,C62
+09,Atomic and Nuclear Physics,"level width, alpha disintegration energy",JOU
+09,Atomic and Nuclear Physics,"magnetic moment of particle, Bohr magneton, nuclear magneton ornucleus",A5
+09,Atomic and Nuclear Physics,magnetic quantum number,C62
+09,Atomic and Nuclear Physics,mass defect,D43
+09,Atomic and Nuclear Physics,mass excess,KGM
+09,Atomic and Nuclear Physics,"mass of atom (of a nuclide x), nuclidic mass",KGM
+09,Atomic and Nuclear Physics,"mass of atom (of a nuclide x), nuclidic mass, unified atomic mass constant",D43
+09,Atomic and Nuclear Physics,"maximum beta particle energy, beta disintegration energy",A53
+09,Atomic and Nuclear Physics,"mean life, half life",SEC
+09,Atomic and Nuclear Physics,neutron number,C62
+09,Atomic and Nuclear Physics,"nuclear precession, cyclotron angular frequency",2A
+09,Atomic and Nuclear Physics,nuclear quadrupole moment,MTK
+09,Atomic and Nuclear Physics,"nuclear radius, electron radius, Compton wavelength",MTR
+09,Atomic and Nuclear Physics,nuclear spin quantum number,C62
+09,Atomic and Nuclear Physics,"nucleon number, mass number",C62
+09,Atomic and Nuclear Physics,orbital angular momentum quantum number,C62
+09,Atomic and Nuclear Physics,"packing fraction, binding fraction",C62
+09,Atomic and Nuclear Physics,principle quantum number,C62
+09,Atomic and Nuclear Physics,"proton number, atomic number",C62
+09,Atomic and Nuclear Physics,"relative mass excess, relative mass defect",C62
+09,Atomic and Nuclear Physics,specific activity in a sample,A18
+09,Atomic and Nuclear Physics,specific activity in a sample,A42
+09,Atomic and Nuclear Physics,specific activity in a sample,B25
+09,Atomic and Nuclear Physics,specific activity in a sample,B67
+09,Atomic and Nuclear Physics,spin angular momentum quantum number,C62
+09,Atomic and Nuclear Physics,total angular momentum quantum number,C62
+09,Atomic and Nuclear Physics,"volumic activity, activity concentration",A19
+10,Nuclear Reactions and Ionizing Radiations,absorbed dose,C80
+10,Nuclear Reactions and Ionizing Radiations,absorbed dose rate,A96
+10,Nuclear Reactions and Ionizing Radiations,absorbed dose rate,P54
+10,Nuclear Reactions and Ionizing Radiations,absorbed dose rate,P55
+10,Nuclear Reactions and Ionizing Radiations,absorbed dose rate,P56
+10,Nuclear Reactions and Ionizing Radiations,absorbed dose rate,P57
+10,Nuclear Reactions and Ionizing Radiations,absorbed dose rate,P58
+10,Nuclear Reactions and Ionizing Radiations,absorbed dose rate,P59
+10,Nuclear Reactions and Ionizing Radiations,absorbed dose rate,P60
+10,Nuclear Reactions and Ionizing Radiations,absorbed dose rate,P61
+10,Nuclear Reactions and Ionizing Radiations,absorbed dose rate,P62
+10,Nuclear Reactions and Ionizing Radiations,absorbed dose rate,P63
+10,Nuclear Reactions and Ionizing Radiations,absorbed dose rate,P64
+10,Nuclear Reactions and Ionizing Radiations,activity,BQL
+10,Nuclear Reactions and Ionizing Radiations,activity,CUR
+10,Nuclear Reactions and Ionizing Radiations,angular cross-section,A17
+10,Nuclear Reactions and Ionizing Radiations,angular cross-section,D24
+10,Nuclear Reactions and Ionizing Radiations,atomic attenuation coefficient,MTK
+10,Nuclear Reactions and Ionizing Radiations,"average energy loss per ion, pair formed, (average energy loss per elementary charge of the same sign produced)",A57
+10,Nuclear Reactions and Ionizing Radiations,average logarithmic energy decrement,C62
+10,Nuclear Reactions and Ionizing Radiations,cross-section,MTK
+10,Nuclear Reactions and Ionizing Radiations,"diffusion coefficient for neutron fluence rate, (diffusion coefficient for neutron flux density)",MTR
+10,Nuclear Reactions and Ionizing Radiations,"diffusion coefficient, diffusion coefficient for neutron number density",S4
+10,Nuclear Reactions and Ionizing Radiations,dose equivalent,C28
+10,Nuclear Reactions and Ionizing Radiations,dose equivalent,D13
+10,Nuclear Reactions and Ionizing Radiations,dose equivalent,D91
+10,Nuclear Reactions and Ionizing Radiations,dose equivalent,L31
+10,Nuclear Reactions and Ionizing Radiations,energy fluence,B13
+10,Nuclear Reactions and Ionizing Radiations,"energy fluence rate, (energy flux density)",A65
+10,Nuclear Reactions and Ionizing Radiations,"energy fluence rate, (energy flux density)",D54
+10,Nuclear Reactions and Ionizing Radiations,"energy imparted, mean energy imparted",JOU
+10,Nuclear Reactions and Ionizing Radiations,equivalence dose output,P65
+10,Nuclear Reactions and Ionizing Radiations,equivalence dose output,P66
+10,Nuclear Reactions and Ionizing Radiations,equivalence dose output,P67
+10,Nuclear Reactions and Ionizing Radiations,equivalence dose output,P68
+10,Nuclear Reactions and Ionizing Radiations,equivalence dose output,P69
+10,Nuclear Reactions and Ionizing Radiations,equivalence dose output,P70
+10,Nuclear Reactions and Ionizing Radiations,equivalence dose output,P71
+10,Nuclear Reactions and Ionizing Radiations,equivalence dose output,P72
+10,Nuclear Reactions and Ionizing Radiations,equivalence dose output,P73
+10,Nuclear Reactions and Ionizing Radiations,equivalence dose output,P74
+10,Nuclear Reactions and Ionizing Radiations,equivalence dose output,P75
+10,Nuclear Reactions and Ionizing Radiations,equivalence dose output,P76
+10,Nuclear Reactions and Ionizing Radiations,equivalence dose output,P77
+10,Nuclear Reactions and Ionizing Radiations,exposure,2C
+10,Nuclear Reactions and Ionizing Radiations,exposure,2Y
+10,Nuclear Reactions and Ionizing Radiations,exposure,C8
+10,Nuclear Reactions and Ionizing Radiations,exposure,CKG
+10,Nuclear Reactions and Ionizing Radiations,exposure,J53
+10,Nuclear Reactions and Ionizing Radiations,exposure,KR
+10,Nuclear Reactions and Ionizing Radiations,exposure rate,A31
+10,Nuclear Reactions and Ionizing Radiations,exposure rate,D6
+10,Nuclear Reactions and Ionizing Radiations,fast fission factor,C62
+10,Nuclear Reactions and Ionizing Radiations,"half-thickness, half-value thickness",MTR
+10,Nuclear Reactions and Ionizing Radiations,"ion number density, ion density, neutron number density",C86
+10,Nuclear Reactions and Ionizing Radiations,kerma,A61
+10,Nuclear Reactions and Ionizing Radiations,kerma rate,A62
+10,Nuclear Reactions and Ionizing Radiations,lethargy,C62
+10,Nuclear Reactions and Ionizing Radiations,linear attenuation coefficient,C92
+10,Nuclear Reactions and Ionizing Radiations,linear energy transfer,A54
+10,Nuclear Reactions and Ionizing Radiations,linear energy transfer,A58
+10,Nuclear Reactions and Ionizing Radiations,linear energy transfer,B12
+10,Nuclear Reactions and Ionizing Radiations,"linear ionization by a particle, total ionization by a particle",C92
+10,Nuclear Reactions and Ionizing Radiations,"macroscopic cross-section, volumic cross-section, volumic total cross-section, macroscopic total cross-section",C92
+10,Nuclear Reactions and Ionizing Radiations,mass attenuation coefficient,D21
+10,Nuclear Reactions and Ionizing Radiations,mass energy transfer coefficient,D21
+10,Nuclear Reactions and Ionizing Radiations,"mean linear range, mean free path",MTR
+10,Nuclear Reactions and Ionizing Radiations,mean mass range,28
+10,Nuclear Reactions and Ionizing Radiations,mobility,D26
+10,Nuclear Reactions and Ionizing Radiations,mobility,H58
+10,Nuclear Reactions and Ionizing Radiations,molar attenuation coefficient,D22
+10,Nuclear Reactions and Ionizing Radiations,"multiplication factor, infinite medium multiplication factor, effective multiplication factor",C62
+10,Nuclear Reactions and Ionizing Radiations,neutron source density,C98
+10,Nuclear Reactions and Ionizing Radiations,neutron speed,MTS
+10,Nuclear Reactions and Ionizing Radiations,"neutron yield per fission, neutron yield per absorption",C62
+10,Nuclear Reactions and Ionizing Radiations,non leakage probability,C62
+10,Nuclear Reactions and Ionizing Radiations,particle fluence,C93
+10,Nuclear Reactions and Ionizing Radiations,particle fluence,P78
+10,Nuclear Reactions and Ionizing Radiations,"particle fluence rate, (partical flux density), neutron fluence rate, (neutronflux density), current density of particles",B81
+10,Nuclear Reactions and Ionizing Radiations,reaction energy,JOU
+10,Nuclear Reactions and Ionizing Radiations,reactivity,C62
+10,Nuclear Reactions and Ionizing Radiations,reactor time constant,SEC
+10,Nuclear Reactions and Ionizing Radiations,recombination coefficient,MQS
+10,Nuclear Reactions and Ionizing Radiations,resonance energy,A53
+10,Nuclear Reactions and Ionizing Radiations,resonance escape probability,C62
+10,Nuclear Reactions and Ionizing Radiations,"slowing down area, diffusion area, migration area",MTK
+10,Nuclear Reactions and Ionizing Radiations,slowing down density,C87
+10,Nuclear Reactions and Ionizing Radiations,"slowing-down length, diffusion length, migration length",MTR
+10,Nuclear Reactions and Ionizing Radiations,"specific energy imparted, massic energy imparted",A95
+10,Nuclear Reactions and Ionizing Radiations,"specific energy imparted, massic energy imparted",C13
+10,Nuclear Reactions and Ionizing Radiations,spectral angular cross-section,A16
+10,Nuclear Reactions and Ionizing Radiations,spectral angular cross-section,D17
+10,Nuclear Reactions and Ionizing Radiations,spectral angular cross-section,D25
+10,Nuclear Reactions and Ionizing Radiations,spectral cross-section,A15
+10,Nuclear Reactions and Ionizing Radiations,spectral cross-section,D16
+10,Nuclear Reactions and Ionizing Radiations,spectral cross-section,D20
+10,Nuclear Reactions and Ionizing Radiations,thermal utilization factor,C62
+10,Nuclear Reactions and Ionizing Radiations,total atomic stopping power,A55
+10,Nuclear Reactions and Ionizing Radiations,total atomic stopping power,A66
+10,Nuclear Reactions and Ionizing Radiations,total atomic stopping power,D73
+10,Nuclear Reactions and Ionizing Radiations,total cross-section,A14
+10,Nuclear Reactions and Ionizing Radiations,total linear stopping power,A54
+10,Nuclear Reactions and Ionizing Radiations,total linear stopping power,A58
+10,Nuclear Reactions and Ionizing Radiations,total linear stopping power,B12
+10,Nuclear Reactions and Ionizing Radiations,total mass stopping power,A56
+10,Nuclear Reactions and Ionizing Radiations,total mass stopping power,A67
+10,Nuclear Reactions and Ionizing Radiations,total mass stopping power,B20
+11,Characteristic Numbers (dimensionless parameters),Alfven number,C62
+11,Characteristic Numbers (dimensionless parameters),Cowling number,C62
+11,Characteristic Numbers (dimensionless parameters),Euler number,C62
+11,Characteristic Numbers (dimensionless parameters),Fourier number,C62
+11,Characteristic Numbers (dimensionless parameters),Fourier number for mass transfer,C62
+11,Characteristic Numbers (dimensionless parameters),Froude number,C62
+11,Characteristic Numbers (dimensionless parameters),Grashof number,C62
+11,Characteristic Numbers (dimensionless parameters),Grashof number for mass transfer,C62
+11,Characteristic Numbers (dimensionless parameters),Hartmann number,C62
+11,Characteristic Numbers (dimensionless parameters),Knudsen number,C62
+11,Characteristic Numbers (dimensionless parameters),Lewis number,C62
+11,Characteristic Numbers (dimensionless parameters),Mach number,C62
+11,Characteristic Numbers (dimensionless parameters),Nusselt number,C62
+11,Characteristic Numbers (dimensionless parameters),Nusselt number for mass transfer,C62
+11,Characteristic Numbers (dimensionless parameters),Peclet number,C62
+11,Characteristic Numbers (dimensionless parameters),Peclet number for mass transfer,C62
+11,Characteristic Numbers (dimensionless parameters),Prandtl number,C62
+11,Characteristic Numbers (dimensionless parameters),Rayleigh number,C62
+11,Characteristic Numbers (dimensionless parameters),Reynolds number,C62
+11,Characteristic Numbers (dimensionless parameters),Schmidt number,C62
+11,Characteristic Numbers (dimensionless parameters),Stanton number,C62
+11,Characteristic Numbers (dimensionless parameters),Stanton number for mass transfer,C62
+11,Characteristic Numbers (dimensionless parameters),Strouhal number,C62
+11,Characteristic Numbers (dimensionless parameters),Weber number,C62
+11,Characteristic Numbers (dimensionless parameters),magnetic Reynolds number,C62
+12,Solid State Physics,Bragg angle,C81
+12,Solid State Physics,Bragg angle,DD
+12,Solid State Physics,Debye angular frequency,2A
+12,Solid State Physics,Debye angular frequency,C97
+12,Solid State Physics,"Debye angular repetency, Debye angular wave number",C84
+12,Solid State Physics,"Debye temperature, Curie temperature, Néel temperature, Fermi temperature, Super conductor transition temperature",KEL
+12,Solid State Physics,Debye-Walle factor,C62
+12,Solid State Physics,"Fermi angular repetency, Fermi angular wave number",C85
+12,Solid State Physics,Fermi energy,A53
+12,Solid State Physics,Grüneisen parameter,C62
+12,Solid State Physics,Hall coefficient,A38
+12,Solid State Physics,Landau-Ginzburg number,C62
+12,Solid State Physics,Madelung constant,C62
+12,Solid State Physics,Richardson constant,A6
+12,Solid State Physics,Seebeck coefficient for substances a and b,D48
+12,Solid State Physics,Thompson coefficient,D49
+12,Solid State Physics,"angular reciprocal lattice vector, fundamental reciprocal lattice vector",C92
+12,Solid State Physics,"angular repetency, angular wave number",C92
+12,Solid State Physics,density of states,C88
+12,Solid State Physics,density of states,C90
+12,Solid State Physics,"donor ionization energy, acceptor ionization energy, exchange intergral, superconductor energy gap, electron affinity",A13
+12,Solid State Physics,effective mass,KGM
+12,Solid State Physics,"electron number density, volumic electron number, hole number density, volumic hole number, donor number density, volumic donor number, intrinsic number density, volumic intrinsis number, acceptor number density, volumic acceptor number",C86
+12,Solid State Physics,gap energy,A70
+12,Solid State Physics,"lattice plane spacing, Burgers vector",A11
+12,Solid State Physics,"lattice vector, fundamental lattice vector",MTR
+12,Solid State Physics,magnetic flux quantum,P53
+12,Solid State Physics,magnetic flux quantum,WEB
+12,Solid State Physics,"mean free path of phonons or electrons, London penetration depth, coherence length, diffusion length",MTR
+12,Solid State Physics,mobility ratio,C62
+12,Solid State Physics,order of reflexion,C62
+12,Solid State Physics,"particle position vector, equilibrium position vector of ion or atom, displacement vector of ion or atom",MTR
+12,Solid State Physics,"relaxation time, carrier life time",SEC
+12,Solid State Physics,residual resistivity,C61
+12,Solid State Physics,"short-range order parameter, long-range order parameter",C62
+12,Solid State Physics,spectral concentration of vibrational modes (in terms of angular frequency),D94
+12,Solid State Physics,"thermodynamic critical magnetic flux density, lower critical magnetic flux density, upper critical magnetic flux density",D33
+12,Solid State Physics,"thermoelectromotive force between substances a and b, Peltier coefficient for substances a and b",VLT
+12,Solid State Physics,work function,JOU
+13,Miscellaneous,burst index,33
+13,Miscellaneous,burst index,P79
+13,Miscellaneous,hardness index,34
+13,Miscellaneous,hardness index,H42
+13,Miscellaneous,hardness index,H69
+13,Miscellaneous,hardness index,P80
+13,Miscellaneous,hardness index,P81
+13,Miscellaneous,hardness index,P82
+13,Miscellaneous,hardness index,P83
+13,Miscellaneous,hardness index,P84
+13,Miscellaneous,hardness index,P85
+13,Miscellaneous,hardness index,P86
+13,Miscellaneous,porosity,35
+13,Miscellaneous,porosity,36
+13,Miscellaneous,porosity,P87

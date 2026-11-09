@@ -32,5 +32,8 @@ link to the authority's distribution rather than copying it.
 | Region | Dataset | Contents |
 | --- | --- | --- |
 | `TR` | [`currency-codes`](TR/currency-codes/) | Currency codes accepted by the GİB UBL-TR schematron |
+| `TR` | [`tax-exemption-codes`](TR/tax-exemption-codes/) | Tax exemption reason codes (KDV, ÖTV, special base, export-registered) |
+| `TR` | [`withholding-codes`](TR/withholding-codes/) | VAT withholding codes and rates |
+| `TR` | [`unit-codes`](TR/unit-codes/) | Units of measure with Turkish names |
 
 See the [roadmap](../../../docs/roadmap.md#e-invoicing) for what is planned.

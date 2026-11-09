@@ -41,15 +41,20 @@ This repository aims to be that real data:
 | Dataset | Path | Rows |
 | --- | --- | --- |
 | Currencies (ISO 4217) | [`data/world/currencies`](data/world/currencies/) | 178 + 169 historic |
+| Units of measure (UN/ECE Rec 20) with unit sets and conversion factors | [`data/world/units-of-measure`](data/world/units-of-measure/) | 2,136 + 153 in sets |
 | Provinces of Türkiye | [`data/countries/TR/address/provinces`](data/countries/TR/address/provinces/) | 81 |
 | Districts of Türkiye | [`data/countries/TR/address/districts`](data/countries/TR/address/districts/) | 973 |
 | Countries with Turkish names | [`data/countries/TR/address/country`](data/countries/TR/address/country/) | 250 |
 | Tax offices of Türkiye | [`data/countries/TR/tax/tax-offices`](data/countries/TR/tax/tax-offices/) | 860 + 233 branches |
+| VAT rates of Türkiye with list I and II items | [`data/countries/TR/tax/vat-rates`](data/countries/TR/tax/vat-rates/) | 5 rates + 79 list items |
 | Banks of Türkiye | [`data/countries/TR/banking/banks`](data/countries/TR/banking/banks/) | 70 |
 | Card BIN ranges of Türkiye | [`data/countries/TR/banking/card-bins`](data/countries/TR/banking/card-bins/) | 1,540 |
 | Currencies with Turkish names | [`data/countries/TR/currency/currencies`](data/countries/TR/currency/currencies/) | 193 |
 | Customs tariff codes of Türkiye (GTİP 2026) | [`data/countries/TR/customs/gtip`](data/countries/TR/customs/gtip/) | 15,753 GTİP + 16,814 higher levels |
 | UBL-TR currency codes (e-Fatura) | [`data/topics/e-invoicing/TR/currency-codes`](data/topics/e-invoicing/TR/currency-codes/) | 193 |
+| UBL-TR tax exemption reason codes (e-Fatura) | [`data/topics/e-invoicing/TR/tax-exemption-codes`](data/topics/e-invoicing/TR/tax-exemption-codes/) | 112 |
+| UBL-TR VAT withholding codes (e-Fatura) | [`data/topics/e-invoicing/TR/withholding-codes`](data/topics/e-invoicing/TR/withholding-codes/) | 52 |
+| UBL-TR unit of measure codes (e-Fatura) | [`data/topics/e-invoicing/TR/unit-codes`](data/topics/e-invoicing/TR/unit-codes/) | 39 |
 
 The full list is always in [`catalog.json`](catalog.json).
 

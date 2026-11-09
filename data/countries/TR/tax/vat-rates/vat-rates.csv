@@ -1,0 +1,6 @@
+rate_type,rate_percent,valid_from,valid_to,applies_to,legal_basis
+general,18,2007-12-31,2023-07-09,Taxable supplies not in list I or II,"Decree 2007/13033 art. 1(1)(a), wording before Presidential Decree 7346 (footnote 102)"
+general,20,2023-07-10,,Taxable supplies not in list I or II,Decree 2007/13033 art. 1(1)(a) as amended by Presidential Decree 7346
+list_i,1,2007-12-31,,Supplies in list I,Decree 2007/13033 art. 1(1)(b)
+list_ii,8,2007-12-31,2023-07-09,Supplies in list II,"Decree 2007/13033 art. 1(1)(c), wording before Presidential Decree 7346 (footnote 103)"
+list_ii,10,2023-07-10,,Supplies in list II,Decree 2007/13033 art. 1(1)(c) as amended by Presidential Decree 7346

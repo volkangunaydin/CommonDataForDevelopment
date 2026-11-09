@@ -1,0 +1,74 @@
+{
+  "name": "e-invoicing-tr-withholding-codes",
+  "title": "UBL-TR VAT withholding codes (e-Fatura)",
+  "description": "The VAT withholding (KDV tevkifatı) codes written to TaxTypeCode under WithholdingTaxTotal in Turkish e-invoices, with their official Turkish descriptions and withholding rates: 27 partial withholding codes (6xx) and 25 full withholding codes (8xx).",
+  "version": "0.1.0",
+  "created": "2026-11-09",
+  "keywords": ["TR", "e-invoicing", "e-fatura", "ubl-tr", "gib", "vat", "kdv", "tevkifat", "withholding"],
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "title": "Creative Commons Attribution 4.0 International",
+      "path": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "sources": [
+    {
+      "title": "UBL-TR Kod Listeleri, Versiyon 1.43, Temmuz 2026 (section 1.9, Tevkifat Kodları Listesi), in UBLTR_1.2.1_Kilavuzlar.zip, Gelir İdaresi Başkanlığı, retrieved 2026-11-09",
+      "path": "https://ebelge.gib.gov.tr/dosyalar/kilavuzlar/UBLTR_1.2.1_Kilavuzlar.zip"
+    },
+    {
+      "title": "e-Fatura Paketi, schematron/UBL-TR_Codelist.xml (WithholdingTaxType, WithholdingTaxTypeWithPercent; package history up to 2026-07-01), Gelir İdaresi Başkanlığı, retrieved 2026-11-05: used for schematron_percents",
+      "path": "https://ebelge.gib.gov.tr/dosyalar/kilavuzlar/e-FaturaPaketi%20(29).zip"
+    }
+  ],
+  "resources": [
+    {
+      "name": "withholding-codes",
+      "path": "withholding-codes.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "code",
+            "type": "string",
+            "description": "Three-digit withholding code written to cac:TaxScheme/cbc:TaxTypeCode under cac:WithholdingTaxTotal.",
+            "constraints": { "required": true, "unique": true, "pattern": "^[68][0-9]{2}$" }
+          },
+          {
+            "name": "name",
+            "type": "string",
+            "description": "Description in Turkish as printed in the code list, including the KDV Genel Uygulama Tebliği section reference where the guide gives one. Line breaks of the PDF are joined; spelling is unchanged.",
+            "constraints": { "required": true }
+          },
+          {
+            "name": "type",
+            "type": "string",
+            "description": "partial for the 6xx codes (kısmi tevkifat); full for the 8xx codes (tam tevkifat, 10/10).",
+            "constraints": { "required": true, "enum": ["partial", "full"] }
+          },
+          {
+            "name": "rate",
+            "type": "string",
+            "description": "Withholding rate as printed in the guide, as a fraction of the VAT: 4/10 means four tenths of the calculated VAT is withheld by the buyer.",
+            "constraints": { "required": true, "pattern": "^[0-9]{1,2}/10$" }
+          },
+          {
+            "name": "rate_percent",
+            "type": "integer",
+            "description": "The same rate as a percentage of the VAT, the value written to cbc:Percent of the withholding subtotal (4/10 = 40).",
+            "constraints": { "required": true, "minimum": 10, "maximum": 100 }
+          },
+          {
+            "name": "schematron_percents",
+            "type": "string",
+            "description": "Percentages the UBL-TR schematron accepts for the code, separated by semicolons. For seven codes it also accepts an older rate besides rate_percent."
+          }
+        ],
+        "primaryKey": ["code"]
+      }
+    }
+  ]
+}

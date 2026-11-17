@@ -41,10 +41,12 @@ Bu depo o gerçek veri olmayı hedefler:
 
 | Veri seti | Dizin | Satır |
 | --- | --- | --- |
+| Ülkeler (ISO 3166-1) | [`data/world/countries`](data/world/countries/) | 250 |
 | Para birimleri (ISO 4217) | [`data/world/currencies`](data/world/currencies/) | 178 + 169 tarihsel |
 | Ölçü birimleri (UN/ECE Rec 20), birim setleri ve katsayıları | [`data/world/units-of-measure`](data/world/units-of-measure/) | 2.136 + setlerde 153 |
 | Türkiye illeri | [`data/countries/TR/address/provinces`](data/countries/TR/address/provinces/) | 81 |
 | Türkiye ilçeleri | [`data/countries/TR/address/districts`](data/countries/TR/address/districts/) | 973 |
+| Türkiye mahalleleri ve posta kodları | [`data/countries/TR/address/neighbourhoods`](data/countries/TR/address/neighbourhoods/) | 72.780 |
 | Ülkeler (Türkçe adlarla) | [`data/countries/TR/address/country`](data/countries/TR/address/country/) | 250 |
 | Türkiye vergi daireleri | [`data/countries/TR/tax/tax-offices`](data/countries/TR/tax/tax-offices/) | 860 + 233 şube |
 | KDV oranları, (I) ve (II) sayılı liste sıraları | [`data/countries/TR/tax/vat-rates`](data/countries/TR/tax/vat-rates/) | 5 oran + 79 liste sırası |
@@ -56,6 +58,25 @@ Bu depo o gerçek veri olmayı hedefler:
 | UBL-TR vergi istisna kodları (e-Fatura) | [`data/topics/e-invoicing/TR/tax-exemption-codes`](data/topics/e-invoicing/TR/tax-exemption-codes/) | 112 |
 | UBL-TR KDV tevkifat kodları (e-Fatura) | [`data/topics/e-invoicing/TR/withholding-codes`](data/topics/e-invoicing/TR/withholding-codes/) | 52 |
 | UBL-TR ölçü birimi kodları (e-Fatura) | [`data/topics/e-invoicing/TR/unit-codes`](data/topics/e-invoicing/TR/unit-codes/) | 39 |
+| UBL-TR senaryo / ProfileID kodları (e-Fatura) | [`data/topics/e-invoicing/TR/profile-ids`](data/topics/e-invoicing/TR/profile-ids/) | 16 |
+| UBL-TR fatura tip kodları (e-Fatura) | [`data/topics/e-invoicing/TR/invoice-type-codes`](data/topics/e-invoicing/TR/invoice-type-codes/) | 20 |
+| UBL-TR vergi tip kodları (e-Fatura) | [`data/topics/e-invoicing/TR/tax-type-codes`](data/topics/e-invoicing/TR/tax-type-codes/) | 31 |
+| UBL-TR paket/kap cins kodları (e-Fatura) | [`data/topics/e-invoicing/TR/packaging-type-codes`](data/topics/e-invoicing/TR/packaging-type-codes/) | 27 |
+| UBL-TR ödeme şekli kodları (e-Fatura) | [`data/topics/e-invoicing/TR/payment-means-codes`](data/topics/e-invoicing/TR/payment-means-codes/) | 75 |
+| UBL-TR uygulama yanıt kodları (e-Fatura) | [`data/topics/e-invoicing/TR/response-codes`](data/topics/e-invoicing/TR/response-codes/) | 5 |
+| UBL-TR taşıma gönderim şekli kodları (e-Fatura) | [`data/topics/e-invoicing/TR/transport-mode-codes`](data/topics/e-invoicing/TR/transport-mode-codes/) | 10 |
+| UBL-TR INCOTERMS teslim şekli kodları (e-Fatura) | [`data/topics/e-invoicing/TR/incoterms-codes`](data/topics/e-invoicing/TR/incoterms-codes/) | 15 |
+| UBL-TR PartyIdentification schemeID değerleri (e-Fatura) | [`data/topics/e-invoicing/TR/party-identification-schemes`](data/topics/e-invoicing/TR/party-identification-schemes/) | 30 |
+| UBL-TR AdditionalItemIdentification şemaları (e-Fatura) | [`data/topics/e-invoicing/TR/additional-item-identification-schemes`](data/topics/e-invoicing/TR/additional-item-identification-schemes/) | 6 |
+| UBL-TR ihraç kayıtlı party identification şemaları (e-Fatura) | [`data/topics/e-invoicing/TR/ihrac-kayitli-party-identification-schemes`](data/topics/e-invoicing/TR/ihrac-kayitli-party-identification-schemes/) | 2 |
+| UBL-TR Yatırım Teşvik kalem sınıflandırma kodları (e-Fatura) | [`data/topics/e-invoicing/TR/yatirim-tesvik-item-classification-codes`](data/topics/e-invoicing/TR/yatirim-tesvik-item-classification-codes/) | 4 |
+| UBL-TR irsaliye tip kodları (e-İrsaliye) | [`data/topics/e-invoicing/TR/despatch-advice-type-codes`](data/topics/e-invoicing/TR/despatch-advice-type-codes/) | 2 |
+| Vergi / kimlik no biçim kuralları (VKN, TCKN) | [`data/countries/TR/tax/tax-id-rules`](data/countries/TR/tax/tax-id-rules/) | 2 |
+| NACE Rev. 2.1 faaliyet kodları | [`data/countries/TR/business/nace`](data/countries/TR/business/nace/) | 3.190 |
+| Tekdüzen hesap planı | [`data/countries/TR/business/uniform-chart-of-accounts`](data/countries/TR/business/uniform-chart-of-accounts/) | 352 |
+| Türkiye resmi tatilleri | [`data/countries/TR/calendar/public-holidays`](data/countries/TR/calendar/public-holidays/) | 9 kural + 9 tarih (2026) |
+| IBAN yapısı ve doğrulama (TR) | [`data/countries/TR/banking/iban`](data/countries/TR/banking/iban/) | 1 + 5 alan |
+| Elektronik belge türleri özeti (e-Belge) | [`data/topics/e-invoicing/TR/document-types`](data/topics/e-invoicing/TR/document-types/) | 14 |
 
 Tam liste her zaman [`catalog.json`](catalog.json) dosyasındadır.
 

@@ -1,0 +1,102 @@
+{
+  "name": "world-countries",
+  "title": "Countries (ISO 3166-1)",
+  "description": "ISO 3166-1 country and territory codes: alpha-2, alpha-3 and numeric codes with English and French short names (Unicode CLDR). Includes the user-assigned code XK (Kosovo), which has no official ISO numeric code.",
+  "version": "0.1.0",
+  "created": "2026-11-16",
+  "keywords": [
+    "world",
+    "countries",
+    "iso-3166-1",
+    "alpha-2",
+    "alpha-3",
+    "country-codes"
+  ],
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "title": "Creative Commons Attribution 4.0 International",
+      "path": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    {
+      "name": "Unicode-3.0",
+      "title": "Unicode License v3 (short names from Unicode CLDR)",
+      "path": "https://www.unicode.org/license.txt"
+    }
+  ],
+  "sources": [
+    {
+      "title": "GeoNames countryInfo.txt: ISO 3166-1 alpha-2, alpha-3 and numeric codes (CC BY 4.0), retrieved 2026-11-16. Obsolete GeoNames rows without a CLDR short name (CS, AN) omitted. XK (Kosovo) kept as a common user-assigned code with empty numeric_code.",
+      "path": "https://download.geonames.org/export/dump/countryInfo.txt"
+    },
+    {
+      "title": "Unicode CLDR (cldr-localenames-full) territories in en and fr: short names (Unicode License v3), retrieved 2026-11-16",
+      "path": "https://github.com/unicode-org/cldr-json/tree/main/cldr-json/cldr-localenames-full/main"
+    },
+    {
+      "title": "ISO 3166 country codes: codes may be used freely in lists and software (ISO confirmation); official browsing platform",
+      "path": "https://www.iso.org/iso-3166-country-codes.html"
+    }
+  ],
+  "resources": [
+    {
+      "name": "countries",
+      "path": "countries.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "code",
+            "type": "string",
+            "description": "ISO 3166-1 alpha-2 code. XK is user-assigned (Kosovo), not an officially assigned ISO 3166-1 code.",
+            "constraints": {
+              "required": true,
+              "unique": true,
+              "pattern": "^[A-Z]{2}$"
+            }
+          },
+          {
+            "name": "alpha_3_code",
+            "type": "string",
+            "description": "ISO 3166-1 alpha-3 code. XKX for Kosovo is user-assigned.",
+            "constraints": {
+              "required": true,
+              "unique": true,
+              "pattern": "^[A-Z]{3}$"
+            }
+          },
+          {
+            "name": "numeric_code",
+            "type": "string",
+            "description": "ISO 3166-1 numeric code, zero-padded (004, not 4). Empty for Kosovo, which has none.",
+            "constraints": {
+              "unique": true,
+              "pattern": "^[0-9]{3}$"
+            }
+          },
+          {
+            "name": "name",
+            "type": "string",
+            "description": "English short name from Unicode CLDR (default form).",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "name_fr",
+            "type": "string",
+            "description": "French short name from Unicode CLDR (default form).",
+            "constraints": {
+              "required": true
+            }
+          }
+        ],
+        "primaryKey": [
+          "code"
+        ]
+      }
+    }
+  ]
+}

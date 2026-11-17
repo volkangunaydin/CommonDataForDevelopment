@@ -1,0 +1,56 @@
+{
+  "name": "e-invoicing-tr-profile-ids",
+  "title": "UBL-TR scenario / ProfileID codes (e-Fatura)",
+  "description": "The ProfileID values that identify the business process of a Turkish e-document (e-Fatura, e-Arşiv Fatura, e-İrsaliye), with their official Turkish descriptions from the GİB code list and which UBL-TR schematron ProfileID lists accept each value.",
+  "version": "0.1.0",
+  "created": "2026-11-16",
+  "keywords": ["TR", "e-invoicing", "e-fatura", "ubl-tr", "gib", "profileid", "senaryo", "scenario"],
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "title": "Creative Commons Attribution 4.0 International",
+      "path": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "sources": [
+    {
+      "title": "UBL-TR Kod Listeleri, Versiyon 1.43, Temmuz 2026 (section 2.2 Senaryo / ProfileID), in UBLTR_1.2.1_Kilavuzlar.zip, Gelir İdaresi Başkanlığı, retrieved 2026-11-16",
+      "path": "https://ebelge.gib.gov.tr/dosyalar/kilavuzlar/UBLTR_1.2.1_Kilavuzlar.zip"
+    },
+    {
+      "title": "e-Fatura Paketi, schematron/UBL-TR_Codelist.xml (ProfileIDType, ProfileIDTypeEarchive, ProfileIDTypeDespatchAdvice, ProfileIDTypeGoruntuleme; package history up to 2026-07-01), Gelir İdaresi Başkanlığı, retrieved 2026-11-16: used for schematron_lists",
+      "path": "https://ebelge.gib.gov.tr/dosyalar/kilavuzlar/e-FaturaPaketi%20(29).zip"
+    }
+  ],
+  "resources": [
+    {
+      "name": "profile-ids",
+      "path": "profile-ids.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "code",
+            "type": "string",
+            "description": "Value written to cbc:ProfileID (and the equivalent on despatch advice).",
+            "constraints": { "required": true, "unique": true }
+          },
+          {
+            "name": "name",
+            "type": "string",
+            "description": "Turkish description as printed in section 2.2 of the code list guide.",
+            "constraints": { "required": true }
+          },
+          {
+            "name": "schematron_lists",
+            "type": "string",
+            "description": "Semicolon-separated UBL-TR schematron lists that accept the code: invoice (ProfileIDType), earchive (ProfileIDTypeEarchive), despatch (ProfileIDTypeDespatchAdvice), display (ProfileIDTypeGoruntuleme). Empty when the guide lists the code but no schematron list accepts it."
+          }
+        ],
+        "primaryKey": ["code"]
+      }
+    }
+  ]
+}

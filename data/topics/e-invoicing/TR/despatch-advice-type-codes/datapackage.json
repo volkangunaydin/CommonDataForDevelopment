@@ -1,0 +1,74 @@
+{
+  "name": "e-invoicing-tr-despatch-advice-type-codes",
+  "title": "UBL-TR despatch advice type codes (e-İrsaliye)",
+  "description": "DespatchAdviceTypeCode values accepted by the UBL-TR schematron for e-İrsaliye (SEVK, MATBUDAN). Kod Listeleri V1.43 has no named table for these codes; names are left empty. SEVK is also the only ReceiptAdviceTypeCode.",
+  "version": "0.1.0",
+  "created": "2026-11-16",
+  "keywords": [
+    "TR",
+    "e-invoicing",
+    "e-irsaliye",
+    "ubl-tr",
+    "gib",
+    "despatchadvicetypecode"
+  ],
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "title": "Creative Commons Attribution 4.0 International",
+      "path": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "sources": [
+    {
+      "title": "e-Fatura Paketi, schematron/UBL-TR_Codelist.xml (DespatchAdviceTypeCodeList, ReceiptAdviceTypeCodeList) and UBL-TR_Common_Schematron.xml DespatchAdviceTypeCode rules; package history up to 2026-07-01, Gelir İdaresi Başkanlığı, retrieved 2026-11-16",
+      "path": "https://ebelge.gib.gov.tr/dosyalar/kilavuzlar/e-FaturaPaketi%20(29).zip"
+    }
+  ],
+  "resources": [
+    {
+      "name": "despatch-advice-type-codes",
+      "path": "despatch-advice-type-codes.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "code",
+            "type": "string",
+            "description": "Value written to cbc:DespatchAdviceTypeCode.",
+            "constraints": {
+              "required": true,
+              "unique": true
+            }
+          },
+          {
+            "name": "name",
+            "type": "string",
+            "description": "Official description. Empty: Kod Listeleri V1.43 does not define names for these codes."
+          },
+          {
+            "name": "in_schematron",
+            "type": "boolean",
+            "description": "true when DespatchAdviceTypeCodeList accepts the code.",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "also_receipt_advice",
+            "type": "boolean",
+            "description": "true when ReceiptAdviceTypeCodeList also accepts the code (SEVK only).",
+            "constraints": {
+              "required": true
+            }
+          }
+        ],
+        "primaryKey": [
+          "code"
+        ]
+      }
+    }
+  ]
+}

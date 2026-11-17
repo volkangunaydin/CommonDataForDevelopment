@@ -1,0 +1,3 @@
+code,name,in_schematron
+SATICIDIBSATIRKOD,İhraç Kayıtlı fatura tipinde 702 kodu için kalem alanında kullanılan Satıcının DIB Satır kodunu belirtir.,true
+ALICIDIBSATIRKOD,İhraç Kayıtlı fatura tipinde 702 kodu için kalem alanında kullanılan Alıcının DIB Satır kodunu belirtir.,true

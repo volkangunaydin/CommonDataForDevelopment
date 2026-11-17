@@ -1,0 +1,86 @@
+{
+  "name": "tr-address-neighbourhoods",
+  "title": "Neighbourhoods and postal codes of Türkiye",
+  "description": "Neighbourhoods (mahalle) of Türkiye with their PTT postal codes, by province and district. Built from the PTT Posta Kodu Sorgulama API (https://www.ptt.gov.tr/posta-kodu): one row per distinct neighbourhood–postal-code pair. Street-level rows from the API are aggregated. 254 neighbourhoods share more than one postal code and appear once per code.",
+  "version": "0.1.0",
+  "created": "2026-11-16",
+  "keywords": [
+    "TR",
+    "address",
+    "neighbourhoods",
+    "mahalle",
+    "postal-codes",
+    "posta-kodu",
+    "ptt"
+  ],
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "title": "Creative Commons Attribution 4.0 International",
+      "path": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "sources": [
+    {
+      "title": "PTT Posta Kodu Sorgulama API (POST /api/posta-kodu actions ilceler and postakodu): neighbourhood names and postal codes for all 81 provinces and 973 districts, retrieved 2026-11-16. Public query service at https://www.ptt.gov.tr/posta-kodu.",
+      "path": "https://www.ptt.gov.tr/posta-kodu"
+    },
+    {
+      "title": "tr-address-districts: district name spelling aligned to the Ministry / TÜİK list used in this repository",
+      "path": "data/countries/TR/address/districts"
+    }
+  ],
+  "resources": [
+    {
+      "name": "neighbourhoods",
+      "path": "neighbourhoods.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "province_code",
+            "type": "string",
+            "description": "Two-digit province code. References code in tr-address-provinces.",
+            "constraints": {
+              "required": true,
+              "pattern": "^[0-9]{2}$"
+            }
+          },
+          {
+            "name": "district_name",
+            "type": "string",
+            "description": "District name as in tr-address-districts (official spelling and casing). Together with province_code identifies the district.",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "neighbourhood",
+            "type": "string",
+            "description": "Neighbourhood name as published by PTT (often ending with MAH.).",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "postal_code",
+            "type": "string",
+            "description": "Five-digit PTT postal code for this neighbourhood (or one of them when a neighbourhood has several).",
+            "constraints": {
+              "required": true,
+              "pattern": "^[0-9]{5}$"
+            }
+          }
+        ],
+        "primaryKey": [
+          "province_code",
+          "district_name",
+          "neighbourhood",
+          "postal_code"
+        ]
+      }
+    }
+  ]
+}

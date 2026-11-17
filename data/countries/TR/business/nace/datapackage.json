@@ -1,0 +1,100 @@
+{
+  "name": "tr-business-nace",
+  "title": "NACE Rev. 2.1 economic activity codes of Türkiye",
+  "description": "The NACE Rev. 2.1 six-digit national classification used in Türkiye (TÜİK Sınıflama Sunucusu surumId 1676, 2026): 23 sections, 87 divisions, 287 groups, 651 classes and 2,142 subclasses, with Turkish and English names and parent codes.",
+  "version": "0.1.0",
+  "created": "2026-11-16",
+  "keywords": [
+    "TR",
+    "business",
+    "nace",
+    "nace-rev-2.1",
+    "economic-activity",
+    "faaliyet-kodu",
+    "tuik"
+  ],
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "title": "Creative Commons Attribution 4.0 International",
+      "path": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "sources": [
+    {
+      "title": "TÜİK Sınıflama Sunucusu, NACE Rev.2.1-Altılı 2026 (surumId 1676): 3,190 hierarchy rows with codes, parents, levels and TR/EN names, retrieved 2026-11-16. Reuse with attribution (TÜİK Yasal Uyarı).",
+      "path": "https://siniflama.tuik.gov.tr/Classifications/ClassificationsSatir?surumId=1676"
+    }
+  ],
+  "resources": [
+    {
+      "name": "nace",
+      "path": "nace.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "code",
+            "type": "string",
+            "description": "NACE code as published: a letter for a section, two digits for a division, then dotted forms for group (01.1), class (01.11) and subclass (01.11.07). Keep leading zeros.",
+            "constraints": {
+              "required": true,
+              "unique": true
+            }
+          },
+          {
+            "name": "parent_code",
+            "type": "string",
+            "description": "Code of the parent row. Empty for sections."
+          },
+          {
+            "name": "level",
+            "type": "string",
+            "description": "Hierarchy level: section, division, group, class or subclass.",
+            "constraints": {
+              "required": true,
+              "enum": [
+                "section",
+                "division",
+                "group",
+                "class",
+                "subclass"
+              ]
+            }
+          },
+          {
+            "name": "level_depth",
+            "type": "integer",
+            "description": "Numeric depth from TÜİK duzey (1–5).",
+            "constraints": {
+              "required": true,
+              "minimum": 1,
+              "maximum": 5
+            }
+          },
+          {
+            "name": "name",
+            "type": "string",
+            "description": "Turkish name from TÜİK.",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "name_en",
+            "type": "string",
+            "description": "English name from TÜİK.",
+            "constraints": {
+              "required": true
+            }
+          }
+        ],
+        "primaryKey": [
+          "code"
+        ]
+      }
+    }
+  ]
+}

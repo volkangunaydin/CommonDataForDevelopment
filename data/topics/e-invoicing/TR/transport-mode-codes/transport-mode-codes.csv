@@ -1,0 +1,11 @@
+code,name,in_guide,in_schematron
+0,,false,true
+1,Denizyolu,true,true
+2,Demiryolu,true,true
+3,Karayolu,true,true
+4,Havayolu,true,true
+5,Posta,true,true
+6,Çok araçlı,true,true
+7,Sabit taşıma tesisleri,true,true
+8,İç su taşımacılığı,true,true
+9,,false,true

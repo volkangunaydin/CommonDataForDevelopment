@@ -1,0 +1,6 @@
+position_from,position_to,length,charset,field,notes
+1,2,2,A-Z,country_code,Always TR (ISO 3166).
+3,4,2,0-9,check_digits,MOD 97-10 (ISO 7064) per TCMB Communique appendices.
+5,9,5,0-9,bank_code,National bank code announced by TCMB; see tr-banking-banks.
+10,10,1,0-9,reserved,Always 0 for all TR IBANs.
+11,26,16,A-Za-z0-9,account_number,"Right-aligned, left-padded with zeros; no Turkish letters İÇĞÖŞÜ; no lowercase letters per TCMB."

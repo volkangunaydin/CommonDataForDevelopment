@@ -1,0 +1,76 @@
+code,name_en,in_schematron
+1,Instrument not defined,true
+2,Automated clearing house credit,true
+3,Automated clearing house debit,true
+4,ACH demand debit reversal,true
+5,ACH demand credit reversal,true
+6,ACH demand credit,true
+7,ACH demand debit,true
+8,Hold,true
+9,National or regional clearing,true
+10,In cash,true
+11,ACH savings credit reversal,true
+12,ACH savings debit reversal,true
+13,ACH savings credit,true
+14,ACH savings debit,true
+15,Bookentry credit,true
+16,Bookentry debit,true
+17,ACH demand cash concentration/disbursement (CCD) credit,true
+18,ACH demand cash concentration/disbursement (CCD) debit,true
+19,ACH demand corporate trade payment (CTP) credit,true
+20,Cheque,true
+21,Banker's draft,true
+22,Certified banker's draft,true
+23,Bank cheque (issued by a banking or similar establishment),true
+24,Bill of exchange awaiting acceptance,true
+25,Certified cheque,true
+26,Local cheque,true
+27,ACH demand corporate trade payment (CTP) debit,true
+28,ACH demand corporate trade exchange (CTX) credit,true
+29,ACH demand corporate trade exchange (CTX) debit,true
+30,Credit transfer,true
+31,Debit transfer,true
+32,ACH demand cash concentration/disbursement plus (CCD+) credit,true
+33,ACH demand cash concentration/disbursement plus (CCD+) debit,true
+34,ACH prearranged payment and deposit (PPD),true
+35,ACH savings cash concentration/disbursement (CCD) credit,true
+36,ACH savings cash concentration/disbursement (CCD) debit,true
+37,ACH savings corporate trade payment (CTP) credit,true
+38,ACH savings corporate trade payment (CTP) debit,true
+39,ACH savings corporate trade exchange (CTX) credit,true
+40,ACH savings corporate trade exchange (CTX) debit,true
+41,ACH savings cash concentration/disbursement plus (CCD+) credit,true
+42,Payment to bank account,true
+43,ACH savings cash concentration/disbursement plus (CCD+) debit,true
+44,Accepted bill of exchange,true
+45,Referenced home-banking credit transfer,true
+46,Interbank debit transfer,true
+47,Home-banking debit transfer,true
+48,Bank card,true
+49,Direct debit,true
+50,Payment by postgiro,true
+51,"FR, norme 6 97-Telereglement CFONB (French Organisation for Banking Standards) - Option A",true
+52,Urgent commercial payment,true
+53,Urgent Treasury Payment,true
+60,Promissory note,true
+61,Promissory note signed by the debtor,true
+62,Promissory note signed by the debtor and endorsed by a bank,true
+63,Promissory note signed by the debtor and endorsed by a third party,true
+64,Promissory note signed by a bank,true
+65,Promissory note signed by a bank and endorsed by another bank,true
+66,Promissory note signed by a third party,true
+67,Promissory note signed by a third party and endorsed by a bank,true
+70,Bill drawn by the creditor on the debtor,true
+74,Bill drawn by the creditor on a bank,true
+75,"Bill drawn by the creditor, endorsed by another bank",true
+76,Bill drawn by the creditor on a bank and endorsed by a third party,true
+77,Bill drawn by the creditor on a third party,true
+78,"Bill drawn by creditor on third party, accepted and endorsed by bank",true
+91,Not transferable banker's draft,true
+92,Not transferable local cheque,true
+93,Reference giro,true
+94,Urgent giro,true
+95,Free format giro,true
+96,Requested method for payment was not used,true
+97,Clearing between partners,true
+ZZZ,Mutually defined,true

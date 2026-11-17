@@ -1,0 +1,2 @@
+country_code,iban_length,iban_structure,bban_length,bban_structure,bank_code_length,bank_code_position,reserved_field_value,account_number_length,check_algorithm,electronic_example,print_example,effective_from
+TR,26,TR2!n5!n1!n16!c,22,5!n1!n16!c,5,5-9,0,16,ISO7064_MOD97_10,TR470000100100000350930001,TR47 0000 1001 0000 0350 9300 01,2007-04

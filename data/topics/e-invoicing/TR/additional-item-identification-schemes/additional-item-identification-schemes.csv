@@ -1,0 +1,7 @@
+code,name,in_schematron
+ILAC,İlaç seri numaralarını belirtir.,true
+TIBBICIHAZ,Tıbbi cihaz seri numaralarını belirtir.,true
+TELEFON,Telefonun IMEI numarasını belirtir.,true
+TABLET_PC,Alanda herhangi bir veri girilmesine gerek bulunmamaktadır.,true
+KUNYENO,Hal Tipi senaryolarında kullanılan ürünlerin künye numarasını belirtir.,true
+DIGER,İlaç Tıbbi Cihaz faturalarında İlaç Takip Sistemi ve Ürün Takip Sistemi bildirim yapılan ürünler dışında ürün ya da hizmetlerin aynı faturaya eklenmesi durumunda kullanılır.,true

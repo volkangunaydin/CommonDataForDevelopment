@@ -1,0 +1,197 @@
+{
+  "name": "tr-calendar-public-holidays",
+  "title": "Public holidays of Türkiye",
+  "description": "National, official and religious public holidays of Türkiye under Law 2429 (as amended), with year-specific dates for 2026. Religious feast dates come from the Diyanet 2026 religious days list; fixed holidays are computed from the statutory month and day.",
+  "version": "0.1.0",
+  "created": "2026-11-16",
+  "keywords": [
+    "TR",
+    "calendar",
+    "public-holidays",
+    "resmi-tatil",
+    "bayram",
+    "law-2429",
+    "diyanet"
+  ],
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "title": "Creative Commons Attribution 4.0 International",
+      "path": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ulusal Bayram ve Genel Tatiller Hakkında Kanun No. 2429 (Resmî Gazete 19 March 1981, No. 17284), Arts. 1–2, retrieved 2026-11-16",
+      "path": "https://www.resmigazete.gov.tr/arsiv/17284.pdf"
+    },
+    {
+      "title": "Law 5892 amending Law 2429 (adds 1 May), Resmî Gazete 27 April 2009, retrieved 2026-11-16",
+      "path": "https://www.resmigazete.gov.tr/eskiler/2009/04/20090427-1.htm"
+    },
+    {
+      "title": "Law 6752 amending Law 2429 (adds 15 July), Resmî Gazete 29 October 2016, retrieved 2026-11-16",
+      "path": "https://resmigazete.gov.tr/eskiler/2016/10/20161029-3.htm"
+    },
+    {
+      "title": "Diyanet İşleri Başkanlığı, 2026 Dini Günler Listesi (Ramazan Bayramı 20–22 March; Kurban Bayramı 27–30 May; arefe days precede), retrieved 2026-11-16",
+      "path": "https://vakithesaplama.diyanet.gov.tr/dinigunler.php?yil=2026"
+    }
+  ],
+  "resources": [
+    {
+      "name": "holiday-rules",
+      "path": "holiday-rules.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "code",
+            "type": "string",
+            "description": "Stable holiday identifier.",
+            "constraints": {
+              "required": true,
+              "unique": true
+            }
+          },
+          {
+            "name": "name",
+            "type": "string",
+            "description": "Turkish name.",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "name_en",
+            "type": "string",
+            "description": "English name.",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "kind",
+            "type": "string",
+            "description": "national, official, general or religious as in Law 2429.",
+            "constraints": {
+              "required": true,
+              "enum": [
+                "national",
+                "official",
+                "general",
+                "religious"
+              ]
+            }
+          },
+          {
+            "name": "month",
+            "type": "integer",
+            "description": "Gregorian month for fixed holidays. Empty for religious feasts."
+          },
+          {
+            "name": "day",
+            "type": "integer",
+            "description": "Gregorian day for fixed holidays. Empty for religious feasts."
+          },
+          {
+            "name": "duration_note",
+            "type": "string",
+            "description": "How long the holiday lasts per the law.",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "legal_basis",
+            "type": "string",
+            "description": "Article / amending law reference.",
+            "constraints": {
+              "required": true
+            }
+          }
+        ],
+        "primaryKey": [
+          "code"
+        ]
+      }
+    },
+    {
+      "name": "holiday-dates",
+      "path": "holiday-dates.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "year",
+            "type": "integer",
+            "description": "Calendar year of the observance.",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "rule_code",
+            "type": "string",
+            "description": "References code in holiday-rules.csv.",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "date",
+            "type": "date",
+            "description": "First calendar day of the holiday period (arefe day for religious feasts).",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "end_date",
+            "type": "date",
+            "description": "Last calendar day of the holiday period.",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "name",
+            "type": "string",
+            "description": "Turkish name for the year row.",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "part_of_day",
+            "type": "string",
+            "description": "full for whole-day holidays; from_13_on_start when the law starts the holiday at 13:00 on date.",
+            "constraints": {
+              "required": true,
+              "enum": [
+                "full",
+                "from_13_on_start"
+              ]
+            }
+          },
+          {
+            "name": "source",
+            "type": "string",
+            "description": "law_2429 for fixed dates; diyanet_2026 for religious feast dates.",
+            "constraints": {
+              "required": true
+            }
+          }
+        ],
+        "primaryKey": [
+          "year",
+          "rule_code"
+        ]
+      }
+    }
+  ]
+}

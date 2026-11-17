@@ -1,0 +1,21 @@
+code,name,in_guide,in_schematron,yatirim_tesvik_earchive
+SATIS,Her türlü mal ve hizmet satışı ile ilgili düzenlenen faturalar,true,true,false
+IADE,Bir malın iadesi amacıyla alıcı tarafından düzenlenen faturalar,true,true,false
+TEVKIFAT,Tevkifat içeren faturalar,true,true,false
+TEVKIFATIADE,Tevkifat içeren faturaların iadesi,true,true,false
+ISTISNA,Vergi istisnası içeren faturalar,true,true,false
+OZELMATRAH,Özel matrah faturaları,true,true,false
+IHRACKAYITLI,İhraç kayıtlı satışlar ile DİİB ve geçici kabul rejimi kapsamındaki satışlar için düzenlenen faturalar,true,true,false
+SGK,Sosyal Güvenlik Kurumu kapsamındaki satışlar için düzenlenen faturalar,true,true,false
+KOMISYONCU,Hal Kayıt sistemi kapsamındaki satışlar için düzenlenen faturalar,true,true,false
+KONAKLAMAVERGISI,Konaklama kapsamındaki satışlar için düzenlenen faturalar,true,true,false
+SARJANLIK,Elektrikli araçlar şarj istasyonunda anlık olarak düzenlenecek faturalar,true,true,false
+SARJ,Elektrikli araçlar şarj istasyonunda haftalık olarak düzenlenecek faturalar,true,true,false
+TEKNOLOJIDESTEK,"Teknolojik cihaz desteği kapsamında telefon, bilgisayar/tablet satışlarında düzenlenecek e-Arşiv Faturalar",true,true,false
+YTBSATIS,Yatırım Teşvik kapsamında düzenlenecek e-Arşiv satış faturaları,true,true,true
+YTBISTISNA,Yatırım Teşvik kapsamında düzenlenecek e-Arşiv istisna faturaları,true,true,true
+YTBIADE,Yatırım Teşvik kapsamında düzenlenecek e-Arşiv iade faturaları,true,true,true
+YTBTEVKIFAT,Yatırım Teşvik kapsamında düzenlenecek e-Arşiv Tevkifat faturaları,true,true,true
+YTBTEVKIFATIADE,Yatırım Teşvik kapsamında düzenlenecek e-Arşiv Tevkifat İade faturaları,true,true,true
+HKSSATIS,,false,true,false
+HKSKOMISYONCU,,false,true,false

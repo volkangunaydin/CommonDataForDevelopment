@@ -1,0 +1,213 @@
+{
+  "name": "tr-banking-iban",
+  "title": "IBAN structure and validation rules of Türkiye",
+  "description": "The ISO 13616 IBAN format used in Türkiye as defined by the Central Bank (TCMB) Communique No. 2008/6: 26 characters, TR country code, MOD 97-10 check digits, 5-digit bank code, reserved zero and 16-character account number, with the official example from the Communique.",
+  "version": "0.1.0",
+  "created": "2026-11-16",
+  "keywords": [
+    "TR",
+    "banking",
+    "iban",
+    "iso-13616",
+    "tcmb",
+    "mod97"
+  ],
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "title": "Creative Commons Attribution 4.0 International",
+      "path": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "sources": [
+    {
+      "title": "TCMB, Communique on the International Bank Account Number No. 2008/6 (Official Gazette 27020, 10 October 2008), as amended; structure Art. 4 and MOD 97-10 appendices, retrieved 2026-11-16",
+      "path": "https://www.tcmb.gov.tr/wps/wcm/connect/EN/TCMB+EN/Bottom+Menu/IBAN/Communique"
+    },
+    {
+      "title": "SWIFT IBAN Registry Release 102 (Jun 2026), Turkey (TR) entry: structure TR2!n5!n1!n16!c, length 26, retrieved 2026-11-16",
+      "path": "https://www.swift.com/sites/default/files/files/iban_registry.pdf"
+    }
+  ],
+  "resources": [
+    {
+      "name": "iban-structure",
+      "path": "iban-structure.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "country_code",
+            "type": "string",
+            "description": "ISO 3166-1 alpha-2.",
+            "constraints": {
+              "required": true,
+              "unique": true
+            }
+          },
+          {
+            "name": "iban_length",
+            "type": "integer",
+            "description": "Total IBAN length in electronic form.",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "iban_structure",
+            "type": "string",
+            "description": "SWIFT/ISO structure notation.",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "bban_length",
+            "type": "integer",
+            "description": "BBAN length.",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "bban_structure",
+            "type": "string",
+            "description": "BBAN structure notation.",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "bank_code_length",
+            "type": "integer",
+            "description": "Length of the national bank code inside the BBAN.",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "bank_code_position",
+            "type": "string",
+            "description": "1-based character positions of the bank code in the full IBAN.",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "reserved_field_value",
+            "type": "string",
+            "description": "Value of the one-digit reserved field.",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "account_number_length",
+            "type": "integer",
+            "description": "Length of the account number field.",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "check_algorithm",
+            "type": "string",
+            "description": "Check-digit algorithm identifier.",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "electronic_example",
+            "type": "string",
+            "description": "Official example without spaces (TCMB Communique).",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "print_example",
+            "type": "string",
+            "description": "Official example in groups of four (TCMB Communique).",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "effective_from",
+            "type": "string",
+            "description": "Effective date from the IBAN Registry (YYYY-MM).",
+            "constraints": {
+              "required": true
+            }
+          }
+        ],
+        "primaryKey": [
+          "country_code"
+        ]
+      }
+    },
+    {
+      "name": "iban-fields",
+      "path": "iban-fields.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "position_from",
+            "type": "integer",
+            "description": "1-based start position in the electronic IBAN.",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "position_to",
+            "type": "integer",
+            "description": "1-based end position.",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "length",
+            "type": "integer",
+            "description": "Field length.",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "charset",
+            "type": "string",
+            "description": "Allowed characters.",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "field",
+            "type": "string",
+            "description": "Field role.",
+            "constraints": {
+              "required": true,
+              "unique": true
+            }
+          },
+          {
+            "name": "notes",
+            "type": "string",
+            "description": "Rules from the TCMB Communique."
+          }
+        ],
+        "primaryKey": [
+          "field"
+        ]
+      }
+    }
+  ]
+}

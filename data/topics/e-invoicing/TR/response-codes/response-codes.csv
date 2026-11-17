@@ -1,0 +1,6 @@
+code,name,in_guide,in_schematron,usage
+KABUL,Faturanın kabul edildiğini gösterir,true,true,application
+RED,Faturanın reddedildiğini gösterir,true,true,application
+IADE,İade faturası ile ilişkili olarak düzenlenmiş yanıt,true,true,application
+S_APR,System application response,false,true,system
+GUMRUKONAY,,false,true,application

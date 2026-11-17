@@ -1,0 +1,10 @@
+year,rule_code,date,end_date,name,part_of_day,source
+2026,new_year,2026-01-01,2026-01-01,Yılbaşı,full,law_2429
+2026,national_sovereignty_childrens_day,2026-04-23,2026-04-23,Ulusal Egemenlik ve Çocuk Bayramı,full,law_2429
+2026,labour_day,2026-05-01,2026-05-01,Emek ve Dayanışma Günü,full,law_2429
+2026,ataturk_youth_sports_day,2026-05-19,2026-05-19,"Atatürk'ü Anma, Gençlik ve Spor Bayramı",full,law_2429
+2026,democracy_national_unity_day,2026-07-15,2026-07-15,Demokrasi ve Milli Birlik Günü,full,law_2429
+2026,victory_day,2026-08-30,2026-08-30,Zafer Bayramı,full,law_2429
+2026,republic_day,2026-10-28,2026-10-29,Cumhuriyet Bayramı,from_13_on_start,law_2429
+2026,ramadan_feast,2026-03-19,2026-03-22,Ramazan Bayramı,from_13_on_start,diyanet_2026
+2026,sacrifice_feast,2026-05-26,2026-05-30,Kurban Bayramı,from_13_on_start,diyanet_2026

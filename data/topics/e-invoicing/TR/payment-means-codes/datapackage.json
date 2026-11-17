@@ -1,0 +1,79 @@
+{
+  "name": "e-invoicing-tr-payment-means-codes",
+  "title": "UBL-TR payment means codes (e-Fatura)",
+  "description": "The PaymentMeansCode values accepted by the GİB UBL-TR schematron for Turkish e-invoices, with English names from UN/EDIFACT data element 4461 (D.06A), the list cited by Kod Listeleri §1.6.",
+  "version": "0.1.0",
+  "created": "2026-11-16",
+  "keywords": [
+    "TR",
+    "e-invoicing",
+    "e-fatura",
+    "ubl-tr",
+    "gib",
+    "paymentmeanscode",
+    "odeme-sekli",
+    "unedifact-4461"
+  ],
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "title": "Creative Commons Attribution 4.0 International",
+      "path": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "sources": [
+    {
+      "title": "UBL-TR Kod Listeleri, Versiyon 1.43, Temmuz 2026 (section 1.6 PaymentMeansCode), in UBLTR_1.2.1_Kilavuzlar.zip, Gelir İdaresi Başkanlığı, retrieved 2026-11-16",
+      "path": "https://ebelge.gib.gov.tr/dosyalar/kilavuzlar/UBLTR_1.2.1_Kilavuzlar.zip"
+    },
+    {
+      "title": "UN/EDIFACT Data Element 4461 Payment means code, Release D.06A: English names, retrieved 2026-11-16",
+      "path": "https://service.unece.org/trade/untdid/d06a/tred/tred4461.htm"
+    },
+    {
+      "title": "e-Fatura Paketi, schematron/UBL-TR_Codelist.xml (PaymentMeansCodeTypeList; package history up to 2026-07-01), Gelir İdaresi Başkanlığı, retrieved 2026-11-16: used for the accepted code set",
+      "path": "https://ebelge.gib.gov.tr/dosyalar/kilavuzlar/e-FaturaPaketi%20(29).zip"
+    }
+  ],
+  "resources": [
+    {
+      "name": "payment-means-codes",
+      "path": "payment-means-codes.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "code",
+            "type": "string",
+            "description": "Value written to cbc:PaymentMeansCode (UN/EDIFACT 4461).",
+            "constraints": {
+              "required": true,
+              "unique": true
+            }
+          },
+          {
+            "name": "name_en",
+            "type": "string",
+            "description": "English name from UN/EDIFACT 4461 D.06A.",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "in_schematron",
+            "type": "boolean",
+            "description": "true when PaymentMeansCodeTypeList accepts the code.",
+            "constraints": {
+              "required": true
+            }
+          }
+        ],
+        "primaryKey": [
+          "code"
+        ]
+      }
+    }
+  ]
+}

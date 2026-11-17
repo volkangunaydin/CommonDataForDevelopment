@@ -1,0 +1,134 @@
+{
+  "name": "tr-tax-tax-id-rules",
+  "title": "Tax and identity number format rules of Türkiye (VKN, TCKN)",
+  "description": "Format rules for the Republic of Türkiye identity number (TCKN) and the tax identification number (VKN): length, digit charset and what is publicly known about check digits. Check-digit formulas that NVİ and GİB do not publish are intentionally omitted.",
+  "version": "0.1.0",
+  "created": "2026-11-16",
+  "keywords": [
+    "TR",
+    "tax",
+    "vkn",
+    "tckn",
+    "tax-id",
+    "identity-number",
+    "validation"
+  ],
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "title": "Creative Commons Attribution 4.0 International",
+      "path": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Nüfus ve Vatandaşlık İşleri Genel Müdürlüğü, T.C. Kimlik No İşlemleri: TCKN is 11 digits; last two are check digits from the first nine; algorithm shared with public bodies but not published on the page, retrieved 2026-11-16",
+      "path": "https://www.nvi.gov.tr/istanbul/tc-kimlik-no-islemleri"
+    },
+    {
+      "title": "e-Fatura Paketi, schematron rules for PartyIdentification schemeID VKN (length 10) and TCKN (length 11), Gelir İdaresi Başkanlığı, retrieved 2026-11-16",
+      "path": "https://ebelge.gib.gov.tr/dosyalar/kilavuzlar/e-FaturaPaketi%20(29).zip"
+    }
+  ],
+  "resources": [
+    {
+      "name": "tax-id-rules",
+      "path": "tax-id-rules.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "id_type",
+            "type": "string",
+            "description": "Identifier kind: TCKN or VKN.",
+            "constraints": {
+              "required": true,
+              "unique": true,
+              "enum": [
+                "TCKN",
+                "VKN"
+              ]
+            }
+          },
+          {
+            "name": "name",
+            "type": "string",
+            "description": "Turkish name.",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "name_en",
+            "type": "string",
+            "description": "English name.",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "length",
+            "type": "integer",
+            "description": "Exact number of characters.",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "charset",
+            "type": "string",
+            "description": "Allowed character class.",
+            "constraints": {
+              "required": true,
+              "enum": [
+                "digits"
+              ]
+            }
+          },
+          {
+            "name": "pattern",
+            "type": "string",
+            "description": "Regular expression for the format constraint only.",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "check_digits",
+            "type": "string",
+            "description": "What is publicly stated about check digits: last_two (TCKN) or unknown_public (VKN).",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "check_digit_algorithm_public",
+            "type": "boolean",
+            "description": "false when no public official formula is available to redistribute.",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "issuer",
+            "type": "string",
+            "description": "Authority that assigns the number.",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "notes",
+            "type": "string",
+            "description": "Caveats, especially about unpublished algorithms."
+          }
+        ],
+        "primaryKey": [
+          "id_type"
+        ]
+      }
+    }
+  ]
+}

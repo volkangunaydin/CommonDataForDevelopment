@@ -1,0 +1,112 @@
+{
+  "name": "e-invoicing-tr-document-types",
+  "title": "Electronic document types of Türkiye (e-Belge overview)",
+  "description": "Overview of Turkish electronic tax documents: the e-Belge types defined in Vergi Usul Kanunu General Communique No. 509 (e-Fatura, e-Arşiv Fatura, e-İrsaliye and related) plus the related e-Defter ledger application.",
+  "version": "0.1.0",
+  "created": "2026-11-16",
+  "keywords": [
+    "TR",
+    "e-invoicing",
+    "e-belge",
+    "e-fatura",
+    "e-arsiv",
+    "e-irsaliye",
+    "document-types",
+    "gib",
+    "vuk-509"
+  ],
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "title": "Creative Commons Attribution 4.0 International",
+      "path": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Vergi Usul Kanunu Genel Tebliği (Sıra No: 509), güncel metin (definitions of e-Fatura, e-Arşiv Fatura, e-İrsaliye and other e-Belge types), Gelir İdaresi Başkanlığı, retrieved 2026-11-16",
+      "path": "https://cdn.gib.gov.tr/api/gibportal-file/file/getFile?objectKey=MEVZUAT_TEBLIGLER%2FUNIVERSAL%2F2026%2FMEVZUAT_TEBLIGLER_2026_VukTeb509_Guncel.pdf"
+    },
+    {
+      "title": "GİB Teknoloji, Hizmetlerimiz: e-Belge Uygulamaları and e-Defter Uygulaması overview, retrieved 2026-11-16",
+      "path": "https://teknoloji.gib.gov.tr/teknoloji/hizmetlerimiz.html"
+    }
+  ],
+  "resources": [
+    {
+      "name": "document-types",
+      "path": "document-types.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "code",
+            "type": "string",
+            "description": "Stable slug for the document / application.",
+            "constraints": {
+              "required": true,
+              "unique": true
+            }
+          },
+          {
+            "name": "name",
+            "type": "string",
+            "description": "Official Turkish short name.",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "name_en",
+            "type": "string",
+            "description": "English label.",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "category",
+            "type": "string",
+            "description": "Coarse category for filtering.",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "description",
+            "type": "string",
+            "description": "Short description based on the Communique / GİB overview.",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "source",
+            "type": "string",
+            "description": "VUK_509 or GIB_teknoloji.",
+            "constraints": {
+              "required": true,
+              "enum": [
+                "VUK_509",
+                "GIB_teknoloji"
+              ]
+            }
+          },
+          {
+            "name": "is_e_belge",
+            "type": "boolean",
+            "description": "true when the row is an e-Belge document type under Communique 509; false for related applications such as e-Defter.",
+            "constraints": {
+              "required": true
+            }
+          }
+        ],
+        "primaryKey": [
+          "code"
+        ]
+      }
+    }
+  ]
+}

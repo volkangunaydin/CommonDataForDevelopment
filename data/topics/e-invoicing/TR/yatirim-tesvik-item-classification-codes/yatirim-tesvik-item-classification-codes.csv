@@ -1,0 +1,5 @@
+code,name,in_schematron
+01,Makine ve teçhizat teslimleri ile yazılım ve gayrimaddi hak satış ve kiralamaları belirtir.,true
+02,İnşaat işlerine ilişkin mal teslimleri ve hizmet ifalarını belirtir.,true
+03,Arsa/Arazi Satışlarını belirtir.,true
+04,Diğer harcamaları belirtir.,true

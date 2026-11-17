@@ -1,0 +1,16 @@
+code,name,name_en,in_schematron
+CFR,Masraflar ve Navlun,Cost and Freight,true
+CIF,"Masraflar, Sigorta ve Navlun","Cost,İnsurance And Freight",true
+CIP,Taşıma ve Sigorta Ödenmiş Olarak,Carriage and Insured Paid To,true
+CPT,Taşıma Ödenmiş Olarak,Carriage Paid To,true
+DAF,Sınırda Teslim,Delivered At Frontier,true
+DAP,Belirlenen Yerde Teslim,Delivered At Place,true
+DPU,Belirlenmiş Yerde Boşaltılmış Olarak Teslim,Delivered at Place Unloaded,true
+DDP,Gümrük Vergileri Ödenmiş Olarak,Delivered Duty Paid,true
+DDU,Gümrük Resmi Ödenmemiş Olarak Teslim,Delivered Duty Unpaid,true
+DEQ,Rıhtımda Teslim (Gümrük Vergi ve Harçları Ödenmiş Olarak),Delivered Ex Quay,true
+DES,Gemide Teslim,Delivered Ex Ship,true
+EXW,İşyerinde Teslim,Ex Works,true
+FAS,Gemi Doğrultusunda Masrafsız,Free Alongside Ship (FAS),true
+FCA,Taşıyıcıya Masrafsız,Free Carrier,true
+FOB,Gemide Masrafsız,Free On Board,true

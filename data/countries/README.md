@@ -20,7 +20,7 @@ Path pattern: `data/countries/<CC>/<domain>/<dataset>/`
 
 | Code | Country | Datasets |
 | --- | --- | --- |
-| [`TR`](TR/) | Türkiye | 7 |
+| [`TR`](TR/) | Türkiye | 15 |
 
 ## Adding a country
 

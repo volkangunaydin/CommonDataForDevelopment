@@ -35,5 +35,19 @@ link to the authority's distribution rather than copying it.
 | `TR` | [`tax-exemption-codes`](TR/tax-exemption-codes/) | Tax exemption reason codes (KDV, ÖTV, special base, export-registered) |
 | `TR` | [`withholding-codes`](TR/withholding-codes/) | VAT withholding codes and rates |
 | `TR` | [`unit-codes`](TR/unit-codes/) | Units of measure with Turkish names |
+| `TR` | [`profile-ids`](TR/profile-ids/) | Scenario / ProfileID codes |
+| `TR` | [`invoice-type-codes`](TR/invoice-type-codes/) | InvoiceTypeCode values |
+| `TR` | [`tax-type-codes`](TR/tax-type-codes/) | TaxTypeCode values under TaxTotal |
+| `TR` | [`packaging-type-codes`](TR/packaging-type-codes/) | PackagingTypeCode values with Turkish names |
+| `TR` | [`payment-means-codes`](TR/payment-means-codes/) | PaymentMeansCode (UN/EDIFACT 4461 names) |
+| `TR` | [`response-codes`](TR/response-codes/) | ApplicationResponse ResponseCode values |
+| `TR` | [`transport-mode-codes`](TR/transport-mode-codes/) | TransportModeCode values |
+| `TR` | [`incoterms-codes`](TR/incoterms-codes/) | INCOTERMS delivery term codes |
+| `TR` | [`party-identification-schemes`](TR/party-identification-schemes/) | PartyIdentification schemeID values |
+| `TR` | [`additional-item-identification-schemes`](TR/additional-item-identification-schemes/) | AdditionalItemIdentification schemes |
+| `TR` | [`ihrac-kayitli-party-identification-schemes`](TR/ihrac-kayitli-party-identification-schemes/) | DİİB line-code schemes for IHRACKAYITLI |
+| `TR` | [`yatirim-tesvik-item-classification-codes`](TR/yatirim-tesvik-item-classification-codes/) | Yatırım Teşvik item classification 01–04 |
+| `TR` | [`despatch-advice-type-codes`](TR/despatch-advice-type-codes/) | DespatchAdviceTypeCode (SEVK, MATBUDAN) |
+| `TR` | [`document-types`](TR/document-types/) | e-Belge document types overview (+ e-Defter) |
 
 See the [roadmap](../../../docs/roadmap.md#e-invoicing) for what is planned.

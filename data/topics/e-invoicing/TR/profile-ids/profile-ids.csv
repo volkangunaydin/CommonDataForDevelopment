@@ -1,0 +1,17 @@
+code,name,schematron_lists
+TEMELFATURA,Temel Fatura sürecini belirtir.,invoice;display
+TICARIFATURA,Ticari Fatura sürecini belirtir.,invoice;display
+YOLCUBERABERFATURA,Yolcu Beraber Eşya Fatura sürecini belirtir.,invoice;display
+EARSIVFATURA,e-Arşiv Fatura sürecini belirtir.,earchive;display
+IHRACAT,İhracat Fatura sürecini belirtir.,invoice;display
+OZELFATURA,Özel Fatura sürecini belirtir.,invoice;display
+KAMU,Kamu Fatura sürecini belirtir.,invoice;display
+HKS,Hal Kayıt Sistemi Fatura sürecini belirtir.,invoice;display
+STDKODFATURA,Standart Kod Fatura sürecini belirtir.,
+TEMELIRSALIYE,İrsaliye sürecini belirtir.,despatch
+HKSIRSALIYE,Hal Kayıt Sistemi İrsaliye sürecini belirtir.,despatch
+ENERJI,Elektrikli Araçlar için düzenlenecek faturayı belirtir.,invoice;display
+ILAC_TIBBICIHAZ,İlaç ve Tıbbi Cihaz için düzenlenecek faturayı belirtir.,invoice;display
+YATIRIMTESVIK,Yatırım Teşvik için düzenlenecek faturayı belirtir.,invoice;display
+IDIS,İnşaat Demiri İzleme Sistemleri için düzenlenecek faturayı belirtir.,invoice;display
+IDISIRSALIYE,İnşaat Demiri İzleme Sistemleri için düzenlenecek irsaliye sürecini belirtir.,despatch

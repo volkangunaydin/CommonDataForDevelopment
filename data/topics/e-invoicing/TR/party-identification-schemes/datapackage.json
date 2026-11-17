@@ -1,0 +1,81 @@
+{
+  "name": "e-invoicing-tr-party-identification-schemes",
+  "title": "UBL-TR PartyIdentification schemeID values (e-Fatura)",
+  "description": "schemeID values for PartyIdentification/ID on Turkish e-documents (VKN, TCKN and other identifiers), from Kod Listeleri §2.1, with flags for guide vs UBL-TR schematron (including the GCB_TESCILNO / GTB_GCB_TESCILNO difference).",
+  "version": "0.1.0",
+  "created": "2026-11-16",
+  "keywords": [
+    "TR",
+    "e-invoicing",
+    "e-fatura",
+    "ubl-tr",
+    "gib",
+    "partyidentification",
+    "schemeid",
+    "vkn",
+    "tckn"
+  ],
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "title": "Creative Commons Attribution 4.0 International",
+      "path": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "sources": [
+    {
+      "title": "UBL-TR Kod Listeleri, Versiyon 1.43, Temmuz 2026 (section 2.1 PartyIdentification), in UBLTR_1.2.1_Kilavuzlar.zip, Gelir İdaresi Başkanlığı, retrieved 2026-11-16",
+      "path": "https://ebelge.gib.gov.tr/dosyalar/kilavuzlar/UBLTR_1.2.1_Kilavuzlar.zip"
+    },
+    {
+      "title": "e-Fatura Paketi, schematron/UBL-TR_Codelist.xml (PartyIdentificationIDType; package history up to 2026-07-01), Gelir İdaresi Başkanlığı, retrieved 2026-11-16",
+      "path": "https://ebelge.gib.gov.tr/dosyalar/kilavuzlar/e-FaturaPaketi%20(29).zip"
+    }
+  ],
+  "resources": [
+    {
+      "name": "party-identification-schemes",
+      "path": "party-identification-schemes.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "code",
+            "type": "string",
+            "description": "Value of the schemeID attribute on PartyIdentification/ID.",
+            "constraints": {
+              "required": true,
+              "unique": true
+            }
+          },
+          {
+            "name": "name",
+            "type": "string",
+            "description": "Turkish description from the guide. Empty for GTB_GCB_TESCILNO (schematron only)."
+          },
+          {
+            "name": "in_guide",
+            "type": "boolean",
+            "description": "true when §2.1 lists the code.",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "in_schematron",
+            "type": "boolean",
+            "description": "true when PartyIdentificationIDType accepts the code.",
+            "constraints": {
+              "required": true
+            }
+          }
+        ],
+        "primaryKey": [
+          "code"
+        ]
+      }
+    }
+  ]
+}

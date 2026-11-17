@@ -1,0 +1,80 @@
+{
+  "name": "e-invoicing-tr-transport-mode-codes",
+  "title": "UBL-TR transport mode codes (e-Fatura)",
+  "description": "TransportModeCode values for Turkish e-documents: the eight modes with Turkish names in Kod Listeleri §1.10, plus codes 0 and 9 accepted by the UBL-TR schematron without a name in the guide.",
+  "version": "0.1.0",
+  "created": "2026-11-16",
+  "keywords": [
+    "TR",
+    "e-invoicing",
+    "e-fatura",
+    "ubl-tr",
+    "gib",
+    "transportmodecode",
+    "tasima"
+  ],
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "title": "Creative Commons Attribution 4.0 International",
+      "path": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "sources": [
+    {
+      "title": "UBL-TR Kod Listeleri, Versiyon 1.43, Temmuz 2026 (section 1.10 Taşıma Gönderim Şekli Kodları), in UBLTR_1.2.1_Kilavuzlar.zip, Gelir İdaresi Başkanlığı, retrieved 2026-11-16",
+      "path": "https://ebelge.gib.gov.tr/dosyalar/kilavuzlar/UBLTR_1.2.1_Kilavuzlar.zip"
+    },
+    {
+      "title": "e-Fatura Paketi, schematron/UBL-TR_Codelist.xml (TransportModeCodeList; package history up to 2026-07-01), Gelir İdaresi Başkanlığı, retrieved 2026-11-16",
+      "path": "https://ebelge.gib.gov.tr/dosyalar/kilavuzlar/e-FaturaPaketi%20(29).zip"
+    }
+  ],
+  "resources": [
+    {
+      "name": "transport-mode-codes",
+      "path": "transport-mode-codes.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "code",
+            "type": "string",
+            "description": "Value written to cbc:TransportModeCode.",
+            "constraints": {
+              "required": true,
+              "unique": true,
+              "pattern": "^[0-9]$"
+            }
+          },
+          {
+            "name": "name",
+            "type": "string",
+            "description": "Turkish name from the guide. Empty for codes 0 and 9 (schematron only)."
+          },
+          {
+            "name": "in_guide",
+            "type": "boolean",
+            "description": "true when §1.10 lists the code.",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "in_schematron",
+            "type": "boolean",
+            "description": "true when TransportModeCodeList accepts the code.",
+            "constraints": {
+              "required": true
+            }
+          }
+        ],
+        "primaryKey": [
+          "code"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+code,name,in_schematron
+BA,Varil,true
+BE,Bohça,true
+BG,Torba,true
+BH,Demet,true
+BI,Çöp kutusu,true
+BJ,Kova,true
+BK,Sepet,true
+BX,Kutu,true
+CB,Bira kasası,true
+CH,Sandık,true
+CI,Teneke kutu,true
+CK,Fıçı,true
+CN,Konteyner,true
+CR,Kasa,true
+DK,Karton kasa,true
+DR,Bidon,true
+EC,Plastik torba,true
+FC,Meyve kasası,true
+JR,Kavanoz,true
+LV,Liftvan,true
+NE,Ambalajsız,true
+SA,Çuval,true
+SU,Bavul,true
+TN,Teneke,true
+VG,Dökme gaz,true
+VL,Dökme sıvı,true
+VO,Dökme katı,true

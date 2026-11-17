@@ -1,8 +1,15 @@
 {
   "name": "common-data-for-development",
   "description": "Machine-readable index of every dataset in this repository. Paths are relative to the repository root.",
-  "updated": "2026-11-09",
+  "updated": "2026-11-16",
   "datasets": [
+    {
+      "id": "world-countries",
+      "title": "Countries (ISO 3166-1)",
+      "scope": "world",
+      "path": "data/world/countries",
+      "version": "0.1.0"
+    },
     {
       "id": "world-currencies",
       "title": "Currencies (ISO 4217)",
@@ -34,6 +41,15 @@
       "domain": "address",
       "path": "data/countries/TR/address/districts",
       "version": "0.2.0"
+    },
+    {
+      "id": "tr-address-neighbourhoods",
+      "title": "Neighbourhoods and postal codes of Türkiye",
+      "scope": "country",
+      "country": "TR",
+      "domain": "address",
+      "path": "data/countries/TR/address/neighbourhoods",
+      "version": "0.1.0"
     },
     {
       "id": "tr-address-country",
@@ -132,6 +148,177 @@
       "topic": "e-invoicing",
       "country": "TR",
       "path": "data/topics/e-invoicing/TR/unit-codes",
+      "version": "0.1.0"
+    },
+    {
+      "id": "e-invoicing-tr-profile-ids",
+      "title": "UBL-TR scenario / ProfileID codes (e-Fatura)",
+      "scope": "topic",
+      "topic": "e-invoicing",
+      "country": "TR",
+      "path": "data/topics/e-invoicing/TR/profile-ids",
+      "version": "0.1.0"
+    },
+    {
+      "id": "e-invoicing-tr-invoice-type-codes",
+      "title": "UBL-TR invoice type codes (e-Fatura)",
+      "scope": "topic",
+      "topic": "e-invoicing",
+      "country": "TR",
+      "path": "data/topics/e-invoicing/TR/invoice-type-codes",
+      "version": "0.1.0"
+    },
+    {
+      "id": "e-invoicing-tr-tax-type-codes",
+      "title": "UBL-TR tax type codes (e-Fatura)",
+      "scope": "topic",
+      "topic": "e-invoicing",
+      "country": "TR",
+      "path": "data/topics/e-invoicing/TR/tax-type-codes",
+      "version": "0.1.0"
+    },
+    {
+      "id": "e-invoicing-tr-packaging-type-codes",
+      "title": "UBL-TR packaging type codes (e-Fatura)",
+      "scope": "topic",
+      "topic": "e-invoicing",
+      "country": "TR",
+      "path": "data/topics/e-invoicing/TR/packaging-type-codes",
+      "version": "0.1.0"
+    },
+    {
+      "id": "e-invoicing-tr-payment-means-codes",
+      "title": "UBL-TR payment means codes (e-Fatura)",
+      "scope": "topic",
+      "topic": "e-invoicing",
+      "country": "TR",
+      "path": "data/topics/e-invoicing/TR/payment-means-codes",
+      "version": "0.1.0"
+    },
+    {
+      "id": "e-invoicing-tr-response-codes",
+      "title": "UBL-TR application response codes (e-Fatura)",
+      "scope": "topic",
+      "topic": "e-invoicing",
+      "country": "TR",
+      "path": "data/topics/e-invoicing/TR/response-codes",
+      "version": "0.1.0"
+    },
+    {
+      "id": "e-invoicing-tr-transport-mode-codes",
+      "title": "UBL-TR transport mode codes (e-Fatura)",
+      "scope": "topic",
+      "topic": "e-invoicing",
+      "country": "TR",
+      "path": "data/topics/e-invoicing/TR/transport-mode-codes",
+      "version": "0.1.0"
+    },
+    {
+      "id": "e-invoicing-tr-incoterms-codes",
+      "title": "UBL-TR INCOTERMS delivery term codes (e-Fatura)",
+      "scope": "topic",
+      "topic": "e-invoicing",
+      "country": "TR",
+      "path": "data/topics/e-invoicing/TR/incoterms-codes",
+      "version": "0.1.0"
+    },
+    {
+      "id": "e-invoicing-tr-party-identification-schemes",
+      "title": "UBL-TR PartyIdentification schemeID values (e-Fatura)",
+      "scope": "topic",
+      "topic": "e-invoicing",
+      "country": "TR",
+      "path": "data/topics/e-invoicing/TR/party-identification-schemes",
+      "version": "0.1.0"
+    },
+    {
+      "id": "e-invoicing-tr-additional-item-identification-schemes",
+      "title": "UBL-TR AdditionalItemIdentification scheme values (e-Fatura)",
+      "scope": "topic",
+      "topic": "e-invoicing",
+      "country": "TR",
+      "path": "data/topics/e-invoicing/TR/additional-item-identification-schemes",
+      "version": "0.1.0"
+    },
+    {
+      "id": "e-invoicing-tr-ihrac-kayitli-party-identification-schemes",
+      "title": "UBL-TR ihraç kayıtlı party identification schemes (e-Fatura)",
+      "scope": "topic",
+      "topic": "e-invoicing",
+      "country": "TR",
+      "path": "data/topics/e-invoicing/TR/ihrac-kayitli-party-identification-schemes",
+      "version": "0.1.0"
+    },
+    {
+      "id": "e-invoicing-tr-yatirim-tesvik-item-classification-codes",
+      "title": "UBL-TR Yatırım Teşvik item classification codes (e-Fatura)",
+      "scope": "topic",
+      "topic": "e-invoicing",
+      "country": "TR",
+      "path": "data/topics/e-invoicing/TR/yatirim-tesvik-item-classification-codes",
+      "version": "0.1.0"
+    },
+    {
+      "id": "e-invoicing-tr-despatch-advice-type-codes",
+      "title": "UBL-TR despatch advice type codes (e-İrsaliye)",
+      "scope": "topic",
+      "topic": "e-invoicing",
+      "country": "TR",
+      "path": "data/topics/e-invoicing/TR/despatch-advice-type-codes",
+      "version": "0.1.0"
+    },
+    {
+      "id": "tr-tax-tax-id-rules",
+      "title": "Tax and identity number format rules of Türkiye (VKN, TCKN)",
+      "scope": "country",
+      "country": "TR",
+      "domain": "tax",
+      "path": "data/countries/TR/tax/tax-id-rules",
+      "version": "0.1.0"
+    },
+    {
+      "id": "tr-business-nace",
+      "title": "NACE Rev. 2.1 economic activity codes of Türkiye",
+      "scope": "country",
+      "country": "TR",
+      "domain": "business",
+      "path": "data/countries/TR/business/nace",
+      "version": "0.1.0"
+    },
+    {
+      "id": "tr-business-uniform-chart-of-accounts",
+      "title": "Uniform chart of accounts of Türkiye (Tekdüzen Hesap Planı)",
+      "scope": "country",
+      "country": "TR",
+      "domain": "business",
+      "path": "data/countries/TR/business/uniform-chart-of-accounts",
+      "version": "0.1.0"
+    },
+    {
+      "id": "tr-calendar-public-holidays",
+      "title": "Public holidays of Türkiye",
+      "scope": "country",
+      "country": "TR",
+      "domain": "calendar",
+      "path": "data/countries/TR/calendar/public-holidays",
+      "version": "0.1.0"
+    },
+    {
+      "id": "tr-banking-iban",
+      "title": "IBAN structure and validation rules of Türkiye",
+      "scope": "country",
+      "country": "TR",
+      "domain": "banking",
+      "path": "data/countries/TR/banking/iban",
+      "version": "0.1.0"
+    },
+    {
+      "id": "e-invoicing-tr-document-types",
+      "title": "Electronic document types of Türkiye (e-Belge overview)",
+      "scope": "topic",
+      "topic": "e-invoicing",
+      "country": "TR",
+      "path": "data/topics/e-invoicing/TR/document-types",
       "version": "0.1.0"
     }
   ]

@@ -1,0 +1,102 @@
+{
+  "name": "tr-business-uniform-chart-of-accounts",
+  "title": "Uniform chart of accounts of Türkiye (Tekdüzen Hesap Planı)",
+  "description": "The Tekdüzen Hesap Planı (uniform chart of accounts) for private-sector enterprises under 1 Sıra No'lu Muhasebe Sistemi Uygulama Genel Tebliği (MSUGT): 9 account classes, 58 groups and 285 ledger accounts, including amendments reflected in the GİB consolidated text (financial leasing and inflation-adjustment accounts).",
+  "version": "0.1.0",
+  "created": "2026-11-16",
+  "keywords": [
+    "TR",
+    "business",
+    "accounting",
+    "chart-of-accounts",
+    "tekduzen",
+    "tek-duzen-hesap-plani",
+    "msugt",
+    "hesap-plani"
+  ],
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "title": "Creative Commons Attribution 4.0 International",
+      "path": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "sources": [
+    {
+      "title": "1 Sıra No'lu Muhasebe Sistemi Uygulama Genel Tebliği, Resmî Gazete 26.12.1992 / 21447 (Mükerrer), section B – Hesap Planı as published in the GİB consolidated PDF (muhsisteb1ekmuh5), including later MSUGT amendments present in that text (e.g. 11 and 12 Sıra No'lu tebliğler: finansal kiralama and enflasyon düzeltmesi accounts), retrieved 2026-11-16",
+      "path": "https://cdn.gib.gov.tr/api/gibportal-file/file/getFile?objectKey=MEVZUAT_TEBLIGLER%2FUNIVERSAL%2F2025%2Farsiv_yedek_fileadmin_mevzuatek_eski_muhsisteb1ekmuh5_04102019.pdf"
+    }
+  ],
+  "resources": [
+    {
+      "name": "accounts",
+      "path": "accounts.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "code",
+            "type": "string",
+            "description": "Account code as in the plan: 1 digit for a class, 2 for a group, 3 for a ledger account. Keep as a string; do not strip leading zeros if a future extension adds them.",
+            "constraints": {
+              "required": true,
+              "unique": true,
+              "pattern": "^[1-9][0-9]{0,2}$"
+            }
+          },
+          {
+            "name": "parent_code",
+            "type": "string",
+            "description": "Code of the parent row (class for a group, group for an account). Empty for classes."
+          },
+          {
+            "name": "level",
+            "type": "string",
+            "description": "Hierarchy level: class (hesap sınıfı), group (hesap grubu) or account (defteri kebir hesabı).",
+            "constraints": {
+              "required": true,
+              "enum": [
+                "class",
+                "group",
+                "account"
+              ]
+            }
+          },
+          {
+            "name": "name",
+            "type": "string",
+            "description": "Turkish name from section B of the tebliğ (uppercase). Contra accounts keep the trailing (-) as published.",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "is_contra",
+            "type": "boolean",
+            "description": "true when the published name ends with (-), i.e. a contra (düzenleyici) account.",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "cost_option",
+            "type": "string",
+            "description": "For class 7 only: A for the 7/A option (groups 70–78 and their accounts), B for the 7/B option (group 79 and its accounts). Empty for all other rows.",
+            "constraints": {
+              "enum": [
+                "",
+                "A",
+                "B"
+              ]
+            }
+          }
+        ],
+        "primaryKey": [
+          "code"
+        ]
+      }
+    }
+  ]
+}

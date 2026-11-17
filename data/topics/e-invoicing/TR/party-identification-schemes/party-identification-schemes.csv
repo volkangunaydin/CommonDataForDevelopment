@@ -1,0 +1,31 @@
+code,name,in_guide,in_schematron
+VKN,Vergi Kimlik Numarası,true,true
+TCKN,TC Kimlik Numarası,true,true
+HIZMETNO,Hizmet No,true,true
+MUSTERINO,Müşteri No,true,true
+TESISATNO,Tesisat No,true,true
+TELEFONNO,Telefon No,true,true
+DISTRIBUTORNO,Distribütör No,true,true
+TICARETSICILNO,Ticaret Sicil No,true,true
+TAPDKNO,TAPDK No,true,true
+BAYINO,Bayi No,true,true
+ABONENO,Abone No,true,true
+SAYACNO,Sayaç No,true,true
+EPDKNO,EPDK No,true,true
+SUBENO,Şube No,true,true
+PASAPORTNO,Pasaport No,true,true
+URETICINO,Üretici No,true,true
+CIFTCINO,Çiftçi No,true,true
+IMALATCINO,İmalatçı No,true,true
+DOSYANO,Dosya No,true,true
+HASTANO,Hasta No,true,true
+MERSISNO,Mersis No,true,true
+ARACIKURUMVKN,Yolcu Beraber Eşya Aracı Kurum VKN,true,true
+ARACIKURUMETIKET,Yolcu Beraber Eşya Aracı Kurum Etiketi,true,true
+GTB_REFNO,GTB Belge Referans No,true,true
+GCB_TESCILNO,Gümrük Çıkış Belgesi Tescil No,true,false
+GTB_FIILI_IHRACAT_TARIHI,Gümrük Fiili İhracat Tarihi,true,true
+ARACKIMLIKNO,Elektrikli Araç Kimlik Numarası,true,true
+PLAKA,Araç Plakası,true,true
+SEVKIYATNO,İnşaat Demiri İzleme Sistemi Sevkiyat Numarası,true,true
+GTB_GCB_TESCILNO,,false,true

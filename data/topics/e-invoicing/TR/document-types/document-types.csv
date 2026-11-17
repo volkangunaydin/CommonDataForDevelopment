@@ -1,0 +1,15 @@
+code,name,name_en,category,description,source,is_e_belge
+e-fatura,e-Fatura,Electronic Invoice,invoice,Electronic invoice created in the form required by the Communique; exchanged through the e-Fatura application.,VUK_509,true
+e-arsiv-fatura,e-Arşiv Fatura,Electronic Archive Invoice,invoice,Electronic invoice created outside e-Fatura for recipients who are not e-Fatura users; same legal nature as a paper invoice.,VUK_509,true
+e-irsaliye,e-İrsaliye,Electronic Despatch Advice,despatch,Electronic despatch advice (sevk irsaliyesi) created in the form required by the Communique.,VUK_509,true
+e-irsaliye-yaniti,e-İrsaliye Yanıtı,Electronic Despatch Advice Response,despatch_response,Electronic document showing the buyer's acceptance status for the goods covered by an e-İrsaliye.,VUK_509,true
+e-serbest-meslek-makbuzu,e-Serbest Meslek Makbuzu,Electronic Self-Employment Invoice,receipt,Electronic self-employment receipt (serbest meslek makbuzu).,VUK_509,true
+e-mustahsil-makbuzu,e-Müstahsil Makbuzu,Electronic Producer Receipt,receipt,Electronic producer (müstahsil) receipt.,VUK_509,true
+e-gider-pusulasi,e-Gider Pusulası,Electronic Expense Note,expense_note,Electronic expense note (gider pusulası).,VUK_509,true
+e-bilet,e-Bilet,Electronic Ticket,ticket,"Electronic ticket created, signed with an electronic certificate, and stored electronically.",VUK_509,true
+e-sigorta-komisyon-gider-belgesi,e-Sigorta Komisyon Gider Belgesi,Electronic Insurance Commission Expense Document,insurance,Electronic insurance commission expense document replacing the paper commission expense document.,VUK_509,true
+e-sigorta-policesi,e-Sigorta Poliçesi,Electronic Insurance Policy,insurance,Electronic insurance policy issued by insurers and intermediaries.,VUK_509,true
+e-doviz-alim-satim-belgesi,e-Döviz Alım-Satım Belgesi,Electronic Foreign-Exchange Buy/Sell Document,fx,Electronic foreign-exchange buy and sell documents of authorised dealers.,VUK_509,true
+e-dekont,e-Dekont,Electronic Bank Advice,advice,Electronic advice (dekont) issued by banks and institutions listed in VUK Communique 435 §2.,VUK_509,true
+e-adisyon,e-Adisyon,Electronic Check (Restaurant),check,Electronic restaurant check (adisyon) under the Communique.,VUK_509,true
+e-defter,e-Defter,Electronic Ledger,ledger,Electronic journal and general ledger under VUK and the Turkish Commercial Code (separate e-Defter application; not an e-Belge invoice document).,GIB_teknoloji,false

@@ -1,0 +1,74 @@
+{
+  "name": "e-invoicing-tr-ihrac-kayitli-party-identification-schemes",
+  "title": "UBL-TR ihraç kayıtlı party identification schemes (e-Fatura)",
+  "description": "schemeID values used on line-level party identification for IHRACKAYITLI invoices with exemption code 702 (seller and buyer DİİB line codes), from Kod Listeleri §2.4.",
+  "version": "0.1.0",
+  "created": "2026-11-16",
+  "keywords": [
+    "TR",
+    "e-invoicing",
+    "e-fatura",
+    "ubl-tr",
+    "gib",
+    "ihrackayitli",
+    "diib"
+  ],
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "title": "Creative Commons Attribution 4.0 International",
+      "path": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "sources": [
+    {
+      "title": "UBL-TR Kod Listeleri, Versiyon 1.43, Temmuz 2026 (section 2.4 IhracKayitliPartyIdentification), in UBLTR_1.2.1_Kilavuzlar.zip, Gelir İdaresi Başkanlığı, retrieved 2026-11-16",
+      "path": "https://ebelge.gib.gov.tr/dosyalar/kilavuzlar/UBLTR_1.2.1_Kilavuzlar.zip"
+    },
+    {
+      "title": "e-Fatura Paketi, schematron/UBL-TR_Codelist.xml (IhracKayitliPartyIdentificationIDType; package history up to 2026-07-01), Gelir İdaresi Başkanlığı, retrieved 2026-11-16",
+      "path": "https://ebelge.gib.gov.tr/dosyalar/kilavuzlar/e-FaturaPaketi%20(29).zip"
+    }
+  ],
+  "resources": [
+    {
+      "name": "ihrac-kayitli-party-identification-schemes",
+      "path": "ihrac-kayitli-party-identification-schemes.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "code",
+            "type": "string",
+            "description": "schemeID for the DİİB line code on the invoice line.",
+            "constraints": {
+              "required": true,
+              "unique": true
+            }
+          },
+          {
+            "name": "name",
+            "type": "string",
+            "description": "Turkish description from §2.4.",
+            "constraints": {
+              "required": true
+            }
+          },
+          {
+            "name": "in_schematron",
+            "type": "boolean",
+            "description": "true when IhracKayitliPartyIdentificationIDType accepts the code.",
+            "constraints": {
+              "required": true
+            }
+          }
+        ],
+        "primaryKey": [
+          "code"
+        ]
+      }
+    }
+  ]
+}
